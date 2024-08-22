@@ -1,3 +1,6 @@
+from carbontracker.tracker import CarbonTracker
+import os
+import sys
 import pandas as pd
 import re
 
@@ -65,34 +68,78 @@ def process_data(file_path):
     df = pd.DataFrame(data)
     return df
 
+max_epochs = 1
+num_application = 0
+#application = ['Castro','Nyx','CCN','CCR','DFT','DJ','FFT','GL','GS','HS','JA','LU','MC','MM','OE','PO']
+threads_num = sys.argv[1] #parâmetro do bash
+log_dir = './out/'
+
+tracker = CarbonTracker(
+        epochs=1,
+        decimal_precision=4,
+        verbose=1,
+        log_dir=str(log_dir),
+        log_file_prefix='fft_'+str(threads_num)+'T',
+        ignore_errors=True
+)
+
+# Training loop.
+for epoch in range(max_epochs):
+    tracker.epoch_start()
+
+    os.system('OMP_NUM_THREADS='+str(threads_num)+' ./fft_omp')
+
+    tracker.epoch_end()
+
+# Optional: Add a stop in case of early termination before all monitor_epochs has
+# been monitored to ensure that actual consumption is reported.
+
+tracker.stop()
+
+# scp /home/users/acsilveira/carbontracker/CTlog gppd@gppd-209-8:/home/gppd/Desktop/Arthur/carbon>
+# scp -r acsilveira@gppd-hpc.inf.ufrgs.br:/home/users/acsilveira/carbontracker/CTlog /home/gppd/D>
+# scp -r acsilveira@gppd-hpc.inf.ufrgs.br:/home/users/acsilveira/carbontracker/CTlog /home/users/>
+
+
+
 palavras = ['Run time = ','Time:','Energy:','CO2eq:','km travelled by car', 'Run time without initialization =','___Execucao_com','Execution time', 'Elapsed time']
+arquivo = 'log_bruto.txt'
+arquivo_saida = 'log_limpo.txt'
 
-for num in range(10):
+buscar_palavras(arquivo, palavras, arquivo_saida)
 
-    print(num+1)
-    arquivo = 'log_bruto_'+ str(num+1) + '.txt'
-    arquivo_saida = 'log_limpo_'+str(num+1)+'.txt'
-    print(arquivo)
-  
-    buscar_palavras(arquivo, palavras, arquivo_saida)
+#para várias aplicações
+# for app in application:
 
-    ############ Organiza os dados
-    # Caminho para o arquivo de dados
-    file_path = 'log_limpo_'+ str(num+1) + '.txt'
+#     #for Blaise
+#     arquivo = 'logBruto.txt'
+#     arquivo_saida = 'log_limpo.txt'
 
-    # Processar os dados e criar a tabela
-    df = process_data(file_path)
+#     #for hype
+#     # arquivo = 'applications_hype/'+app+'/log_bruto.txt'
+#     # arquivo_saida = 'logs_hype/'+app+'_saida.txt'
 
-    # Exibir a tabela
-    #print(df)
+#     buscar_palavras(arquivo, palavras, arquivo_saida)
 
-    # Converter pontos em vírgulas
-    df_str = df.to_string(index=False)
-    df_str = df_str.replace('.', ',')
 
-    # Salvar a tabela em um arquivo txt
-    output_file = 'log_result_'+ str(num+1) + '.txt'
-    with open(output_file, 'w') as file:
-        file.write(df_str)
+############ Organiza os dados
+# Caminho para o arquivo de dados
+file_path = 'log_limpo.txt'
 
-    print(f"Os resultados foram salvos em {output_file}")
+# Processar os dados e criar a tabela
+df = process_data(file_path)
+
+# Exibir a tabela
+#print(df)
+
+# Converter pontos em vírgulas
+df_str = df.to_string(index=False)
+df_str = df_str.replace('.', ',')
+
+# Salvar a tabela em um arquivo txt
+output_file = 'log_result.txt'
+with open(output_file, 'w') as file:
+    file.write(df_str)
+
+print(f"Os resultados foram salvos em {output_file}")
+

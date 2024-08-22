@@ -1,0 +1,901 @@
+até aqui!
+___Execucao  4 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) Tesla K80, Tesla K80. CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200       dt:   0.0001000
+ Number of available threads:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 6.2398116551765E+03 6.2398116551765E+03 1.4575675549733E-15
+           2 5.0793239190424E+02 5.0793239190424E+02 6.7146832649560E-16
+           3 1.5423530093013E+03 1.5423530093014E+03 8.4029398082705E-15
+           4 1.3302387929291E+03 1.3302387929291E+03 1.2477668216853E-14
+           5 1.1604087428436E+04 1.1604087428436E+04 1.4107877705053E-15
+ Comparison of RMS-norms of solution error
+           1 1.6462008369091E+02 1.6462008369091E+02 8.1145648409285E-15
+           2 1.1497107903824E+01 1.1497107903824E+01 8.0342427349131E-15
+           3 4.1207446207461E+01 4.1207446207462E+01 2.0691679814842E-15
+           4 3.7087651059695E+01 3.7087651059694E+01 1.2453006999572E-14
+           5 3.6211053051841E+02 3.6211053051841E+02 1.5697808837381E-15
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                   269.41
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                 10639.03
+ Mop/s/thread    =                  2659.76
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Jul 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:04:32
+	Energy:	0.0171 kWh
+	CO2eq:	2.4274 g
+	This is equivalent to:
+	0.0226 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:04:32
+	Energy:	0.0171 kWh
+	CO2eq:	2.4274 g
+	This is equivalent to:
+	0.0226 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 4 Treads_concluida___
+___Execucao  8 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) Tesla K80, Tesla K80. CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200       dt:   0.0001000
+ Number of available threads:     8
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 6.2398116551765E+03 6.2398116551765E+03 7.5793512858610E-15
+           2 5.0793239190424E+02 5.0793239190424E+02 4.8121896732185E-15
+           3 1.5423530093014E+03 1.5423530093014E+03 2.8009799360902E-15
+           4 1.3302387929291E+03 1.3302387929291E+03 3.0766853137445E-15
+           5 1.1604087428436E+04 1.1604087428436E+04 7.8377098361407E-16
+ Comparison of RMS-norms of solution error
+           1 1.6462008369091E+02 1.6462008369091E+02 3.4530063152887E-16
+           2 1.1497107903824E+01 1.1497107903824E+01 3.2445980275611E-15
+           3 4.1207446207461E+01 4.1207446207462E+01 1.3794453209895E-15
+           4 3.7087651059694E+01 3.7087651059694E+01 6.1307111382510E-15
+           5 3.6211053051841E+02 3.6211053051841E+02 3.4535179442239E-15
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                   150.93
+ Total threads   =                        8
+ Avail threads   =                        8
+ Mop/s total     =                 18990.96
+ Mop/s/thread    =                  2373.87
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Jul 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:02:32
+	Energy:	0.0110 kWh
+	CO2eq:	1.5539 g
+	This is equivalent to:
+	0.0145 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:02:32
+	Energy:	0.0110 kWh
+	CO2eq:	1.5539 g
+	This is equivalent to:
+	0.0145 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 8 Treads_concluida___
+___Execucao  12 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) Tesla K80, Tesla K80. CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200       dt:   0.0001000
+ Number of available threads:    12
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 6.2398116551765E+03 6.2398116551765E+03 1.0202972884813E-15
+           2 5.0793239190424E+02 5.0793239190424E+02 5.5955693874634E-16
+           3 1.5423530093014E+03 1.5423530093014E+03 1.6216199629996E-15
+           4 1.3302387929291E+03 1.3302387929291E+03 6.8370784749877E-16
+           5 1.1604087428436E+04 1.1604087428436E+04 1.4107877705053E-15
+ Comparison of RMS-norms of solution error
+           1 1.6462008369091E+02 1.6462008369091E+02 7.7692642093996E-15
+           2 1.1497107903824E+01 1.1497107903824E+01 9.2702800787459E-16
+           3 4.1207446207462E+01 4.1207446207462E+01 1.2070146558658E-15
+           4 3.7087651059694E+01 3.7087651059694E+01 9.5792361535171E-16
+           5 3.6211053051841E+02 3.6211053051841E+02 0.0000000000000E+00
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                   108.08
+ Total threads   =                       12
+ Avail threads   =                       12
+ Mop/s total     =                 26518.85
+ Mop/s/thread    =                  2209.90
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Jul 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:49
+	Energy:	0.0098 kWh
+	CO2eq:	1.3908 g
+	This is equivalent to:
+	0.0129 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:49
+	Energy:	0.0098 kWh
+	CO2eq:	1.3908 g
+	This is equivalent to:
+	0.0129 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 12 Treads_concluida___
+___Execucao  16 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) Tesla K80, Tesla K80. CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200       dt:   0.0001000
+ Number of available threads:    16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 6.2398116551765E+03 6.2398116551765E+03 2.9151351099465E-16
+           2 5.0793239190424E+02 5.0793239190424E+02 3.1335188569795E-15
+           3 1.5423530093014E+03 1.5423530093014E+03 2.6535599394538E-15
+           4 1.3302387929291E+03 1.3302387929291E+03 1.7092696187469E-15
+           5 1.1604087428437E+04 1.1604087428436E+04 4.0756091147932E-15
+ Comparison of RMS-norms of solution error
+           1 1.6462008369091E+02 1.6462008369091E+02 1.0359018945866E-15
+           2 1.1497107903824E+01 1.1497107903824E+01 2.6265793556447E-15
+           3 4.1207446207461E+01 4.1207446207462E+01 2.0691679814842E-15
+           4 3.7087651059694E+01 3.7087651059694E+01 3.8316944614069E-16
+           5 3.6211053051841E+02 3.6211053051841E+02 4.7093426512144E-16
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                    78.77
+ Total threads   =                       16
+ Avail threads   =                       16
+ Mop/s total     =                 36386.73
+ Mop/s/thread    =                  2274.17
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Jul 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:19
+	Energy:	0.0079 kWh
+	CO2eq:	1.1266 g
+	This is equivalent to:
+	0.0105 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:19
+	Energy:	0.0079 kWh
+	CO2eq:	1.1266 g
+	This is equivalent to:
+	0.0105 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 16 Treads_concluida___
+___Execucao  20 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) Tesla K80, Tesla K80. CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200       dt:   0.0001000
+ Number of available threads:    20
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 6.2398116551765E+03 6.2398116551765E+03 1.1660540439786E-15
+           2 5.0793239190424E+02 5.0793239190424E+02 1.3429366529912E-15
+           3 1.5423530093014E+03 1.5423530093014E+03 2.9483999327265E-16
+           4 1.3302387929291E+03 1.3302387929291E+03 2.2220505043710E-15
+           5 1.1604087428436E+04 1.1604087428436E+04 7.8377098361407E-16
+ Comparison of RMS-norms of solution error
+           1 1.6462008369091E+02 1.6462008369091E+02 3.4530063152887E-16
+           2 1.1497107903824E+01 1.1497107903824E+01 6.1801867191640E-16
+           3 4.1207446207462E+01 4.1207446207462E+01 5.1729199537105E-16
+           4 3.7087651059694E+01 3.7087651059694E+01 0.0000000000000E+00
+           5 3.6211053051841E+02 3.6211053051841E+02 3.4535179442239E-15
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                    65.49
+ Total threads   =                       20
+ Avail threads   =                       20
+ Mop/s total     =                 43765.58
+ Mop/s/thread    =                  2188.28
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Jul 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:06
+	Energy:	0.0073 kWh
+	CO2eq:	1.0378 g
+	This is equivalent to:
+	0.0097 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:06
+	Energy:	0.0073 kWh
+	CO2eq:	1.0378 g
+	This is equivalent to:
+	0.0097 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 20 Treads_concluida___
+___Execucao  24 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) Tesla K80, Tesla K80. CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200       dt:   0.0001000
+ Number of available threads:    24
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 6.2398116551765E+03 6.2398116551765E+03 1.3118107994759E-15
+           2 5.0793239190424E+02 5.0793239190424E+02 1.3429366529912E-15
+           3 1.5423530093014E+03 1.5423530093014E+03 1.1793599730906E-15
+           4 1.3302387929291E+03 1.3302387929291E+03 1.1964887331228E-15
+           5 1.1604087428436E+04 1.1604087428436E+04 2.1945587541194E-15
+ Comparison of RMS-norms of solution error
+           1 1.6462008369091E+02 1.6462008369091E+02 8.6325157882218E-16
+           2 1.1497107903824E+01 1.1497107903824E+01 7.7252333989550E-16
+           3 4.1207446207461E+01 4.1207446207462E+01 5.1729199537105E-16
+           4 3.7087651059694E+01 3.7087651059694E+01 2.8737708460551E-15
+           5 3.6211053051841E+02 3.6211053051841E+02 1.0988466186167E-15
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                    88.94
+ Total threads   =                       24
+ Avail threads   =                       24
+ Mop/s total     =                 32227.14
+ Mop/s/thread    =                  1342.80
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Jul 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:30
+	Energy:	0.0089 kWh
+	CO2eq:	1.2603 g
+	This is equivalent to:
+	0.0117 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:30
+	Energy:	0.0089 kWh
+	CO2eq:	1.2603 g
+	This is equivalent to:
+	0.0117 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 24 Treads_concluida___
+___Execucao  28 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) Tesla K80, Tesla K80. CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200       dt:   0.0001000
+ Number of available threads:    28
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 6.2398116551765E+03 6.2398116551765E+03 0.0000000000000E+00
+           2 5.0793239190424E+02 5.0793239190424E+02 1.1191138774927E-16
+           3 1.5423530093014E+03 1.5423530093014E+03 2.9483999327265E-16
+           4 1.3302387929291E+03 1.3302387929291E+03 1.8801965806216E-15
+           5 1.1604087428436E+04 1.1604087428436E+04 3.1350839344563E-16
+ Comparison of RMS-norms of solution error
+           1 1.6462008369091E+02 1.6462008369091E+02 3.4530063152887E-16
+           2 1.1497107903824E+01 1.1497107903824E+01 0.0000000000000E+00
+           3 4.1207446207462E+01 4.1207446207462E+01 0.0000000000000E+00
+           4 3.7087651059694E+01 3.7087651059694E+01 1.9158472307034E-15
+           5 3.6211053051841E+02 3.6211053051841E+02 1.8837370604858E-15
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                    80.83
+ Total threads   =                       28
+ Avail threads   =                       28
+ Mop/s total     =                 35458.44
+ Mop/s/thread    =                  1266.37
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Jul 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:22
+	Energy:	0.0085 kWh
+	CO2eq:	1.2022 g
+	This is equivalent to:
+	0.0112 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:22
+	Energy:	0.0085 kWh
+	CO2eq:	1.2022 g
+	This is equivalent to:
+	0.0112 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 28 Treads_concluida___
+___Execucao  32 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) Tesla K80, Tesla K80. CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200       dt:   0.0001000
+ Number of available threads:    32
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 6.2398116551765E+03 6.2398116551765E+03 2.9151351099465E-16
+           2 5.0793239190424E+02 5.0793239190424E+02 2.2382277549853E-16
+           3 1.5423530093014E+03 1.5423530093014E+03 1.0319399764543E-15
+           4 1.3302387929291E+03 1.3302387929291E+03 2.5639044281204E-15
+           5 1.1604087428436E+04 1.1604087428436E+04 1.5675419672281E-15
+ Comparison of RMS-norms of solution error
+           1 1.6462008369091E+02 1.6462008369091E+02 1.7265031576444E-15
+           2 1.1497107903824E+01 1.1497107903824E+01 6.1801867191640E-16
+           3 4.1207446207462E+01 4.1207446207462E+01 1.7243066512368E-15
+           4 3.7087651059694E+01 3.7087651059694E+01 0.0000000000000E+00
+           5 3.6211053051841E+02 3.6211053051841E+02 2.9825836791025E-15
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                    72.66
+ Total threads   =                       32
+ Avail threads   =                       32
+ Mop/s total     =                 39449.21
+ Mop/s/thread    =                  1232.79
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Jul 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:13
+	Energy:	0.0079 kWh
+	CO2eq:	1.1151 g
+	This is equivalent to:
+	0.0104 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:13
+	Energy:	0.0079 kWh
+	CO2eq:	1.1151 g
+	This is equivalent to:
+	0.0104 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 32 Treads_concluida___
+___Execucao  36 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) Tesla K80, Tesla K80. CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200       dt:   0.0001000
+ Number of available threads:    36
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 6.2398116551765E+03 6.2398116551765E+03 8.7454053298396E-16
+           2 5.0793239190424E+02 5.0793239190424E+02 1.0072024897434E-15
+           3 1.5423530093014E+03 1.5423530093014E+03 1.0319399764543E-15
+           4 1.3302387929291E+03 1.3302387929291E+03 1.0255617712482E-15
+           5 1.1604087428436E+04 1.1604087428436E+04 3.1350839344563E-16
+ Comparison of RMS-norms of solution error
+           1 1.6462008369091E+02 1.6462008369091E+02 3.4530063152887E-16
+           2 1.1497107903824E+01 1.1497107903824E+01 9.2702800787459E-16
+           3 4.1207446207462E+01 4.1207446207462E+01 6.8972266049473E-16
+           4 3.7087651059694E+01 3.7087651059694E+01 0.0000000000000E+00
+           5 3.6211053051841E+02 3.6211053051841E+02 3.6104960325977E-15
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                    66.52
+ Total threads   =                       36
+ Avail threads   =                       36
+ Mop/s total     =                 43086.66
+ Mop/s/thread    =                  1196.85
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Jul 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:07
+	Energy:	0.0075 kWh
+	CO2eq:	1.0702 g
+	This is equivalent to:
+	0.0100 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:07
+	Energy:	0.0075 kWh
+	CO2eq:	1.0702 g
+	This is equivalent to:
+	0.0100 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 36 Treads_concluida___
+___Execucao  40 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) Tesla K80, Tesla K80. CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200       dt:   0.0001000
+ Number of available threads:    40
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 6.2398116551765E+03 6.2398116551765E+03 4.3727026649198E-16
+           2 5.0793239190424E+02 5.0793239190424E+02 7.8337971424487E-16
+           3 1.5423530093014E+03 1.5423530093014E+03 8.8451997981795E-16
+           4 1.3302387929291E+03 1.3302387929291E+03 3.4185392374938E-16
+           5 1.1604087428436E+04 1.1604087428436E+04 0.0000000000000E+00
+ Comparison of RMS-norms of solution error
+           1 1.6462008369091E+02 1.6462008369091E+02 5.1795094729331E-16
+           2 1.1497107903824E+01 1.1497107903824E+01 7.7252333989550E-16
+           3 4.1207446207462E+01 4.1207446207462E+01 1.8967373163605E-15
+           4 3.7087651059694E+01 3.7087651059694E+01 0.0000000000000E+00
+           5 3.6211053051841E+02 3.6211053051841E+02 2.1976932372334E-15
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                    59.62
+ Total threads   =                       40
+ Avail threads   =                       40
+ Mop/s total     =                 48078.09
+ Mop/s/thread    =                  1201.95
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Jul 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:00
+	Energy:	0.0070 kWh
+	CO2eq:	0.9912 g
+	This is equivalent to:
+	0.0092 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:00
+	Energy:	0.0070 kWh
+	CO2eq:	0.9912 g
+	This is equivalent to:
+	0.0092 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 40 Treads_concluida___
