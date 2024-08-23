@@ -6,7 +6,7 @@
 #SBATCH --ntasks=88
 #SBATCH --output=blaise_%x_%a.out
 #SBATCH --error=blaise_%x_%a.err
-#SBATCH --array=1-3
+#SBATCH --array=1-10
 
 echo "INICIO DO SCRIPR"
 cd FFT
