@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import os
 
 def buscar_palavras(arquivo, palavras, arquivo_saida):
     try:
@@ -35,11 +36,12 @@ def process_data(file_path):
                 data.append(entry)
             entry = {}  # Start a new entry
             entry['Treads'] = extract_number(line)
-        elif line.startswith("Elapsed time"):
-            match = re.search(r"Elapsed time\s*=\s*([0-9.]+)\s*\(s\)", line)
-            if match:
-                entry['Elapsed time'] = float(match.group(1))
-            #entry['Elapsed time'] = float(line.split('=')[1].strip())
+        #elif line.startswith("Elapsed time"):
+            # match = re.search(r"Elapsed time\s*=\s*([0-9.]+)\s*\(s\)", line)
+            # if match:
+            #     entry['Elapsed time'] = float(match.group(1))
+        elif line.startswith("Execution Time"):
+            entry['Execution Time'] = float(line.split(':')[1].strip())
         elif line.startswith("Time:"):
             entry['Time'] = line.split('\t')[1].strip()
         elif line.startswith("Energy:"):
@@ -64,43 +66,40 @@ def process_data(file_path):
     df = pd.DataFrame(data)
     return df
 
-palavras = ['Run time = ','Time:','Energy:','CO2eq:','km travelled by car', 'Run time without initialization =','Execution Time','___Execucao_com','Execution time', 'Elapsed time']
-arquivo = 'log_bruto.txt'
-arquivo_saida = 'log_limpo.txt'
+palavras = ['Run time = ','Time:','Energy:','CO2eq:','km travelled by car', 'Run time without initialization =','___Execucao_com','Execution time', 'Elapsed time']
 
-buscar_palavras(arquivo, palavras, arquivo_saida)
+# Conta o número de arquivos que começam com "log_bruto_" e terminam com ".txt" na pasta atual
+contador_txt = len([arquivo for arquivo in os.listdir('.') if arquivo.startswith('log_bruto_') and arquivo.endswith('.txt')])
 
-#para várias aplicações
-# for app in application:
+if contador_txt == 10:
+    for num in range(10):
+        #print(num+1)
+        arquivo = 'log_bruto_'+ str(num+1) + '.txt'
+        arquivo_saida = 'log_limpo_'+str(num+1)+'.txt'
+        #print(arquivo)
+    
+        buscar_palavras(arquivo, palavras, arquivo_saida)
 
-#     #for Blaise
-#     arquivo = 'logBruto.txt'
-#     arquivo_saida = 'log_limpo.txt'
+        ############ Organiza os dados
+        # Caminho para o arquivo de dados
+        file_path = 'log_limpo_'+ str(num+1) + '.txt'
 
-#     #for hype
-#     # arquivo = 'applications_hype/'+app+'/log_bruto.txt'
-#     # arquivo_saida = 'logs_hype/'+app+'_saida.txt'
+        # Processar os dados e criar a tabela
+        df = process_data(file_path)
 
-#     buscar_palavras(arquivo, palavras, arquivo_saida)
+        # Exibir a tabela
+        #print(df)
 
+        # Converter pontos em vírgulas
+        df_str = df.to_string(index=False)
+        df_str = df_str.replace('.', ',')
 
-############ Organiza os dados
-# Caminho para o arquivo de dados
-file_path = 'log_limpo.txt'
+        # Salvar a tabela em um arquivo txt
+        output_file = 'log_result_'+ str(num+1) + '.txt'
 
-# Processar os dados e criar a tabela
-df = process_data(file_path)
+        with open(output_file, 'w') as file:
+            file.write(df_str)
 
-# Exibir a tabela
-#print(df)
-
-# Converter pontos em vírgulas
-df_str = df.to_string(index=False)
-df_str = df_str.replace('.', ',')
-
-# Salvar a tabela em um arquivo txt
-output_file = 'log_result.txt'
-with open(output_file, 'w') as file:
-    file.write(df_str)
-
-print(f"Os resultados foram salvos em {output_file}")
+        print(f"Os resultados foram salvos em {output_file}")
+else:
+    print("Alerta: Menos de 10 log_bruto")

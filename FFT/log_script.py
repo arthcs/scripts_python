@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import os
 
 def buscar_palavras(arquivo, palavras, arquivo_saida):
     try:
@@ -67,32 +68,38 @@ def process_data(file_path):
 
 palavras = ['Run time = ','Time:','Energy:','CO2eq:','km travelled by car', 'Run time without initialization =','___Execucao_com','Execution time', 'Elapsed time']
 
-for num in range(10):
+# Conta o número de arquivos que começam com "log_bruto_" e terminam com ".txt" na pasta atual
+contador_txt = len([arquivo for arquivo in os.listdir('.') if arquivo.startswith('log_bruto_') and arquivo.endswith('.txt')])
 
-    print(num+1)
-    arquivo = 'log_bruto_'+ str(num+1) + '.txt'
-    arquivo_saida = 'log_limpo_'+str(num+1)+'.txt'
-    print(arquivo)
-  
-    buscar_palavras(arquivo, palavras, arquivo_saida)
+if contador_txt == 10:
+    for num in range(10):
+        #print(num+1)
+        arquivo = 'log_bruto_'+ str(num+1) + '.txt'
+        arquivo_saida = 'log_limpo_'+str(num+1)+'.txt'
+        #print(arquivo)
+    
+        buscar_palavras(arquivo, palavras, arquivo_saida)
 
-    ############ Organiza os dados
-    # Caminho para o arquivo de dados
-    file_path = 'log_limpo_'+ str(num+1) + '.txt'
+        ############ Organiza os dados
+        # Caminho para o arquivo de dados
+        file_path = 'log_limpo_'+ str(num+1) + '.txt'
 
-    # Processar os dados e criar a tabela
-    df = process_data(file_path)
+        # Processar os dados e criar a tabela
+        df = process_data(file_path)
 
-    # Exibir a tabela
-    #print(df)
+        # Exibir a tabela
+        #print(df)
 
-    # Converter pontos em vírgulas
-    df_str = df.to_string(index=False)
-    df_str = df_str.replace('.', ',')
+        # Converter pontos em vírgulas
+        df_str = df.to_string(index=False)
+        df_str = df_str.replace('.', ',')
 
-    # Salvar a tabela em um arquivo txt
-    output_file = 'log_result_'+ str(num+1) + '.txt'
-    with open(output_file, 'w') as file:
-        file.write(df_str)
+        # Salvar a tabela em um arquivo txt
+        output_file = 'log_result_'+ str(num+1) + '.txt'
 
-    print(f"Os resultados foram salvos em {output_file}")
+        with open(output_file, 'w') as file:
+            file.write(df_str)
+
+        print(f"Os resultados foram salvos em {output_file}")
+else:
+    print("Alerta: Menos de 10 log_bruto")
