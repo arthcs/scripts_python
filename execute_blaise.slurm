@@ -4,6 +4,7 @@
 #SBATCH --partition=blaise
 #SBATCH --nodes=1
 #SBATCH --ntasks=88
+#SBATCH --time=24:00:00
 #SBATCH --output=blaise_%x_%a.out
 #SBATCH --error=blaise_%x_%a.err
 #SBATCH --array=1-10

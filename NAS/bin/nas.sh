@@ -10,7 +10,7 @@ for bench in bt.C.x cg.C.x ft.C.x mg.C.x sp.C.x ua.C.x
 do
 
     echo "Running $bench"
-    mkdir out_"$bench"
+    mkdir -p out_"$bench"
     ./script.sh "$num_threads" "$bench" >> out_$bench/log_bruto_$array_id.txt
 #    ./$bench >> out/$bench.$nt.txt
 

@@ -4,6 +4,7 @@
 #SBATCH --partition=hype
 #SBATCH --nodes=1
 #SBATCH --ntasks=40
+#SBATCH --time=12:00:00
 #SBATCH --output=hype_%x_%a.out
 #SBATCH --error=hype_%x_%a.err
 #SBATCH --array=1-10
