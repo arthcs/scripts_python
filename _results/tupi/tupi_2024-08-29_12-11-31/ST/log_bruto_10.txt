@@ -1,0 +1,538 @@
+___Execucao_com 2 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 674 microseconds.
+   (= 674 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:             -0.0         -nan  -11397722944456762388488032259382765964450948143146111098204899165815888516485839279807285379407615899800548337725565938639399408203575518276504651064708730531414568370990586424609452472240682762017694240577386647787314320530840113691767223874780614201366473543188723430412889879795624714907799254202318848.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 5.10327
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:05
+	Energy:	0.0001 kWh
+	CO2eq:	0.0675 g
+	This is equivalent to:
+	0.0006 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:05
+	Energy:	0.0001 kWh
+	CO2eq:	0.0675 g
+	This is equivalent to:
+	0.0006 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 2 Treads_concluida___
+___Execucao_com 4 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 380 microseconds.
+   (= 380 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:             -0.0  -5488868503045210894346225235496889460758597425291349197900746881825699690013982848001714277735990924897096269091753812236454862134635512679007600399936644915944200692701302157970708665458304607344749027720460207307813139018816430156203903388071692679337482357290030990543049632183269640018087840317440.000000  -5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 2.72159
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:03
+	Energy:	0.0001 kWh
+	CO2eq:	0.0399 g
+	This is equivalent to:
+	0.0004 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:03
+	Energy:	0.0001 kWh
+	CO2eq:	0.0399 g
+	This is equivalent to:
+	0.0004 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 4 Treads_concluida___
+___Execucao_com 6 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 423 microseconds.
+   (= 423 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:             -0.0  -2972684262601085580611681332920002340762255088184351129201121781838900104393169030684900868638257833343369820298183792310740728710042018132939925022064651613045979525354645824480260596455649966882492972772837980894198099035247046619473039456942044101846029653075475270461247220330579025137103462727680.000000  -5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 1.98307
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0311 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0311 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 6 Treads_concluida___
+___Execucao_com 8 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 436 microseconds.
+   (= 436 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:             -0.0  -2744434251522605447173112617748444730379298712645674598950373440912849845006991424000857138867995462448548134545876906118227431067317756339503800199968322457972100346350651078985354332729152303672374513860230103653906569509408215078101951694035846339668741178645015495271524816091634820009043920158720.000000  -5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 1.83287
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0301 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0301 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 8 Treads_concluida___
+___Execucao_com 10 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 389 microseconds.
+   (= 389 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:             -0.0         -nan  -2524918965536108372484276572228006719720682965588171808690781737414459417404038721829987683198572653930047639981017392386383527996502771696554838507384557782218252603879761477367723188046321878533884155769492856442658476671074577315858962230842294116323988916104197908909112129721735649303423030186406313984.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 2.37868
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0377 g
+	This is equivalent to:
+	0.0004 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0377 g
+	This is equivalent to:
+	0.0004 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 10 Treads_concluida___
+___Execucao_com 12 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 375 microseconds.
+   (= 375 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:              inf  5859050928525997448026436812613067120139125425791141866684433037779341916542831543895494027243541299700249683753203572314535326150064442736515862371643039378571264.000000     0.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 2.04927
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0333 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0333 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 12 Treads_concluida___
+___Execucao_com 14 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 344 microseconds.
+   (= 344 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:              inf  5859050928525997448026436812613067120139125425791141866684433037779341916542831543895494027243541299700249683753203572314535326150064442736515862371643039378571264.000000     0.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 1.94248
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0321 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0321 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 14 Treads_concluida___
+___Execucao_com 16 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 3262 microseconds.
+   (= 3262 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:             -0.0  -5617867963109035881522843560782513960617622970932726646969218730578696318333357311042277276982245744393523927525143233860993780806796378286931517902770960286368205940067231839678178205918002197169774616482403734973436683120432402350608571760894292818536171363283176532843285657845480485365892178247680.000000  -11230118058254963492085661998975852910597977367203368698811715976019323678637425696893386319999518994677235307945588067880590085508051297349414754595938645700053294593266191950276878559803445548260268677111080912262942239999323671100116469768009208692265501470552787790549730275644744246791313894590644224.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 1.94099
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0323 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0323 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 16 Treads_concluida___
+Os resultados foram salvos em log_result_1.txt
+Os resultados foram salvos em log_result_2.txt
+Os resultados foram salvos em log_result_3.txt
+Os resultados foram salvos em log_result_4.txt
+Os resultados foram salvos em log_result_5.txt
+Os resultados foram salvos em log_result_6.txt
+Os resultados foram salvos em log_result_7.txt
+Os resultados foram salvos em log_result_8.txt
+Os resultados foram salvos em log_result_9.txt
+Os resultados foram salvos em log_result_10.txt

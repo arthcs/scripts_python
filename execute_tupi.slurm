@@ -4,21 +4,21 @@
 #SBATCH --partition=tupi
 #SBATCH --nodes=1
 #SBATCH --ntasks=16
-#SBATCH --time=12:00:00
+#SBATCH --time=4:00:00
 #SBATCH --output=tupi_%x_%a.out
 #SBATCH --error=tupi_%x_%a.err
 #SBATCH --array=1-10
 
-echo "INICIO DO SCRIPR"
+echo "INICIO DO SCRIPT"
 cd FFT
 echo "Entrando -> FFT"
 bash script.sh 16 >> log_bruto_${SLURM_ARRAY_TASK_ID}.txt
 echo "Saindo -> FFT"
 cd ..
 cd HPCG
-echo "Entrando -> FPCG"
+echo "Entrando -> HPCG"
 bash script.sh 16 >> log_bruto_${SLURM_ARRAY_TASK_ID}.txt
-echo "Saindo -> FPCG"
+echo "Saindo -> HPCG"
 cd ..
 cd JA
 echo "Entrando -> JA"

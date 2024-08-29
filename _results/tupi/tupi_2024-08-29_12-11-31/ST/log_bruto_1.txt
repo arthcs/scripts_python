@@ -1,0 +1,433 @@
+___Execucao_com 2 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 644 microseconds.
+   (= 644 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:             -0.0         -nan  -5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 4.88221
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:05
+	Energy:	0.0001 kWh
+	CO2eq:	0.0166 g
+	This is equivalent to:
+	0.0002 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:05
+	Energy:	0.0001 kWh
+	CO2eq:	0.0166 g
+	This is equivalent to:
+	0.0002 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 2 Treads_concluida___
+___Execucao_com 4 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 338 microseconds.
+   (= 338 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:             -0.0  -5488868503045210894346225235496889460758597425291349197900746881825699690013982848001714277735990924897096269091753812236454862134635512679007600399936644915944200692701302157970708665458304607344749027720460207307813139018816430156203903388071692679337482357290030990543049632183269640018087840317440.000000  -5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 2.65046
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:03
+	Energy:	0.0001 kWh
+	CO2eq:	0.0101 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:03
+	Energy:	0.0001 kWh
+	CO2eq:	0.0101 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 4 Treads_concluida___
+___Execucao_com 6 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 370 microseconds.
+   (= 370 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:             -0.0  -15449239050309525968438971863502943447295112700960591298973942381821317735834099456003726117245041758002560296138528156195644043179899119954602511657366765337066028729699693270758031780414151414424970632818561295836080919807314243492400189628917243187616855192343607152581200637723324114970340120068096.000000  -25396904792775053694344389754052834074391937694730117389596680315634180889323402216709202088443417713222063061929143419278642845553551096555843607584624605754665887713266040966171168505232853476477828173453674929291373819241240810335097649533749598945066624669109420048697869638829957572512716784515678208.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 1.98903
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0083 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0083 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 6 Treads_concluida___
+___Execucao_com 8 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 436 microseconds.
+   (= 436 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:             -0.0  -2744434251522605447173112617748444730379298712645674598950373440912849845006991424000857138867995462448548134545876906118227431067317756339503800199968322457972100346350651078985354332729152303672374513860230103653906569509408215078101951694035846339668741178645015495271524816091634820009043920158720.000000  -5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 1.89260
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0082 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0082 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 8 Treads_concluida___
+___Execucao_com 10 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 354 microseconds.
+   (= 354 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:             -0.0         -nan  -101630309609567251697017470164392829399195636355183699945294904946924410969695070886113082341396537215110300633451386392963602903611322166097121401684717634208363773533110621121968155137997637731259579334688201074961526907558594657000777055625196464607896791988788826134343150259270753404940298160701440.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 2.36370
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0099 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0099 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 10 Treads_concluida___
+___Execucao_com 12 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 344 microseconds.
+   (= 344 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:             -0.0  -845999092657754310092515443973693995891275711649293599025247038786584458212356824739774423803621826118933587836817568169188361436027172670136924924745562302699193664251833047824075481512208416976805056767743146982123987005840051036891141372055397266456398812637026953059630098250442057868871084319703040.000000  -1691152186222850892065469778140911826236375315001506489931328510320965060423999896414608679618210180788088731643700890438214496882529113910650231937299694293274028993679670327590635706175925893314380507608237730765414757500073655245775436027237465552339693443034261963640748599745379581462287633158355550208.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 2.10594
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0091 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0091 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 12 Treads_concluida___
+___Execucao_com 14 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 1457 microseconds.
+   (= 1457 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:              inf  5859050928525997448026436812613067120139125425791141866684433037779341916542831543895494027243541299700249683753203572314535326150064442736515862371643039378571264.000000     0.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 1.90059
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0084 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0084 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 14 Treads_concluida___
+___Execucao_com 16 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 1000000 (elements), Offset = 0 (elements)
+Memory per array = 7.6 MiB (= 0.0 GiB).
+Total memory required = 22.9 MiB (= 0.0 GiB).
+Each kernel will be executed 2000 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 7267 microseconds.
+   (= 7267 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:               inf     0.000000     0.000000     0.000000
+Scale:              inf     0.000000     0.000000     0.000000
+Add:                inf     0.000000     0.000000     0.000000
+Triad:              inf  5859050928525997448026436812613067120139125425791141866684433037779341916542831543895494027243541299700249683753203572314535326150064442736515862371643039378571264.000000     0.000000  11712242806123385247331629338594683309240842186291731856010754526866434377751792930413872085240189815783813270809509054640279631599146607212449889676386342197996290048.000000
+-------------------------------------------------------------
+Execution Time: 1.94604
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0086 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:02
+	Energy:	0.0001 kWh
+	CO2eq:	0.0086 g
+	This is equivalent to:
+	0.0001 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 16 Treads_concluida___
+Alerta: Menos de 10 log_bruto

@@ -1,0 +1,1009 @@
+___Execucao_com 1 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 1
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 1.527951e-10
+        TotalAbsDiff = 4.019648e-09
+        MaxRelDiff   = 6.628105e-13
+
+
+Elapsed time         =     246.86 (s)
+Grind time (us/z/c)  =  1.1882566 (per dom)  ( 1.1882566 overall)
+FOM                  =  841.56905 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:04:07
+	Energy:	0.0053 kWh
+	CO2eq:	2.5301 g
+	This is equivalent to:
+	0.0235 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:04:07
+	Energy:	0.0053 kWh
+	CO2eq:	2.5301 g
+	This is equivalent to:
+	0.0235 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 1 Treads_concluida___
+___Execucao_com 2 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 2
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =     145.18 (s)
+Grind time (us/z/c)  = 0.69880768 (per dom)  (0.69880768 overall)
+FOM                  =  1431.0089 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:02:25
+	Energy:	0.0033 kWh
+	CO2eq:	1.5649 g
+	This is equivalent to:
+	0.0146 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:02:25
+	Energy:	0.0033 kWh
+	CO2eq:	1.5649 g
+	This is equivalent to:
+	0.0146 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 2 Treads_concluida___
+___Execucao_com 3 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 3
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =     100.70 (s)
+Grind time (us/z/c)  = 0.48470363 (per dom)  (0.48470363 overall)
+FOM                  =  2063.1164 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:41
+	Energy:	0.0024 kWh
+	CO2eq:	1.1386 g
+	This is equivalent to:
+	0.0106 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:41
+	Energy:	0.0024 kWh
+	CO2eq:	1.1386 g
+	This is equivalent to:
+	0.0106 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 3 Treads_concluida___
+___Execucao_com 4 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 4
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =      82.17 (s)
+Grind time (us/z/c)  = 0.39551469 (per dom)  (0.39551469 overall)
+FOM                  =  2528.3511 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:22
+	Energy:	0.0020 kWh
+	CO2eq:	0.9667 g
+	This is equivalent to:
+	0.0090 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:22
+	Energy:	0.0020 kWh
+	CO2eq:	0.9667 g
+	This is equivalent to:
+	0.0090 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 4 Treads_concluida___
+___Execucao_com 5 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 5
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =      68.12 (s)
+Grind time (us/z/c)  = 0.32787658 (per dom)  (0.32787658 overall)
+FOM                  =  3049.9281 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:08
+	Energy:	0.0018 kWh
+	CO2eq:	0.8332 g
+	This is equivalent to:
+	0.0078 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:08
+	Energy:	0.0018 kWh
+	CO2eq:	0.8332 g
+	This is equivalent to:
+	0.0078 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 5 Treads_concluida___
+___Execucao_com 6 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 6
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =      59.49 (s)
+Grind time (us/z/c)  = 0.28632975 (per dom)  (0.28632975 overall)
+FOM                  =  3492.4767 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:00
+	Energy:	0.0016 kWh
+	CO2eq:	0.7572 g
+	This is equivalent to:
+	0.0070 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:00
+	Energy:	0.0016 kWh
+	CO2eq:	0.7572 g
+	This is equivalent to:
+	0.0070 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 6 Treads_concluida___
+___Execucao_com 7 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 7
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =      53.50 (s)
+Grind time (us/z/c)  = 0.25750189 (per dom)  (0.25750189 overall)
+FOM                  =  3883.4666 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:54
+	Energy:	0.0015 kWh
+	CO2eq:	0.7035 g
+	This is equivalent to:
+	0.0065 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:54
+	Energy:	0.0015 kWh
+	CO2eq:	0.7035 g
+	This is equivalent to:
+	0.0065 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 7 Treads_concluida___
+___Execucao_com 8 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 8
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =      50.20 (s)
+Grind time (us/z/c)  = 0.24164768 (per dom)  (0.24164768 overall)
+FOM                  =  4138.2561 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:50
+	Energy:	0.0014 kWh
+	CO2eq:	0.6749 g
+	This is equivalent to:
+	0.0063 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:50
+	Energy:	0.0014 kWh
+	CO2eq:	0.6749 g
+	This is equivalent to:
+	0.0063 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 8 Treads_concluida___
+___Execucao_com 9 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 9
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =      70.66 (s)
+Grind time (us/z/c)  = 0.34009806 (per dom)  (0.34009806 overall)
+FOM                  =  2940.3285 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:11
+	Energy:	0.0019 kWh
+	CO2eq:	0.9093 g
+	This is equivalent to:
+	0.0085 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:11
+	Energy:	0.0019 kWh
+	CO2eq:	0.9093 g
+	This is equivalent to:
+	0.0085 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 9 Treads_concluida___
+___Execucao_com 10 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 10
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =      67.10 (s)
+Grind time (us/z/c)  = 0.32298411 (per dom)  (0.32298411 overall)
+FOM                  =  3096.1275 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:07
+	Energy:	0.0018 kWh
+	CO2eq:	0.8740 g
+	This is equivalent to:
+	0.0081 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:07
+	Energy:	0.0018 kWh
+	CO2eq:	0.8740 g
+	This is equivalent to:
+	0.0081 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 10 Treads_concluida___
+___Execucao_com 11 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 11
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =      63.42 (s)
+Grind time (us/z/c)  = 0.30529362 (per dom)  (0.30529362 overall)
+FOM                  =  3275.5352 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:03
+	Energy:	0.0018 kWh
+	CO2eq:	0.8401 g
+	This is equivalent to:
+	0.0078 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:03
+	Energy:	0.0018 kWh
+	CO2eq:	0.8401 g
+	This is equivalent to:
+	0.0078 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 11 Treads_concluida___
+___Execucao_com 12 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 12
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =      61.25 (s)
+Grind time (us/z/c)  = 0.29484744 (per dom)  (0.29484744 overall)
+FOM                  =  3391.5845 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:01
+	Energy:	0.0017 kWh
+	CO2eq:	0.8228 g
+	This is equivalent to:
+	0.0077 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:01
+	Energy:	0.0017 kWh
+	CO2eq:	0.8228 g
+	This is equivalent to:
+	0.0077 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 12 Treads_concluida___
+___Execucao_com 13 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 13
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =      59.28 (s)
+Grind time (us/z/c)  = 0.28535651 (per dom)  (0.28535651 overall)
+FOM                  =  3504.3883 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:59
+	Energy:	0.0017 kWh
+	CO2eq:	0.8041 g
+	This is equivalent to:
+	0.0075 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:59
+	Energy:	0.0017 kWh
+	CO2eq:	0.8041 g
+	This is equivalent to:
+	0.0075 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 13 Treads_concluida___
+___Execucao_com 14 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 14
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =      58.55 (s)
+Grind time (us/z/c)  = 0.28183565 (per dom)  (0.28183565 overall)
+FOM                  =  3548.1672 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:59
+	Energy:	0.0017 kWh
+	CO2eq:	0.8035 g
+	This is equivalent to:
+	0.0075 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:59
+	Energy:	0.0017 kWh
+	CO2eq:	0.8035 g
+	This is equivalent to:
+	0.0075 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 14 Treads_concluida___
+___Execucao_com 15 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 15
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =      57.36 (s)
+Grind time (us/z/c)  = 0.27609323 (per dom)  (0.27609323 overall)
+FOM                  =   3621.965 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:57
+	Energy:	0.0017 kWh
+	CO2eq:	0.7943 g
+	This is equivalent to:
+	0.0074 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:57
+	Energy:	0.0017 kWh
+	CO2eq:	0.7943 g
+	This is equivalent to:
+	0.0074 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 15 Treads_concluida___
+___Execucao_com 16 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+Running problem size 50^3 per domain until completion
+Num processors: 1
+Num threads: 16
+Total number of elements: 125000
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  50 
+   MPI tasks           =  1 
+   Iteration count     =  1662 
+   Final Origin Energy = 5.124778e+05 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.182787e-10
+        TotalAbsDiff = 3.984384e-09
+        MaxRelDiff   = 1.209273e-12
+
+
+Elapsed time         =      60.10 (s)
+Grind time (us/z/c)  = 0.28926848 (per dom)  (0.28926848 overall)
+FOM                  =  3456.9961 (z/s)
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:00
+	Energy:	0.0018 kWh
+	CO2eq:	0.8390 g
+	This is equivalent to:
+	0.0078 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:00
+	Energy:	0.0018 kWh
+	CO2eq:	0.8390 g
+	This is equivalent to:
+	0.0078 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 16 Treads_concluida___
+Alerta: Menos de 10 log_bruto

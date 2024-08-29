@@ -1,0 +1,681 @@
+___Execucao  2 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - FT Benchmark
+
+ Size                :  512x 512x 512
+ Iterations                  :     20
+ Number of available threads :      2
+
+ T =    1     Checksum =    5.195078707457E+02    5.149019699238E+02
+ T =    2     Checksum =    5.155422171134E+02    5.127578201997E+02
+ T =    3     Checksum =    5.144678022222E+02    5.122251847514E+02
+ T =    4     Checksum =    5.140150594328E+02    5.121090289018E+02
+ T =    5     Checksum =    5.137550426810E+02    5.121143685824E+02
+ T =    6     Checksum =    5.135811056728E+02    5.121496764568E+02
+ T =    7     Checksum =    5.134569343165E+02    5.121870921893E+02
+ T =    8     Checksum =    5.133651975661E+02    5.122193250322E+02
+ T =    9     Checksum =    5.132955192805E+02    5.122454735794E+02
+ T =   10     Checksum =    5.132410471738E+02    5.122663649603E+02
+ T =   11     Checksum =    5.131971141679E+02    5.122830879827E+02
+ T =   12     Checksum =    5.131605205716E+02    5.122965869718E+02
+ T =   13     Checksum =    5.131290734194E+02    5.123075927445E+02
+ T =   14     Checksum =    5.131012720314E+02    5.123166486553E+02
+ T =   15     Checksum =    5.130760908195E+02    5.123241541685E+02
+ T =   16     Checksum =    5.130528295923E+02    5.123304037599E+02
+ T =   17     Checksum =    5.130310107773E+02    5.123356167976E+02
+ T =   18     Checksum =    5.130103090133E+02    5.123399592211E+02
+ T =   19     Checksum =    5.129905029333E+02    5.123435588985E+02
+ T =   20     Checksum =    5.129714421109E+02    5.123465164008E+02
+ Result verification successful
+ class = C
+
+
+ FT Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                   110.72
+ Total threads   =                        2
+ Avail threads   =                        2
+ Mop/s total     =                  3580.09
+ Mop/s/thread    =                  1790.04
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              26 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:02:01
+	Energy:	0.0028 kWh
+	CO2eq:	0.4028 g
+	This is equivalent to:
+	0.0037 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:02:01
+	Energy:	0.0028 kWh
+	CO2eq:	0.4028 g
+	This is equivalent to:
+	0.0037 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 2 Treads_concluida___
+___Execucao  4 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - FT Benchmark
+
+ Size                :  512x 512x 512
+ Iterations                  :     20
+ Number of available threads :      4
+
+ T =    1     Checksum =    5.195078707457E+02    5.149019699238E+02
+ T =    2     Checksum =    5.155422171134E+02    5.127578201997E+02
+ T =    3     Checksum =    5.144678022222E+02    5.122251847514E+02
+ T =    4     Checksum =    5.140150594328E+02    5.121090289018E+02
+ T =    5     Checksum =    5.137550426810E+02    5.121143685824E+02
+ T =    6     Checksum =    5.135811056728E+02    5.121496764568E+02
+ T =    7     Checksum =    5.134569343165E+02    5.121870921893E+02
+ T =    8     Checksum =    5.133651975661E+02    5.122193250322E+02
+ T =    9     Checksum =    5.132955192805E+02    5.122454735794E+02
+ T =   10     Checksum =    5.132410471738E+02    5.122663649603E+02
+ T =   11     Checksum =    5.131971141679E+02    5.122830879827E+02
+ T =   12     Checksum =    5.131605205716E+02    5.122965869718E+02
+ T =   13     Checksum =    5.131290734194E+02    5.123075927445E+02
+ T =   14     Checksum =    5.131012720314E+02    5.123166486553E+02
+ T =   15     Checksum =    5.130760908195E+02    5.123241541685E+02
+ T =   16     Checksum =    5.130528295923E+02    5.123304037599E+02
+ T =   17     Checksum =    5.130310107773E+02    5.123356167976E+02
+ T =   18     Checksum =    5.130103090133E+02    5.123399592211E+02
+ T =   19     Checksum =    5.129905029333E+02    5.123435588985E+02
+ T =   20     Checksum =    5.129714421109E+02    5.123465164008E+02
+ Result verification successful
+ class = C
+
+
+ FT Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                    56.46
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                  7020.89
+ Mop/s/thread    =                  1755.22
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              26 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:02
+	Energy:	0.0016 kWh
+	CO2eq:	0.2304 g
+	This is equivalent to:
+	0.0021 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:02
+	Energy:	0.0016 kWh
+	CO2eq:	0.2304 g
+	This is equivalent to:
+	0.0021 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 4 Treads_concluida___
+___Execucao  6 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - FT Benchmark
+
+ Size                :  512x 512x 512
+ Iterations                  :     20
+ Number of available threads :      6
+
+ T =    1     Checksum =    5.195078707457E+02    5.149019699238E+02
+ T =    2     Checksum =    5.155422171134E+02    5.127578201997E+02
+ T =    3     Checksum =    5.144678022222E+02    5.122251847514E+02
+ T =    4     Checksum =    5.140150594328E+02    5.121090289018E+02
+ T =    5     Checksum =    5.137550426810E+02    5.121143685824E+02
+ T =    6     Checksum =    5.135811056728E+02    5.121496764568E+02
+ T =    7     Checksum =    5.134569343165E+02    5.121870921893E+02
+ T =    8     Checksum =    5.133651975661E+02    5.122193250322E+02
+ T =    9     Checksum =    5.132955192805E+02    5.122454735794E+02
+ T =   10     Checksum =    5.132410471738E+02    5.122663649603E+02
+ T =   11     Checksum =    5.131971141679E+02    5.122830879827E+02
+ T =   12     Checksum =    5.131605205716E+02    5.122965869718E+02
+ T =   13     Checksum =    5.131290734194E+02    5.123075927445E+02
+ T =   14     Checksum =    5.131012720314E+02    5.123166486553E+02
+ T =   15     Checksum =    5.130760908195E+02    5.123241541685E+02
+ T =   16     Checksum =    5.130528295923E+02    5.123304037599E+02
+ T =   17     Checksum =    5.130310107773E+02    5.123356167976E+02
+ T =   18     Checksum =    5.130103090133E+02    5.123399592211E+02
+ T =   19     Checksum =    5.129905029333E+02    5.123435588985E+02
+ T =   20     Checksum =    5.129714421109E+02    5.123465164008E+02
+ Result verification successful
+ class = C
+
+
+ FT Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                    39.25
+ Total threads   =                        6
+ Avail threads   =                        6
+ Mop/s total     =                 10099.15
+ Mop/s/thread    =                  1683.19
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              26 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:43
+	Energy:	0.0012 kWh
+	CO2eq:	0.1728 g
+	This is equivalent to:
+	0.0016 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:43
+	Energy:	0.0012 kWh
+	CO2eq:	0.1728 g
+	This is equivalent to:
+	0.0016 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 6 Treads_concluida___
+___Execucao  8 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - FT Benchmark
+
+ Size                :  512x 512x 512
+ Iterations                  :     20
+ Number of available threads :      8
+
+ T =    1     Checksum =    5.195078707457E+02    5.149019699238E+02
+ T =    2     Checksum =    5.155422171134E+02    5.127578201997E+02
+ T =    3     Checksum =    5.144678022222E+02    5.122251847514E+02
+ T =    4     Checksum =    5.140150594328E+02    5.121090289018E+02
+ T =    5     Checksum =    5.137550426810E+02    5.121143685824E+02
+ T =    6     Checksum =    5.135811056728E+02    5.121496764568E+02
+ T =    7     Checksum =    5.134569343165E+02    5.121870921893E+02
+ T =    8     Checksum =    5.133651975661E+02    5.122193250322E+02
+ T =    9     Checksum =    5.132955192805E+02    5.122454735794E+02
+ T =   10     Checksum =    5.132410471738E+02    5.122663649603E+02
+ T =   11     Checksum =    5.131971141679E+02    5.122830879827E+02
+ T =   12     Checksum =    5.131605205716E+02    5.122965869718E+02
+ T =   13     Checksum =    5.131290734194E+02    5.123075927445E+02
+ T =   14     Checksum =    5.131012720314E+02    5.123166486553E+02
+ T =   15     Checksum =    5.130760908195E+02    5.123241541685E+02
+ T =   16     Checksum =    5.130528295923E+02    5.123304037599E+02
+ T =   17     Checksum =    5.130310107773E+02    5.123356167976E+02
+ T =   18     Checksum =    5.130103090133E+02    5.123399592211E+02
+ T =   19     Checksum =    5.129905029333E+02    5.123435588985E+02
+ T =   20     Checksum =    5.129714421109E+02    5.123465164008E+02
+ Result verification successful
+ class = C
+
+
+ FT Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                    30.72
+ Total threads   =                        8
+ Avail threads   =                        8
+ Mop/s total     =                 12904.37
+ Mop/s/thread    =                  1613.05
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              26 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:34
+	Energy:	0.0010 kWh
+	CO2eq:	0.1454 g
+	This is equivalent to:
+	0.0014 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:34
+	Energy:	0.0010 kWh
+	CO2eq:	0.1454 g
+	This is equivalent to:
+	0.0014 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 8 Treads_concluida___
+___Execucao  10 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - FT Benchmark
+
+ Size                :  512x 512x 512
+ Iterations                  :     20
+ Number of available threads :     10
+
+ T =    1     Checksum =    5.195078707457E+02    5.149019699238E+02
+ T =    2     Checksum =    5.155422171134E+02    5.127578201997E+02
+ T =    3     Checksum =    5.144678022222E+02    5.122251847514E+02
+ T =    4     Checksum =    5.140150594328E+02    5.121090289018E+02
+ T =    5     Checksum =    5.137550426810E+02    5.121143685824E+02
+ T =    6     Checksum =    5.135811056728E+02    5.121496764568E+02
+ T =    7     Checksum =    5.134569343165E+02    5.121870921893E+02
+ T =    8     Checksum =    5.133651975661E+02    5.122193250322E+02
+ T =    9     Checksum =    5.132955192805E+02    5.122454735794E+02
+ T =   10     Checksum =    5.132410471738E+02    5.122663649603E+02
+ T =   11     Checksum =    5.131971141679E+02    5.122830879827E+02
+ T =   12     Checksum =    5.131605205716E+02    5.122965869718E+02
+ T =   13     Checksum =    5.131290734194E+02    5.123075927445E+02
+ T =   14     Checksum =    5.131012720314E+02    5.123166486553E+02
+ T =   15     Checksum =    5.130760908195E+02    5.123241541685E+02
+ T =   16     Checksum =    5.130528295923E+02    5.123304037599E+02
+ T =   17     Checksum =    5.130310107773E+02    5.123356167976E+02
+ T =   18     Checksum =    5.130103090133E+02    5.123399592211E+02
+ T =   19     Checksum =    5.129905029333E+02    5.123435588985E+02
+ T =   20     Checksum =    5.129714421109E+02    5.123465164008E+02
+ Result verification successful
+ class = C
+
+
+ FT Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                    39.71
+ Total threads   =                       10
+ Avail threads   =                       10
+ Mop/s total     =                  9983.15
+ Mop/s/thread    =                   998.32
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              26 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:43
+	Energy:	0.0012 kWh
+	CO2eq:	0.1771 g
+	This is equivalent to:
+	0.0016 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:43
+	Energy:	0.0012 kWh
+	CO2eq:	0.1771 g
+	This is equivalent to:
+	0.0016 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 10 Treads_concluida___
+___Execucao  12 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - FT Benchmark
+
+ Size                :  512x 512x 512
+ Iterations                  :     20
+ Number of available threads :     12
+
+ T =    1     Checksum =    5.195078707457E+02    5.149019699238E+02
+ T =    2     Checksum =    5.155422171134E+02    5.127578201997E+02
+ T =    3     Checksum =    5.144678022222E+02    5.122251847514E+02
+ T =    4     Checksum =    5.140150594328E+02    5.121090289018E+02
+ T =    5     Checksum =    5.137550426810E+02    5.121143685824E+02
+ T =    6     Checksum =    5.135811056728E+02    5.121496764568E+02
+ T =    7     Checksum =    5.134569343165E+02    5.121870921893E+02
+ T =    8     Checksum =    5.133651975661E+02    5.122193250322E+02
+ T =    9     Checksum =    5.132955192805E+02    5.122454735794E+02
+ T =   10     Checksum =    5.132410471738E+02    5.122663649603E+02
+ T =   11     Checksum =    5.131971141679E+02    5.122830879827E+02
+ T =   12     Checksum =    5.131605205716E+02    5.122965869718E+02
+ T =   13     Checksum =    5.131290734194E+02    5.123075927445E+02
+ T =   14     Checksum =    5.131012720314E+02    5.123166486553E+02
+ T =   15     Checksum =    5.130760908195E+02    5.123241541685E+02
+ T =   16     Checksum =    5.130528295923E+02    5.123304037599E+02
+ T =   17     Checksum =    5.130310107773E+02    5.123356167976E+02
+ T =   18     Checksum =    5.130103090133E+02    5.123399592211E+02
+ T =   19     Checksum =    5.129905029333E+02    5.123435588985E+02
+ T =   20     Checksum =    5.129714421109E+02    5.123465164008E+02
+ Result verification successful
+ class = C
+
+
+ FT Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                    33.49
+ Total threads   =                       12
+ Avail threads   =                       12
+ Mop/s total     =                 11837.12
+ Mop/s/thread    =                   986.43
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              26 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:36
+	Energy:	0.0011 kWh
+	CO2eq:	0.1552 g
+	This is equivalent to:
+	0.0014 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:36
+	Energy:	0.0011 kWh
+	CO2eq:	0.1552 g
+	This is equivalent to:
+	0.0014 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 12 Treads_concluida___
+___Execucao  14 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - FT Benchmark
+
+ Size                :  512x 512x 512
+ Iterations                  :     20
+ Number of available threads :     14
+
+ T =    1     Checksum =    5.195078707457E+02    5.149019699238E+02
+ T =    2     Checksum =    5.155422171134E+02    5.127578201997E+02
+ T =    3     Checksum =    5.144678022222E+02    5.122251847514E+02
+ T =    4     Checksum =    5.140150594328E+02    5.121090289018E+02
+ T =    5     Checksum =    5.137550426810E+02    5.121143685824E+02
+ T =    6     Checksum =    5.135811056728E+02    5.121496764568E+02
+ T =    7     Checksum =    5.134569343165E+02    5.121870921893E+02
+ T =    8     Checksum =    5.133651975661E+02    5.122193250322E+02
+ T =    9     Checksum =    5.132955192805E+02    5.122454735794E+02
+ T =   10     Checksum =    5.132410471738E+02    5.122663649603E+02
+ T =   11     Checksum =    5.131971141679E+02    5.122830879827E+02
+ T =   12     Checksum =    5.131605205716E+02    5.122965869718E+02
+ T =   13     Checksum =    5.131290734194E+02    5.123075927445E+02
+ T =   14     Checksum =    5.131012720314E+02    5.123166486553E+02
+ T =   15     Checksum =    5.130760908195E+02    5.123241541685E+02
+ T =   16     Checksum =    5.130528295923E+02    5.123304037599E+02
+ T =   17     Checksum =    5.130310107773E+02    5.123356167976E+02
+ T =   18     Checksum =    5.130103090133E+02    5.123399592211E+02
+ T =   19     Checksum =    5.129905029333E+02    5.123435588985E+02
+ T =   20     Checksum =    5.129714421109E+02    5.123465164008E+02
+ Result verification successful
+ class = C
+
+
+ FT Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                    29.62
+ Total threads   =                       14
+ Avail threads   =                       14
+ Mop/s total     =                 13382.75
+ Mop/s/thread    =                   955.91
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              26 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:32
+	Energy:	0.0010 kWh
+	CO2eq:	0.1405 g
+	This is equivalent to:
+	0.0013 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:32
+	Energy:	0.0010 kWh
+	CO2eq:	0.1405 g
+	This is equivalent to:
+	0.0013 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 14 Treads_concluida___
+___Execucao  16 Treads___:
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - FT Benchmark
+
+ Size                :  512x 512x 512
+ Iterations                  :     20
+ Number of available threads :     16
+
+ T =    1     Checksum =    5.195078707457E+02    5.149019699238E+02
+ T =    2     Checksum =    5.155422171134E+02    5.127578201997E+02
+ T =    3     Checksum =    5.144678022222E+02    5.122251847514E+02
+ T =    4     Checksum =    5.140150594328E+02    5.121090289018E+02
+ T =    5     Checksum =    5.137550426810E+02    5.121143685824E+02
+ T =    6     Checksum =    5.135811056728E+02    5.121496764568E+02
+ T =    7     Checksum =    5.134569343165E+02    5.121870921893E+02
+ T =    8     Checksum =    5.133651975661E+02    5.122193250322E+02
+ T =    9     Checksum =    5.132955192805E+02    5.122454735794E+02
+ T =   10     Checksum =    5.132410471738E+02    5.122663649603E+02
+ T =   11     Checksum =    5.131971141679E+02    5.122830879827E+02
+ T =   12     Checksum =    5.131605205716E+02    5.122965869718E+02
+ T =   13     Checksum =    5.131290734194E+02    5.123075927445E+02
+ T =   14     Checksum =    5.131012720314E+02    5.123166486553E+02
+ T =   15     Checksum =    5.130760908195E+02    5.123241541685E+02
+ T =   16     Checksum =    5.130528295923E+02    5.123304037599E+02
+ T =   17     Checksum =    5.130310107773E+02    5.123356167976E+02
+ T =   18     Checksum =    5.130103090133E+02    5.123399592211E+02
+ T =   19     Checksum =    5.129905029333E+02    5.123435588985E+02
+ T =   20     Checksum =    5.129714421109E+02    5.123465164008E+02
+ Result verification successful
+ class = C
+
+
+ FT Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                    27.46
+ Total threads   =                       16
+ Avail threads   =                       16
+ Mop/s total     =                 14434.38
+ Mop/s/thread    =                   902.15
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              26 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:30
+	Energy:	0.0010 kWh
+	CO2eq:	0.1353 g
+	This is equivalent to:
+	0.0013 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:30
+	Energy:	0.0010 kWh
+	CO2eq:	0.1353 g
+	This is equivalent to:
+	0.0013 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 16 Treads_concluida___
+Alerta: Menos de 10 log_bruto
