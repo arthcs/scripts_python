@@ -3,7 +3,7 @@
 var_date=$(date +'%Y-%m-%d_%H-%M-%S')
 node=$1
 
-if [ "$node" = "phoenix" ];
+if [[ "$node" = "phoenix" || "$node" = "all" ]];
 then
     #phoenix
     echo ________
@@ -28,7 +28,8 @@ then
     scp -r acsilveira@gppd-hpc.inf.ufrgs.br:/home/users/acsilveira/hpc-benchmarks-phoenix/phoenix_* /home/gppd//arthur/scripts/_results/phoenix/phoenix_$var_date/
 fi
 
-if [ "$node" = "tupi" ]; then
+if [[ "$node" = "tupi" || "$node" = "all" ]];
+then
     #Tupi
     echo ________
     echo get results TUPI
@@ -53,7 +54,7 @@ if [ "$node" = "tupi" ]; then
 fi
 
 
-if [ "$node" = "blaise" ];
+if [[ "$node" = "blaise" || "$node" = "all" ]];
 then
     # #blaise
     echo ________
@@ -79,7 +80,7 @@ then
 fi
 
 
-if [ "$node" = "hype" ];
+if [[ "$node" = "hype" || "$node" = "all" ]];
 then
     #hype
     echo ________

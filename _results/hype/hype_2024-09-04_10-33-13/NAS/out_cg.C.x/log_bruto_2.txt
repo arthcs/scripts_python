@@ -1,0 +1,3141 @@
+___Execucao_com 2 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:     2
+
+ Initialization time =           8.746 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53221254589278E-13   109.9994423237398
+        2       8.00865557329070E-16    27.3920437146531
+        3       8.55314608072533E-16    28.0339761840276
+        4       8.77241531855478E-16    28.4191507551296
+        5       8.90372786691062E-16    28.6471670038882
+        6       8.99099007346270E-16    28.7812969418424
+        7       8.99251112062968E-16    28.8600458537355
+        8       9.04914138456969E-16    28.9063145572688
+        9       9.08477141909632E-16    28.9335649214633
+       10       9.11933664982199E-16    28.9496695449005
+       11       9.11930276482976E-16    28.9592263353758
+       12       9.08512411794998E-16    28.9649233484888
+       13       9.10600165165011E-16    28.9683359248936
+       14       9.14282396227741E-16    28.9703903960006
+       15       9.04855316062660E-16    28.9716336228368
+       16       9.14510980667309E-16    28.9723898600848
+       17       9.10768283001769E-16    28.9728522692217
+       18       9.11465345399821E-16    28.9731364797787
+       19       9.05342111647657E-16    28.9733120569290
+       20       9.18201097900587E-16    28.9734210663758
+       21       9.13254060192761E-16    28.9734890760541
+       22       9.12310479629013E-16    28.9735317064871
+       23       9.10567772260728E-16    28.9735585497255
+       24       9.13887286667429E-16    28.9735755256645
+       25       9.09420047741780E-16    28.9735863059383
+       26       9.05723624336802E-16    28.9735931787384
+       27       9.13588483217772E-16    28.9735975767373
+       28       9.10662014149092E-16    28.9736004009986
+       29       9.09278710155572E-16    28.9736022206758
+       30       9.10044224805693E-16    28.9736033967627
+       31       9.08595492057001E-16    28.9736041591164
+       32       9.06892705712266E-16    28.9736046546412
+       33       9.14854882955912E-16    28.9736049775610
+       34       9.13977830688530E-16    28.9736051885093
+       35       9.11889152262806E-16    28.9736053266252
+       36       9.09753022575796E-16    28.9736054172461
+       37       9.10278584158339E-16    28.9736054768224
+       38       9.08370801961113E-16    28.9736055160636
+       39       9.10231182869302E-16    28.9736055419568
+       40       9.06761943926934E-16    28.9736055590703
+       41       9.08570325059423E-16    28.9736055703979
+       42       9.07174973803211E-16    28.9736055779078
+       43       9.11589513732270E-16    28.9736055828930
+       44       9.07211843917218E-16    28.9736055862076
+       45       9.07678572093776E-16    28.9736055884132
+       46       9.06580043256638E-16    28.9736055898831
+       47       9.07955028846430E-16    28.9736055908644
+       48       9.11177269434310E-16    28.9736055915182
+       49       9.05503727886572E-16    28.9736055919562
+       50       9.10511780975855E-16    28.9736055922487
+       51       9.07616345365083E-16    28.9736055924456
+       52       9.02441006210410E-16    28.9736055925766
+       53       9.02266675528830E-16    28.9736055926646
+       54       9.09062413387650E-16    28.9736055927225
+       55       9.02309682340617E-16    28.9736055927623
+       56       9.07299094856211E-16    28.9736055927896
+       57       9.05064419640215E-16    28.9736055928084
+       58       9.06328985945727E-16    28.9736055928197
+       59       9.05158112799307E-16    28.9736055928281
+       60       9.06115205581972E-16    28.9736055928346
+       61       9.08251769349697E-16    28.9736055928383
+       62       9.08760714230426E-16    28.9736055928405
+       63       9.06183110907778E-16    28.9736055928419
+       64       9.02637094442391E-16    28.9736055928438
+       65       9.03613385762958E-16    28.9736055928435
+       66       9.11253404536209E-16    28.9736055928445
+       67       9.07580631456570E-16    28.9736055928447
+       68       9.06224622158530E-16    28.9736055928450
+       69       9.05725415369471E-16    28.9736055928440
+       70       9.02792156068747E-16    28.9736055928450
+       71       9.07947349853385E-16    28.9736055928452
+       72       9.12065864226977E-16    28.9736055928471
+       73       9.04603306593310E-16    28.9736055928449
+       74       9.03787327022248E-16    28.9736055928442
+       75       9.00918629874229E-16    28.9736055928458
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592846E+01
+ Error is    2.6117840638080E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                   190.42
+ Total threads   =                        2
+ Avail threads   =                        2
+ Mop/s total     =                   752.80
+ Mop/s/thread    =                   376.40
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:03:19
+	Energy:	0.0066 kWh
+	CO2eq:	3.1200 g
+	This is equivalent to:
+	0.0290 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:03:19
+	Energy:	0.0066 kWh
+	CO2eq:	3.1200 g
+	This is equivalent to:
+	0.0290 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 2 Treads_concluida___
+___Execucao_com 4 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:     4
+
+ Initialization time =           4.709 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53428248392491E-13   109.9994423237398
+        2       8.02097310347810E-16    27.3920437146526
+        3       8.54790603556656E-16    28.0339761840275
+        4       8.77349394370696E-16    28.4191507551287
+        5       8.92521616098667E-16    28.6471670038893
+        6       8.95993327663903E-16    28.7812969418412
+        7       8.96704159477465E-16    28.8600458537343
+        8       9.06176702751904E-16    28.9063145572685
+        9       9.09487680871606E-16    28.9335649214622
+       10       9.11639211708568E-16    28.9496695449003
+       11       9.10116736140949E-16    28.9592263353754
+       12       9.08563516492129E-16    28.9649233484889
+       13       9.09327097500829E-16    28.9683359248936
+       14       9.13625921568502E-16    28.9703903960005
+       15       9.06379320098509E-16    28.9716336228371
+       16       9.14881697561554E-16    28.9723898600853
+       17       9.11403839918225E-16    28.9728522692229
+       18       9.09010227047540E-16    28.9731364797778
+       19       9.06151511547100E-16    28.9733120569287
+       20       9.14874263415154E-16    28.9734210663747
+       21       9.15964979673992E-16    28.9734890760554
+       22       9.12767247215824E-16    28.9735317064871
+       23       9.09301599691321E-16    28.9735585497258
+       24       9.15807820827043E-16    28.9735755256648
+       25       9.09271158692184E-16    28.9735863059382
+       26       9.03890311667494E-16    28.9735931787373
+       27       9.14875692831737E-16    28.9735975767371
+       28       9.10738795729251E-16    28.9736004009989
+       29       9.06679860868492E-16    28.9736022206772
+       30       9.10505953185309E-16    28.9736033967627
+       31       9.08778835366965E-16    28.9736041591157
+       32       9.03480701103092E-16    28.9736046546405
+       33       9.11997199025489E-16    28.9736049775614
+       34       9.12618863188216E-16    28.9736051885099
+       35       9.10302847620311E-16    28.9736053266246
+       36       9.06346216621990E-16    28.9736054172455
+       37       9.09692641015883E-16    28.9736054768226
+       38       9.08167657347837E-16    28.9736055160639
+       39       9.09810348540673E-16    28.9736055419573
+       40       9.06835088365929E-16    28.9736055590700
+       41       9.09764962334101E-16    28.9736055703976
+       42       9.07862430344082E-16    28.9736055779073
+       43       9.09307817769566E-16    28.9736055828934
+       44       9.04956440200893E-16    28.9736055862071
+       45       9.09933980522867E-16    28.9736055884132
+       46       9.05975814815231E-16    28.9736055898825
+       47       9.05798885619772E-16    28.9736055908629
+       48       9.09230010356276E-16    28.9736055915179
+       49       9.07423333736081E-16    28.9736055919554
+       50       9.09084381412511E-16    28.9736055922485
+       51       9.06676536600865E-16    28.9736055924450
+       52       9.00823434311275E-16    28.9736055925761
+       53       9.02492781960581E-16    28.9736055926646
+       54       9.08927249762267E-16    28.9736055927235
+       55       9.03499249741302E-16    28.9736055927632
+       56       9.06613848476543E-16    28.9736055927905
+       57       9.05082501545685E-16    28.9736055928077
+       58       9.04195681457132E-16    28.9736055928208
+       59       9.06961658544059E-16    28.9736055928282
+       60       9.08335846062755E-16    28.9736055928339
+       61       9.07139566474348E-16    28.9736055928375
+       62       9.09200760053832E-16    28.9736055928397
+       63       9.07327478522087E-16    28.9736055928419
+       64       9.04282375623624E-16    28.9736055928432
+       65       9.05492671093973E-16    28.9736055928440
+       66       9.07641039792855E-16    28.9736055928438
+       67       9.06851717613166E-16    28.9736055928450
+       68       9.06604033338136E-16    28.9736055928445
+       69       9.09790177845776E-16    28.9736055928450
+       70       9.02731431803763E-16    28.9736055928455
+       71       9.07225503153817E-16    28.9736055928456
+       72       9.08495941930091E-16    28.9736055928457
+       73       9.04859234859883E-16    28.9736055928458
+       74       9.05502260957556E-16    28.9736055928451
+       75       9.01981070927366E-16    28.9736055928458
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592846E+01
+ Error is    2.8079744160189E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    98.85
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                  1450.19
+ Mop/s/thread    =                   362.55
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:44
+	Energy:	0.0036 kWh
+	CO2eq:	1.7239 g
+	This is equivalent to:
+	0.0160 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:44
+	Energy:	0.0036 kWh
+	CO2eq:	1.7239 g
+	This is equivalent to:
+	0.0160 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 4 Treads_concluida___
+___Execucao_com 6 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:     6
+
+ Initialization time =           3.319 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53104334181285E-13   109.9994423237398
+        2       8.03295567187087E-16    27.3920437146519
+        3       8.54121314524700E-16    28.0339761840269
+        4       8.76349476150836E-16    28.4191507551294
+        5       8.93080923099265E-16    28.6471670038895
+        6       8.97337444010971E-16    28.7812969418413
+        7       8.99104302356123E-16    28.8600458537345
+        8       9.07046111603106E-16    28.9063145572687
+        9       9.09727612617257E-16    28.9335649214617
+       10       9.11340688950863E-16    28.9496695449001
+       11       9.10737740174645E-16    28.9592263353750
+       12       9.10032099395643E-16    28.9649233484894
+       13       9.08308059697295E-16    28.9683359248935
+       14       9.15335482484719E-16    28.9703903960005
+       15       9.06242157612899E-16    28.9716336228371
+       16       9.14646056925473E-16    28.9723898600856
+       17       9.09248532206153E-16    28.9728522692226
+       18       9.11491848245127E-16    28.9731364797773
+       19       9.06548756371046E-16    28.9733120569287
+       20       9.14985699814187E-16    28.9734210663749
+       21       9.14060759405184E-16    28.9734890760554
+       22       9.13308334047136E-16    28.9735317064874
+       23       9.09726474726810E-16    28.9735585497258
+       24       9.14737485621835E-16    28.9735755256647
+       25       9.09017791185385E-16    28.9735863059388
+       26       9.02836776744315E-16    28.9735931787371
+       27       9.15798312806466E-16    28.9735975767371
+       28       9.10888732959301E-16    28.9736004009987
+       29       9.06094501810508E-16    28.9736022206776
+       30       9.08804868861661E-16    28.9736033967632
+       31       9.13577311968413E-16    28.9736041591152
+       32       9.07504235991628E-16    28.9736046546408
+       33       9.12443479786332E-16    28.9736049775617
+       34       9.13678661637428E-16    28.9736051885102
+       35       9.10964647406307E-16    28.9736053266245
+       36       9.05623200789641E-16    28.9736054172456
+       37       9.09402923778648E-16    28.9736054768223
+       38       9.09142504714420E-16    28.9736055160641
+       39       9.08026937563127E-16    28.9736055419569
+       40       9.07792906983416E-16    28.9736055590699
+       41       9.11193309863244E-16    28.9736055703979
+       42       9.09741020881315E-16    28.9736055779078
+       43       9.10044238529891E-16    28.9736055828934
+       44       9.05689033918085E-16    28.9736055862073
+       45       9.10682278477321E-16    28.9736055884127
+       46       9.05250334199213E-16    28.9736055898824
+       47       9.05085490741967E-16    28.9736055908629
+       48       9.09066309603986E-16    28.9736055915178
+       49       9.06826744461832E-16    28.9736055919557
+       50       9.08737982869797E-16    28.9736055922483
+       51       9.06777878542149E-16    28.9736055924446
+       52       9.04016751264004E-16    28.9736055925757
+       53       9.05071637672062E-16    28.9736055926646
+       54       9.08095215291484E-16    28.9736055927237
+       55       9.01949664018067E-16    28.9736055927631
+       56       9.06605301159836E-16    28.9736055927900
+       57       9.04714824516995E-16    28.9736055928079
+       58       9.05008677237827E-16    28.9736055928207
+       59       9.07567572553979E-16    28.9736055928284
+       60       9.09594712086601E-16    28.9736055928341
+       61       9.08716621728292E-16    28.9736055928379
+       62       9.06693061797805E-16    28.9736055928405
+       63       9.05555862363815E-16    28.9736055928418
+       64       9.04928855331700E-16    28.9736055928431
+       65       9.05943034765052E-16    28.9736055928437
+       66       9.08487564354232E-16    28.9736055928442
+       67       9.05959124888413E-16    28.9736055928453
+       68       9.07326199158773E-16    28.9736055928451
+       69       9.09501758289821E-16    28.9736055928451
+       70       9.03312284680826E-16    28.9736055928456
+       71       9.07330974899461E-16    28.9736055928453
+       72       9.08334388964879E-16    28.9736055928451
+       73       9.04216272703997E-16    28.9736055928458
+       74       9.04137559894383E-16    28.9736055928453
+       75       9.00678459681817E-16    28.9736055928458
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592846E+01
+ Error is    2.6117840638080E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    67.92
+ Total threads   =                        6
+ Avail threads   =                        6
+ Mop/s total     =                  2110.58
+ Mop/s/thread    =                   351.76
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:11
+	Energy:	0.0027 kWh
+	CO2eq:	1.2993 g
+	This is equivalent to:
+	0.0121 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:11
+	Energy:	0.0027 kWh
+	CO2eq:	1.2993 g
+	This is equivalent to:
+	0.0121 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 6 Treads_concluida___
+___Execucao_com 8 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:     8
+
+ Initialization time =           2.571 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53163008633458E-13   109.9994423237398
+        2       8.02864878635784E-16    27.3920437146521
+        3       8.53186844702080E-16    28.0339761840268
+        4       8.77121058536316E-16    28.4191507551290
+        5       8.92246290717929E-16    28.6471670038896
+        6       8.96953976698791E-16    28.7812969418416
+        7       8.97943197127671E-16    28.8600458537346
+        8       9.08453217062497E-16    28.9063145572688
+        9       9.08793257237462E-16    28.9335649214618
+       10       9.12049335284385E-16    28.9496695449000
+       11       9.10372812001201E-16    28.9592263353754
+       12       9.10280081323785E-16    28.9649233484894
+       13       9.07987726954831E-16    28.9683359248934
+       14       9.13671600052407E-16    28.9703903960000
+       15       9.07056674820424E-16    28.9716336228371
+       16       9.12581536887416E-16    28.9723898600855
+       17       9.09947508873277E-16    28.9728522692225
+       18       9.11149058912810E-16    28.9731364797776
+       19       9.06283368243088E-16    28.9733120569287
+       20       9.13431910823008E-16    28.9734210663752
+       21       9.12456901282882E-16    28.9734890760551
+       22       9.13602210362288E-16    28.9735317064875
+       23       9.08802676055769E-16    28.9735585497254
+       24       9.15492454781866E-16    28.9735755256648
+       25       9.07906697849118E-16    28.9735863059386
+       26       9.04228956288679E-16    28.9735931787372
+       27       9.15155660839956E-16    28.9735975767370
+       28       9.11163895206438E-16    28.9736004009988
+       29       9.08297862077622E-16    28.9736022206774
+       30       9.09509046925420E-16    28.9736033967633
+       31       9.12429478754491E-16    28.9736041591154
+       32       9.07781957386176E-16    28.9736046546408
+       33       9.14055700938001E-16    28.9736049775619
+       34       9.13376876952425E-16    28.9736051885103
+       35       9.10672596737167E-16    28.9736053266247
+       36       9.06288744902467E-16    28.9736054172456
+       37       9.10539744975731E-16    28.9736054768224
+       38       9.08732065281973E-16    28.9736055160640
+       39       9.09691472795986E-16    28.9736055419571
+       40       9.06373917632743E-16    28.9736055590700
+       41       9.10531068699485E-16    28.9736055703979
+       42       9.09261721698757E-16    28.9736055779077
+       43       9.10758405751091E-16    28.9736055828933
+       44       9.06664230424724E-16    28.9736055862071
+       45       9.08612723415074E-16    28.9736055884130
+       46       9.05216069006790E-16    28.9736055898823
+       47       9.03726682633151E-16    28.9736055908630
+       48       9.09334492568067E-16    28.9736055915178
+       49       9.06989609281382E-16    28.9736055919554
+       50       9.09589054097232E-16    28.9736055922483
+       51       9.06323439700184E-16    28.9736055924445
+       52       9.02443136320106E-16    28.9736055925762
+       53       9.02944089016506E-16    28.9736055926646
+       54       9.09471985993815E-16    28.9736055927238
+       55       9.03273689682806E-16    28.9736055927634
+       56       9.07367128578695E-16    28.9736055927899
+       57       9.05171819666005E-16    28.9736055928082
+       58       9.05273519148249E-16    28.9736055928207
+       59       9.04711432124218E-16    28.9736055928284
+       60       9.09137151397137E-16    28.9736055928340
+       61       9.07135751880763E-16    28.9736055928376
+       62       9.07305266332474E-16    28.9736055928404
+       63       9.08403393713376E-16    28.9736055928418
+       64       9.04373899953290E-16    28.9736055928430
+       65       9.04736722299171E-16    28.9736055928440
+       66       9.09439220478173E-16    28.9736055928442
+       67       9.05111169418632E-16    28.9736055928450
+       68       9.06244910721379E-16    28.9736055928451
+       69       9.09228692460464E-16    28.9736055928452
+       70       9.02134248444736E-16    28.9736055928451
+       71       9.08921472838958E-16    28.9736055928453
+       72       9.08421996308223E-16    28.9736055928455
+       73       9.03476134731890E-16    28.9736055928456
+       74       9.06056521976964E-16    28.9736055928454
+       75       9.01333490921400E-16    28.9736055928456
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592846E+01
+ Error is    2.1213081832807E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    50.70
+ Total threads   =                        8
+ Avail threads   =                        8
+ Mop/s total     =                  2827.30
+ Mop/s/thread    =                   353.41
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:53
+	Energy:	0.0022 kWh
+	CO2eq:	1.0624 g
+	This is equivalent to:
+	0.0099 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:53
+	Energy:	0.0022 kWh
+	CO2eq:	1.0624 g
+	This is equivalent to:
+	0.0099 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 8 Treads_concluida___
+___Execucao_com 10 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    10
+
+ Initialization time =           2.140 seconds
+
+   iteration           ||r||                 zeta
+        1       3.52987636937709E-13   109.9994423237398
+        2       8.05101873094560E-16    27.3920437146521
+        3       8.53837537295398E-16    28.0339761840270
+        4       8.78735981862980E-16    28.4191507551291
+        5       8.92882203848545E-16    28.6471670038895
+        6       8.95787374479391E-16    28.7812969418415
+        7       8.99630307494875E-16    28.8600458537344
+        8       9.07115405490903E-16    28.9063145572688
+        9       9.07410926766045E-16    28.9335649214617
+       10       9.11630362956749E-16    28.9496695449002
+       11       9.11414636374230E-16    28.9592263353751
+       12       9.10546093782239E-16    28.9649233484894
+       13       9.10062439863876E-16    28.9683359248931
+       14       9.15054137950009E-16    28.9703903960003
+       15       9.06426812182415E-16    28.9716336228371
+       16       9.14788820398986E-16    28.9723898600853
+       17       9.09442533031735E-16    28.9728522692225
+       18       9.11733360171846E-16    28.9731364797775
+       19       9.06874762381027E-16    28.9733120569288
+       20       9.15454783387711E-16    28.9734210663746
+       21       9.15404720323267E-16    28.9734890760554
+       22       9.14643958448081E-16    28.9735317064875
+       23       9.09690569473868E-16    28.9735585497255
+       24       9.16274242444680E-16    28.9735755256649
+       25       9.07837370079747E-16    28.9735863059386
+       26       9.01229530151180E-16    28.9735931787370
+       27       9.14965557695873E-16    28.9735975767371
+       28       9.10329178511447E-16    28.9736004009985
+       29       9.06822332264403E-16    28.9736022206773
+       30       9.09833306258282E-16    28.9736033967631
+       31       9.11768803444001E-16    28.9736041591152
+       32       9.08402848606271E-16    28.9736046546408
+       33       9.13565087892527E-16    28.9736049775617
+       34       9.14492217538343E-16    28.9736051885100
+       35       9.11191076846689E-16    28.9736053266247
+       36       9.07202878286456E-16    28.9736054172455
+       37       9.10495970208409E-16    28.9736054768225
+       38       9.07579766913161E-16    28.9736055160642
+       39       9.07635557416746E-16    28.9736055419568
+       40       9.06733438035313E-16    28.9736055590700
+       41       9.08344883414445E-16    28.9736055703981
+       42       9.07952437496975E-16    28.9736055779077
+       43       9.09680654273525E-16    28.9736055828931
+       44       9.05241994354466E-16    28.9736055862071
+       45       9.09325367290412E-16    28.9736055884132
+       46       9.05729179527810E-16    28.9736055898825
+       47       9.06994132042913E-16    28.9736055908628
+       48       9.08274637446100E-16    28.9736055915178
+       49       9.06422810598708E-16    28.9736055919555
+       50       9.11282594999542E-16    28.9736055922482
+       51       9.06505716449035E-16    28.9736055924445
+       52       9.01216741989221E-16    28.9736055925760
+       53       9.03716828821030E-16    28.9736055926643
+       54       9.07492574128071E-16    28.9736055927237
+       55       9.03084524927283E-16    28.9736055927634
+       56       9.07609110739816E-16    28.9736055927903
+       57       9.04469382620350E-16    28.9736055928081
+       58       9.05815021290655E-16    28.9736055928205
+       59       9.05797618697080E-16    28.9736055928285
+       60       9.08166265102617E-16    28.9736055928342
+       61       9.06837834813344E-16    28.9736055928379
+       62       9.06889056963926E-16    28.9736055928402
+       63       9.07590835920758E-16    28.9736055928421
+       64       9.02861723144951E-16    28.9736055928431
+       65       9.08637534686762E-16    28.9736055928437
+       66       9.11034631525673E-16    28.9736055928445
+       67       9.07124805284929E-16    28.9736055928450
+       68       9.07956258773950E-16    28.9736055928450
+       69       9.09435644958703E-16    28.9736055928451
+       70       9.01933403805134E-16    28.9736055928453
+       71       9.09476887390494E-16    28.9736055928452
+       72       9.05826369376219E-16    28.9736055928453
+       73       9.04921885000857E-16    28.9736055928457
+       74       9.06595363967172E-16    28.9736055928455
+       75       9.01957374524545E-16    28.9736055928456
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592846E+01
+ Error is    1.9251178310697E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    42.38
+ Total threads   =                       10
+ Avail threads   =                       10
+ Mop/s total     =                  3382.34
+ Mop/s/thread    =                   338.23
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:45
+	Energy:	0.0020 kWh
+	CO2eq:	0.9696 g
+	This is equivalent to:
+	0.0090 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:45
+	Energy:	0.0020 kWh
+	CO2eq:	0.9696 g
+	This is equivalent to:
+	0.0090 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 10 Treads_concluida___
+___Execucao_com 12 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    12
+
+ Initialization time =           1.790 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53256846550746E-13   109.9994423237398
+        2       8.04249449569712E-16    27.3920437146522
+        3       8.52463926168406E-16    28.0339761840268
+        4       8.77286098770727E-16    28.4191507551292
+        5       8.92117401371683E-16    28.6471670038897
+        6       8.95573400162580E-16    28.7812969418413
+        7       9.00567537145328E-16    28.8600458537346
+        8       9.07205947553100E-16    28.9063145572688
+        9       9.07834296878326E-16    28.9335649214618
+       10       9.12034869444830E-16    28.9496695449002
+       11       9.10453474359145E-16    28.9592263353752
+       12       9.08588269675477E-16    28.9649233484892
+       13       9.10145791930126E-16    28.9683359248932
+       14       9.13647206528069E-16    28.9703903960004
+       15       9.05008136986291E-16    28.9716336228372
+       16       9.13609493224317E-16    28.9723898600853
+       17       9.10169848657988E-16    28.9728522692227
+       18       9.12090227146463E-16    28.9731364797775
+       19       9.06227715006034E-16    28.9733120569286
+       20       9.15470404185564E-16    28.9734210663749
+       21       9.14148764698739E-16    28.9734890760552
+       22       9.13923235650848E-16    28.9735317064876
+       23       9.09673820903614E-16    28.9735585497254
+       24       9.14697849034683E-16    28.9735755256647
+       25       9.09073321296607E-16    28.9735863059384
+       26       9.01872462460906E-16    28.9735931787371
+       27       9.16068393381430E-16    28.9735975767373
+       28       9.10562823080830E-16    28.9736004009987
+       29       9.07024997354304E-16    28.9736022206774
+       30       9.08764784342726E-16    28.9736033967632
+       31       9.12572422341746E-16    28.9736041591150
+       32       9.06565526207919E-16    28.9736046546407
+       33       9.14476889739318E-16    28.9736049775618
+       34       9.14572698527403E-16    28.9736051885102
+       35       9.10073001572803E-16    28.9736053266247
+       36       9.07054300000550E-16    28.9736054172453
+       37       9.09391203859191E-16    28.9736054768225
+       38       9.08075580928961E-16    28.9736055160641
+       39       9.06986701693127E-16    28.9736055419568
+       40       9.07346066738777E-16    28.9736055590698
+       41       9.09136154995407E-16    28.9736055703979
+       42       9.07950765354517E-16    28.9736055779078
+       43       9.09688059388567E-16    28.9736055828932
+       44       9.06156787642710E-16    28.9736055862071
+       45       9.11209236728375E-16    28.9736055884130
+       46       9.04493200032113E-16    28.9736055898825
+       47       9.05807438923758E-16    28.9736055908629
+       48       9.08098667856618E-16    28.9736055915177
+       49       9.07245962875374E-16    28.9736055919554
+       50       9.10576162567996E-16    28.9736055922483
+       51       9.06598176375951E-16    28.9736055924446
+       52       9.02551778679544E-16    28.9736055925760
+       53       9.03438475418309E-16    28.9736055926644
+       54       9.07266783701143E-16    28.9736055927235
+       55       9.02839838475757E-16    28.9736055927634
+       56       9.06193248819415E-16    28.9736055927902
+       57       9.03925797505454E-16    28.9736055928082
+       58       9.06542458181058E-16    28.9736055928203
+       59       9.05568409548018E-16    28.9736055928286
+       60       9.09977023401714E-16    28.9736055928342
+       61       9.07661108908453E-16    28.9736055928377
+       62       9.06947581797117E-16    28.9736055928403
+       63       9.07682240736469E-16    28.9736055928420
+       64       9.03866074395870E-16    28.9736055928430
+       65       9.09003469056637E-16    28.9736055928438
+       66       9.11145024447382E-16    28.9736055928444
+       67       9.05550837518881E-16    28.9736055928449
+       68       9.08017043842855E-16    28.9736055928449
+       69       9.08968103452197E-16    28.9736055928454
+       70       9.02806443681122E-16    28.9736055928454
+       71       9.09559548788352E-16    28.9736055928454
+       72       9.07141234442872E-16    28.9736055928454
+       73       9.04245597307694E-16    28.9736055928457
+       74       9.04693204748543E-16    28.9736055928455
+       75       9.00817819914478E-16    28.9736055928455
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592846E+01
+ Error is    1.7779750669115E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    32.28
+ Total threads   =                       12
+ Avail threads   =                       12
+ Mop/s total     =                  4441.06
+ Mop/s/thread    =                   370.09
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:34
+	Energy:	0.0020 kWh
+	CO2eq:	0.9577 g
+	This is equivalent to:
+	0.0089 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:34
+	Energy:	0.0020 kWh
+	CO2eq:	0.9577 g
+	This is equivalent to:
+	0.0089 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 12 Treads_concluida___
+___Execucao_com 14 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    14
+
+ Initialization time =           1.554 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53368990119531E-13   109.9994423237398
+        2       8.04390102056105E-16    27.3920437146522
+        3       8.53686497863296E-16    28.0339761840270
+        4       8.77451027582471E-16    28.4191507551292
+        5       8.92130920310603E-16    28.6471670038896
+        6       8.96543428066574E-16    28.7812969418413
+        7       8.99749785398777E-16    28.8600458537346
+        8       9.08151177994648E-16    28.9063145572688
+        9       9.08228038369022E-16    28.9335649214618
+       10       9.12515045267267E-16    28.9496695449000
+       11       9.11046113377269E-16    28.9592263353753
+       12       9.09338716851037E-16    28.9649233484893
+       13       9.08629108285479E-16    28.9683359248931
+       14       9.14408833426252E-16    28.9703903960002
+       15       9.05601165028979E-16    28.9716336228372
+       16       9.14904539265949E-16    28.9723898600853
+       17       9.10218860987125E-16    28.9728522692228
+       18       9.11084542818954E-16    28.9731364797776
+       19       9.06986821172143E-16    28.9733120569286
+       20       9.14710004158899E-16    28.9734210663748
+       21       9.14067967079785E-16    28.9734890760553
+       22       9.14415947567829E-16    28.9735317064875
+       23       9.09553882098965E-16    28.9735585497253
+       24       9.15279170007201E-16    28.9735755256646
+       25       9.08834222848458E-16    28.9735863059385
+       26       9.02504929700670E-16    28.9735931787372
+       27       9.16027214729453E-16    28.9735975767371
+       28       9.10744302985905E-16    28.9736004009987
+       29       9.05790087689191E-16    28.9736022206773
+       30       9.09205843107865E-16    28.9736033967630
+       31       9.12473077430412E-16    28.9736041591151
+       32       9.07654719281741E-16    28.9736046546408
+       33       9.14348335878462E-16    28.9736049775619
+       34       9.12694593079070E-16    28.9736051885102
+       35       9.11055892352459E-16    28.9736053266249
+       36       9.06131288999542E-16    28.9736054172454
+       37       9.07459250164541E-16    28.9736054768227
+       38       9.07901287883180E-16    28.9736055160640
+       39       9.07734907294050E-16    28.9736055419569
+       40       9.07076993369576E-16    28.9736055590698
+       41       9.08624188165690E-16    28.9736055703980
+       42       9.08649520231686E-16    28.9736055779078
+       43       9.09194459225289E-16    28.9736055828931
+       44       9.06107244239373E-16    28.9736055862071
+       45       9.10285504189766E-16    28.9736055884129
+       46       9.04971740094265E-16    28.9736055898824
+       47       9.05182367826061E-16    28.9736055908631
+       48       9.08222477025902E-16    28.9736055915178
+       49       9.06005901481540E-16    28.9736055919554
+       50       9.09631874630680E-16    28.9736055922483
+       51       9.05496948593792E-16    28.9736055924444
+       52       9.02219350033365E-16    28.9736055925760
+       53       9.03285377547133E-16    28.9736055926644
+       54       9.07640760130148E-16    28.9736055927235
+       55       9.03369468777367E-16    28.9736055927634
+       56       9.07745598871515E-16    28.9736055927901
+       57       9.03676255200913E-16    28.9736055928082
+       58       9.05130119303438E-16    28.9736055928204
+       59       9.05282223089681E-16    28.9736055928284
+       60       9.09463400104919E-16    28.9736055928341
+       61       9.07673412496076E-16    28.9736055928378
+       62       9.07641984007987E-16    28.9736055928403
+       63       9.05457995175540E-16    28.9736055928421
+       64       9.03238511714670E-16    28.9736055928431
+       65       9.09568788837108E-16    28.9736055928438
+       66       9.10341149451104E-16    28.9736055928444
+       67       9.05263071061785E-16    28.9736055928447
+       68       9.06831690537174E-16    28.9736055928451
+       69       9.09716006713991E-16    28.9736055928453
+       70       9.02712787223250E-16    28.9736055928453
+       71       9.09102510643949E-16    28.9736055928454
+       72       9.07650887831483E-16    28.9736055928452
+       73       9.04612817766517E-16    28.9736055928456
+       74       9.05339270180413E-16    28.9736055928455
+       75       9.02126625368279E-16    28.9736055928455
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592846E+01
+ Error is    1.7779750669115E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    27.83
+ Total threads   =                       14
+ Avail threads   =                       14
+ Mop/s total     =                  5150.47
+ Mop/s/thread    =                   367.89
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:29
+	Energy:	0.0018 kWh
+	CO2eq:	0.8571 g
+	This is equivalent to:
+	0.0080 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:29
+	Energy:	0.0018 kWh
+	CO2eq:	0.8571 g
+	This is equivalent to:
+	0.0080 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 14 Treads_concluida___
+___Execucao_com 16 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    16
+
+ Initialization time =           1.380 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53142992002531E-13   109.9994423237398
+        2       8.04285696536365E-16    27.3920437146521
+        3       8.54126874603391E-16    28.0339761840268
+        4       8.78476026261369E-16    28.4191507551292
+        5       8.92924936958696E-16    28.6471670038896
+        6       8.96020215582034E-16    28.7812969418414
+        7       8.99310084121022E-16    28.8600458537346
+        8       9.08656176553501E-16    28.9063145572686
+        9       9.08916018393830E-16    28.9335649214616
+       10       9.11500610082897E-16    28.9496695449000
+       11       9.11848495916042E-16    28.9592263353752
+       12       9.09304471194796E-16    28.9649233484893
+       13       9.09987707609096E-16    28.9683359248931
+       14       9.14497056278088E-16    28.9703903960004
+       15       9.06674053824844E-16    28.9716336228373
+       16       9.13951636265171E-16    28.9723898600854
+       17       9.09104328153610E-16    28.9728522692227
+       18       9.11104565516066E-16    28.9731364797775
+       19       9.07058829729188E-16    28.9733120569286
+       20       9.14598761900073E-16    28.9734210663751
+       21       9.15540811436134E-16    28.9734890760554
+       22       9.13702151347555E-16    28.9735317064875
+       23       9.10144526618642E-16    28.9735585497254
+       24       9.14765781043933E-16    28.9735755256647
+       25       9.09681482899929E-16    28.9735863059385
+       26       9.02098150545581E-16    28.9735931787372
+       27       9.15470926626404E-16    28.9735975767372
+       28       9.10082448721011E-16    28.9736004009988
+       29       9.06584219595112E-16    28.9736022206774
+       30       9.08327395024302E-16    28.9736033967630
+       31       9.12857991263080E-16    28.9736041591151
+       32       9.06592427156416E-16    28.9736046546406
+       33       9.13527195877014E-16    28.9736049775619
+       34       9.15209719173542E-16    28.9736051885101
+       35       9.10919037233142E-16    28.9736053266248
+       36       9.05523256558370E-16    28.9736054172454
+       37       9.09622701048671E-16    28.9736054768225
+       38       9.08050418939710E-16    28.9736055160641
+       39       9.08555469055588E-16    28.9736055419569
+       40       9.04337566492931E-16    28.9736055590700
+       41       9.09489062208219E-16    28.9736055703981
+       42       9.07552048470260E-16    28.9736055779079
+       43       9.10500666384794E-16    28.9736055828934
+       44       9.05254110071929E-16    28.9736055862072
+       45       9.11540228126627E-16    28.9736055884129
+       46       9.05619636569590E-16    28.9736055898825
+       47       9.05807294956719E-16    28.9736055908631
+       48       9.09103106244447E-16    28.9736055915178
+       49       9.06509821810040E-16    28.9736055919556
+       50       9.09690743515884E-16    28.9736055922482
+       51       9.05407444675659E-16    28.9736055924445
+       52       9.03507244228835E-16    28.9736055925760
+       53       9.02601574218242E-16    28.9736055926644
+       54       9.09674187973425E-16    28.9736055927237
+       55       9.05840047476872E-16    28.9736055927636
+       56       9.06577195539504E-16    28.9736055927902
+       57       9.03009460485457E-16    28.9736055928082
+       58       9.04714892730148E-16    28.9736055928203
+       59       9.06498621680057E-16    28.9736055928286
+       60       9.09390257016890E-16    28.9736055928341
+       61       9.06258886103906E-16    28.9736055928377
+       62       9.06751992246197E-16    28.9736055928404
+       63       9.07300741478040E-16    28.9736055928420
+       64       9.03324802436662E-16    28.9736055928430
+       65       9.07910037438055E-16    28.9736055928438
+       66       9.10216891536808E-16    28.9736055928444
+       67       9.05955513333003E-16    28.9736055928449
+       68       9.07449269698273E-16    28.9736055928450
+       69       9.09257903080150E-16    28.9736055928453
+       70       9.02057360367912E-16    28.9736055928452
+       71       9.08290756636950E-16    28.9736055928453
+       72       9.08183263130058E-16    28.9736055928454
+       73       9.05025138722024E-16    28.9736055928454
+       74       9.05053260475663E-16    28.9736055928455
+       75       9.02158893820192E-16    28.9736055928454
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592845E+01
+ Error is    1.5327371266479E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    24.35
+ Total threads   =                       16
+ Avail threads   =                       16
+ Mop/s total     =                  5887.32
+ Mop/s/thread    =                   367.96
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:26
+	Energy:	0.0017 kWh
+	CO2eq:	0.7888 g
+	This is equivalent to:
+	0.0073 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:26
+	Energy:	0.0017 kWh
+	CO2eq:	0.7888 g
+	This is equivalent to:
+	0.0073 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 16 Treads_concluida___
+___Execucao_com 18 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    18
+
+ Initialization time =           1.334 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53099255119124E-13   109.9994423237398
+        2       8.03255177994054E-16    27.3920437146522
+        3       8.54659813553454E-16    28.0339761840269
+        4       8.77542147168454E-16    28.4191507551292
+        5       8.93409931604263E-16    28.6471670038897
+        6       8.95802524243620E-16    28.7812969418413
+        7       8.99469491277361E-16    28.8600458537346
+        8       9.07913742773267E-16    28.9063145572687
+        9       9.07153182255925E-16    28.9335649214618
+       10       9.11888388887838E-16    28.9496695448999
+       11       9.10394678600790E-16    28.9592263353751
+       12       9.08824320940346E-16    28.9649233484892
+       13       9.09125693923491E-16    28.9683359248930
+       14       9.14431465998466E-16    28.9703903960003
+       15       9.06513530842448E-16    28.9716336228372
+       16       9.12944430994793E-16    28.9723898600854
+       17       9.10055648110886E-16    28.9728522692227
+       18       9.09997071678636E-16    28.9731364797775
+       19       9.06797259054731E-16    28.9733120569286
+       20       9.15043054044476E-16    28.9734210663749
+       21       9.14161689404789E-16    28.9734890760553
+       22       9.12904734261697E-16    28.9735317064876
+       23       9.09110701934895E-16    28.9735585497254
+       24       9.13098486498366E-16    28.9735755256646
+       25       9.10197221417947E-16    28.9735863059385
+       26       9.02841256430257E-16    28.9735931787372
+       27       9.13757370251916E-16    28.9735975767372
+       28       9.11126119834077E-16    28.9736004009987
+       29       9.07141474575014E-16    28.9736022206775
+       30       9.08843600419419E-16    28.9736033967633
+       31       9.12869649370675E-16    28.9736041591152
+       32       9.07052259286623E-16    28.9736046546407
+       33       9.14028482713071E-16    28.9736049775618
+       34       9.13066409133906E-16    28.9736051885102
+       35       9.09748136395500E-16    28.9736053266248
+       36       9.07060072616354E-16    28.9736054172453
+       37       9.08365853347507E-16    28.9736054768226
+       38       9.08236977701707E-16    28.9736055160641
+       39       9.08218819868106E-16    28.9736055419569
+       40       9.06239965091637E-16    28.9736055590699
+       41       9.09770810618465E-16    28.9736055703980
+       42       9.07689153042259E-16    28.9736055779077
+       43       9.10918466209382E-16    28.9736055828931
+       44       9.04356906690155E-16    28.9736055862071
+       45       9.09255677834573E-16    28.9736055884128
+       46       9.05028413854375E-16    28.9736055898824
+       47       9.05756105721360E-16    28.9736055908630
+       48       9.09041757343259E-16    28.9736055915176
+       49       9.05750221781092E-16    28.9736055919555
+       50       9.10628065134843E-16    28.9736055922482
+       51       9.05602473195411E-16    28.9736055924447
+       52       9.03718334824764E-16    28.9736055925761
+       53       9.04840384043386E-16    28.9736055926642
+       54       9.06780781533620E-16    28.9736055927236
+       55       9.04152591277921E-16    28.9736055927634
+       56       9.07784323018612E-16    28.9736055927901
+       57       9.04347306305808E-16    28.9736055928082
+       58       9.06092837996319E-16    28.9736055928203
+       59       9.05847017230990E-16    28.9736055928285
+       60       9.07942480658447E-16    28.9736055928340
+       61       9.06618383242052E-16    28.9736055928378
+       62       9.07892722745915E-16    28.9736055928402
+       63       9.06808619964042E-16    28.9736055928421
+       64       9.04487321278677E-16    28.9736055928432
+       65       9.07832789609837E-16    28.9736055928439
+       66       9.12552443122715E-16    28.9736055928444
+       67       9.07606420456343E-16    28.9736055928448
+       68       9.07087453365237E-16    28.9736055928450
+       69       9.09440920581856E-16    28.9736055928454
+       70       9.02052311962426E-16    28.9736055928453
+       71       9.08740170172544E-16    28.9736055928452
+       72       9.07541792974206E-16    28.9736055928453
+       73       9.04806511751643E-16    28.9736055928455
+       74       9.04596672833936E-16    28.9736055928456
+       75       9.02456747248218E-16    28.9736055928455
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592846E+01
+ Error is    1.7289274788588E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    22.28
+ Total threads   =                       18
+ Avail threads   =                       18
+ Mop/s total     =                  6432.61
+ Mop/s/thread    =                   357.37
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:24
+	Energy:	0.0016 kWh
+	CO2eq:	0.7616 g
+	This is equivalent to:
+	0.0071 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:24
+	Energy:	0.0016 kWh
+	CO2eq:	0.7616 g
+	This is equivalent to:
+	0.0071 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 18 Treads_concluida___
+___Execucao_com 20 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    20
+
+ Initialization time =           1.197 seconds
+
+   iteration           ||r||                 zeta
+        1       3.52855444023359E-13   109.9994423237398
+        2       8.06287034003703E-16    27.3920437146522
+        3       8.54149114556220E-16    28.0339761840269
+        4       8.78489300176095E-16    28.4191507551291
+        5       8.92867873449044E-16    28.6471670038896
+        6       8.94728986237702E-16    28.7812969418413
+        7       8.99646744895567E-16    28.8600458537346
+        8       9.07944114785027E-16    28.9063145572687
+        9       9.09253598832967E-16    28.9335649214618
+       10       9.11692036486548E-16    28.9496695448999
+       11       9.10123466895412E-16    28.9592263353751
+       12       9.09720803020266E-16    28.9649233484894
+       13       9.09138589834043E-16    28.9683359248931
+       14       9.14062473016383E-16    28.9703903960003
+       15       9.06181050395495E-16    28.9716336228372
+       16       9.13179060553019E-16    28.9723898600854
+       17       9.08121131255707E-16    28.9728522692226
+       18       9.11638624212133E-16    28.9731364797776
+       19       9.06351885533247E-16    28.9733120569286
+       20       9.14567072539428E-16    28.9734210663748
+       21       9.13591771880818E-16    28.9734890760554
+       22       9.13442838136347E-16    28.9735317064875
+       23       9.08644510473444E-16    28.9735585497255
+       24       9.13433837549643E-16    28.9735755256646
+       25       9.09031394594275E-16    28.9735863059385
+       26       9.02853957704142E-16    28.9735931787371
+       27       9.15292976143493E-16    28.9735975767372
+       28       9.11704256263186E-16    28.9736004009988
+       29       9.06257944906480E-16    28.9736022206774
+       30       9.08507408154410E-16    28.9736033967631
+       31       9.12754060084277E-16    28.9736041591151
+       32       9.07709631450931E-16    28.9736046546408
+       33       9.13695175176555E-16    28.9736049775619
+       34       9.14733642073739E-16    28.9736051885101
+       35       9.11067210640266E-16    28.9736053266249
+       36       9.07069972724871E-16    28.9736054172454
+       37       9.06991554553568E-16    28.9736054768225
+       38       9.08188101507172E-16    28.9736055160641
+       39       9.07929874844850E-16    28.9736055419568
+       40       9.06493803867480E-16    28.9736055590698
+       41       9.09157798809434E-16    28.9736055703980
+       42       9.08814634362453E-16    28.9736055779078
+       43       9.11132830633695E-16    28.9736055828932
+       44       9.05634505849563E-16    28.9736055862071
+       45       9.09858955102425E-16    28.9736055884128
+       46       9.05186804655829E-16    28.9736055898826
+       47       9.04725963494377E-16    28.9736055908630
+       48       9.09333167956217E-16    28.9736055915177
+       49       9.06813671056796E-16    28.9736055919554
+       50       9.08693019312380E-16    28.9736055922483
+       51       9.05962760757710E-16    28.9736055924446
+       52       9.02567511273501E-16    28.9736055925761
+       53       9.04620340301946E-16    28.9736055926643
+       54       9.07228227364230E-16    28.9736055927235
+       55       9.03651400799389E-16    28.9736055927634
+       56       9.07562641417508E-16    28.9736055927901
+       57       9.03060859919847E-16    28.9736055928082
+       58       9.06228256151923E-16    28.9736055928204
+       59       9.06027936318222E-16    28.9736055928285
+       60       9.09489784379860E-16    28.9736055928340
+       61       9.07661918738219E-16    28.9736055928378
+       62       9.07068916140677E-16    28.9736055928403
+       63       9.07178216878451E-16    28.9736055928419
+       64       9.04237029636276E-16    28.9736055928431
+       65       9.07191006038559E-16    28.9736055928439
+       66       9.09675095753793E-16    28.9736055928443
+       67       9.07082878827792E-16    28.9736055928449
+       68       9.07146966821147E-16    28.9736055928451
+       69       9.09255594609959E-16    28.9736055928454
+       70       9.01492309652405E-16    28.9736055928454
+       71       9.09319427266765E-16    28.9736055928452
+       72       9.07998013420296E-16    28.9736055928454
+       73       9.04224526133985E-16    28.9736055928455
+       74       9.05022484593804E-16    28.9736055928454
+       75       9.03668749196548E-16    28.9736055928455
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592845E+01
+ Error is    1.6798798908061E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    20.25
+ Total threads   =                       20
+ Avail threads   =                       20
+ Mop/s total     =                  7078.69
+ Mop/s/thread    =                   353.93
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:21
+	Energy:	0.0015 kWh
+	CO2eq:	0.7085 g
+	This is equivalent to:
+	0.0066 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:21
+	Energy:	0.0015 kWh
+	CO2eq:	0.7085 g
+	This is equivalent to:
+	0.0066 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 20 Treads_concluida___
+___Execucao_com 22 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    22
+
+ Initialization time =           1.508 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53220242608529E-13   109.9994423237398
+        2       8.04009125937408E-16    27.3920437146521
+        3       8.54346881537807E-16    28.0339761840269
+        4       8.78931185652104E-16    28.4191507551292
+        5       8.93044673560619E-16    28.6471670038895
+        6       8.95540270520502E-16    28.7812969418413
+        7       9.00182866782605E-16    28.8600458537346
+        8       9.07690827690155E-16    28.9063145572687
+        9       9.08559806529235E-16    28.9335649214617
+       10       9.10726962718663E-16    28.9496695448999
+       11       9.11348320004124E-16    28.9592263353752
+       12       9.09021708202434E-16    28.9649233484893
+       13       9.08267582783493E-16    28.9683359248931
+       14       9.16081925775389E-16    28.9703903960003
+       15       9.07460758863073E-16    28.9716336228372
+       16       9.13167035500407E-16    28.9723898600854
+       17       9.09308535237396E-16    28.9728522692227
+       18       9.12595715917303E-16    28.9731364797775
+       19       9.05502535601250E-16    28.9733120569286
+       20       9.14661690731708E-16    28.9734210663748
+       21       9.16013531945881E-16    28.9734890760554
+       22       9.14479854654914E-16    28.9735317064876
+       23       9.09958840947427E-16    28.9735585497254
+       24       9.15488392912060E-16    28.9735755256647
+       25       9.09840800569371E-16    28.9735863059384
+       26       9.02909018632357E-16    28.9735931787371
+       27       9.15730091548350E-16    28.9735975767372
+       28       9.11129650821497E-16    28.9736004009986
+       29       9.07628469455897E-16    28.9736022206772
+       30       9.10095953068462E-16    28.9736033967631
+       31       9.11966186200349E-16    28.9736041591153
+       32       9.07460601799860E-16    28.9736046546408
+       33       9.14082473482896E-16    28.9736049775618
+       34       9.11796945639941E-16    28.9736051885101
+       35       9.10433128276931E-16    28.9736053266250
+       36       9.07924605816173E-16    28.9736054172453
+       37       9.07577948778923E-16    28.9736054768225
+       38       9.09754019109469E-16    28.9736055160641
+       39       9.07867024826177E-16    28.9736055419568
+       40       9.06628924701424E-16    28.9736055590698
+       41       9.09100972748322E-16    28.9736055703980
+       42       9.08630133138631E-16    28.9736055779077
+       43       9.09534169369926E-16    28.9736055828932
+       44       9.06502772053708E-16    28.9736055862072
+       45       9.09363282907614E-16    28.9736055884127
+       46       9.05908809560259E-16    28.9736055898825
+       47       9.05499175368468E-16    28.9736055908631
+       48       9.09744084007568E-16    28.9736055915177
+       49       9.05030200986289E-16    28.9736055919555
+       50       9.09130927302904E-16    28.9736055922484
+       51       9.05750611124888E-16    28.9736055924444
+       52       9.02366761032114E-16    28.9736055925761
+       53       9.03527061210683E-16    28.9736055926643
+       54       9.08294940073488E-16    28.9736055927236
+       55       9.04356237692696E-16    28.9736055927635
+       56       9.06296177326614E-16    28.9736055927902
+       57       9.04626926783627E-16    28.9736055928082
+       58       9.05836551022158E-16    28.9736055928204
+       59       9.05469340027494E-16    28.9736055928285
+       60       9.08487650479615E-16    28.9736055928339
+       61       9.06664703243625E-16    28.9736055928377
+       62       9.07090345646750E-16    28.9736055928403
+       63       9.06671893950031E-16    28.9736055928420
+       64       9.04145463011533E-16    28.9736055928432
+       65       9.06600507009781E-16    28.9736055928439
+       66       9.09957000923039E-16    28.9736055928445
+       67       9.06493649878600E-16    28.9736055928448
+       68       9.07122522567754E-16    28.9736055928450
+       69       9.10517311794981E-16    28.9736055928453
+       70       9.02318227601626E-16    28.9736055928453
+       71       9.08947475979227E-16    28.9736055928454
+       72       9.07255747180353E-16    28.9736055928453
+       73       9.05121916339379E-16    28.9736055928455
+       74       9.04948503167678E-16    28.9736055928454
+       75       9.02809085607343E-16    28.9736055928454
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592845E+01
+ Error is    1.4836895385952E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    28.46
+ Total threads   =                       22
+ Avail threads   =                       22
+ Mop/s total     =                  5037.00
+ Mop/s/thread    =                   228.95
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:30
+	Energy:	0.0020 kWh
+	CO2eq:	0.9466 g
+	This is equivalent to:
+	0.0088 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:30
+	Energy:	0.0020 kWh
+	CO2eq:	0.9466 g
+	This is equivalent to:
+	0.0088 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 22 Treads_concluida___
+___Execucao_com 24 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    24
+
+ Initialization time =           1.455 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53155714125155E-13   109.9994423237398
+        2       8.03193009789187E-16    27.3920437146521
+        3       8.54000717971223E-16    28.0339761840268
+        4       8.78340305030940E-16    28.4191507551291
+        5       8.92778239053019E-16    28.6471670038896
+        6       8.95973864742072E-16    28.7812969418413
+        7       8.99108636396535E-16    28.8600458537347
+        8       9.07263519888207E-16    28.9063145572687
+        9       9.08527803831510E-16    28.9335649214616
+       10       9.11356834526689E-16    28.9496695448999
+       11       9.10145263607299E-16    28.9592263353752
+       12       9.09403717515578E-16    28.9649233484893
+       13       9.10032752110835E-16    28.9683359248931
+       14       9.13776346256073E-16    28.9703903960005
+       15       9.07207310903435E-16    28.9716336228373
+       16       9.13548908563307E-16    28.9723898600855
+       17       9.10000772956269E-16    28.9728522692227
+       18       9.11014321406413E-16    28.9731364797775
+       19       9.06107288428707E-16    28.9733120569286
+       20       9.14779379690454E-16    28.9734210663749
+       21       9.14573944056294E-16    28.9734890760553
+       22       9.13364669096721E-16    28.9735317064875
+       23       9.09462525233955E-16    28.9735585497254
+       24       9.15542769835243E-16    28.9735755256646
+       25       9.08682713224994E-16    28.9735863059384
+       26       9.02626709848849E-16    28.9735931787371
+       27       9.15056868560524E-16    28.9735975767372
+       28       9.11621166772200E-16    28.9736004009987
+       29       9.06588521928921E-16    28.9736022206773
+       30       9.08513645011274E-16    28.9736033967631
+       31       9.11990101058905E-16    28.9736041591152
+       32       9.07087017618861E-16    28.9736046546409
+       33       9.14354948303536E-16    28.9736049775619
+       34       9.13950967056206E-16    28.9736051885102
+       35       9.09148613574998E-16    28.9736053266248
+       36       9.06218201730125E-16    28.9736054172454
+       37       9.06283597253354E-16    28.9736054768226
+       38       9.08187578517141E-16    28.9736055160642
+       39       9.06532248804393E-16    28.9736055419567
+       40       9.07055071898688E-16    28.9736055590699
+       41       9.08675457174547E-16    28.9736055703981
+       42       9.08643627132801E-16    28.9736055779078
+       43       9.09312747925603E-16    28.9736055828932
+       44       9.05560283165826E-16    28.9736055862071
+       45       9.10579714245120E-16    28.9736055884128
+       46       9.05667972396619E-16    28.9736055898825
+       47       9.05910518316866E-16    28.9736055908630
+       48       9.08881520775955E-16    28.9736055915177
+       49       9.06435021169006E-16    28.9736055919553
+       50       9.09884488969733E-16    28.9736055922484
+       51       9.07069339746447E-16    28.9736055924446
+       52       9.04113743271373E-16    28.9736055925761
+       53       9.04488213145905E-16    28.9736055926643
+       54       9.07004088761996E-16    28.9736055927236
+       55       9.04496449879961E-16    28.9736055927634
+       56       9.06182135174924E-16    28.9736055927902
+       57       9.02402294569656E-16    28.9736055928083
+       58       9.05641639837212E-16    28.9736055928203
+       59       9.05636879525106E-16    28.9736055928285
+       60       9.08742378490047E-16    28.9736055928340
+       61       9.06901765951054E-16    28.9736055928378
+       62       9.07088337816345E-16    28.9736055928403
+       63       9.08181352768913E-16    28.9736055928420
+       64       9.04676716516043E-16    28.9736055928430
+       65       9.08138064194417E-16    28.9736055928439
+       66       9.09963208871068E-16    28.9736055928444
+       67       9.04992780475506E-16    28.9736055928448
+       68       9.05449231257172E-16    28.9736055928450
+       69       9.09847246305820E-16    28.9736055928453
+       70       9.00835786839731E-16    28.9736055928452
+       71       9.08054471199775E-16    28.9736055928454
+       72       9.08120683465580E-16    28.9736055928454
+       73       9.03202526276498E-16    28.9736055928455
+       74       9.05600367553570E-16    28.9736055928455
+       75       9.02503378934444E-16    28.9736055928454
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592845E+01
+ Error is    1.4836895385952E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    26.76
+ Total threads   =                       24
+ Avail threads   =                       24
+ Mop/s total     =                  5357.77
+ Mop/s/thread    =                   223.24
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:28
+	Energy:	0.0019 kWh
+	CO2eq:	0.8979 g
+	This is equivalent to:
+	0.0084 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:28
+	Energy:	0.0019 kWh
+	CO2eq:	0.8979 g
+	This is equivalent to:
+	0.0084 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 24 Treads_concluida___
+___Execucao_com 26 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    26
+
+ Initialization time =           1.393 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53277571982048E-13   109.9994423237398
+        2       8.03925141912860E-16    27.3920437146522
+        3       8.53474364192914E-16    28.0339761840268
+        4       8.77002257516680E-16    28.4191507551292
+        5       8.92272771170793E-16    28.6471670038896
+        6       8.96527300894030E-16    28.7812969418413
+        7       9.00928538347850E-16    28.8600458537346
+        8       9.08051607070545E-16    28.9063145572686
+        9       9.07984753786159E-16    28.9335649214616
+       10       9.11903606314878E-16    28.9496695448999
+       11       9.11014714145591E-16    28.9592263353752
+       12       9.10148912217052E-16    28.9649233484892
+       13       9.09366866386721E-16    28.9683359248931
+       14       9.14571775123884E-16    28.9703903960004
+       15       9.07217409026167E-16    28.9716336228372
+       16       9.14050787120917E-16    28.9723898600854
+       17       9.10021493616405E-16    28.9728522692227
+       18       9.11357703548472E-16    28.9731364797775
+       19       9.06493033922816E-16    28.9733120569285
+       20       9.14813795040519E-16    28.9734210663749
+       21       9.15289931988605E-16    28.9734890760553
+       22       9.13259060351982E-16    28.9735317064876
+       23       9.09652002395708E-16    28.9735585497254
+       24       9.14533751698264E-16    28.9735755256647
+       25       9.08813609313160E-16    28.9735863059384
+       26       9.04657521621113E-16    28.9735931787373
+       27       9.15556888561155E-16    28.9735975767372
+       28       9.11413588857185E-16    28.9736004009987
+       29       9.06818492841203E-16    28.9736022206773
+       30       9.09866208174358E-16    28.9736033967631
+       31       9.11984186447346E-16    28.9736041591152
+       32       9.08638690516260E-16    28.9736046546408
+       33       9.15044064889378E-16    28.9736049775618
+       34       9.11640424980183E-16    28.9736051885102
+       35       9.10001403088305E-16    28.9736053266249
+       36       9.05935026495233E-16    28.9736054172454
+       37       9.08250497759542E-16    28.9736054768227
+       38       9.07497082239364E-16    28.9736055160640
+       39       9.07576106356007E-16    28.9736055419568
+       40       9.06917387845479E-16    28.9736055590699
+       41       9.09404251116453E-16    28.9736055703981
+       42       9.08404816732533E-16    28.9736055779078
+       43       9.09891883947745E-16    28.9736055828932
+       44       9.06884013987182E-16    28.9736055862071
+       45       9.09575508299605E-16    28.9736055884128
+       46       9.06825205137220E-16    28.9736055898826
+       47       9.05476523187755E-16    28.9736055908630
+       48       9.09128837914535E-16    28.9736055915178
+       49       9.05423468448588E-16    28.9736055919555
+       50       9.09878280484611E-16    28.9736055922484
+       51       9.06296110853766E-16    28.9736055924446
+       52       9.03177027606149E-16    28.9736055925761
+       53       9.04298786959190E-16    28.9736055926644
+       54       9.09110238469485E-16    28.9736055927236
+       55       9.03608067172724E-16    28.9736055927635
+       56       9.06541287522509E-16    28.9736055927902
+       57       9.03616850980630E-16    28.9736055928082
+       58       9.05594896755976E-16    28.9736055928203
+       59       9.05280046097726E-16    28.9736055928285
+       60       9.09719165624393E-16    28.9736055928340
+       61       9.06632807470443E-16    28.9736055928378
+       62       9.07199877440652E-16    28.9736055928403
+       63       9.08014472089033E-16    28.9736055928419
+       64       9.05153946520025E-16    28.9736055928431
+       65       9.08078957517771E-16    28.9736055928439
+       66       9.09715074746510E-16    28.9736055928445
+       67       9.06665295583664E-16    28.9736055928448
+       68       9.07199700896183E-16    28.9736055928450
+       69       9.08897629203801E-16    28.9736055928452
+       70       9.01314398856480E-16    28.9736055928451
+       71       9.08711626892797E-16    28.9736055928453
+       72       9.06322567472571E-16    28.9736055928454
+       73       9.02757871631181E-16    28.9736055928455
+       74       9.04567883476365E-16    28.9736055928455
+       75       9.01890944385787E-16    28.9736055928455
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592845E+01
+ Error is    1.6798798908061E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    24.81
+ Total threads   =                       26
+ Avail threads   =                       26
+ Mop/s total     =                  5777.71
+ Mop/s/thread    =                   222.22
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:26
+	Energy:	0.0018 kWh
+	CO2eq:	0.8466 g
+	This is equivalent to:
+	0.0079 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:26
+	Energy:	0.0018 kWh
+	CO2eq:	0.8466 g
+	This is equivalent to:
+	0.0079 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 26 Treads_concluida___
+___Execucao_com 28 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    28
+
+ Initialization time =           1.331 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53234968387355E-13   109.9994423237398
+        2       8.04192386518470E-16    27.3920437146521
+        3       8.53643535550178E-16    28.0339761840269
+        4       8.76752781969911E-16    28.4191507551292
+        5       8.92477467537471E-16    28.6471670038896
+        6       8.94699569786929E-16    28.7812969418413
+        7       9.00381822091252E-16    28.8600458537345
+        8       9.07224856921966E-16    28.9063145572686
+        9       9.08002006039247E-16    28.9335649214617
+       10       9.11032820286256E-16    28.9496695448999
+       11       9.12114070287503E-16    28.9592263353752
+       12       9.09800694667791E-16    28.9649233484893
+       13       9.08579841200084E-16    28.9683359248931
+       14       9.14652290077775E-16    28.9703903960004
+       15       9.06080215774257E-16    28.9716336228372
+       16       9.14975344564452E-16    28.9723898600853
+       17       9.10089871555676E-16    28.9728522692227
+       18       9.11928983436087E-16    28.9731364797775
+       19       9.06982791278013E-16    28.9733120569286
+       20       9.15517468007294E-16    28.9734210663748
+       21       9.15027327594772E-16    28.9734890760555
+       22       9.13762479415883E-16    28.9735317064876
+       23       9.10475968825084E-16    28.9735585497254
+       24       9.14870299181579E-16    28.9735755256647
+       25       9.09115110703450E-16    28.9735863059384
+       26       9.03721273658832E-16    28.9735931787371
+       27       9.16427043133695E-16    28.9735975767372
+       28       9.10671375318757E-16    28.9736004009988
+       29       9.08175080866870E-16    28.9736022206773
+       30       9.08255664999039E-16    28.9736033967631
+       31       9.11430440475286E-16    28.9736041591152
+       32       9.08554453013139E-16    28.9736046546408
+       33       9.13647165919898E-16    28.9736049775618
+       34       9.13994085218214E-16    28.9736051885102
+       35       9.10239969352603E-16    28.9736053266249
+       36       9.05727326043761E-16    28.9736054172455
+       37       9.08083580030098E-16    28.9736054768227
+       38       9.07296510945461E-16    28.9736055160641
+       39       9.07448471418153E-16    28.9736055419568
+       40       9.06760537369934E-16    28.9736055590699
+       41       9.08770078816479E-16    28.9736055703980
+       42       9.06954248989692E-16    28.9736055779078
+       43       9.09771252347336E-16    28.9736055828932
+       44       9.05247457951588E-16    28.9736055862072
+       45       9.10344851750904E-16    28.9736055884128
+       46       9.04562906342165E-16    28.9736055898825
+       47       9.05406363025268E-16    28.9736055908630
+       48       9.09475381228640E-16    28.9736055915177
+       49       9.06027710892315E-16    28.9736055919556
+       50       9.10495396498603E-16    28.9736055922485
+       51       9.06963523681448E-16    28.9736055924446
+       52       9.03956902092994E-16    28.9736055925761
+       53       9.02599978443056E-16    28.9736055926643
+       54       9.08818886930393E-16    28.9736055927236
+       55       9.04011916161161E-16    28.9736055927634
+       56       9.07570295332865E-16    28.9736055927901
+       57       9.03061148322807E-16    28.9736055928082
+       58       9.05715094576233E-16    28.9736055928203
+       59       9.05400367266850E-16    28.9736055928285
+       60       9.08602102685155E-16    28.9736055928341
+       61       9.07087736033313E-16    28.9736055928378
+       62       9.06012891448575E-16    28.9736055928403
+       63       9.07667917769501E-16    28.9736055928420
+       64       9.03871797064590E-16    28.9736055928431
+       65       9.07558535961854E-16    28.9736055928439
+       66       9.11327566227495E-16    28.9736055928445
+       67       9.06783220671238E-16    28.9736055928448
+       68       9.06291617440093E-16    28.9736055928450
+       69       9.08536967848347E-16    28.9736055928452
+       70       9.01799148099151E-16    28.9736055928453
+       71       9.09455082738067E-16    28.9736055928453
+       72       9.07895243863962E-16    28.9736055928454
+       73       9.03565759625890E-16    28.9736055928455
+       74       9.05483105064309E-16    28.9736055928454
+       75       9.01814273449639E-16    28.9736055928455
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592845E+01
+ Error is    1.5817847147006E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    23.22
+ Total threads   =                       28
+ Avail threads   =                       28
+ Mop/s total     =                  6173.15
+ Mop/s/thread    =                   220.47
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:25
+	Energy:	0.0017 kWh
+	CO2eq:	0.8096 g
+	This is equivalent to:
+	0.0075 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:25
+	Energy:	0.0017 kWh
+	CO2eq:	0.8096 g
+	This is equivalent to:
+	0.0075 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 28 Treads_concluida___
+___Execucao_com 30 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    30
+
+ Initialization time =           1.278 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53167022293863E-13   109.9994423237398
+        2       8.06696661123125E-16    27.3920437146522
+        3       8.53159674665590E-16    28.0339761840268
+        4       8.78503671103622E-16    28.4191507551292
+        5       8.93566694739614E-16    28.6471670038896
+        6       8.96220114648136E-16    28.7812969418413
+        7       9.00983701856976E-16    28.8600458537346
+        8       9.07241981100693E-16    28.9063145572687
+        9       9.09441210192929E-16    28.9335649214617
+       10       9.11456440954365E-16    28.9496695448999
+       11       9.12600567530230E-16    28.9592263353752
+       12       9.10224131667217E-16    28.9649233484892
+       13       9.10087084064341E-16    28.9683359248931
+       14       9.16015732353385E-16    28.9703903960004
+       15       9.06921677662622E-16    28.9716336228371
+       16       9.13775801540137E-16    28.9723898600854
+       17       9.10868940634357E-16    28.9728522692226
+       18       9.12071521753540E-16    28.9731364797775
+       19       9.06689455596715E-16    28.9733120569287
+       20       9.14613081959463E-16    28.9734210663749
+       21       9.14704620374840E-16    28.9734890760553
+       22       9.14329913319203E-16    28.9735317064876
+       23       9.08560234695953E-16    28.9735585497254
+       24       9.14202027907248E-16    28.9735755256647
+       25       9.09282753709773E-16    28.9735863059385
+       26       9.02592034525571E-16    28.9735931787371
+       27       9.13951503629198E-16    28.9735975767371
+       28       9.11302271923194E-16    28.9736004009987
+       29       9.06501849750095E-16    28.9736022206773
+       30       9.09469341611682E-16    28.9736033967631
+       31       9.11865936112730E-16    28.9736041591152
+       32       9.07716216155495E-16    28.9736046546408
+       33       9.15426386872080E-16    28.9736049775619
+       34       9.12843565200112E-16    28.9736051885101
+       35       9.10622762907416E-16    28.9736053266249
+       36       9.05809691295242E-16    28.9736054172454
+       37       9.07627665262473E-16    28.9736054768226
+       38       9.07789832417505E-16    28.9736055160641
+       39       9.07392969797313E-16    28.9736055419568
+       40       9.06634615344907E-16    28.9736055590699
+       41       9.09725273843013E-16    28.9736055703981
+       42       9.08402087154182E-16    28.9736055779078
+       43       9.08962144928512E-16    28.9736055828932
+       44       9.05465971557644E-16    28.9736055862072
+       45       9.10500654281278E-16    28.9736055884128
+       46       9.05653537668740E-16    28.9736055898826
+       47       9.06809020196013E-16    28.9736055908630
+       48       9.09401168264382E-16    28.9736055915177
+       49       9.05531320800501E-16    28.9736055919555
+       50       9.09270540981966E-16    28.9736055922484
+       51       9.05986261169509E-16    28.9736055924446
+       52       9.02861265015905E-16    28.9736055925760
+       53       9.04102177849932E-16    28.9736055926644
+       54       9.08359848006725E-16    28.9736055927235
+       55       9.03064279258470E-16    28.9736055927635
+       56       9.07281125956921E-16    28.9736055927901
+       57       9.03913494925299E-16    28.9736055928083
+       58       9.05937591176690E-16    28.9736055928204
+       59       9.05676582909697E-16    28.9736055928285
+       60       9.08421077570660E-16    28.9736055928341
+       61       9.05903821545853E-16    28.9736055928378
+       62       9.06187484058988E-16    28.9736055928403
+       63       9.07529648701190E-16    28.9736055928419
+       64       9.04443623580959E-16    28.9736055928431
+       65       9.08006389444537E-16    28.9736055928439
+       66       9.11568260918565E-16    28.9736055928444
+       67       9.07311975027340E-16    28.9736055928449
+       68       9.07644591623158E-16    28.9736055928450
+       69       9.09690583607212E-16    28.9736055928453
+       70       9.00885275180144E-16    28.9736055928453
+       71       9.10030549346559E-16    28.9736055928453
+       72       9.07069493232618E-16    28.9736055928454
+       73       9.04755885062896E-16    28.9736055928455
+       74       9.06594964451257E-16    28.9736055928454
+       75       9.01207838184423E-16    28.9736055928455
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592846E+01
+ Error is    1.7779750669115E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    22.05
+ Total threads   =                       30
+ Avail threads   =                       30
+ Mop/s total     =                  6501.68
+ Mop/s/thread    =                   216.72
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:23
+	Energy:	0.0016 kWh
+	CO2eq:	0.7826 g
+	This is equivalent to:
+	0.0073 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:23
+	Energy:	0.0016 kWh
+	CO2eq:	0.7826 g
+	This is equivalent to:
+	0.0073 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 30 Treads_concluida___
+___Execucao_com 32 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    32
+
+ Initialization time =           1.282 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53131054779349E-13   109.9994423237398
+        2       8.03163036204732E-16    27.3920437146522
+        3       8.54126599352822E-16    28.0339761840268
+        4       8.78153162154291E-16    28.4191507551292
+        5       8.92922369870260E-16    28.6471670038895
+        6       8.96653884844915E-16    28.7812969418413
+        7       9.00723145915522E-16    28.8600458537345
+        8       9.08262255047209E-16    28.9063145572686
+        9       9.09493897677641E-16    28.9335649214617
+       10       9.12756204761821E-16    28.9496695448999
+       11       9.10517299691686E-16    28.9592263353752
+       12       9.09841791758248E-16    28.9649233484893
+       13       9.09526272284529E-16    28.9683359248932
+       14       9.14959072537982E-16    28.9703903960004
+       15       9.05484057614965E-16    28.9716336228371
+       16       9.12052840142822E-16    28.9723898600854
+       17       9.09715010138677E-16    28.9728522692227
+       18       9.10941677068931E-16    28.9731364797775
+       19       9.05453533709874E-16    28.9733120569286
+       20       9.14697155874087E-16    28.9734210663748
+       21       9.14591191304077E-16    28.9734890760554
+       22       9.13799580600949E-16    28.9735317064876
+       23       9.09782395230387E-16    28.9735585497254
+       24       9.15241828181257E-16    28.9735755256647
+       25       9.09861776398841E-16    28.9735863059384
+       26       9.03890990763417E-16    28.9735931787372
+       27       9.15019889412601E-16    28.9735975767372
+       28       9.10501751666097E-16    28.9736004009988
+       29       9.07031172720507E-16    28.9736022206773
+       30       9.08826382735233E-16    28.9736033967631
+       31       9.12313557481846E-16    28.9736041591152
+       32       9.07288611793164E-16    28.9736046546409
+       33       9.14359073863678E-16    28.9736049775619
+       34       9.13727069657154E-16    28.9736051885102
+       35       9.10942822716285E-16    28.9736053266250
+       36       9.07307946982282E-16    28.9736054172454
+       37       9.06127144221532E-16    28.9736054768226
+       38       9.08909391861770E-16    28.9736055160642
+       39       9.06601164221506E-16    28.9736055419568
+       40       9.07374463509582E-16    28.9736055590700
+       41       9.07966815853025E-16    28.9736055703980
+       42       9.08749849055385E-16    28.9736055779078
+       43       9.10014305157732E-16    28.9736055828932
+       44       9.05081635833634E-16    28.9736055862072
+       45       9.10596181517554E-16    28.9736055884127
+       46       9.05573308950914E-16    28.9736055898825
+       47       9.05403840656978E-16    28.9736055908630
+       48       9.09513354810363E-16    28.9736055915178
+       49       9.06190322055818E-16    28.9736055919556
+       50       9.08767623587945E-16    28.9736055922484
+       51       9.07109834491701E-16    28.9736055924445
+       52       9.04080563340390E-16    28.9736055925761
+       53       9.03413811276954E-16    28.9736055926643
+       54       9.08614178853735E-16    28.9736055927236
+       55       9.03446974221777E-16    28.9736055927635
+       56       9.07118958164467E-16    28.9736055927902
+       57       9.04591219519184E-16    28.9736055928081
+       58       9.06133661779124E-16    28.9736055928203
+       59       9.05930263264415E-16    28.9736055928285
+       60       9.07093743316556E-16    28.9736055928340
+       61       9.06248037953861E-16    28.9736055928378
+       62       9.07159560432590E-16    28.9736055928403
+       63       9.07447483687214E-16    28.9736055928420
+       64       9.03677258435766E-16    28.9736055928432
+       65       9.06815840316081E-16    28.9736055928439
+       66       9.10604217373836E-16    28.9736055928445
+       67       9.05956619061669E-16    28.9736055928449
+       68       9.07539966668558E-16    28.9736055928450
+       69       9.10000219117886E-16    28.9736055928452
+       70       9.02350786380745E-16    28.9736055928452
+       71       9.09052773797040E-16    28.9736055928454
+       72       9.07581354742020E-16    28.9736055928454
+       73       9.05680854268139E-16    28.9736055928456
+       74       9.05600222336711E-16    28.9736055928454
+       75       9.03031651016043E-16    28.9736055928455
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592846E+01
+ Error is    1.7289274788588E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    20.63
+ Total threads   =                       32
+ Avail threads   =                       32
+ Mop/s total     =                  6947.66
+ Mop/s/thread    =                   217.11
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:22
+	Energy:	0.0015 kWh
+	CO2eq:	0.7209 g
+	This is equivalent to:
+	0.0067 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:22
+	Energy:	0.0015 kWh
+	CO2eq:	0.7209 g
+	This is equivalent to:
+	0.0067 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 32 Treads_concluida___
+___Execucao_com 34 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    34
+
+ Initialization time =           1.163 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53250007589431E-13   109.9994423237398
+        2       8.03099924102093E-16    27.3920437146522
+        3       8.54197748672924E-16    28.0339761840268
+        4       8.78488711417999E-16    28.4191507551291
+        5       8.92562259293272E-16    28.6471670038896
+        6       8.95066871042421E-16    28.7812969418413
+        7       8.99861932159727E-16    28.8600458537346
+        8       9.08375269318405E-16    28.9063145572687
+        9       9.08745308756993E-16    28.9335649214617
+       10       9.10458892157673E-16    28.9496695448999
+       11       9.11522672082657E-16    28.9592263353752
+       12       9.09574513589661E-16    28.9649233484893
+       13       9.09893598950712E-16    28.9683359248931
+       14       9.14063306511851E-16    28.9703903960003
+       15       9.06292669255952E-16    28.9716336228373
+       16       9.13827152554157E-16    28.9723898600854
+       17       9.09650157712376E-16    28.9728522692227
+       18       9.11723434148743E-16    28.9731364797775
+       19       9.06535076401949E-16    28.9733120569286
+       20       9.16127403211322E-16    28.9734210663749
+       21       9.15180324831446E-16    28.9734890760554
+       22       9.13637996066372E-16    28.9735317064875
+       23       9.10295947090710E-16    28.9735585497254
+       24       9.14941708966894E-16    28.9735755256647
+       25       9.09408371668002E-16    28.9735863059384
+       26       9.02633336109932E-16    28.9735931787372
+       27       9.14908353187609E-16    28.9735975767372
+       28       9.10994637053512E-16    28.9736004009987
+       29       9.07000178016836E-16    28.9736022206773
+       30       9.08441671303021E-16    28.9736033967630
+       31       9.12387727212794E-16    28.9736041591152
+       32       9.08927850327393E-16    28.9736046546408
+       33       9.13407121198003E-16    28.9736049775618
+       34       9.12680781445890E-16    28.9736051885102
+       35       9.09880015295780E-16    28.9736053266249
+       36       9.05705521161721E-16    28.9736054172455
+       37       9.05836217272643E-16    28.9736054768226
+       38       9.09052133309196E-16    28.9736055160642
+       39       9.06760731014720E-16    28.9736055419568
+       40       9.06439190881007E-16    28.9736055590700
+       41       9.08698935133224E-16    28.9736055703981
+       42       9.07092421912040E-16    28.9736055779078
+       43       9.10345059159952E-16    28.9736055828932
+       44       9.06072839959388E-16    28.9736055862071
+       45       9.09571197478128E-16    28.9736055884127
+       46       9.04735941926736E-16    28.9736055898826
+       47       9.05723965022637E-16    28.9736055908630
+       48       9.08809853079667E-16    28.9736055915178
+       49       9.05330036466102E-16    28.9736055919555
+       50       9.08814852225698E-16    28.9736055922485
+       51       9.06129648360514E-16    28.9736055924446
+       52       9.03151982130372E-16    28.9736055925761
+       53       9.04317359844599E-16    28.9736055926643
+       54       9.08335854555408E-16    28.9736055927236
+       55       9.03218050690994E-16    28.9736055927634
+       56       9.06347240003530E-16    28.9736055927902
+       57       9.03555177957583E-16    28.9736055928082
+       58       9.05358859203440E-16    28.9736055928204
+       59       9.06705383383068E-16    28.9736055928285
+       60       9.08324159287419E-16    28.9736055928340
+       61       9.06061481581680E-16    28.9736055928378
+       62       9.06986964546941E-16    28.9736055928403
+       63       9.05964419539670E-16    28.9736055928420
+       64       9.04793639355542E-16    28.9736055928432
+       65       9.06967756982306E-16    28.9736055928439
+       66       9.12098782669753E-16    28.9736055928445
+       67       9.06852369781950E-16    28.9736055928448
+       68       9.06011501973924E-16    28.9736055928450
+       69       9.09260935513884E-16    28.9736055928453
+       70       9.00973694507156E-16    28.9736055928453
+       71       9.08161299194887E-16    28.9736055928453
+       72       9.06479828054327E-16    28.9736055928454
+       73       9.05398984155215E-16    28.9736055928455
+       74       9.05047888653023E-16    28.9736055928454
+       75       9.01375659130073E-16    28.9736055928455
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592846E+01
+ Error is    1.8270226549643E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    19.65
+ Total threads   =                       34
+ Avail threads   =                       34
+ Mop/s total     =                  7296.83
+ Mop/s/thread    =                   214.61
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:21
+	Energy:	0.0015 kWh
+	CO2eq:	0.7158 g
+	This is equivalent to:
+	0.0067 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:21
+	Energy:	0.0015 kWh
+	CO2eq:	0.7158 g
+	This is equivalent to:
+	0.0067 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 34 Treads_concluida___
+___Execucao_com 36 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    36
+
+ Initialization time =           1.128 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53127564286968E-13   109.9994423237398
+        2       8.05964946395356E-16    27.3920437146521
+        3       8.54059077708512E-16    28.0339761840269
+        4       8.77072516110894E-16    28.4191507551292
+        5       8.92719158113887E-16    28.6471670038896
+        6       8.95680971168167E-16    28.7812969418413
+        7       9.00866292683649E-16    28.8600458537346
+        8       9.06729059819792E-16    28.9063145572686
+        9       9.08224733115238E-16    28.9335649214616
+       10       9.11165257069330E-16    28.9496695448999
+       11       9.11108800541754E-16    28.9592263353752
+       12       9.09650218286538E-16    28.9649233484893
+       13       9.09099659110244E-16    28.9683359248931
+       14       9.14544455774785E-16    28.9703903960004
+       15       9.05840346755250E-16    28.9716336228371
+       16       9.14128295920703E-16    28.9723898600853
+       17       9.09707034266446E-16    28.9728522692227
+       18       9.10489793327845E-16    28.9731364797775
+       19       9.05836204701274E-16    28.9733120569286
+       20       9.14720180090868E-16    28.9734210663748
+       21       9.14845430883075E-16    28.9734890760554
+       22       9.14077900195075E-16    28.9735317064876
+       23       9.09407033429947E-16    28.9735585497255
+       24       9.14409958660642E-16    28.9735755256647
+       25       9.09135525071771E-16    28.9735863059384
+       26       9.04417878023655E-16    28.9735931787371
+       27       9.15491260257764E-16    28.9735975767372
+       28       9.10621001676837E-16    28.9736004009989
+       29       9.06789387556431E-16    28.9736022206773
+       30       9.09285954120283E-16    28.9736033967631
+       31       9.12081165284526E-16    28.9736041591152
+       32       9.08073666700521E-16    28.9736046546409
+       33       9.14231783182854E-16    28.9736049775619
+       34       9.13663008598130E-16    28.9736051885101
+       35       9.09099256654150E-16    28.9736053266249
+       36       9.06074666384262E-16    28.9736054172454
+       37       9.06187559863333E-16    28.9736054768226
+       38       9.07406422679810E-16    28.9736055160642
+       39       9.07113458459526E-16    28.9736055419568
+       40       9.05761850515878E-16    28.9736055590699
+       41       9.09018960675168E-16    28.9736055703980
+       42       9.07642940363761E-16    28.9736055779078
+       43       9.09613891641379E-16    28.9736055828931
+       44       9.06441467213891E-16    28.9736055862071
+       45       9.10491190089220E-16    28.9736055884128
+       46       9.05884183481217E-16    28.9736055898825
+       47       9.06030235172735E-16    28.9736055908631
+       48       9.09717159558059E-16    28.9736055915178
+       49       9.06489582941751E-16    28.9736055919555
+       50       9.10319658059980E-16    28.9736055922484
+       51       9.06091682568001E-16    28.9736055924445
+       52       9.02364590847484E-16    28.9736055925761
+       53       9.03582461237013E-16    28.9736055926643
+       54       9.08576415126001E-16    28.9736055927235
+       55       9.04000922392552E-16    28.9736055927634
+       56       9.05974694513216E-16    28.9736055927902
+       57       9.05454062741779E-16    28.9736055928082
+       58       9.04639042617320E-16    28.9736055928203
+       59       9.07153563708675E-16    28.9736055928285
+       60       9.09137456055031E-16    28.9736055928340
+       61       9.07322935964430E-16    28.9736055928377
+       62       9.07193423017310E-16    28.9736055928402
+       63       9.08653208401932E-16    28.9736055928419
+       64       9.02825358530560E-16    28.9736055928432
+       65       9.07231120411664E-16    28.9736055928440
+       66       9.10916746683696E-16    28.9736055928444
+       67       9.05927534745413E-16    28.9736055928448
+       68       9.07922988647510E-16    28.9736055928450
+       69       9.09250544558481E-16    28.9736055928452
+       70       9.01907426932474E-16    28.9736055928452
+       71       9.09106912583054E-16    28.9736055928454
+       72       9.07462038846285E-16    28.9736055928455
+       73       9.04812817559293E-16    28.9736055928455
+       74       9.05383760050243E-16    28.9736055928455
+       75       9.02760467718754E-16    28.9736055928455
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592845E+01
+ Error is    1.5817847147006E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    18.52
+ Total threads   =                       36
+ Avail threads   =                       36
+ Mop/s total     =                  7740.86
+ Mop/s/thread    =                   215.02
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:20
+	Energy:	0.0015 kWh
+	CO2eq:	0.6897 g
+	This is equivalent to:
+	0.0064 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:20
+	Energy:	0.0015 kWh
+	CO2eq:	0.6897 g
+	This is equivalent to:
+	0.0064 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 36 Treads_concluida___
+___Execucao_com 38 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    38
+
+ Initialization time =           1.122 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53195151538019E-13   109.9994423237398
+        2       8.02658351915915E-16    27.3920437146521
+        3       8.53625000500035E-16    28.0339761840269
+        4       8.77331735304007E-16    28.4191507551291
+        5       8.92727282468647E-16    28.6471670038896
+        6       8.96021802986960E-16    28.7812969418413
+        7       9.01293744573048E-16    28.8600458537347
+        8       9.07955522435964E-16    28.9063145572686
+        9       9.08682005773742E-16    28.9335649214616
+       10       9.12611498357525E-16    28.9496695448999
+       11       9.11772422592283E-16    28.9592263353753
+       12       9.09470398638424E-16    28.9649233484893
+       13       9.08528910472820E-16    28.9683359248931
+       14       9.14845129732165E-16    28.9703903960004
+       15       9.06264089019157E-16    28.9716336228372
+       16       9.12167917439500E-16    28.9723898600854
+       17       9.09293438399094E-16    28.9728522692227
+       18       9.11832968977765E-16    28.9731364797775
+       19       9.06335629722805E-16    28.9733120569286
+       20       9.15882287949181E-16    28.9734210663748
+       21       9.15898580873401E-16    28.9734890760553
+       22       9.13666828908472E-16    28.9735317064876
+       23       9.09737571318800E-16    28.9735585497255
+       24       9.13786528163264E-16    28.9735755256647
+       25       9.08764169522084E-16    28.9735863059384
+       26       9.03446407420513E-16    28.9735931787372
+       27       9.14599735079999E-16    28.9735975767372
+       28       9.11909193144827E-16    28.9736004009989
+       29       9.07089827288378E-16    28.9736022206774
+       30       9.09168660321327E-16    28.9736033967631
+       31       9.12470662359177E-16    28.9736041591152
+       32       9.08234461172375E-16    28.9736046546408
+       33       9.13139419880381E-16    28.9736049775619
+       34       9.13525391992272E-16    28.9736051885101
+       35       9.09713676389700E-16    28.9736053266248
+       36       9.06037066020301E-16    28.9736054172454
+       37       9.08063277126955E-16    28.9736054768226
+       38       9.07134413529637E-16    28.9736055160641
+       39       9.07031834885099E-16    28.9736055419568
+       40       9.06033259353589E-16    28.9736055590699
+       41       9.10499683578751E-16    28.9736055703980
+       42       9.08257437287468E-16    28.9736055779078
+       43       9.10086080629952E-16    28.9736055828932
+       44       9.06869047725308E-16    28.9736055862071
+       45       9.10962788041485E-16    28.9736055884128
+       46       9.05341497748664E-16    28.9736055898825
+       47       9.06478114697525E-16    28.9736055908630
+       48       9.09700267318800E-16    28.9736055915177
+       49       9.05689592420770E-16    28.9736055919554
+       50       9.08292217849137E-16    28.9736055922484
+       51       9.06471308246230E-16    28.9736055924446
+       52       9.02651389799623E-16    28.9736055925761
+       53       9.03336455074395E-16    28.9736055926643
+       54       9.08235318216818E-16    28.9736055927235
+       55       9.04812935295433E-16    28.9736055927635
+       56       9.06463536445051E-16    28.9736055927902
+       57       9.03491928073615E-16    28.9736055928082
+       58       9.06438732533780E-16    28.9736055928203
+       59       9.06352815690105E-16    28.9736055928285
+       60       9.08318244665462E-16    28.9736055928341
+       61       9.06827234209561E-16    28.9736055928378
+       62       9.05977071352108E-16    28.9736055928403
+       63       9.07864363630531E-16    28.9736055928419
+       64       9.04550404095596E-16    28.9736055928431
+       65       9.06164866515900E-16    28.9736055928438
+       66       9.10838639936676E-16    28.9736055928445
+       67       9.05850067165872E-16    28.9736055928448
+       68       9.06797194239009E-16    28.9736055928450
+       69       9.10130269039910E-16    28.9736055928452
+       70       9.01157823775270E-16    28.9736055928453
+       71       9.08297641663797E-16    28.9736055928453
+       72       9.06658389247501E-16    28.9736055928455
+       73       9.03640115646172E-16    28.9736055928455
+       74       9.07078953438344E-16    28.9736055928455
+       75       9.00376599464286E-16    28.9736055928455
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592845E+01
+ Error is    1.5817847147006E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    17.64
+ Total threads   =                       38
+ Avail threads   =                       38
+ Mop/s total     =                  8125.23
+ Mop/s/thread    =                   213.82
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:19
+	Energy:	0.0014 kWh
+	CO2eq:	0.6547 g
+	This is equivalent to:
+	0.0061 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:19
+	Energy:	0.0014 kWh
+	CO2eq:	0.6547 g
+	This is equivalent to:
+	0.0061 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 38 Treads_concluida___
+___Execucao_com 40 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    40
+
+ Initialization time =           1.053 seconds
+
+   iteration           ||r||                 zeta
+        1       3.53142642966645E-13   109.9994423237398
+        2       8.06284934609818E-16    27.3920437146521
+        3       8.53149148110584E-16    28.0339761840268
+        4       8.78277214684777E-16    28.4191507551292
+        5       8.93413266996574E-16    28.6471670038896
+        6       8.96735240506529E-16    28.7812969418414
+        7       8.99868659606529E-16    28.8600458537346
+        8       9.06647340053643E-16    28.9063145572687
+        9       9.07781493647038E-16    28.9335649214617
+       10       9.11685405956238E-16    28.9496695448999
+       11       9.10826726755383E-16    28.9592263353752
+       12       9.08278939052614E-16    28.9649233484894
+       13       9.09421915915831E-16    28.9683359248931
+       14       9.16278124431903E-16    28.9703903960004
+       15       9.07007643491595E-16    28.9716336228371
+       16       9.12590540244714E-16    28.9723898600854
+       17       9.09780493476116E-16    28.9728522692227
+       18       9.11284264253156E-16    28.9731364797776
+       19       9.06096219946808E-16    28.9733120569287
+       20       9.14868898666310E-16    28.9734210663749
+       21       9.15565352309771E-16    28.9734890760553
+       22       9.14826570614126E-16    28.9735317064876
+       23       9.07857081212781E-16    28.9735585497255
+       24       9.15290944166212E-16    28.9735755256646
+       25       9.08712774543169E-16    28.9735863059384
+       26       9.03113494985429E-16    28.9735931787371
+       27       9.16407369622024E-16    28.9735975767372
+       28       9.11471703073897E-16    28.9736004009988
+       29       9.07499702009652E-16    28.9736022206773
+       30       9.09007534444975E-16    28.9736033967630
+       31       9.12261245859603E-16    28.9736041591153
+       32       9.07446698764198E-16    28.9736046546409
+       33       9.15819050705468E-16    28.9736049775619
+       34       9.13463927899720E-16    28.9736051885101
+       35       9.10130595564169E-16    28.9736053266249
+       36       9.05896862366296E-16    28.9736054172454
+       37       9.08083950978916E-16    28.9736054768226
+       38       9.07737034288610E-16    28.9736055160642
+       39       9.08440673734104E-16    28.9736055419568
+       40       9.06861146469900E-16    28.9736055590699
+       41       9.08968514453102E-16    28.9736055703980
+       42       9.08658432778819E-16    28.9736055779078
+       43       9.10592544785189E-16    28.9736055828933
+       44       9.04844158379025E-16    28.9736055862071
+       45       9.09724998858975E-16    28.9736055884128
+       46       9.06051973452705E-16    28.9736055898825
+       47       9.04731033929000E-16    28.9736055908631
+       48       9.11164997436656E-16    28.9736055915179
+       49       9.06214697005839E-16    28.9736055919555
+       50       9.09386465598378E-16    28.9736055922484
+       51       9.06114275586603E-16    28.9736055924446
+       52       9.02669345460054E-16    28.9736055925760
+       53       9.04577241113005E-16    28.9736055926643
+       54       9.08586329034740E-16    28.9736055927235
+       55       9.02333972002588E-16    28.9736055927633
+       56       9.06770973873683E-16    28.9736055927903
+       57       9.03275773094333E-16    28.9736055928082
+       58       9.05497073948898E-16    28.9736055928203
+       59       9.06071279488249E-16    28.9736055928286
+       60       9.07610681518461E-16    28.9736055928340
+       61       9.05915505483414E-16    28.9736055928378
+       62       9.06538332707153E-16    28.9736055928403
+       63       9.07993417173621E-16    28.9736055928419
+       64       9.05018131790439E-16    28.9736055928432
+       65       9.07558741174364E-16    28.9736055928440
+       66       9.11014129068992E-16    28.9736055928445
+       67       9.06144559945260E-16    28.9736055928448
+       68       9.06686848880919E-16    28.9736055928450
+       69       9.09405125235605E-16    28.9736055928453
+       70       9.02689842930632E-16    28.9736055928453
+       71       9.08688534112988E-16    28.9736055928454
+       72       9.08484947028266E-16    28.9736055928454
+       73       9.04960438120632E-16    28.9736055928455
+       74       9.06241224910381E-16    28.9736055928454
+       75       9.01841196776804E-16    28.9736055928455
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     2.8973605592845E+01
+ Error is    1.5817847147006E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    17.03
+ Total threads   =                       40
+ Avail threads   =                       40
+ Mop/s total     =                  8417.65
+ Mop/s/thread    =                   210.44
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              15 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = randdp
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:18
+	Energy:	0.0013 kWh
+	CO2eq:	0.6392 g
+	This is equivalent to:
+	0.0059 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:18
+	Energy:	0.0013 kWh
+	CO2eq:	0.6392 g
+	This is equivalent to:
+	0.0059 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 40 Treads_concluida___
+Alerta: Menos de 10 log_bruto

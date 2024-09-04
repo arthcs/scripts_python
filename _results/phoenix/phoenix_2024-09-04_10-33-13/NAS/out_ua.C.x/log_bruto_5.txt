@@ -1,0 +1,3001 @@
+até aqui!
+___Execucao  2 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:        2
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.8562164916796E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                   253.56
+ Total threads   =                        2
+ Avail threads   =                        2
+ Mop/s total     =                    34.63
+ Mop/s/thread    =                    17.31
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:04:15
+	Energy:	0.0186 kWh
+	CO2eq:	8.8295 g
+	This is equivalent to:
+	0.0821 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:04:15
+	Energy:	0.0186 kWh
+	CO2eq:	8.8295 g
+	This is equivalent to:
+	0.0821 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 2 Treads_concluida___
+___Execucao  4 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:        4
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.5272155651808E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                   184.36
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                    47.63
+ Mop/s/thread    =                    11.91
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:03:05
+	Energy:	0.0144 kWh
+	CO2eq:	6.8611 g
+	This is equivalent to:
+	0.0638 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:03:05
+	Energy:	0.0144 kWh
+	CO2eq:	6.8611 g
+	This is equivalent to:
+	0.0638 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 4 Treads_concluida___
+___Execucao  6 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:        6
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.5930157504805E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                   162.89
+ Total threads   =                        6
+ Avail threads   =                        6
+ Mop/s total     =                    53.91
+ Mop/s/thread    =                     8.98
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:02:44
+	Energy:	0.0135 kWh
+	CO2eq:	6.3944 g
+	This is equivalent to:
+	0.0595 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:02:44
+	Energy:	0.0135 kWh
+	CO2eq:	6.3944 g
+	This is equivalent to:
+	0.0595 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 6 Treads_concluida___
+___Execucao  8 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:        8
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6368825406804E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                   154.70
+ Total threads   =                        8
+ Avail threads   =                        8
+ Mop/s total     =                    56.76
+ Mop/s/thread    =                     7.09
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:02:36
+	Energy:	0.0132 kWh
+	CO2eq:	6.2789 g
+	This is equivalent to:
+	0.0584 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:02:36
+	Energy:	0.0132 kWh
+	CO2eq:	6.2789 g
+	This is equivalent to:
+	0.0584 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 8 Treads_concluida___
+___Execucao  10 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       10
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.5930157504805E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                   150.40
+ Total threads   =                       10
+ Avail threads   =                       10
+ Mop/s total     =                    58.38
+ Mop/s/thread    =                     5.84
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:02:31
+	Energy:	0.0132 kWh
+	CO2eq:	6.2778 g
+	This is equivalent to:
+	0.0584 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:02:31
+	Energy:	0.0132 kWh
+	CO2eq:	6.2778 g
+	This is equivalent to:
+	0.0584 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 10 Treads_concluida___
+___Execucao  12 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       12
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6149491455805E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                   147.05
+ Total threads   =                       12
+ Avail threads   =                       12
+ Mop/s total     =                    59.71
+ Mop/s/thread    =                     4.98
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:02:28
+	Energy:	0.0131 kWh
+	CO2eq:	6.2208 g
+	This is equivalent to:
+	0.0579 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:02:28
+	Energy:	0.0131 kWh
+	CO2eq:	6.2208 g
+	This is equivalent to:
+	0.0579 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 12 Treads_concluida___
+___Execucao  14 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       14
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6149491455805E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                   124.22
+ Total threads   =                       14
+ Avail threads   =                       14
+ Mop/s total     =                    70.69
+ Mop/s/thread    =                     5.05
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:02:05
+	Energy:	0.0115 kWh
+	CO2eq:	5.4515 g
+	This is equivalent to:
+	0.0507 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:02:05
+	Energy:	0.0115 kWh
+	CO2eq:	5.4515 g
+	This is equivalent to:
+	0.0507 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 14 Treads_concluida___
+___Execucao  16 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       16
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6368825406804E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                   110.50
+ Total threads   =                       16
+ Avail threads   =                       16
+ Mop/s total     =                    79.46
+ Mop/s/thread    =                     4.97
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:51
+	Energy:	0.0107 kWh
+	CO2eq:	5.1039 g
+	This is equivalent to:
+	0.0475 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:51
+	Energy:	0.0107 kWh
+	CO2eq:	5.1039 g
+	This is equivalent to:
+	0.0475 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 16 Treads_concluida___
+___Execucao  18 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       18
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.7026827259802E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    95.92
+ Total threads   =                       18
+ Avail threads   =                       18
+ Mop/s total     =                    91.54
+ Mop/s/thread    =                     5.09
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:37
+	Energy:	0.0098 kWh
+	CO2eq:	4.6581 g
+	This is equivalent to:
+	0.0433 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:37
+	Energy:	0.0098 kWh
+	CO2eq:	4.6581 g
+	This is equivalent to:
+	0.0433 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 18 Treads_concluida___
+___Execucao  20 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       20
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6368825406804E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    88.34
+ Total threads   =                       20
+ Avail threads   =                       20
+ Mop/s total     =                    99.40
+ Mop/s/thread    =                     4.97
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:29
+	Energy:	0.0093 kWh
+	CO2eq:	4.4351 g
+	This is equivalent to:
+	0.0413 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:29
+	Energy:	0.0093 kWh
+	CO2eq:	4.4277 g
+	This is equivalent to:
+	0.0412 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 20 Treads_concluida___
+___Execucao  22 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       22
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.7026827259802E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    76.22
+ Total threads   =                       22
+ Avail threads   =                       22
+ Mop/s total     =                   115.20
+ Mop/s/thread    =                     5.24
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:17
+	Energy:	0.0084 kWh
+	CO2eq:	4.0105 g
+	This is equivalent to:
+	0.0373 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:17
+	Energy:	0.0084 kWh
+	CO2eq:	4.0105 g
+	This is equivalent to:
+	0.0373 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 22 Treads_concluida___
+___Execucao  24 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       24
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6368825406804E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    73.59
+ Total threads   =                       24
+ Avail threads   =                       24
+ Mop/s total     =                   119.32
+ Mop/s/thread    =                     4.97
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:14
+	Energy:	0.0083 kWh
+	CO2eq:	3.9456 g
+	This is equivalent to:
+	0.0367 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:14
+	Energy:	0.0083 kWh
+	CO2eq:	3.9456 g
+	This is equivalent to:
+	0.0367 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 24 Treads_concluida___
+___Execucao  26 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       26
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6588159357803E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    86.32
+ Total threads   =                       26
+ Avail threads   =                       26
+ Mop/s total     =                   101.72
+ Mop/s/thread    =                     3.91
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:27
+	Energy:	0.0096 kWh
+	CO2eq:	4.5689 g
+	This is equivalent to:
+	0.0425 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:27
+	Energy:	0.0096 kWh
+	CO2eq:	4.5689 g
+	This is equivalent to:
+	0.0425 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 26 Treads_concluida___
+___Execucao  28 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       28
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6588159357803E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    86.59
+ Total threads   =                       28
+ Avail threads   =                       28
+ Mop/s total     =                   101.40
+ Mop/s/thread    =                     3.62
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:27
+	Energy:	0.0097 kWh
+	CO2eq:	4.5872 g
+	This is equivalent to:
+	0.0427 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:27
+	Energy:	0.0097 kWh
+	CO2eq:	4.5872 g
+	This is equivalent to:
+	0.0427 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 28 Treads_concluida___
+___Execucao  30 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       30
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6807493308802E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    89.81
+ Total threads   =                       30
+ Avail threads   =                       30
+ Mop/s total     =                    97.77
+ Mop/s/thread    =                     3.26
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:30
+	Energy:	0.0100 kWh
+	CO2eq:	4.7274 g
+	This is equivalent to:
+	0.0440 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:30
+	Energy:	0.0100 kWh
+	CO2eq:	4.7274 g
+	This is equivalent to:
+	0.0440 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 30 Treads_concluida___
+___Execucao  32 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       32
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6368825406804E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    89.02
+ Total threads   =                       32
+ Avail threads   =                       32
+ Mop/s total     =                    98.64
+ Mop/s/thread    =                     3.08
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:30
+	Energy:	0.0099 kWh
+	CO2eq:	4.7015 g
+	This is equivalent to:
+	0.0437 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:30
+	Energy:	0.0099 kWh
+	CO2eq:	4.7015 g
+	This is equivalent to:
+	0.0437 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 32 Treads_concluida___
+___Execucao  34 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       34
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6588159357803E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    96.74
+ Total threads   =                       34
+ Avail threads   =                       34
+ Mop/s total     =                    90.77
+ Mop/s/thread    =                     2.67
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:37
+	Energy:	0.0107 kWh
+	CO2eq:	5.0642 g
+	This is equivalent to:
+	0.0471 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:37
+	Energy:	0.0107 kWh
+	CO2eq:	5.0642 g
+	This is equivalent to:
+	0.0471 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 34 Treads_concluida___
+___Execucao  36 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       36
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6368825406804E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    98.98
+ Total threads   =                       36
+ Avail threads   =                       36
+ Mop/s total     =                    88.71
+ Mop/s/thread    =                     2.46
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:40
+	Energy:	0.0108 kWh
+	CO2eq:	5.1416 g
+	This is equivalent to:
+	0.0478 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:40
+	Energy:	0.0108 kWh
+	CO2eq:	5.1416 g
+	This is equivalent to:
+	0.0478 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 36 Treads_concluida___
+___Execucao  38 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       38
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6807493308802E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    91.75
+ Total threads   =                       38
+ Avail threads   =                       38
+ Mop/s total     =                    95.70
+ Mop/s/thread    =                     2.52
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:32
+	Energy:	0.0102 kWh
+	CO2eq:	4.8418 g
+	This is equivalent to:
+	0.0450 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:32
+	Energy:	0.0102 kWh
+	CO2eq:	4.8418 g
+	This is equivalent to:
+	0.0450 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 38 Treads_concluida___
+___Execucao  40 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       40
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6588159357803E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    89.97
+ Total threads   =                       40
+ Avail threads   =                       40
+ Mop/s total     =                    97.59
+ Mop/s/thread    =                     2.44
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:31
+	Energy:	0.0100 kWh
+	CO2eq:	4.7668 g
+	This is equivalent to:
+	0.0443 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:31
+	Energy:	0.0100 kWh
+	CO2eq:	4.7668 g
+	This is equivalent to:
+	0.0443 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 40 Treads_concluida___
+___Execucao  42 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       42
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6588159357803E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    79.11
+ Total threads   =                       42
+ Avail threads   =                       42
+ Mop/s total     =                   111.00
+ Mop/s/thread    =                     2.64
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:20
+	Energy:	0.0078 kWh
+	CO2eq:	3.7273 g
+	This is equivalent to:
+	0.0347 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:20
+	Energy:	0.0078 kWh
+	CO2eq:	3.7273 g
+	This is equivalent to:
+	0.0347 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 42 Treads_concluida___
+___Execucao  44 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       44
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6588159357803E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    77.15
+ Total threads   =                       44
+ Avail threads   =                       44
+ Mop/s total     =                   113.81
+ Mop/s/thread    =                     2.59
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:18
+	Energy:	0.0088 kWh
+	CO2eq:	4.1724 g
+	This is equivalent to:
+	0.0388 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:18
+	Energy:	0.0088 kWh
+	CO2eq:	4.1724 g
+	This is equivalent to:
+	0.0388 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 44 Treads_concluida___
+___Execucao  46 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       46
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6807493308802E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    73.74
+ Total threads   =                       46
+ Avail threads   =                       46
+ Mop/s total     =                   119.08
+ Mop/s/thread    =                     2.59
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:14
+	Energy:	0.0084 kWh
+	CO2eq:	3.9914 g
+	This is equivalent to:
+	0.0371 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:14
+	Energy:	0.0084 kWh
+	CO2eq:	3.9914 g
+	This is equivalent to:
+	0.0371 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 46 Treads_concluida___
+___Execucao  48 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:               8
+ Adaptation frequency:               5
+ Time steps:                       200    dt:    1.562500E-04
+ CG iterations:                     10
+ Heat source radius:            0.0670
+ Number of available threads:       48
+
+Step    0: elements refined, merged, total:  4563      0  31942
+Step    5: elements refined, merged, total:   168   1160  32103
+Step   10: elements refined, merged, total:   173   1464  32033
+Step   15: elements refined, merged, total:   182   1728  31795
+Step   20: elements refined, merged, total:   156   1288  31760
+Step   25: elements refined, merged, total:   169   1520  31613
+Step   30: elements refined, merged, total:   210   1256  31984
+Step   35: elements refined, merged, total:   213   1480  32180
+Step   40: elements refined, merged, total:   161   1248  32215
+Step   45: elements refined, merged, total:   166   1672  31914
+Step   50: elements refined, merged, total:   188   1712  31732
+Step   55: elements refined, merged, total:   141   1528  31382
+Step   60: elements refined, merged, total:   173   1248  31501
+Step   65: elements refined, merged, total:   235   1400  31921
+Step   70: elements refined, merged, total:   193   1288  32145
+Step   75: elements refined, merged, total:   166   1560  31942
+Step   80: elements refined, merged, total:   188   1440  31998
+Step   85: elements refined, merged, total:   176   1496  31921
+Step   90: elements refined, merged, total:   159   1264  31928
+Step   95: elements refined, merged, total:   182   1376  31998
+Step  100: elements refined, merged, total:   201   1544  32054
+Step  105: elements refined, merged, total:   162   1200  32138
+Step  110: elements refined, merged, total:   180   1384  32187
+Step  115: elements refined, merged, total:   186   1664  32033
+Step  120: elements refined, merged, total:   152   1384  31886
+Step  125: elements refined, merged, total:   165   1488  31739
+Step  130: elements refined, merged, total:   174   1224  31886
+Step  135: elements refined, merged, total:   228   1464  32201
+Step  140: elements refined, merged, total:   162   1208  32278
+Step  145: elements refined, merged, total:   168   1664  31998
+Step  150: elements refined, merged, total:   189   1656  31872
+Step  155: elements refined, merged, total:   139   1272  31732
+Step  160: elements refined, merged, total:   196   1336  31935
+Step  165: elements refined, merged, total:   195   1424  32054
+Step  170: elements refined, merged, total:   182   1312  32180
+Step  175: elements refined, merged, total:   168   1504  32040
+Step  180: elements refined, merged, total:   183   1504  32005
+Step  185: elements refined, merged, total:   175   1776  31676
+Step  190: elements refined, merged, total:   151   1216  31669
+Step  195: elements refined, merged, total:   165   1352  31641
+
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of temperature integrals
+           1.5447365870999E-05 1.5447365871000E-05 5.6588159357803E-14
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        C
+ Size            =                        8
+ Iterations      =                      200
+ Time in seconds =                    70.61
+ Total threads   =                       48
+ Avail threads   =                       48
+ Mop/s total     =                   124.36
+ Mop/s/thread    =                     2.59
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:11
+	Energy:	0.0080 kWh
+	CO2eq:	3.8171 g
+	This is equivalent to:
+	0.0355 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/home/users/acsilveira/.local/lib/python3.11/site-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:11
+	Energy:	0.0080 kWh
+	CO2eq:	3.8171 g
+	This is equivalent to:
+	0.0355 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 48 Treads_concluida___
