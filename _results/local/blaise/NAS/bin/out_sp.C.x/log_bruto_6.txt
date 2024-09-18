@@ -1,0 +1,3367 @@
+___Execucao_com 2 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:     2
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.5718380992241E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 3.9834574319554E-14
+           3 3.2938291918508E+02 3.2938291918510E+02 4.7113108923174E-14
+           4 3.0819249718905E+02 3.0819249718910E+02 1.5013520242937E-13
+           5 4.5972237991759E+02 4.5972237991760E+02 2.7944283819389E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.7306369159610E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.5680804938205E-13
+           3 5.1328864163197E-02 5.1328864163200E-02 5.7994376717777E-14
+           4 4.8060734194539E-02 4.8060734194540E-02 2.3533550314872E-14
+           5 5.4833774913006E-01 5.4833774913010E-01 6.7017786343164E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   249.32
+ Total threads   =                        2
+ Avail threads   =                        2
+ Mop/s total     =                  5816.13
+ Mop/s/thread    =                  2908.07
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:04:11
+	Energy:	0.0103 kWh
+	CO2eq:	4.9122 g
+	This is equivalent to:
+	0.0457 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:04:11
+	Energy:	0.0103 kWh
+	CO2eq:	4.9122 g
+	This is equivalent to:
+	0.0457 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 2 Treads_concluida___
+___Execucao_com 4 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 7.1323772312167E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.2150537942783E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 4.1590693225219E-14
+           4 3.0819249718905E+02 3.0819249718910E+02 1.4884411346499E-13
+           5 4.5972237991759E+02 4.5972237991760E+02 2.7449694725241E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 6.4097663554113E-15
+           2 2.5908889223146E-02 2.5908889223150E-02 1.5774541603079E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.4336996937798E-14
+           4 4.8060734194539E-02 4.8060734194540E-02 1.5737159413012E-14
+           5 5.4833774913006E-01 5.4833774913010E-01 6.8840022225607E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   145.31
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                  9979.35
+ Mop/s/thread    =                  2494.84
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:02:27
+	Energy:	0.0068 kWh
+	CO2eq:	3.2063 g
+	This is equivalent to:
+	0.0298 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:02:27
+	Energy:	0.0068 kWh
+	CO2eq:	3.2063 g
+	This is equivalent to:
+	0.0298 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 4 Treads_concluida___
+___Execucao_com 6 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:     6
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 7.3063376514903E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.2845327029752E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 4.0900391262975E-14
+           4 3.0819249718905E+02 3.0819249718910E+02 1.4607749425560E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.5486767505154E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.2392214953795E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.5654023033955E-13
+           3 5.1328864163197E-02 5.1328864163200E-02 4.9207349942356E-14
+           4 4.8060734194539E-02 4.8060734194540E-02 1.0539565478439E-14
+           5 5.4833774913007E-01 5.4833774913010E-01 6.2968373271070E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   111.84
+ Total threads   =                        6
+ Avail threads   =                        6
+ Mop/s total     =                 12966.13
+ Mop/s/thread    =                  2161.02
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:53
+	Energy:	0.0056 kWh
+	CO2eq:	2.6716 g
+	This is equivalent to:
+	0.0249 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:53
+	Energy:	0.0056 kWh
+	CO2eq:	2.6716 g
+	This is equivalent to:
+	0.0249 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 6 Treads_concluida___
+___Execucao_com 8 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:     8
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 7.2096929735606E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5508685196467E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 4.1072966753536E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4589305297497E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.7465123881748E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.7947345795152E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.6363743496572E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.7851807647966E-14
+           4 4.8060734194539E-02 4.8060734194540E-02 1.9635354863942E-14
+           5 5.4833774913006E-01 5.4833774913010E-01 6.6815315689560E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    92.48
+ Total threads   =                        8
+ Avail threads   =                        8
+ Mop/s total     =                 15679.64
+ Mop/s/thread    =                  1959.95
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:33
+	Energy:	0.0049 kWh
+	CO2eq:	2.3391 g
+	This is equivalent to:
+	0.0218 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:33
+	Energy:	0.0049 kWh
+	CO2eq:	2.3391 g
+	This is equivalent to:
+	0.0218 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 8 Treads_concluida___
+___Execucao_com 10 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    10
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9777457465291E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5856079739951E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.9519787338486E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4460196401059E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.6475945693451E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.8161004673665E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.6256615879573E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.4066626883169E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 3.8981954509297E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 6.9852375493630E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    85.73
+ Total threads   =                       10
+ Avail threads   =                       10
+ Mop/s total     =                 16914.81
+ Mop/s/thread    =                  1691.48
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:26
+	Energy:	0.0048 kWh
+	CO2eq:	2.2826 g
+	This is equivalent to:
+	0.0212 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:26
+	Energy:	0.0048 kWh
+	CO2eq:	2.2826 g
+	This is equivalent to:
+	0.0212 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 10 Treads_concluida___
+___Execucao_com 12 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    12
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.8424431974274E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.4929694290659E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.7448881451754E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4331087504621E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.6475945693451E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001831E-01 2.5981205001830E-01 2.2861500000967E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7060073007065E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 4.1636988412763E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 7.9407685111530E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.6533907062586E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    87.71
+ Total threads   =                       12
+ Avail threads   =                       12
+ Mop/s total     =                 16533.31
+ Mop/s/thread    =                  1377.78
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:28
+	Energy:	0.0051 kWh
+	CO2eq:	2.4302 g
+	This is equivalent to:
+	0.0226 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:28
+	Energy:	0.0051 kWh
+	CO2eq:	2.4302 g
+	This is equivalent to:
+	0.0226 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 12 Treads_concluida___
+___Execucao_com 14 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    14
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.8811010685993E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.4698097928336E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.6758579489509E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4404864016872E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.6970534787599E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.6024415888528E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.6805644916692E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.8122177702594E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 4.6200834973981E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.5521553794563E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    91.20
+ Total threads   =                       14
+ Avail threads   =                       14
+ Mop/s total     =                 15899.48
+ Mop/s/thread    =                  1135.68
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:32
+	Energy:	0.0055 kWh
+	CO2eq:	2.6310 g
+	This is equivalent to:
+	0.0245 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:32
+	Energy:	0.0055 kWh
+	CO2eq:	2.6310 g
+	This is equivalent to:
+	0.0245 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 14 Treads_concluida___
+___Execucao_com 16 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.8811010685993E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.4582299747175E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.6586003998948E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4386419888809E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.6970534787599E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5597098131501E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.6859208725192E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.7716622620652E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 8.6626565576215E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.1269670068864E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    96.21
+ Total threads   =                       16
+ Avail threads   =                       16
+ Mop/s total     =                 15072.10
+ Mop/s/thread    =                   942.01
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:37
+	Energy:	0.0061 kWh
+	CO2eq:	2.8856 g
+	This is equivalent to:
+	0.0268 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:37
+	Energy:	0.0061 kWh
+	CO2eq:	2.8856 g
+	This is equivalent to:
+	0.0268 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 16 Treads_concluida___
+___Execucao_com 18 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    18
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.8231142618415E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5277088834144E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.6758579489509E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4294199248496E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.6105003872840E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001831E-01 2.5981205001830E-01 1.9656616823261E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7046682054940E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.8527732784537E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 8.0851461204467E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.4306729872934E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   104.57
+ Total threads   =                       18
+ Avail threads   =                       18
+ Mop/s total     =                 13867.09
+ Mop/s/thread    =                   770.39
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:45
+	Energy:	0.0068 kWh
+	CO2eq:	3.2243 g
+	This is equivalent to:
+	0.0300 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:45
+	Energy:	0.0068 kWh
+	CO2eq:	3.2243 g
+	This is equivalent to:
+	0.0300 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 18 Treads_concluida___
+___Execucao_com 20 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    20
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.8811010685993E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.4929694290659E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.5895702036704E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4220422736246E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.6105003872840E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.8588322430693E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.6979727294316E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.8257362729909E-14
+           4 4.8060734194539E-02 4.8060734194540E-02 1.1117075915614E-14
+           5 5.4833774913006E-01 5.4833774913010E-01 7.3699317912120E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   110.92
+ Total threads   =                       20
+ Avail threads   =                       20
+ Mop/s total     =                 13073.93
+ Mop/s/thread    =                   653.70
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:51
+	Energy:	0.0074 kWh
+	CO2eq:	3.5250 g
+	This is equivalent to:
+	0.0328 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:51
+	Energy:	0.0074 kWh
+	CO2eq:	3.5250 g
+	This is equivalent to:
+	0.0328 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 20 Treads_concluida___
+___Execucao_com 22 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    22
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.8811010685993E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.4929694290659E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.5895702036704E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4220422736246E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.6228651146377E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5169780374473E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.6926163485816E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 4.0014768084993E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 8.2295237297404E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.3496847258516E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   116.10
+ Total threads   =                       22
+ Avail threads   =                       22
+ Mop/s total     =                 12489.71
+ Mop/s/thread    =                   567.71
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:57
+	Energy:	0.0080 kWh
+	CO2eq:	3.7961 g
+	This is equivalent to:
+	0.0353 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:57
+	Energy:	0.0080 kWh
+	CO2eq:	3.7961 g
+	This is equivalent to:
+	0.0353 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 22 Treads_concluida___
+___Execucao_com 24 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    24
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.8811010685993E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5277088834144E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.5550551055582E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4183534480121E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.6105003872840E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.7092710281097E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.6885990629442E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.9474027975736E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 7.0745028553909E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.2079552683282E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   104.70
+ Total threads   =                       24
+ Avail threads   =                       24
+ Mop/s total     =                 13849.96
+ Mop/s/thread    =                   577.08
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:45
+	Energy:	0.0074 kWh
+	CO2eq:	3.5133 g
+	This is equivalent to:
+	0.0327 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:45
+	Energy:	0.0074 kWh
+	CO2eq:	3.5133 g
+	This is equivalent to:
+	0.0327 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 24 Treads_concluida___
+___Execucao_com 26 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    26
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.8617721330134E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5277088834144E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.5550551055582E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4183534480121E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.6105003872840E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.6879051402583E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.6966336342191E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 4.0690693221563E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 9.0957893855025E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.2484493990492E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    99.31
+ Total threads   =                       26
+ Avail threads   =                       26
+ Mop/s total     =                 14601.91
+ Mop/s/thread    =                   561.61
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:40
+	Energy:	0.0072 kWh
+	CO2eq:	3.3986 g
+	This is equivalent to:
+	0.0316 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:40
+	Energy:	0.0072 kWh
+	CO2eq:	3.3986 g
+	This is equivalent to:
+	0.0316 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 26 Treads_concluida___
+___Execucao_com 28 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    28
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9390878753572E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5508685196467E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.5377975565021E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4128202095933E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.5363120231617E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.6879051402583E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.6939554437941E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 4.1096248303506E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 9.0957893855025E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.2484493990492E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    93.99
+ Total threads   =                       28
+ Avail threads   =                       28
+ Mop/s total     =                 15428.73
+ Mop/s/thread    =                   551.03
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:34
+	Energy:	0.0069 kWh
+	CO2eq:	3.2727 g
+	This is equivalent to:
+	0.0304 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:34
+	Energy:	0.0069 kWh
+	CO2eq:	3.2727 g
+	This is equivalent to:
+	0.0304 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 28 Treads_concluida___
+___Execucao_com 30 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    30
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9390878753572E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5508685196467E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.5377975565021E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4128202095933E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.5486767505154E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.6024415888528E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7167200624064E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 4.0825878248878E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 7.2188804646845E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.1877082029678E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    87.02
+ Total threads   =                       30
+ Avail threads   =                       30
+ Mop/s total     =                 16664.22
+ Mop/s/thread    =                   555.47
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:27
+	Energy:	0.0065 kWh
+	CO2eq:	3.1015 g
+	This is equivalent to:
+	0.0289 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:27
+	Energy:	0.0065 kWh
+	CO2eq:	3.1015 g
+	This is equivalent to:
+	0.0289 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 30 Treads_concluida___
+___Execucao_com 32 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    32
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9970746821151E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5392887015305E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.5032824583899E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4072869711745E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.6599592966988E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5597098131501E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7180591576188E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.9744398030364E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 6.7857476368035E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.0662258108049E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    80.96
+ Total threads   =                       32
+ Avail threads   =                       32
+ Mop/s total     =                 17910.96
+ Mop/s/thread    =                   559.72
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:21
+	Energy:	0.0063 kWh
+	CO2eq:	3.0092 g
+	This is equivalent to:
+	0.0280 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:21
+	Energy:	0.0063 kWh
+	CO2eq:	3.0092 g
+	This is equivalent to:
+	0.0280 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 32 Treads_concluida___
+___Execucao_com 34 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    34
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9970746821151E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5508685196467E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.5032824583899E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4072869711745E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.6723240240525E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.6451733645556E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.6872599677317E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.8527732784537E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 1.0106432650558E-14
+           5 5.4833774913006E-01 5.4833774913010E-01 7.2889435297701E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    81.74
+ Total threads   =                       34
+ Avail threads   =                       34
+ Mop/s total     =                 17740.77
+ Mop/s/thread    =                   521.79
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:22
+	Energy:	0.0065 kWh
+	CO2eq:	3.0721 g
+	This is equivalent to:
+	0.0286 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:22
+	Energy:	0.0065 kWh
+	CO2eq:	3.0721 g
+	This is equivalent to:
+	0.0286 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 34 Treads_concluida___
+___Execucao_com 36 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    36
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9970746821151E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5392887015305E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.5032824583899E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4072869711745E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.6723240240525E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5810757010015E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.6832426820942E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.8392547757223E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 8.8070341669151E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.3091905951306E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    75.10
+ Total threads   =                       36
+ Avail threads   =                       36
+ Mop/s total     =                 19309.69
+ Mop/s/thread    =                   536.38
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:16
+	Energy:	0.0062 kWh
+	CO2eq:	2.9391 g
+	This is equivalent to:
+	0.0273 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:16
+	Energy:	0.0062 kWh
+	CO2eq:	2.9391 g
+	This is equivalent to:
+	0.0273 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 36 Treads_concluida___
+___Execucao_com 38 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    38
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9970746821151E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5392887015305E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.5032824583899E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4072869711745E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.6723240240525E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5597098131501E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7006509198565E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.7716622620652E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 8.3739013390341E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.1674611376073E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    73.11
+ Total threads   =                       38
+ Avail threads   =                       38
+ Mop/s total     =                 19834.43
+ Mop/s/thread    =                   521.96
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:14
+	Energy:	0.0063 kWh
+	CO2eq:	2.9847 g
+	This is equivalent to:
+	0.0278 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:14
+	Energy:	0.0063 kWh
+	CO2eq:	2.9847 g
+	This is equivalent to:
+	0.0278 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 38 Treads_concluida___
+___Execucao_com 40 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    40
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9970746821151E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5392887015305E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.4860249093337E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4035981455620E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.7465123881748E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5810757010015E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7006509198565E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.8122177702594E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 8.3739013390341E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.1674611376073E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    65.75
+ Total threads   =                       40
+ Avail threads   =                       40
+ Mop/s total     =                 22055.19
+ Mop/s/thread    =                   551.38
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:06
+	Energy:	0.0061 kWh
+	CO2eq:	2.8888 g
+	This is equivalent to:
+	0.0269 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:06
+	Energy:	0.0061 kWh
+	CO2eq:	2.8888 g
+	This is equivalent to:
+	0.0269 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 40 Treads_concluida___
+___Execucao_com 42 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    42
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9970746821151E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5508685196467E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.4860249093337E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4054425583683E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.7465123881748E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.6451733645556E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7127027767689E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.8527732784537E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 7.6520132925656E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.1674611376073E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    65.42
+ Total threads   =                       42
+ Avail threads   =                       42
+ Mop/s total     =                 22165.48
+ Mop/s/thread    =                   527.75
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:06
+	Energy:	0.0062 kWh
+	CO2eq:	2.9559 g
+	This is equivalent to:
+	0.0275 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:06
+	Energy:	0.0062 kWh
+	CO2eq:	2.9559 g
+	This is equivalent to:
+	0.0275 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 42 Treads_concluida___
+___Execucao_com 44 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    44
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9970746821151E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5508685196467E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.4860249093337E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4035981455620E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.7712418428822E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.6451733645556E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7140418719814E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.8527732784537E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 7.2188804646845E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.2079552683282E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    66.09
+ Total threads   =                       44
+ Avail threads   =                       44
+ Mop/s total     =                 21939.76
+ Mop/s/thread    =                   498.63
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:07
+	Energy:	0.0064 kWh
+	CO2eq:	3.0610 g
+	This is equivalent to:
+	0.0285 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:07
+	Energy:	0.0064 kWh
+	CO2eq:	3.0610 g
+	This is equivalent to:
+	0.0285 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 44 Treads_concluida___
+___Execucao_com 46 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    46
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9970746821151E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5508685196467E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.4860249093337E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4035981455620E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.7712418428822E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5597098131501E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7140418719814E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.8122177702594E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 7.7963909018593E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.1877082029678E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    74.16
+ Total threads   =                       46
+ Avail threads   =                       46
+ Mop/s total     =                 19553.47
+ Mop/s/thread    =                   425.08
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:15
+	Energy:	0.0069 kWh
+	CO2eq:	3.2633 g
+	This is equivalent to:
+	0.0304 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:15
+	Energy:	0.0069 kWh
+	CO2eq:	3.2633 g
+	This is equivalent to:
+	0.0304 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 46 Treads_concluida___
+___Execucao_com 48 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    48
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9970746821151E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5508685196467E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.4860249093337E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4035981455620E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.7712418428822E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5169780374473E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7046682054940E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.8122177702594E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 7.9407685111530E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.2484493990492E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    74.17
+ Total threads   =                       48
+ Avail threads   =                       48
+ Mop/s total     =                 19550.83
+ Mop/s/thread    =                   407.31
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:15
+	Energy:	0.0068 kWh
+	CO2eq:	3.2149 g
+	This is equivalent to:
+	0.0299 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:15
+	Energy:	0.0068 kWh
+	CO2eq:	3.2149 g
+	This is equivalent to:
+	0.0299 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 48 Treads_concluida___
+___Execucao_com 50 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    50
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9970746821151E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5508685196467E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.4860249093337E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4035981455620E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.7465123881748E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5169780374473E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7046682054940E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.9068472893794E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 7.9407685111530E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.1877082029678E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    73.78
+ Total threads   =                       50
+ Avail threads   =                       50
+ Mop/s total     =                 19653.49
+ Mop/s/thread    =                   393.07
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:14
+	Energy:	0.0068 kWh
+	CO2eq:	3.2122 g
+	This is equivalent to:
+	0.0299 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:14
+	Energy:	0.0068 kWh
+	CO2eq:	3.2122 g
+	This is equivalent to:
+	0.0299 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 50 Treads_concluida___
+___Execucao_com 52 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    52
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 6.9970746821151E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5508685196467E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.4860249093337E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.4035981455620E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.7465123881748E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5597098131501E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7006509198565E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.9068472893794E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 7.9407685111530E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.1269670068864E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    74.43
+ Total threads   =                       52
+ Avail threads   =                       52
+ Mop/s total     =                 19483.60
+ Mop/s/thread    =                   374.68
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:15
+	Energy:	0.0068 kWh
+	CO2eq:	3.2179 g
+	This is equivalent to:
+	0.0299 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:15
+	Energy:	0.0068 kWh
+	CO2eq:	3.2179 g
+	This is equivalent to:
+	0.0299 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 52 Treads_concluida___
+___Execucao_com 54 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    54
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 7.0743904244589E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5856079739951E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.4860249093337E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.3925316687245E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.7465123881748E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5597098131501E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7006509198565E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.9203657921108E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 8.0851461204467E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.1269670068864E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    73.57
+ Total threads   =                       54
+ Avail threads   =                       54
+ Mop/s total     =                 19711.26
+ Mop/s/thread    =                   365.02
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:14
+	Energy:	0.0068 kWh
+	CO2eq:	3.2503 g
+	This is equivalent to:
+	0.0302 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:14
+	Energy:	0.0068 kWh
+	CO2eq:	3.2503 g
+	This is equivalent to:
+	0.0302 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 54 Treads_concluida___
+___Execucao_com 56 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    56
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 7.0743904244589E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5856079739951E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.4860249093337E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.3925316687245E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.7465123881748E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5597098131501E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7006509198565E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.9474027975736E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 7.9407685111530E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.1472140722468E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    73.87
+ Total threads   =                       56
+ Avail threads   =                       56
+ Mop/s total     =                 19630.72
+ Mop/s/thread    =                   350.55
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:14
+	Energy:	0.0069 kWh
+	CO2eq:	3.2903 g
+	This is equivalent to:
+	0.0306 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:14
+	Energy:	0.0069 kWh
+	CO2eq:	3.2903 g
+	This is equivalent to:
+	0.0306 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 56 Treads_concluida___
+___Execucao_com 58 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    58
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 7.0550614888729E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.5856079739951E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.5032824583899E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.3925316687245E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.7465123881748E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5597098131501E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7006509198565E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.9338842948422E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 8.2295237297404E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.1472140722468E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    72.44
+ Total threads   =                       58
+ Avail threads   =                       58
+ Mop/s total     =                 20019.19
+ Mop/s/thread    =                   345.16
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:13
+	Energy:	0.0069 kWh
+	CO2eq:	3.2712 g
+	This is equivalent to:
+	0.0304 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:13
+	Energy:	0.0069 kWh
+	CO2eq:	3.2712 g
+	This is equivalent to:
+	0.0304 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 58 Treads_concluida___
+___Execucao_com 60 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    60
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 5.8816915818294E+02 5.8816915818290E+02 7.0550614888729E-14
+           2 2.4544176035691E+02 2.4544176035690E+02 4.6087676102274E-14
+           3 3.2938291918509E+02 3.2938291918510E+02 3.4860249093337E-14
+           4 3.0819249718906E+02 3.0819249718910E+02 1.3925316687245E-13
+           5 4.5972237991758E+02 4.5972237991760E+02 3.7465123881748E-14
+ Comparison of RMS-norms of solution error
+           1 2.5981205001830E-01 2.5981205001830E-01 1.5169780374473E-14
+           2 2.5908889223146E-02 2.5908889223150E-02 1.7019900150690E-13
+           3 5.1328864163198E-02 5.1328864163200E-02 3.9338842948422E-14
+           4 4.8060734194540E-02 4.8060734194540E-02 8.3739013390341E-15
+           5 5.4833774913006E-01 5.4833774913010E-01 7.1269670068864E-14
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    75.51
+ Total threads   =                       60
+ Avail threads   =                       60
+ Mop/s total     =                 19203.52
+ Mop/s/thread    =                   320.06
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Aug 2024
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Average carbon intensity during training was 475.00 gCO2/kWh at detected location: UNDETECTED.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:16
+	Energy:	0.0070 kWh
+	CO2eq:	3.3074 g
+	This is equivalent to:
+	0.0308 km travelled by car
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Unknown. Defaulted to average carbon intensity for world in 2019 of 475.00 gCO2/kWh. at detected location: UNDETECTED.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:16
+	Energy:	0.0070 kWh
+	CO2eq:	3.3074 g
+	This is equivalent to:
+	0.0308 km travelled by car
+CarbonTracker: Finished monitoring.
+___Execucao_de 60 Treads_concluida___
+___Execucao_com 62 Treads___:
+CarbonTracker: The following components were found: CPU with device(s) cpu:1, cpu:0.
+CarbonTracker: INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+

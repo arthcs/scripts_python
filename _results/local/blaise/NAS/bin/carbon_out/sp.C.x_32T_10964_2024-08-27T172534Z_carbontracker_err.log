@@ -1,0 +1,11 @@
+2024-08-27 17:25:35,027 - CarbonIntensityThread - INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+2024-08-27 17:26:56,372 - MainThread - INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/carbontracker/emissions/intensity/intensity.py", line 94, in carbon_intensity
+    raise exceptions.IPLocationError("Failed to retrieve location based on IP.")
+carbontracker.exceptions.IPLocationError: Failed to retrieve location based on IP.
+
+2024-08-27 17:26:56,550 - MainThread - WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 475 gCO2/kWh.
