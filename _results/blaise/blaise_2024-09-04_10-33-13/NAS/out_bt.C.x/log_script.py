@@ -18,7 +18,7 @@ def buscar_palavras(arquivo, palavras, arquivo_saida):
         print("Ocorreu um erro:", e)
 
 def extract_number(line):
-    match = re.search(r'Execucao_com (\d+) Treads', line)
+    match = re.search(r'___Execucao  (\d+) Treads', line)
     if match:
         return int(match.group(1))
     return None
@@ -31,7 +31,7 @@ def process_data(file_path):
     entry = {}
     for line in lines:
         line = line.strip()
-        if line.startswith("___Execucao_com") and "Treads___" in line:
+        if line.startswith("___Execucao") and "Treads___" in line:
             if entry:  # Save the previous entry if it exists
                 data.append(entry)
             entry = {}  # Start a new entry
@@ -66,7 +66,7 @@ def process_data(file_path):
     df = pd.DataFrame(data)
     return df
 
-palavras = ['Run time = ','Time:','Energy:','CO2eq:','km travelled by car', 'Run time without initialization =','___Execucao_com','Execution time', 'Elapsed time']
+palavras = ['Run time = ','Time:','Energy:','CO2eq:','km travelled by car', 'Run time without initialization =','___Execucao','Execution time', 'Elapsed time']
 
 # Conta o número de arquivos que começam com "log_bruto_" e terminam com ".txt" na pasta atual
 contador_txt = len([arquivo for arquivo in os.listdir('.') if arquivo.startswith('log_bruto_') and arquivo.endswith('.txt')])
@@ -77,7 +77,7 @@ if contador_txt == 10:
         arquivo = 'log_bruto_'+ str(num+1) + '.txt'
         arquivo_saida = 'log_limpo_'+str(num+1)+'.txt'
         #print(arquivo)
-    
+
         buscar_palavras(arquivo, palavras, arquivo_saida)
 
         ############ Organiza os dados
