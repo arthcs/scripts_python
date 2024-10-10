@@ -11,6 +11,7 @@ fft_10 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/
 
 calcular_media <- function(x) {
   mean(x, na.rm = TRUE)  # Ignorar valores NA
+  # sd(x, na.rm = TRUE)
 }
 
 # Combinar os data frames em um único (substitua pelos seus data frames reais)
