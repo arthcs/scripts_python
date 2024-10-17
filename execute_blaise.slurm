@@ -45,3 +45,9 @@ echo "Entrando -> NAS"
 bash nas.sh 88 ${SLURM_ARRAY_TASK_ID}
 echo "Finalizando -> NAS"
 echo "FIM DO SCRIPT"
+cd ../..
+
+cd PARBOIL
+bash script.sh 88 >> log_bruto_${SLURM_ARRAY_TASK_ID}.txt
+
+echo "FIM DO SCRIPT"
