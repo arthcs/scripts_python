@@ -66,6 +66,32 @@ cutcp
 
 # RODINA/
 data/Hotspot
-Hotspot
-lud
-streamcluster
+Hotspot/
+Usage: ./hotspot <grid_rows> <grid_cols> <sim_time> <no. of threads><temp_file> <power_file>
+        <grid_rows>  		- number of rows in the grid (positive integer)
+        <grid_cols>  		- number of columns in the grid (positive integer)
+        <sim_time>   		- number of iterations
+        <no. of threads>    - number of threads
+        <temp_file>  		- name of the file containing the initial temperature values of each cell
+        <power_file> 		- name of the file containing the dissipated power values of each cell
+
+lud/
+Generate input matrix internally, size =16000
+Creating matrix internally size=16000
+
+
+streamcluster/
+PARSEC Benchmark Suite
+usage: ./sc_omp k1 k2 d n chunksize clustersize infile outfile nproc
+  k1:          Min. number of centers allowed
+  k2:          Max. number of centers allowed
+  d:           Dimension of each data point
+  n:           Number of data points
+  chunksize:   Number of data points to handle per step
+  clustersize: Maximum number of intermediate centers
+  infile:      Input file (if n<=0)
+  outfile:     Output file
+  nproc:       Number of threads to use
+
+if n > 0, points will be randomly generated instead of reading from infile.
+

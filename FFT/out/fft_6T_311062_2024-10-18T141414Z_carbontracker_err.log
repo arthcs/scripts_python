@@ -1,0 +1,9 @@
+2024-10-18 14:14:14,231 - CarbonTrackerThread - CRITICAL - Ignored error: Traceback (most recent call last):
+  File "/home/gppd/.local/lib/python3.10/site-packages/carbontracker/tracker.py", line 118, in run
+    self.begin()
+  File "/home/gppd/.local/lib/python3.10/site-packages/carbontracker/tracker.py", line 132, in begin
+    self._components_remove_unavailable()
+  File "/home/gppd/.local/lib/python3.10/site-packages/carbontracker/tracker.py", line 188, in _components_remove_unavailable
+    raise exceptions.NoComponentsAvailableError()
+carbontracker.exceptions.NoComponentsAvailableError: No components were available. CarbonTracker supports Intel CPUs with the RAPL interface and NVIDIA GPUs.
+Continued training without monitoring...
