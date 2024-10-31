@@ -24,12 +24,13 @@ for (pasta in pastas) {
         for(nas in apps_nas){
           path_nas = paste(path, nas, sep = "/")
           print(path_nas)
+
           arquivos_csv <- list.files(path_nas, pattern = "*.csv", full.names = TRUE)
           # Ler cada arquivo CSV encontrado e armazená-lo como um data frame na lista
           for (arquivo in arquivos_csv) {
             nome_df <- paste(nas, contador, sep = "_")
             #print(nome_df)
-            blaise_data_frames[[nome_df]] <- read.table(arquivo, sep = "|", header = TRUE)
+            blaise_data_frames[[nome_df]] <- read.table(arquivo, sep = ",", header = TRUE)
             contador <- contador + 1
             #print(blaise_data_frames[[nome_df]])
           }
@@ -44,7 +45,7 @@ for (pasta in pastas) {
         for (arquivo in arquivos_csv) {
           nome_df <- paste(app, contador, sep = "_")
           #print(nome_df)
-          blaise_data_frames[[nome_df]] <- read.table(arquivo, sep = "|", header = TRUE)
+          blaise_data_frames[[nome_df]] <- read.table(arquivo, sep = ",", header = TRUE)
           contador <- contador + 1
           #print(blaise_data_frames[[nome_df]])
         }

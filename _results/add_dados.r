@@ -1,13 +1,13 @@
-fft_1 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_1.csv", sep = "|", header = TRUE)
-fft_2 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_2.csv", sep = "|", header = TRUE)
-fft_3 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_3.csv", sep = "|", header = TRUE)
-fft_4 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_4.csv", sep = "|", header = TRUE)
-fft_5 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_5.csv", sep = "|", header = TRUE)
-fft_6 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_6.csv", sep = "|", header = TRUE)
-fft_7 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_7.csv", sep = "|", header = TRUE)
-fft_8 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_8.csv", sep = "|", header = TRUE)
-fft_9 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_9.csv", sep = "|", header = TRUE)
-fft_10 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_10.csv", sep = "|", header = TRUE)
+fft_1 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_1.csv", sep = ",", header = TRUE)
+fft_2 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_2.csv", sep = ",", header = TRUE)
+fft_3 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_3.csv", sep = ",", header = TRUE)
+fft_4 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_4.csv", sep = ",", header = TRUE)
+fft_5 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_5.csv", sep = ",", header = TRUE)
+fft_6 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_6.csv", sep = ",", header = TRUE)
+fft_7 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_7.csv", sep = ",", header = TRUE)
+fft_8 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_8.csv", sep = ",", header = TRUE)
+fft_9 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_9.csv", sep = ",", header = TRUE)
+fft_10 <- read.table("arthur/scripts/_results/blaise/blaise_2024-09-04_10-33-13/FFT/log_ajustado_10.csv", sep = ",", header = TRUE)
 
 calcular_media <- function(x) {
   mean(x, na.rm = TRUE)  # Ignorar valores NA

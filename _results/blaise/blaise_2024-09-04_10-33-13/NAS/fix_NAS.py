@@ -42,6 +42,8 @@ def process_data(file_path):
             #     entry['Elapsed time'] = float(match.group(1))
         elif line.startswith("Execution Time"):
             entry['Execution Time'] = float(line.split(':')[1].strip())
+        elif line.startswith("Time in seconds"):
+            entry["Time/s"] = float(line.split('=')[1].strip())
         elif line.startswith("Time:"):
             entry['Time'] = line.split('\t')[1].strip()
         elif line.startswith("Energy:"):
@@ -96,7 +98,7 @@ def fix(path):
 
             print(f"Os resultados foram salvos em {output_file}")
 
-palavras = ['Run time = ','Time:','Energy:','CO2eq:','km travelled by car', 'Run time without initialization =','___Execucao','Execution time', 'Elapsed time']
+palavras = ['Run time = ','Time:','Energy:','CO2eq:','km travelled by car', 'Run time without initialization =','___Execucao','Execution time', 'Elapsed time', 'Time in seconds']
 
 # Conta o número de arquivos que começam com "log_bruto_" e terminam com ".txt" na pasta atual
 contador_txt = len([arquivo for arquivo in os.listdir('.') if arquivo.startswith('log_bruto_') and arquivo.endswith('.txt')])

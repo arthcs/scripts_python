@@ -4,12 +4,12 @@ import os
 # Função para substituir múltiplos espaços por '|'
 def substituir_espacos(texto):
     linhas = texto.splitlines()  # Separar o texto por linhas
-    linhas_modificadas = ['|'.join(linha.split()) for linha in linhas]  # Substituir espaços por '|' em cada linha
+    linhas_modificadas = [','.join(linha.split()) for linha in linhas]  # Substituir espaços por '|' em cada linha
     return '\n'.join(linhas_modificadas)  # Reunir as linhas com quebra de linha
 
 def travelled(texto):
     # Substituir a frase exata por "travelled"
-    texto_modificado = texto.replace("km|travelled|by|car", "travelled")
+    texto_modificado = texto.replace("km,travelled,by,car", "travelled")
     texto_modificado = texto_modificado.replace("Execution|Time", "Execution Time")
     return texto_modificado
 
@@ -26,7 +26,7 @@ def fix(path):
                 with open(path+'/log_ajustado_'+str(num+1)+'.csv', 'w') as arquivo:
                     arquivo.write(conteudo_modificado)
 
-                print(path+"/log_ajustado_"+str(num+1)+".csv Ajuste concluido!")
+                print(path+"/log_ajustado_"+str(num+1)+".csv CSV created!")
 
 
 if sys.argv[1]:
