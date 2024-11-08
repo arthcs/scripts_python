@@ -39,12 +39,12 @@ def process_data(file_path):
             if entry:  # Save the previous entry if it exists
                 data.append(entry)
             entry = {}  # Start a new entry
-            entry['Treads'] = extract_number(line)
+            entry['Threads'] = extract_number(line)
         elif line.startswith("___Execucao_com ") and "Treads___" in line:
             if entry:  # Save the previous entry if it exists
                 data.append(entry)
             entry = {}  # Start a new entry
-            entry['Treads'] = extract_number(line)
+            entry['Threads'] = extract_number(line)
         elif line.startswith("Elapsed time"):
             # entry["time_seconds"] = float(line.split('=')[1].strip())
             match = re.search(r"Elapsed time\s*=\s*([0-9.]+)\s*\(s\)", line)
