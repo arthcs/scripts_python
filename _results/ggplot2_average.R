@@ -29,10 +29,3 @@ for(app in benchmark){
 #grafico1 <- ggplot(blaise_save_average$LULESH, aes(x = Threads, y = CO2eq[,1])) + geom_point()
 #grafico2 <- ggplot(blaise_save_average$PO, aes(x = Threads, y = CO2eq[,1], colour = Threads)) + geom_point()
 #grafico3 <- ggplot(blaise_save_average$JA, aes(x = Threads, y = CO2eq[,1], colour = Threads)) + geom_point()
-
-aux <- plot_grid(tupi_plot_time[['out_bt.C.x']],tupi_plot_time[['out_cg.C.x']], tupi_plot_time[['out_ft.C.x']],
-          ncol = 3,
-          labels = c("p1", "p2", "p3"),
-          rel_widths = c(1, 1.2, 1.2))
-
-print(aux)
