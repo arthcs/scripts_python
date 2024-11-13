@@ -1,3 +1,4 @@
+# 1°
 # Definir o caminho base onde as pastas estão localizadas
 base_path <- "arthur/scripts/_results"
 

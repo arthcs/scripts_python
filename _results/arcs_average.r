@@ -1,3 +1,4 @@
+# 2°
 calcular_media_sd <- function(x) {
   c(Media = mean(x, na.rm = TRUE), SD = sd(x, na.rm = TRUE))  # Calcula a média e o desvio padrão
 }
