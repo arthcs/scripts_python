@@ -39,9 +39,27 @@ da_arquitetura.sh** : Irá compilar todos os benchmarks. (O script deve está na
 
 **update_scripts.sh**: Script responsável pelo update de todos os outros scripts para as determinadas pastas (exceto os scripts para a arquitetura da máquina Tupi) 
 
-#Dependencias: 
+###### Alguns resultados ficaram com alguns problemas, por esse motivo foi criado o *script fix_log.py*.  Para manipular os dados usando a linguagem R é preciso converter dados em csv. Por esse motivo foi criado o *to_csv.py*.  Esses dois scrits podem sem executados usando o* run_for_all.sh* 
 
+### Ordem dos scripts em R
+Apos os resultados serem convertidos em CSV, Usamos a linguagem R manipular todos os dadosgerados. Os scripts precisam ser executados seguindo essa ordem. 
+
+**inserir_dataframes.R:** irá buscar nas pastas da sua raiz todos os CSV de todas as arquiteturas e Irá organizar listas de dataframes para cada arquiteturas. Dentro dessas listas terá o resultado de cada aplicação todas as vezes que ela foi excetuada. (As aplicações foram executadas 10x)
+
+**arcs_average.R :** Irá calcular a média dos resultados das 10 execuções. Irá salvar uma nova lista com um datafreme para cada aplicação com os valores médio de cada execução. 
+
+**make_df_co2.R**: Irá criar um dataframe com os dados das execuções que obtiveram a menor média de emissão de carbono. 
+
+**bar_co2eq.R e bar_threads.R:** Criar um gráfico mostrando as menores emissões de carbono, um mostra as menores emissões e outro mostra a quantidade de threads que que obteve a menor emissão. 
+
+**ggplot2_average.R:** Cria duas listas para cada arquitetura, contento os gráficos relacionando o número de threads com a emissão de carbono e outro relacionando o número de threads com o tempo de execução de cada aplicação. 
+
+**bar_theads.R e bar_co2.R:** monta um gráfico de barras mostrando a quantidade de threads que alcançou a menor emissão de carbono. O outro mostra a menor emissão de carbono para cada aplicação. 
+
+
+##Dependencias: 
 Paython3,
 CarbonTracker,
 Pandas,
 Regular Expression,
+R
