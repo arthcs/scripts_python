@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=vtune_snapshot
+#SBATCH --job-name=snapshot
 #SBATCH --partition=blaise
 #SBATCH --time=00:15:00
 #SBATCH --ntasks=1
@@ -20,12 +20,12 @@ srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_FF
 srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_HPCG -- ./HPCG/HPCCG_BIN 256 256 128
 srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_JA -- ./JA/omp_ja
 srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_LULESH -- ./LULESH/lulesh2.0 -i 5000 -s 50
-srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_nas_bt -- ./NAS/bt.C.x
-srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_nas_cg -- ./NAS/cg.C.x
-srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_nas_ft -- ./NAS/ft.C.x
-srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_nas_mg -- ./NAS/mg.C.x
-srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_nas_sp -- ./NAS/sp.C.x
-srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_nas_ua -- ./NAS/ua.C.x
+srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_nas_bt -- ./NAS/bin/bt.C.x
+srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_nas_cg -- ./NAS/bin/cg.C.x
+srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_nas_ft -- ./NAS/bin/ft.C.x
+srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_nas_mg -- ./NAS/bin/mg.C.x
+srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_nas_sp -- ./NAS/bin/sp.C.x
+srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_nas_ua -- ./NAS/bin/ua.C.x
 # srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_fft -- ./parboil/
 srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_PO -- ./PO/omp_po
 # srun vtune -collect performance-snapshot --trace-mpi -r vtune_report/snapshot_fft -- ./RODINIA/

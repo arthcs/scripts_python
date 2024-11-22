@@ -1,0 +1,1 @@
+scp -r acsilveira@gppd-hpc.inf.ufrgs.br:/home/users/acsilveira/hpc-benchmarks-blaise/vtune_report .
