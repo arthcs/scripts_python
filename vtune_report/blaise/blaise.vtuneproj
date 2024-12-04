@@ -128,6 +128,30 @@
     </localhost>
    </workloads>
   </target_settings>
+  <searchDirs>
+   <searchCategory>
+    <category type="u8_t">1</category>
+    <searchDirectory>
+     <name type="string">/home/gppd/arthur/scripts/vtune_report/vtune_report</name>
+     <recursive type="bool">false</recursive>
+     <priority type="bool">true</priority>
+    </searchDirectory>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">2</category>
+    <searchDirectory>
+     <name type="string">/home/gppd/arthur/scripts/vtune_report/vtune_report</name>
+     <recursive type="bool">false</recursive>
+     <priority type="bool">true</priority>
+    </searchDirectory>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">3</category>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">4</category>
+   </searchCategory>
+  </searchDirs>
   <analysis_type_settings>
    <selected_analysis_type_path type="string">/home/gppd/intel/oneapi/vtune/2024.2/config/analysis_type/hotspots.cfg</selected_analysis_type_path>
    <localhost>
