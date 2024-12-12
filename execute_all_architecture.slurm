@@ -19,8 +19,8 @@ num_cores=$(lscpu | grep "^Core(s) per socket:" | awk '{print $4}')
 echo "Número de CPUs lógicos (threads): $num_threads"
 echo "Número de núcleos físicos: $num_cores"
 
-cd hpc-benchmarks-main/parboil
 echo "Entrando -> PARBOIL"
+cd hpc-benchmarks/parboil
 
 benchmarks_array=(
     "bfs omp_base SF"
@@ -37,12 +37,12 @@ do
     # Lê os valores do benchmark atual em três variáveis
     read -r name version data_set <<< "$benchmark"
     echo "___Executando $name ___:"
-    # Loop para executar o script Python várias vezes sequencialmente
+    # Loop para executar o script Python
     for ((i = 0; i <= num_threads; i+=2));
     do
         echo "___Execucao_com $i Treads___"
-        python3 "$caminho_script" "$i" "$name" "$version" "$data_set"
-        #echo "$caminho_script" "$i" "$name" "$version" "$data_set"
+        #python3 "$caminho_script" "$i" "$name" "$version" "$data_set"
+        echo "$caminho_script" "$i" "$name" "$version" "$data_set"
         echo "___Execucao_de $i Treads_concluida___"
     done
     printf "___Fim de $name ___:\n\n"
@@ -50,6 +50,44 @@ do
 done
 
 echo "Finalizando -> PARBOIL"
+
+
+println "Entrando -> RODINIA"
+cd hpc-benchmarks-main/RODINIA/hotspot
+
+benchmarks_array=(
+    "bfs omp_base SF"
+    "histo omp_base default"
+    "lmb omp_cpu short"
+    "mri-q omp_base small"
+    "cutcp omp_base small"
+)
+
+caminho_script="./carbon.py"
+
+for benchmark in "${benchmarks_array[@]}"; 
+do
+    # Lê os valores do benchmark atual em três variáveis
+    read -r name version data_set <<< "$benchmark"
+
+    echo "___Executando $name ___:"
+    
+    # Loop para executar o script Python
+    for ((i = 0; i <= num_threads; i+=2));
+    do
+        echo "___Execucao_com $i Treads___"
+        #python3 "$caminho_script" "$i" "$name" "$version" "$data_set"
+        echo "$caminho_script" "$i" "$name" "$version" "$data_set"
+        echo "___Execucao_de $i Treads_concluida___"
+    done
+    printf "___Fim de $name ___:\n\n"
+    #python3 log_script.py
+done
+
+echo "Finalizando -> RODINIA"
+
+
+
 
 exit
 
