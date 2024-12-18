@@ -18,7 +18,7 @@ class Archiver:
 
   def readFilter(self):
     try:
-      f = open('ppkg.ignore', 'r') 
+      f = open('ppkg.ignore', 'r')
     except:
       "No filters."
       return
@@ -30,7 +30,7 @@ class Archiver:
       try:
         self.filters.append(re.compile(l))
       except:
-        print "Not valid pattern: %s" % l
+        print ("Not valid pattern: %s" % l)
     f.close()
 
   def readBenchmarks(self):
@@ -55,48 +55,47 @@ class Archiver:
     return False
 
   def run(self, top):
-    (path, dir) = os.path.split(top)
-    self.top = top
-    os.chdir(path)
-    if (len(self.benchmarks) == 0):
-    	self.walk(dir)
-    else:
-      self.walk_benchmarks(dir)
-    self.close()
+        path, dir_ = os.path.split(top)  # "dir" é uma palavra reservada, renomeado para "dir_"
+        self.top = top
+        os.chdir(path)
+        if len(self.benchmarks) == 0:
+            self.walk(dir_)
+        else:
+            self.walk_benchmarks(dir_)
+        self.close()
 
   def walk(self, top):
-    for root, dirs, files in os.walk(top):
-      for dir_ in dirs:
-        self.walk(dir_)
-      for file in files:
-        fullName = root + os.sep + file
-        if not self.ignore(fullName):
-          self.add(fullName)
-        else:
-          print "Ignore %s" % fullName
+      for root, dirs, files in os.walk(top):
+          for dir_ in dirs:
+              self.walk(os.path.join(root, dir_))  # Incluído "os.path.join" para concatenar corretamente os caminhos
+          for file in files:
+              full_name = os.path.join(root, file)
+              if not self.ignore(full_name):
+                  self.add(full_name)
+              else:
+                  print(f"Ignore {full_name}")  # Uso de f-strings para formatação moderna
 
   def walk_benchmarks(self, top):
-    for entry in os.listdir(top):
-    	if entry in self.benchmarks:
-    		self.walk(os.path.join(top, entry))
-    	else:
-    		print "Ignoring %s" % entry
+      for entry in os.listdir(top):
+          if entry in self.benchmarks:
+              self.walk(os.path.join(top, entry))
+          else:
+              print(f"Ignoring {os.path.join(top, entry)}")  # Formatação com f-strings
 
   def add(self, path):
-    print "Adding %s ..." % path
-    if not self.dont_run:
-      self.tarfile.add(path)
+      print(f"Adding {path} ...")  # Uso de f-strings
+      if not self.dont_run:
+          self.tarfile.add(path)
 
   def close(self):
     if not self.dont_run:
       self.tarfile.close()
 
 if len(sys.argv) != 3:
-  print "Usage: ./ppkg.py <output filename WITH extension: XXX.tar.gz> <input directory>"
-  print "       add your own ignore list in pkg.ignore file in the current directory"
+  print ("Usage: ./ppkg.py <output filename WITH extension: XXX.tar.gz> <input directory>")
+  print ("       add your own ignore list in pkg.ignore file in the current directory")
 
 a = Archiver(sys.argv[1], False)
 a.readFilter()
 a.readBenchmarks()
 a.run(sys.argv[2])
-

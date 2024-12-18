@@ -16,7 +16,7 @@
 # 3. copy this script file into the directory (NOT THE ENTIRE REPOSITORY)
 # 4. run the script by typing: "python sanity_check.py"
 # 5. wait (hours, maybe a day, not a week long though)
-# 6. you will get the result.
+# 6. you will get the result. 
 #
 # questions? kim868@illinois.edu
 #
@@ -66,15 +66,15 @@ class benchmark:
 
   def scan_versions(self):
     for ver in os.listdir('benchmarks' + os.sep + self.name + os.sep + 'src'):
-      self.vers.append(ver)
+      self.vers.append(ver) 
 
   def scan_inputs(self):
     for datum in os.listdir('datasets' + os.sep + self.name):
-      self.data.append(datum)
+      self.data.append(datum) 
 
-  def run(self, ver, datum, pl, fake=False):
+  def run(self, ver, datum, pl, fake=False): 
     cmd = 'python parboil run %s %s %s %s' % (self.name, ver, datum, pl)
-    print (cmd)
+    print cmd
 
     if fake: return 0, ''
 
@@ -90,11 +90,11 @@ class benchmark:
       for cat in self.pbTimerCats:
         if line.find(cat) != -1:
           line = " ++ %s" % line
-          print (line),
+          print line,
           timing += line
           isCat = True
           break
-      if not isCat: print (line),
+      if not isCat: print line,
 
     sts = os.waitpid(p.pid, 0)[1]
     # return p.returncode, timing
@@ -117,7 +117,7 @@ class benchmark:
 
             self.results.append((ver, datum, platform, ret, timing))
 
-  def get_results(self):
+  def get_results(self): 
     return self.results
 
   def get_result_string(self):
@@ -139,7 +139,7 @@ class benchmark:
 
   def write_result(self, out):
     x = self.get_result_string()
-    print (x),
+    print x,
     out.write(x)
     out.flush()
 
@@ -236,3 +236,4 @@ if socket.gethostname().startswith('cyclone'):
   run('nvidia')
 elif socket.gethostname().startswith('ati'):
   run('ati')
+

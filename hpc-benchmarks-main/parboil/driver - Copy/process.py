@@ -18,7 +18,7 @@ import globals
     #expecteddirs = [Directory(path.join(root,x'benchmarks','build', 'input', 'output', 'run', 'rools', 'src')]
 
 #    return lambda x: scan_file(x, True, lambda x: Directory(, boring=['_darcs','.svn'])
-
+        
 def scan_for_benchmark_versions(bmkdir):
     """Scan subdirectories of a benchmark Directory 'bmkdir' to find
     benchmark versions.  Return a sequence containing all benchmark
@@ -47,7 +47,7 @@ def read_description_file(dir):
             descr = descr_file.read()
             descr_file.close()
             return descr
-
+    
     # else, return None
 
 def with_path(wd, action):
@@ -58,7 +58,7 @@ def with_path(wd, action):
     try: result = action()
     finally: os.chdir(cwd)
     return result
-
+    
 def makefile(target=None, action=None, filepath=None, env={}):
     """Run a makefile.  An optional command, makefile path, and dictionary of
     variables to define on the command line may be defined.  The return code
@@ -107,7 +107,7 @@ def makefile(target=None, action=None, filepath=None, env={}):
                 # Error
                 return False
     else:
-        raise ValueError("invalid action")
+        raise ValueError, "invalid action"
 
     # Pass the target as the second argument
     if target: args.append(target)
@@ -124,7 +124,7 @@ def makefile(target=None, action=None, filepath=None, env={}):
     # Print a status message, if running in verbose mode
     if globals.verbose:
 
-        print ("Running '" + " ".join(args) + "' in " + os.getcwd())
+        print "Running '" + " ".join(args) + "' in " + os.getcwd()
 
     # Run the makefile and return result info
     return run()
@@ -138,11 +138,11 @@ def spawnwaitv(prog, args):
 
     # Print a status message if running in verbose mode
     if globals.verbose:
-        print ("Running '" + " ".join(args) + "' in " + os.getcwd())
+        print "Running '" + " ".join(args) + "' in " + os.getcwd()
 
     # Check that the program is runnable
     if not os.access(prog, os.X_OK):
-        raise OSError("Cannot execute '" + prog + "'")
+        raise OSError, "Cannot execute '" + prog + "'"
 
     # Run the program
     return os.spawnve(os.P_WAIT, prog, args, env)
