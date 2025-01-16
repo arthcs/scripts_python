@@ -71,7 +71,7 @@ def process_data(file_path):
 
 #palavras = ['Run time = ','Time:','Energy:','CO2eq:','km travelled by car', 'Run time without initialization =','___Execucao_com','Execution time', 'Elapsed time']
 
-# Conta o número de arquivos que começam com "log_bruto_" e terminam com ".txt" na pasta atual
+# busca o nome dos arquivos que terminam com .out
 files_out = [arquivo for arquivo in os.listdir('.') if arquivo.endswith('.out')]
 #print(files_out)
 
@@ -94,7 +94,7 @@ for file in files_out:
     df_str = df_str.replace('.', ',')
 
     # Salvar a tabela em um arquivo txt
-    output_file = 'process_data/log_result_'+ file_path + '.txt'
+    output_file = 'process_data/log_'+ file_path
 
     with open(output_file, 'w') as file:
         file.write(df_str)

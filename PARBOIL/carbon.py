@@ -22,10 +22,10 @@ tracker = CarbonTracker(
 # Training loop.
 for epoch in range(max_epochs):
     
-    print("\n Start Clean")
-    os.system('python2 parboil clean '+str(benchmark))
-    print("\n Start Compile")
-    os.system('python2 parboil compile '+str(benchmark)+' '+str(version))
+    #print("\n Start Clean")
+    #os.system('python2 parboil clean '+str(benchmark))
+    #print("\n Start Compile")
+    #os.system('python2 parboil compile '+str(benchmark)+' '+str(version))
 
     tracker.epoch_start()
     os.system('OMP_NUM_THREADS='+str(threads_num)+' python2 parboil run '+str(benchmark)+' '+str(version)+' '+str(data_set))

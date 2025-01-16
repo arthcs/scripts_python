@@ -1,13 +1,17 @@
 #!/bin/bash
 
 #SBATCH --job-name=parboil_rodinia
+#SBATCH --partition=hype
+#SBATCH --nodelist=hype1
+#SBATCH --ntasks=40
+#SBATCH --nodes=1
 #SBATCH --time=24:00:00
-#SBATCH --partition=hype --ntasks=20
-#SBATCH --output=out/hype_%j.out
-#SBATCH --error=out/hype_%j.err
+#SBATCH --output=out/hype_%j_%a.out
+#SBATCH --error=out/hype_%j_%a.err
+#SBATCH --array=1-10
 
 export OMP_PROC_BIND=CLOSE
-export OMP_PLACES=CORES
+#export OMP_PLACES=CORES
 #export OMP_DISPLAY_ENV=TRUE
 
 # Pega o número de CPUs lógicos
@@ -18,7 +22,6 @@ num_cores=$(lscpu | grep "^Core(s) per socket:" | awk '{print $4}')
 
 rand=2
 start=2
-turn=10
 
 # Exibe as informações capturadas
 echo "Numero de CPUs logicos (threads): $num_threads"
@@ -46,23 +49,24 @@ for benchmark in "${benchmarks_array[@]}";
 do
     # Lê os valores do benchmark atual em três variáveis
     read -r name version data_set <<< "$benchmark"
-    # Loop para executar o script Python
+    # Compilar o benchmark
+    printf "\n Start Clean\n"
+    python2 parboil clean "$name"
+    printf "\n Start Compile\n"
+    python2 parboil compile "$name" "$version"
+
     printf "\n\n___Executando $name ___:"
-    for((v=1; v <= turn; v++))
+    for ((i=start; i <= num_threads; i+=rand));
     do
-        printf "Turn x$v\n"
-        for ((i=start; i <= num_threads; i+=rand));
-        do
-            echo "___$name com $i Treads___"
-            python3 "$caminho_script" "$i" "$name" "$version" "$data_set" | grep -E "Timer Wall Time|IO|Compute|Time|Energy|CO2eq|travelled by car"
-            echo "___$name com $i Treads_concluida___"
-        done
+        echo "___$name com $i Treads___"
+        python3 "$caminho_script" "$i" "$name" "$version" "$data_set" #| grep -E "Timer Wall Time|IO|Compute|Time|Energy|CO2eq|travelled by car"
+        echo "___$name com $i Treads_concluida___"
     done
 done
 
 echo "Desativa py2"
 source ~/miniconda3/etc/profile.d/conda.sh
-conda deactivate
+conda deactivate
 
 cd ..
 echo "Finalizando -> PARBOIL"
@@ -79,17 +83,14 @@ cd ..
 echo "___Executando hotspot___:"
 benchmark_argv="./hotspot/hotspot 1024 1024 100000 @ data/hotspot/temp_1024 data/hotspot/power_1024 output.out"
 # Loop para executar o script Python
-for((v=1; v <= turn; v++))
+
+for ((i=start; i <= num_threads; i+=rand));
 do
-    printf "Turn x$v\n"
-    for ((i=start; i <= num_threads; i+=rand));
-    do
-        export OMP_NUM_THREADS=$i
-        argv=${benchmark_argv//@/$i}
-        echo "___hotspot com $i Treads___"
-        python3 carbon.py "$i" "$argv" | grep -E "Total time|Time|Energy|CO2eq|travelled by car"
-        echo "___hotspot com $i Treads_concluida___"
-    done
+    export OMP_NUM_THREADS=$i
+    argv=${benchmark_argv//@/$i}
+    echo "___hotspot com $i Treads___"
+    python3 carbon.py "$i" "$argv" | grep -E "Total time|Time|Energy|CO2eq|travelled by car"
+    echo "___hotspot com $i Treads_concluida___"
 done
 printf "___Fim de hotspot___:\n\n"
 
@@ -101,17 +102,14 @@ cd ..
 echo "___Executando lud___:"
 benchmark_argv="./lud/omp/lud_omp -s 16000"
 # Loop para executar o script Python
-for((v=1; v <= turn; v++))
+
+for ((i=start; i <= num_threads; i+=rand));
 do
-    printf "Turn x$v\n"
-    for ((i=start; i <= num_threads; i+=rand));
-    do
-        export OMP_NUM_THREADS=$i
-        argv=${benchmark_argv//@/$i}
-        echo "___lud com $i Treads___"
-        python3 carbon.py "$i" "$argv" | grep -E "Time consumed(ms):|Time|Energy|CO2eq|travelled by car"
-        echo "___lud com $i Treads_concluida___"
-    done
+    export OMP_NUM_THREADS=$i
+    argv=${benchmark_argv//@/$i}
+    echo "___lud com $i Treads___"
+    python3 carbon.py "$i" "$argv" | grep -E "Time consumed(ms):|Time|Energy|CO2eq|travelled by car"
+    echo "___lud com $i Treads_concluida___"
 done
 printf "___Fim de lud___:\n\n"
 
@@ -123,17 +121,14 @@ cd ..
 echo "___Executando streamcluster___:"
 benchmark_argv="./streamcluster/sc_omp 10 20 5000 65536 65536 500 none output.out @"
 # Loop para executar o script Python
-for((v=1; v <= turn; v++))
+
+for ((i=start; i <= num_threads; i+=rand));
 do
-    printf "Turn x$v\n"
-    for ((i=start; i <= num_threads; i+=rand));
-    do
-        export OMP_NUM_THREADS=$i
-        argv=${benchmark_argv//@/$i}
-        echo "___streamcluster com $i Treads___"
-        python3 carbon.py "$i" "$argv" | grep -E "time =|Time|Energy|CO2eq|travelled by car"
-        echo "___streamcluster com $i Treads_concluida___"
-    done
+    export OMP_NUM_THREADS=$i
+    argv=${benchmark_argv//@/$i}
+    echo "___streamcluster com $i Treads___"
+    python3 carbon.py "$i" "$argv" | grep -E "time =|Time|Energy|CO2eq|travelled by car"
+    echo "___streamcluster com $i Treads_concluida___"
 done
 printf "___Fim de streamcluster___:\n\n"
 echo "Finalizando -> RODINIA"
