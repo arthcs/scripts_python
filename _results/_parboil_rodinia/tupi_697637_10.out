@@ -1,0 +1,2231 @@
+Numero de CPUs logicos (threads): 16
+Numero de núcleos fisicos: 8
+Entrando -> PARBOIL
+Inicia py2
+
+ Start Clean
+rm -f build/opencl_base_default/*
+if [ -d build/opencl_base_default ]; then rmdir build/opencl_base_default; fi
+rm -f build/omp_base_default/*
+if [ -d build/omp_base_default ]; then rmdir build/omp_base_default; fi
+rm -rf build/cuda_base_default/*
+if [ -d build/cuda_base_default ]; then rmdir build/cuda_base_default; fi
+rm -f build/base_default/*
+if [ -d build/base_default ]; then rmdir build/base_default; fi
+rm -f build/opencl_nvidia_default/*
+if [ -d build/opencl_nvidia_default ]; then rmdir build/opencl_nvidia_default; fi
+rm -rf build/cuda_default/*
+if [ -d build/cuda_default ]; then rmdir build/cuda_default; fi
+Parboil parallel benchmark suite, version 0.2
+
+
+ Start Compile
+mkdir -p build/omp_base_default
+g++ -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -ffast-math -fopenmp -c src/omp_base/main.cc -o build/omp_base_default/main.o
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -ffast-math -fopenmp -c /home/users/acsilveira/hpc-benchmarks/parboil/common/src/parboil.c -o build/omp_base_default/parboil.o
+g++ build/omp_base_default/main.o build/omp_base_default/parboil.o -o build/omp_base_default/bfs  -lm -lpthread -lm -lstdc++ -lgomp
+Parboil parallel benchmark suite, version 0.2
+
+
+
+___Executando bfs ___:___bfs com 2 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+IO        : 2.794578
+Compute   : 2.639937
+Timer Wall Time: 5.434522
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:10
+	Energy:	0.0002 kWh
+	CO2eq:	0.0286 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:10
+	Energy:	0.0002 kWh
+	CO2eq:	0.0286 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: Finished monitoring.
+___bfs com 2 Treads_concluida___
+___bfs com 4 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+IO        : 2.579600
+Compute   : 3.275680
+Timer Wall Time: 5.855287
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:10
+	Energy:	0.0002 kWh
+	CO2eq:	0.0292 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:10
+	Energy:	0.0002 kWh
+	CO2eq:	0.0292 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: Finished monitoring.
+___bfs com 4 Treads_concluida___
+___bfs com 6 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+IO        : 2.702392
+Compute   : 3.662268
+Timer Wall Time: 6.364668
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:11
+	Energy:	0.0002 kWh
+	CO2eq:	0.0310 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:11
+	Energy:	0.0002 kWh
+	CO2eq:	0.0310 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: Finished monitoring.
+___bfs com 6 Treads_concluida___
+___bfs com 8 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+IO        : 2.370288
+Compute   : 4.019106
+Timer Wall Time: 6.389403
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:11
+	Energy:	0.0002 kWh
+	CO2eq:	0.0301 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:11
+	Energy:	0.0002 kWh
+	CO2eq:	0.0301 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: Finished monitoring.
+___bfs com 8 Treads_concluida___
+___bfs com 10 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+IO        : 2.443715
+Compute   : 4.476366
+Timer Wall Time: 6.920108
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:11
+	Energy:	0.0002 kWh
+	CO2eq:	0.0322 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:11
+	Energy:	0.0002 kWh
+	CO2eq:	0.0322 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: Finished monitoring.
+___bfs com 10 Treads_concluida___
+___bfs com 12 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+IO        : 2.498262
+Compute   : 4.747648
+Timer Wall Time: 7.245920
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:12
+	Energy:	0.0002 kWh
+	CO2eq:	0.0319 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:12
+	Energy:	0.0002 kWh
+	CO2eq:	0.0319 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: Finished monitoring.
+___bfs com 12 Treads_concluida___
+___bfs com 14 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+IO        : 2.451812
+Compute   : 5.044455
+Timer Wall Time: 7.496273
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:12
+	Energy:	0.0002 kWh
+	CO2eq:	0.0354 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:12
+	Energy:	0.0002 kWh
+	CO2eq:	0.0354 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: Finished monitoring.
+___bfs com 14 Treads_concluida___
+___bfs com 16 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+IO        : 2.460224
+Compute   : 5.492669
+Timer Wall Time: 7.952901
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:12
+	Energy:	0.0003 kWh
+	CO2eq:	0.0360 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:12
+	Energy:	0.0003 kWh
+	CO2eq:	0.0360 g
+	This is equivalent to:
+	0.0003 km travelled by car
+CarbonTracker: Finished monitoring.
+___bfs com 16 Treads_concluida___
+
+ Start Clean
+rm -f build/threaded_default/*
+if [ -d build/threaded_default ]; then rmdir build/threaded_default; fi
+rm -f build/opencl_base_default/*
+if [ -d build/opencl_base_default ]; then rmdir build/opencl_base_default; fi
+rm -f build/omp_base_default/*
+if [ -d build/omp_base_default ]; then rmdir build/omp_base_default; fi
+rm -rf build/cuda_base_default/*
+if [ -d build/cuda_base_default ]; then rmdir build/cuda_base_default; fi
+rm -f build/base_default/*
+if [ -d build/base_default ]; then rmdir build/base_default; fi
+rm -rf build/cuda_default/*
+if [ -d build/cuda_default ]; then rmdir build/cuda_default; fi
+rm -f build/opencl_nvidia_default/*
+if [ -d build/opencl_nvidia_default ]; then rmdir build/opencl_nvidia_default; fi
+Parboil parallel benchmark suite, version 0.2
+
+
+ Start Compile
+mkdir -p build/omp_base_default
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -fopenmp -c src/omp_base/main.c -o build/omp_base_default/main.o
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -fopenmp -c src/omp_base/util.c -o build/omp_base_default/util.o
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -fopenmp -c /home/users/acsilveira/hpc-benchmarks/parboil/common/src/parboil.c -o build/omp_base_default/parboil.o
+g++ build/omp_base_default/main.o build/omp_base_default/util.o build/omp_base_default/parboil.o -o build/omp_base_default/histo  -lm -lpthread -lgomp
+Parboil parallel benchmark suite, version 0.2
+
+
+
+___Executando histo ___:___histo com 2 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+Base implementation of histogramming.
+Maintained by Nady Obeid <obeid1@ece.uiuc.edu>
+
+IO        : 0.175586
+ -Input     : 0.007762
+ -Output    : 0.167823
+Compute   : 293.214559
+Timer Wall Time: 293.390167
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:04:54
+	Energy:	0.0062 kWh
+	CO2eq:	0.8729 g
+	This is equivalent to:
+	0.0081 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:04:54
+	Energy:	0.0062 kWh
+	CO2eq:	0.8729 g
+	This is equivalent to:
+	0.0081 km travelled by car
+CarbonTracker: Finished monitoring.
+___histo com 2 Treads_concluida___
+___histo com 4 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+Base implementation of histogramming.
+Maintained by Nady Obeid <obeid1@ece.uiuc.edu>
+
+IO        : 0.247257
+ -Input     : 0.010116
+ -Output    : 0.237141
+Compute   : 1231.347270
+Timer Wall Time: 1231.594482
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:20:33
+	Energy:	0.0260 kWh
+	CO2eq:	3.6869 g
+	This is equivalent to:
+	0.0343 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:20:33
+	Energy:	0.0260 kWh
+	CO2eq:	3.6841 g
+	This is equivalent to:
+	0.0343 km travelled by car
+CarbonTracker: Finished monitoring.
+___histo com 4 Treads_concluida___
+___histo com 6 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+Base implementation of histogramming.
+Maintained by Nady Obeid <obeid1@ece.uiuc.edu>
+
+IO        : 0.517671
+ -Input     : 0.010036
+ -Output    : 0.507634
+Compute   : 1561.190233
+Timer Wall Time: 1561.707886
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:26:03
+	Energy:	0.0338 kWh
+	CO2eq:	4.7892 g
+	This is equivalent to:
+	0.0446 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:26:03
+	Energy:	0.0338 kWh
+	CO2eq:	4.7892 g
+	This is equivalent to:
+	0.0446 km travelled by car
+CarbonTracker: Finished monitoring.
+___histo com 6 Treads_concluida___
+___histo com 8 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+Base implementation of histogramming.
+Maintained by Nady Obeid <obeid1@ece.uiuc.edu>
+
+IO        : 0.390163
+ -Input     : 0.010976
+ -Output    : 0.379187
+Compute   : 1936.695551
+Timer Wall Time: 1937.085693
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:32:18
+	Energy:	0.0428 kWh
+	CO2eq:	6.0718 g
+	This is equivalent to:
+	0.0565 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:32:18
+	Energy:	0.0428 kWh
+	CO2eq:	6.0718 g
+	This is equivalent to:
+	0.0565 km travelled by car
+CarbonTracker: Finished monitoring.
+___histo com 8 Treads_concluida___
+___histo com 10 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+Base implementation of histogramming.
+Maintained by Nady Obeid <obeid1@ece.uiuc.edu>
+
+IO        : 0.327007
+ -Input     : 0.010478
+ -Output    : 0.316529
+Compute   : 2253.566699
+Timer Wall Time: 2253.893799
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:37:35
+	Energy:	0.0511 kWh
+	CO2eq:	7.2485 g
+	This is equivalent to:
+	0.0674 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:37:35
+	Energy:	0.0511 kWh
+	CO2eq:	7.2485 g
+	This is equivalent to:
+	0.0674 km travelled by car
+CarbonTracker: Finished monitoring.
+___histo com 10 Treads_concluida___
+___histo com 12 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+Base implementation of histogramming.
+Maintained by Nady Obeid <obeid1@ece.uiuc.edu>
+
+IO        : 0.149211
+ -Input     : 0.012287
+ -Output    : 0.136924
+Compute   : 2552.414494
+Timer Wall Time: 2552.563721
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:42:34
+	Energy:	0.0588 kWh
+	CO2eq:	8.3394 g
+	This is equivalent to:
+	0.0776 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:42:34
+	Energy:	0.0588 kWh
+	CO2eq:	8.3394 g
+	This is equivalent to:
+	0.0776 km travelled by car
+CarbonTracker: Finished monitoring.
+___histo com 12 Treads_concluida___
+___histo com 14 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+Base implementation of histogramming.
+Maintained by Nady Obeid <obeid1@ece.uiuc.edu>
+
+IO        : 0.281125
+ -Input     : 0.004360
+ -Output    : 0.276765
+Compute   : 2769.200294
+Timer Wall Time: 2769.481445
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:46:10
+	Energy:	0.0651 kWh
+	CO2eq:	9.2365 g
+	This is equivalent to:
+	0.0859 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:46:10
+	Energy:	0.0651 kWh
+	CO2eq:	9.2365 g
+	This is equivalent to:
+	0.0859 km travelled by car
+CarbonTracker: Finished monitoring.
+___histo com 14 Treads_concluida___
+___histo com 16 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+Base implementation of histogramming.
+Maintained by Nady Obeid <obeid1@ece.uiuc.edu>
+
+IO        : 0.234563
+ -Input     : 0.009142
+ -Output    : 0.225420
+Compute   : 2986.805557
+Timer Wall Time: 2987.040039
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:49:49
+	Energy:	0.0714 kWh
+	CO2eq:	10.1250 g
+	This is equivalent to:
+	0.0942 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:49:49
+	Energy:	0.0714 kWh
+	CO2eq:	10.1250 g
+	This is equivalent to:
+	0.0942 km travelled by car
+CarbonTracker: Finished monitoring.
+___histo com 16 Treads_concluida___
+
+ Start Clean
+rm -f build/opencl_base_default/*
+if [ -d build/opencl_base_default ]; then rmdir build/opencl_base_default; fi
+rm -rf build/cuda_base_default/*
+if [ -d build/cuda_base_default ]; then rmdir build/cuda_base_default; fi
+rm -f build/opencl_nvidia_default/*
+if [ -d build/opencl_nvidia_default ]; then rmdir build/opencl_nvidia_default; fi
+rm -rf build/cuda_default/*
+if [ -d build/cuda_default ]; then rmdir build/cuda_default; fi
+rm -f build/omp_cpu_default/*
+if [ -d build/omp_cpu_default ]; then rmdir build/omp_cpu_default; fi
+rm -f build/cpu_default/*
+if [ -d build/cpu_default ]; then rmdir build/cpu_default; fi
+Parboil parallel benchmark suite, version 0.2
+
+
+ Start Compile
+mkdir -p build/omp_cpu_default
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -D_OPENMP -fopenmp -c src/omp_cpu/main.c -o build/omp_cpu_default/main.o
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -D_OPENMP -fopenmp -c src/omp_cpu/lbm.c -o build/omp_cpu_default/lbm.o
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -D_OPENMP -fopenmp -c /home/users/acsilveira/hpc-benchmarks/parboil/common/src/parboil.c -o build/omp_cpu_default/parboil.o
+g++ build/omp_cpu_default/main.o build/omp_cpu_default/lbm.o build/omp_cpu_default/parboil.o -o build/omp_cpu_default/lbm  -lm -lpthread -lgomp
+Parboil parallel benchmark suite, version 0.2
+
+
+
+___Executando lbm ___:___lbm com 2 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+MAIN_printInfo:
+	grid size      : 120 x 120 x 150 = 2.16 * 10^6 Cells
+	nTimeSteps     : 3000
+	result file    : /home/users/acsilveira/hpc-benchmarks/parboil/benchmarks/lbm/run/long/reference.dat
+	action         : store
+	simulation type: lid-driven cavity
+	obstacle file  : /home/users/acsilveira/hpc-benchmarks/parboil/datasets/lbm/long/input/120_120_150_ldc.of
+
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   1.0000 maxRho:   1.0000 mass: 2.160000e+06
+	minU: 0.000000e+00 maxU: 0.000000e+00
+
+timestep: 64
+timestep: 128
+timestep: 192
+timestep: 256
+timestep: 320
+timestep: 384
+timestep: 448
+timestep: 512
+timestep: 576
+timestep: 640
+timestep: 704
+timestep: 768
+timestep: 832
+timestep: 896
+timestep: 960
+timestep: 1024
+timestep: 1088
+timestep: 1152
+timestep: 1216
+timestep: 1280
+timestep: 1344
+timestep: 1408
+timestep: 1472
+timestep: 1536
+timestep: 1600
+timestep: 1664
+timestep: 1728
+timestep: 1792
+timestep: 1856
+timestep: 1920
+timestep: 1984
+timestep: 2048
+timestep: 2112
+timestep: 2176
+timestep: 2240
+timestep: 2304
+timestep: 2368
+timestep: 2432
+timestep: 2496
+timestep: 2560
+timestep: 2624
+timestep: 2688
+timestep: 2752
+timestep: 2816
+timestep: 2880
+timestep: 2944
+MAIN_stopClock:
+	usr: 2029.52 sys:    0.03 tot: 2029.55 wct: 1037.17 MLUPS:  6.25
+
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   0.9171 maxRho:   1.0866 mass: 2.159998e+06
+	minU: 6.018727e-07 maxU: 3.296003e-02
+
+Compute   : 1038.825229
+Timer Wall Time: 1038.825195
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:17:23
+	Energy:	0.0226 kWh
+	CO2eq:	3.2111 g
+	This is equivalent to:
+	0.0299 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:17:23
+	Energy:	0.0226 kWh
+	CO2eq:	3.2111 g
+	This is equivalent to:
+	0.0299 km travelled by car
+CarbonTracker: Finished monitoring.
+___lbm com 2 Treads_concluida___
+___lbm com 4 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+MAIN_printInfo:
+	grid size      : 120 x 120 x 150 = 2.16 * 10^6 Cells
+	nTimeSteps     : 3000
+	result file    : /home/users/acsilveira/hpc-benchmarks/parboil/benchmarks/lbm/run/long/reference.dat
+	action         : store
+	simulation type: lid-driven cavity
+	obstacle file  : /home/users/acsilveira/hpc-benchmarks/parboil/datasets/lbm/long/input/120_120_150_ldc.of
+
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   1.0000 maxRho:   1.0000 mass: 2.160000e+06
+	minU: 0.000000e+00 maxU: 0.000000e+00
+
+timestep: 64
+timestep: 128
+timestep: 192
+timestep: 256
+timestep: 320
+timestep: 384
+timestep: 448
+timestep: 512
+timestep: 576
+timestep: 640
+timestep: 704
+timestep: 768
+timestep: 832
+timestep: 896
+timestep: 960
+timestep: 1024
+timestep: 1088
+timestep: 1152
+timestep: 1216
+timestep: 1280
+timestep: 1344
+timestep: 1408
+timestep: 1472
+timestep: 1536
+timestep: 1600
+timestep: 1664
+timestep: 1728
+timestep: 1792
+timestep: 1856
+timestep: 1920
+timestep: 1984
+timestep: 2048
+timestep: 2112
+timestep: 2176
+timestep: 2240
+timestep: 2304
+timestep: 2368
+timestep: 2432
+timestep: 2496
+timestep: 2560
+timestep: 2624
+timestep: 2688
+timestep: 2752
+timestep: 2816
+timestep: 2880
+timestep: 2944
+MAIN_stopClock:
+	usr: 2036.21 sys:    1.03 tot: 2037.24 wct:  548.41 MLUPS: 11.82
+
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   0.9171 maxRho:   1.0866 mass: 2.159998e+06
+	minU: 6.018727e-07 maxU: 3.296003e-02
+
+Compute   : 550.025829
+Timer Wall Time: 550.025818
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:09:15
+	Energy:	0.0126 kWh
+	CO2eq:	1.7852 g
+	This is equivalent to:
+	0.0166 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:09:15
+	Energy:	0.0126 kWh
+	CO2eq:	1.7852 g
+	This is equivalent to:
+	0.0166 km travelled by car
+CarbonTracker: Finished monitoring.
+___lbm com 4 Treads_concluida___
+___lbm com 6 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+MAIN_printInfo:
+	grid size      : 120 x 120 x 150 = 2.16 * 10^6 Cells
+	nTimeSteps     : 3000
+	result file    : /home/users/acsilveira/hpc-benchmarks/parboil/benchmarks/lbm/run/long/reference.dat
+	action         : store
+	simulation type: lid-driven cavity
+	obstacle file  : /home/users/acsilveira/hpc-benchmarks/parboil/datasets/lbm/long/input/120_120_150_ldc.of
+
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   1.0000 maxRho:   1.0000 mass: 2.160000e+06
+	minU: 0.000000e+00 maxU: 0.000000e+00
+
+timestep: 64
+timestep: 128
+timestep: 192
+timestep: 256
+timestep: 320
+timestep: 384
+timestep: 448
+timestep: 512
+timestep: 576
+timestep: 640
+timestep: 704
+timestep: 768
+timestep: 832
+timestep: 896
+timestep: 960
+timestep: 1024
+timestep: 1088
+timestep: 1152
+timestep: 1216
+timestep: 1280
+timestep: 1344
+timestep: 1408
+timestep: 1472
+timestep: 1536
+timestep: 1600
+timestep: 1664
+timestep: 1728
+timestep: 1792
+timestep: 1856
+timestep: 1920
+timestep: 1984
+timestep: 2048
+timestep: 2112
+timestep: 2176
+timestep: 2240
+timestep: 2304
+timestep: 2368
+timestep: 2432
+timestep: 2496
+timestep: 2560
+timestep: 2624
+timestep: 2688
+timestep: 2752
+timestep: 2816
+timestep: 2880
+timestep: 2944
+MAIN_stopClock:
+	usr: 2080.76 sys:    1.04 tot: 2081.80 wct:  383.63 MLUPS: 16.89
+
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   0.9171 maxRho:   1.0866 mass: 2.159998e+06
+	minU: 6.018727e-07 maxU: 3.296003e-02
+
+Compute   : 385.660649
+Timer Wall Time: 385.660645
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:06:31
+	Energy:	0.0094 kWh
+	CO2eq:	1.3304 g
+	This is equivalent to:
+	0.0124 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:06:31
+	Energy:	0.0094 kWh
+	CO2eq:	1.3304 g
+	This is equivalent to:
+	0.0124 km travelled by car
+CarbonTracker: Finished monitoring.
+___lbm com 6 Treads_concluida___
+___lbm com 8 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+MAIN_printInfo:
+	grid size      : 120 x 120 x 150 = 2.16 * 10^6 Cells
+	nTimeSteps     : 3000
+	result file    : /home/users/acsilveira/hpc-benchmarks/parboil/benchmarks/lbm/run/long/reference.dat
+	action         : store
+	simulation type: lid-driven cavity
+	obstacle file  : /home/users/acsilveira/hpc-benchmarks/parboil/datasets/lbm/long/input/120_120_150_ldc.of
+
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   1.0000 maxRho:   1.0000 mass: 2.160000e+06
+	minU: 0.000000e+00 maxU: 0.000000e+00
+
+timestep: 64
+timestep: 128
+timestep: 192
+timestep: 256
+timestep: 320
+timestep: 384
+timestep: 448
+timestep: 512
+timestep: 576
+timestep: 640
+timestep: 704
+timestep: 768
+timestep: 832
+timestep: 896
+timestep: 960
+timestep: 1024
+timestep: 1088
+timestep: 1152
+timestep: 1216
+timestep: 1280
+timestep: 1344
+timestep: 1408
+timestep: 1472
+timestep: 1536
+timestep: 1600
+timestep: 1664
+timestep: 1728
+timestep: 1792
+timestep: 1856
+timestep: 1920
+timestep: 1984
+timestep: 2048
+timestep: 2112
+timestep: 2176
+timestep: 2240
+timestep: 2304
+timestep: 2368
+timestep: 2432
+timestep: 2496
+timestep: 2560
+timestep: 2624
+timestep: 2688
+timestep: 2752
+timestep: 2816
+timestep: 2880
+timestep: 2944
+MAIN_stopClock:
+	usr: 2112.85 sys:    0.88 tot: 2113.73 wct:  288.59 MLUPS: 22.45
+
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   0.9171 maxRho:   1.0866 mass: 2.159998e+06
+	minU: 6.018727e-07 maxU: 3.296003e-02
+
+Compute   : 290.149549
+Timer Wall Time: 290.149536
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:04:55
+	Energy:	0.0075 kWh
+	CO2eq:	1.0670 g
+	This is equivalent to:
+	0.0099 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:04:55
+	Energy:	0.0075 kWh
+	CO2eq:	1.0670 g
+	This is equivalent to:
+	0.0099 km travelled by car
+CarbonTracker: Finished monitoring.
+___lbm com 8 Treads_concluida___
+___lbm com 10 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+MAIN_printInfo:
+	grid size      : 120 x 120 x 150 = 2.16 * 10^6 Cells
+	nTimeSteps     : 3000
+	result file    : /home/users/acsilveira/hpc-benchmarks/parboil/benchmarks/lbm/run/long/reference.dat
+	action         : store
+	simulation type: lid-driven cavity
+	obstacle file  : /home/users/acsilveira/hpc-benchmarks/parboil/datasets/lbm/long/input/120_120_150_ldc.of
+
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   1.0000 maxRho:   1.0000 mass: 2.160000e+06
+	minU: 0.000000e+00 maxU: 0.000000e+00
+
+timestep: 64
+timestep: 128
+timestep: 192
+timestep: 256
+timestep: 320
+timestep: 384
+timestep: 448
+timestep: 512
+timestep: 576
+timestep: 640
+timestep: 704
+timestep: 768
+timestep: 832
+timestep: 896
+timestep: 960
+timestep: 1024
+timestep: 1088
+timestep: 1152
+timestep: 1216
+timestep: 1280
+timestep: 1344
+timestep: 1408
+timestep: 1472
+timestep: 1536
+timestep: 1600
+timestep: 1664
+timestep: 1728
+timestep: 1792
+timestep: 1856
+timestep: 1920
+timestep: 1984
+timestep: 2048
+timestep: 2112
+timestep: 2176
+timestep: 2240
+timestep: 2304
+timestep: 2368
+timestep: 2432
+timestep: 2496
+timestep: 2560
+timestep: 2624
+timestep: 2688
+timestep: 2752
+timestep: 2816
+timestep: 2880
+timestep: 2944
+MAIN_stopClock:
+	usr: 2144.00 sys:    0.83 tot: 2144.83 wct:  231.03 MLUPS: 28.05
+
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   0.9171 maxRho:   1.0866 mass: 2.159998e+06
+	minU: 6.018727e-07 maxU: 3.296003e-02
+
+Compute   : 232.555466
+Timer Wall Time: 232.555466
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:03:56
+	Energy:	0.0064 kWh
+	CO2eq:	0.9059 g
+	This is equivalent to:
+	0.0084 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:03:56
+	Energy:	0.0064 kWh
+	CO2eq:	0.9059 g
+	This is equivalent to:
+	0.0084 km travelled by car
+CarbonTracker: Finished monitoring.
+___lbm com 10 Treads_concluida___
+___lbm com 12 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+MAIN_printInfo:
+	grid size      : 120 x 120 x 150 = 2.16 * 10^6 Cells
+	nTimeSteps     : 3000
+	result file    : /home/users/acsilveira/hpc-benchmarks/parboil/benchmarks/lbm/run/long/reference.dat
+	action         : store
+	simulation type: lid-driven cavity
+	obstacle file  : /home/users/acsilveira/hpc-benchmarks/parboil/datasets/lbm/long/input/120_120_150_ldc.of
+
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   1.0000 maxRho:   1.0000 mass: 2.160000e+06
+	minU: 0.000000e+00 maxU: 0.000000e+00
+
+timestep: 64
+timestep: 128
+timestep: 192
+timestep: 256
+timestep: 320
+timestep: 384
+timestep: 448
+timestep: 512
+timestep: 576
+timestep: 640
+timestep: 704
+timestep: 768
+timestep: 832
+timestep: 896
+timestep: 960
+timestep: 1024
+timestep: 1088
+timestep: 1152
+timestep: 1216
+timestep: 1280
+timestep: 1344
+timestep: 1408
+timestep: 1472
+timestep: 1536
+timestep: 1600
+timestep: 1664
+timestep: 1728
+timestep: 1792
+timestep: 1856
+timestep: 1920
+timestep: 1984
+timestep: 2048
+timestep: 2112
+timestep: 2176
+timestep: 2240
+timestep: 2304
+timestep: 2368
+timestep: 2432
+timestep: 2496
+timestep: 2560
+timestep: 2624
+timestep: 2688
+timestep: 2752
+timestep: 2816
+timestep: 2880
+timestep: 2944
+MAIN_stopClock:
+	usr: 2158.56 sys:    0.75 tot: 2159.31 wct:  195.28 MLUPS: 33.18
+
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   0.9171 maxRho:   1.0866 mass: 2.159998e+06
+	minU: 6.018727e-07 maxU: 3.296003e-02
+
+Compute   : 196.799928
+Timer Wall Time: 196.799927
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:03:21
+	Energy:	0.0056 kWh
+	CO2eq:	0.7989 g
+	This is equivalent to:
+	0.0074 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:03:21
+	Energy:	0.0056 kWh
+	CO2eq:	0.7989 g
+	This is equivalent to:
+	0.0074 km travelled by car
+CarbonTracker: Finished monitoring.
+___lbm com 12 Treads_concluida___
+___lbm com 14 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+MAIN_printInfo:
+	grid size      : 120 x 120 x 150 = 2.16 * 10^6 Cells
+	nTimeSteps     : 3000
+	result file    : /home/users/acsilveira/hpc-benchmarks/parboil/benchmarks/lbm/run/long/reference.dat
+	action         : store
+	simulation type: lid-driven cavity
+	obstacle file  : /home/users/acsilveira/hpc-benchmarks/parboil/datasets/lbm/long/input/120_120_150_ldc.of
+
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   1.0000 maxRho:   1.0000 mass: 2.160000e+06
+	minU: 0.000000e+00 maxU: 0.000000e+00
+
+timestep: 64
+timestep: 128
+timestep: 192
+timestep: 256
+timestep: 320
+timestep: 384
+timestep: 448
+timestep: 512
+timestep: 576
+timestep: 640
+timestep: 704
+timestep: 768
+timestep: 832
+timestep: 896
+timestep: 960
+timestep: 1024
+timestep: 1088
+timestep: 1152
+timestep: 1216
+timestep: 1280
+timestep: 1344
+timestep: 1408
+timestep: 1472
+timestep: 1536
+timestep: 1600
+timestep: 1664
+timestep: 1728
+timestep: 1792
+timestep: 1856
+timestep: 1920
+timestep: 1984
+timestep: 2048
+timestep: 2112
+timestep: 2176
+timestep: 2240
+timestep: 2304
+timestep: 2368
+timestep: 2432
+timestep: 2496
+timestep: 2560
+timestep: 2624
+timestep: 2688
+timestep: 2752
+timestep: 2816
+timestep: 2880
+timestep: 2944
+MAIN_stopClock:
+	usr: 2172.84 sys:    0.73 tot: 2173.57 wct:  168.02 MLUPS: 38.57
+
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   0.9171 maxRho:   1.0866 mass: 2.159998e+06
+	minU: 6.018727e-07 maxU: 3.296003e-02
+
+Compute   : 169.974387
+Timer Wall Time: 169.974380
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:02:54
+	Energy:	0.0051 kWh
+	CO2eq:	0.7293 g
+	This is equivalent to:
+	0.0068 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:02:54
+	Energy:	0.0051 kWh
+	CO2eq:	0.7293 g
+	This is equivalent to:
+	0.0068 km travelled by car
+CarbonTracker: Finished monitoring.
+___lbm com 14 Treads_concluida___
+___lbm com 16 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+MAIN_printInfo:
+	grid size      : 120 x 120 x 150 = 2.16 * 10^6 Cells
+	nTimeSteps     : 3000
+	result file    : /home/users/acsilveira/hpc-benchmarks/parboil/benchmarks/lbm/run/long/reference.dat
+	action         : store
+	simulation type: lid-driven cavity
+	obstacle file  : /home/users/acsilveira/hpc-benchmarks/parboil/datasets/lbm/long/input/120_120_150_ldc.of
+
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   1.0000 maxRho:   1.0000 mass: 2.160000e+06
+	minU: 0.000000e+00 maxU: 0.000000e+00
+
+timestep: 64
+timestep: 128
+timestep: 192
+timestep: 256
+timestep: 320
+timestep: 384
+timestep: 448
+timestep: 512
+timestep: 576
+timestep: 640
+timestep: 704
+timestep: 768
+timestep: 832
+timestep: 896
+timestep: 960
+timestep: 1024
+timestep: 1088
+timestep: 1152
+timestep: 1216
+timestep: 1280
+timestep: 1344
+timestep: 1408
+timestep: 1472
+timestep: 1536
+timestep: 1600
+timestep: 1664
+timestep: 1728
+timestep: 1792
+timestep: 1856
+timestep: 1920
+timestep: 1984
+timestep: 2048
+timestep: 2112
+timestep: 2176
+timestep: 2240
+timestep: 2304
+timestep: 2368
+timestep: 2432
+timestep: 2496
+timestep: 2560
+timestep: 2624
+timestep: 2688
+timestep: 2752
+timestep: 2816
+timestep: 2880
+timestep: 2944
+MAIN_stopClock:
+	usr: 2185.23 sys:    0.73 tot: 2185.96 wct:  147.17 MLUPS: 44.03
+
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   0.9171 maxRho:   1.0866 mass: 2.159998e+06
+	minU: 6.018727e-07 maxU: 3.296003e-02
+
+Compute   : 148.859893
+Timer Wall Time: 148.859894
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:02:33
+	Energy:	0.0047 kWh
+	CO2eq:	0.6677 g
+	This is equivalent to:
+	0.0062 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:02:33
+	Energy:	0.0047 kWh
+	CO2eq:	0.6677 g
+	This is equivalent to:
+	0.0062 km travelled by car
+CarbonTracker: Finished monitoring.
+___lbm com 16 Treads_concluida___
+
+ Start Clean
+rm -f build/omp_base_default/*
+if [ -d build/omp_base_default ]; then rmdir build/omp_base_default; fi
+rm -f build/opencl_default/*
+if [ -d build/opencl_default ]; then rmdir build/opencl_default; fi
+rm -f build/opencl_nvidia_default/*
+if [ -d build/opencl_nvidia_default ]; then rmdir build/opencl_nvidia_default; fi
+rm -f build/cpu_default/*
+if [ -d build/cpu_default ]; then rmdir build/cpu_default; fi
+rm -rf build/cuda_default/*
+if [ -d build/cuda_default ]; then rmdir build/cuda_default; fi
+Parboil parallel benchmark suite, version 0.2
+
+
+ Start Compile
+mkdir -p build/omp_base_default
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -ffast-math -fopenmp -c src/omp_base/main.c -o build/omp_base_default/main.o
+g++ -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -ffast-math -fopenmp -c src/omp_base/file.cc -o build/omp_base_default/file.o
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -ffast-math -fopenmp -c /home/users/acsilveira/hpc-benchmarks/parboil/common/src/parboil.c -o build/omp_base_default/parboil.o
+g++ build/omp_base_default/main.o build/omp_base_default/file.o build/omp_base_default/parboil.o -o build/omp_base_default/mri-q  -lm -lpthread -lm -lstdc++ -lgomp
+Parboil parallel benchmark suite, version 0.2
+
+
+
+___Executando mri-q ___:___mri-q com 2 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+g++ build/omp_base_default/main.o build/omp_base_default/file.o build/omp_base_default/parboil.o -o build/omp_base_default/mri-q  -lm -lpthread -lm -lstdc++ -lgomp
+Parboil parallel benchmark suite, version 0.2
+
+Run failed!
+CarbonTracker: WARNING - Epoch duration is too short for a measurement to be collected.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: Finished monitoring.
+___mri-q com 2 Treads_concluida___
+___mri-q com 4 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+g++ build/omp_base_default/main.o build/omp_base_default/file.o build/omp_base_default/parboil.o -o build/omp_base_default/mri-q  -lm -lpthread -lm -lstdc++ -lgomp
+Parboil parallel benchmark suite, version 0.2
+
+Run failed!
+CarbonTracker: WARNING - Epoch duration is too short for a measurement to be collected.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: Finished monitoring.
+___mri-q com 4 Treads_concluida___
+___mri-q com 6 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+g++ build/omp_base_default/main.o build/omp_base_default/file.o build/omp_base_default/parboil.o -o build/omp_base_default/mri-q  -lm -lpthread -lm -lstdc++ -lgomp
+Parboil parallel benchmark suite, version 0.2
+
+Run failed!
+CarbonTracker: WARNING - Epoch duration is too short for a measurement to be collected.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: Finished monitoring.
+___mri-q com 6 Treads_concluida___
+___mri-q com 8 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+g++ build/omp_base_default/main.o build/omp_base_default/file.o build/omp_base_default/parboil.o -o build/omp_base_default/mri-q  -lm -lpthread -lm -lstdc++ -lgomp
+Parboil parallel benchmark suite, version 0.2
+
+Run failed!
+CarbonTracker: WARNING - Epoch duration is too short for a measurement to be collected.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: Finished monitoring.
+___mri-q com 8 Treads_concluida___
+___mri-q com 10 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+g++ build/omp_base_default/main.o build/omp_base_default/file.o build/omp_base_default/parboil.o -o build/omp_base_default/mri-q  -lm -lpthread -lm -lstdc++ -lgomp
+Parboil parallel benchmark suite, version 0.2
+
+Run failed!
+CarbonTracker: WARNING - Epoch duration is too short for a measurement to be collected.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: Finished monitoring.
+___mri-q com 10 Treads_concluida___
+___mri-q com 12 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+g++ build/omp_base_default/main.o build/omp_base_default/file.o build/omp_base_default/parboil.o -o build/omp_base_default/mri-q  -lm -lpthread -lm -lstdc++ -lgomp
+Parboil parallel benchmark suite, version 0.2
+
+Run failed!
+CarbonTracker: WARNING - Epoch duration is too short for a measurement to be collected.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: Finished monitoring.
+___mri-q com 12 Treads_concluida___
+___mri-q com 14 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+g++ build/omp_base_default/main.o build/omp_base_default/file.o build/omp_base_default/parboil.o -o build/omp_base_default/mri-q  -lm -lpthread -lm -lstdc++ -lgomp
+Parboil parallel benchmark suite, version 0.2
+
+Run failed!
+CarbonTracker: WARNING - Epoch duration is too short for a measurement to be collected.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: Finished monitoring.
+___mri-q com 14 Treads_concluida___
+___mri-q com 16 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+g++ build/omp_base_default/main.o build/omp_base_default/file.o build/omp_base_default/parboil.o -o build/omp_base_default/mri-q  -lm -lpthread -lm -lstdc++ -lgomp
+Parboil parallel benchmark suite, version 0.2
+
+Run failed!
+CarbonTracker: WARNING - Epoch duration is too short for a measurement to be collected.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.0000 kWh
+	CO2eq:	0.0001 g
+	This is equivalent to:
+	0.0000 km travelled by car
+CarbonTracker: Finished monitoring.
+___mri-q com 16 Treads_concluida___
+
+ Start Clean
+rm -f build/opencl_base_default/*
+if [ -d build/opencl_base_default ]; then rmdir build/opencl_base_default; fi
+rm -f build/omp_base_default/*
+if [ -d build/omp_base_default ]; then rmdir build/omp_base_default; fi
+rm -rf build/cuda_base_default/*
+if [ -d build/cuda_base_default ]; then rmdir build/cuda_base_default; fi
+rm -f build/base_default/*
+if [ -d build/base_default ]; then rmdir build/base_default; fi
+rm -f build/opencl_nvidia_default/*
+if [ -d build/opencl_nvidia_default ]; then rmdir build/opencl_nvidia_default; fi
+rm -rf build/cuda_default/*
+if [ -d build/cuda_default ]; then rmdir build/cuda_default; fi
+Parboil parallel benchmark suite, version 0.2
+
+
+ Start Compile
+mkdir -p build/omp_base_default
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -fopenmp -c src/omp_base/main.c -o build/omp_base_default/main.o
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -fopenmp -c src/omp_base/readatom.c -o build/omp_base_default/readatom.o
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -fopenmp -c src/omp_base/output.c -o build/omp_base_default/output.o
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -fopenmp -c src/omp_base/excl.c -o build/omp_base_default/excl.o
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -fopenmp -c src/omp_base/cutcpu.c -o build/omp_base_default/cutcpu.o
+gcc -I/home/users/acsilveira/hpc-benchmarks/parboil/common/include -I/usr/local/cuda/include  -fopenmp -c /home/users/acsilveira/hpc-benchmarks/parboil/common/src/parboil.c -o build/omp_base_default/parboil.o
+g++ build/omp_base_default/main.o build/omp_base_default/readatom.o build/omp_base_default/output.o build/omp_base_default/excl.o build/omp_base_default/cutcpu.o build/omp_base_default/parboil.o -o build/omp_base_default/cutcp  -lm -lpthread -lm -lgomp
+Parboil parallel benchmark suite, version 0.2
+
+
+
+___Executando cutcp ___:___cutcp com 2 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+read 96603 atoms from file '/home/users/acsilveira/hpc-benchmarks/parboil/datasets/cutcp/large/input/watbox.sl100.pqr'
+extent of domain is:
+  minimum -49.998 -49.997 -49.996
+  maximum 50 49.99 49.971
+padding domain by 0.5 Angstroms
+domain lengths are 100.998 by 100.987 by 100.967
+
+IO        : 0.264122
+Compute   : 71.510620
+Timer Wall Time: 71.774742
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:12
+	Energy:	0.0015 kWh
+	CO2eq:	0.2166 g
+	This is equivalent to:
+	0.0020 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:12
+	Energy:	0.0015 kWh
+	CO2eq:	0.2166 g
+	This is equivalent to:
+	0.0020 km travelled by car
+CarbonTracker: Finished monitoring.
+___cutcp com 2 Treads_concluida___
+___cutcp com 4 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+read 96603 atoms from file '/home/users/acsilveira/hpc-benchmarks/parboil/datasets/cutcp/large/input/watbox.sl100.pqr'
+extent of domain is:
+  minimum -49.998 -49.997 -49.996
+  maximum 50 49.99 49.971
+padding domain by 0.5 Angstroms
+domain lengths are 100.998 by 100.987 by 100.967
+
+IO        : 0.199920
+Compute   : 37.009219
+Timer Wall Time: 37.209145
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:38
+	Energy:	0.0008 kWh
+	CO2eq:	0.1130 g
+	This is equivalent to:
+	0.0011 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:38
+	Energy:	0.0008 kWh
+	CO2eq:	0.1130 g
+	This is equivalent to:
+	0.0011 km travelled by car
+CarbonTracker: Finished monitoring.
+___cutcp com 4 Treads_concluida___
+___cutcp com 6 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+read 96603 atoms from file '/home/users/acsilveira/hpc-benchmarks/parboil/datasets/cutcp/large/input/watbox.sl100.pqr'
+extent of domain is:
+  minimum -49.998 -49.997 -49.996
+  maximum 50 49.99 49.971
+padding domain by 0.5 Angstroms
+domain lengths are 100.998 by 100.987 by 100.967
+
+IO        : 0.246149
+Compute   : 25.700080
+Timer Wall Time: 25.946230
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:26
+	Energy:	0.0006 kWh
+	CO2eq:	0.0859 g
+	This is equivalent to:
+	0.0008 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:26
+	Energy:	0.0006 kWh
+	CO2eq:	0.0859 g
+	This is equivalent to:
+	0.0008 km travelled by car
+CarbonTracker: Finished monitoring.
+___cutcp com 6 Treads_concluida___
+___cutcp com 8 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+read 96603 atoms from file '/home/users/acsilveira/hpc-benchmarks/parboil/datasets/cutcp/large/input/watbox.sl100.pqr'
+extent of domain is:
+  minimum -49.998 -49.997 -49.996
+  maximum 50 49.99 49.971
+padding domain by 0.5 Angstroms
+domain lengths are 100.998 by 100.987 by 100.967
+
+IO        : 0.228504
+Compute   : 19.409421
+Timer Wall Time: 19.637926
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:20
+	Energy:	0.0005 kWh
+	CO2eq:	0.0651 g
+	This is equivalent to:
+	0.0006 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:20
+	Energy:	0.0005 kWh
+	CO2eq:	0.0651 g
+	This is equivalent to:
+	0.0006 km travelled by car
+CarbonTracker: Finished monitoring.
+___cutcp com 8 Treads_concluida___
+___cutcp com 10 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+read 96603 atoms from file '/home/users/acsilveira/hpc-benchmarks/parboil/datasets/cutcp/large/input/watbox.sl100.pqr'
+extent of domain is:
+  minimum -49.998 -49.997 -49.996
+  maximum 50 49.99 49.971
+padding domain by 0.5 Angstroms
+domain lengths are 100.998 by 100.987 by 100.967
+
+IO        : 0.261483
+Compute   : 15.543540
+Timer Wall Time: 15.805026
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:16
+	Energy:	0.0004 kWh
+	CO2eq:	0.0566 g
+	This is equivalent to:
+	0.0005 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:16
+	Energy:	0.0004 kWh
+	CO2eq:	0.0566 g
+	This is equivalent to:
+	0.0005 km travelled by car
+CarbonTracker: Finished monitoring.
+___cutcp com 10 Treads_concluida___
+___cutcp com 12 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+read 96603 atoms from file '/home/users/acsilveira/hpc-benchmarks/parboil/datasets/cutcp/large/input/watbox.sl100.pqr'
+extent of domain is:
+  minimum -49.998 -49.997 -49.996
+  maximum 50 49.99 49.971
+padding domain by 0.5 Angstroms
+domain lengths are 100.998 by 100.987 by 100.967
+
+IO        : 0.264969
+Compute   : 13.060546
+Timer Wall Time: 13.325517
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:14
+	Energy:	0.0003 kWh
+	CO2eq:	0.0490 g
+	This is equivalent to:
+	0.0005 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:14
+	Energy:	0.0003 kWh
+	CO2eq:	0.0490 g
+	This is equivalent to:
+	0.0005 km travelled by car
+CarbonTracker: Finished monitoring.
+___cutcp com 12 Treads_concluida___
+___cutcp com 14 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+read 96603 atoms from file '/home/users/acsilveira/hpc-benchmarks/parboil/datasets/cutcp/large/input/watbox.sl100.pqr'
+extent of domain is:
+  minimum -49.998 -49.997 -49.996
+  maximum 50 49.99 49.971
+padding domain by 0.5 Angstroms
+domain lengths are 100.998 by 100.987 by 100.967
+
+IO        : 0.215420
+Compute   : 11.097049
+Timer Wall Time: 11.312470
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:12
+	Energy:	0.0003 kWh
+	CO2eq:	0.0420 g
+	This is equivalent to:
+	0.0004 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:12
+	Energy:	0.0003 kWh
+	CO2eq:	0.0420 g
+	This is equivalent to:
+	0.0004 km travelled by car
+CarbonTracker: Finished monitoring.
+___cutcp com 14 Treads_concluida___
+___cutcp com 16 Treads___
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090. CPU with device(s) cpu:0.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+read 96603 atoms from file '/home/users/acsilveira/hpc-benchmarks/parboil/datasets/cutcp/large/input/watbox.sl100.pqr'
+extent of domain is:
+  minimum -49.998 -49.997 -49.996
+  maximum 50 49.99 49.971
+padding domain by 0.5 Angstroms
+domain lengths are 100.998 by 100.987 by 100.967
+
+IO        : 0.233389
+Compute   : 9.856206
+Timer Wall Time: 10.089600
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 141.77 gCO2/kWh at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:10
+	Energy:	0.0003 kWh
+	CO2eq:	0.0396 g
+	This is equivalent to:
+	0.0004 km travelled by car
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 141.77426 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Porto Alegre, Rio Grande do Sul, BR. Defaulted to average carbon intensity for BR in 2021 of 141.77 gCO2/kWh. at detected location: Porto Alegre, Rio Grande do Sul, BR.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:10
+	Energy:	0.0003 kWh
+	CO2eq:	0.0396 g
+	This is equivalent to:
+	0.0004 km travelled by car
+CarbonTracker: Finished monitoring.
+___cutcp com 16 Treads_concluida___
+Desativa py2
+Finalizando -> PARBOIL
+
+
+Entrando -> RODINIA
+
+compilando hotspot...
+___Executando hotspot___:
+___hotspot com 2 Treads___
+Total time: 137.844 seconds
+	Time:	0:02:20
+	Energy:	0.0031 kWh
+	CO2eq:	0.3028 g
+	0.0028 km travelled by car
+	Time:	0:02:20
+	Energy:	0.0031 kWh
+	CO2eq:	0.3028 g
+	0.0028 km travelled by car
+___hotspot com 2 Treads_concluida___
+___hotspot com 4 Treads___
+Total time: 82.043 seconds
+	Time:	0:01:24
+	Energy:	0.0020 kWh
+	CO2eq:	0.1938 g
+	0.0018 km travelled by car
+	Time:	0:01:24
+	Energy:	0.0020 kWh
+	CO2eq:	0.1938 g
+	0.0018 km travelled by car
+___hotspot com 4 Treads_concluida___
+___hotspot com 6 Treads___
+Total time: 50.682 seconds
+	Time:	0:00:53
+	Energy:	0.0013 kWh
+	CO2eq:	0.1285 g
+	0.0012 km travelled by car
+	Time:	0:00:53
+	Energy:	0.0013 kWh
+	CO2eq:	0.1271 g
+	0.0012 km travelled by car
+___hotspot com 6 Treads_concluida___
+___hotspot com 8 Treads___
+Total time: 46.195 seconds
+	Time:	0:00:48
+	Energy:	0.0012 kWh
+	CO2eq:	0.1205 g
+	0.0011 km travelled by car
+	Time:	0:00:48
+	Energy:	0.0012 kWh
+	CO2eq:	0.1205 g
+	0.0011 km travelled by car
+___hotspot com 8 Treads_concluida___
+___hotspot com 10 Treads___
+Total time: 33.139 seconds
+	Time:	0:00:35
+	Energy:	0.0009 kWh
+	CO2eq:	0.0925 g
+	0.0009 km travelled by car
+	Time:	0:00:35
+	Energy:	0.0009 kWh
+	CO2eq:	0.0925 g
+	0.0009 km travelled by car
+___hotspot com 10 Treads_concluida___
+___hotspot com 12 Treads___
+Total time: 27.707 seconds
+	Time:	0:00:30
+	Energy:	0.0008 kWh
+	CO2eq:	0.0816 g
+	0.0008 km travelled by car
+	Time:	0:00:30
+	Energy:	0.0008 kWh
+	CO2eq:	0.0816 g
+	0.0008 km travelled by car
+___hotspot com 12 Treads_concluida___
+___hotspot com 14 Treads___
+Total time: 24.365 seconds
+	Time:	0:00:26
+	Energy:	0.0008 kWh
+	CO2eq:	0.0760 g
+	0.0007 km travelled by car
+	Time:	0:00:26
+	Energy:	0.0008 kWh
+	CO2eq:	0.0760 g
+	0.0007 km travelled by car
+___hotspot com 14 Treads_concluida___
+___hotspot com 16 Treads___
+Total time: 25.812 seconds
+	Time:	0:00:28
+	Energy:	0.0008 kWh
+	CO2eq:	0.0812 g
+	0.0008 km travelled by car
+	Time:	0:00:28
+	Energy:	0.0008 kWh
+	CO2eq:	0.0812 g
+	0.0008 km travelled by car
+___hotspot com 16 Treads_concluida___
+___Fim de hotspot___:
+
+compilando lud...
+___Executando lud___:
+___lud com 2 Treads___
+Time consumed(ms): 362649.743000
+	Time:	0:06:03
+	Energy:	0.0079 kWh
+	CO2eq:	0.7769 g
+	0.0072 km travelled by car
+	Time:	0:06:03
+	Energy:	0.0079 kWh
+	CO2eq:	0.7768 g
+	0.0072 km travelled by car
+___lud com 2 Treads_concluida___
+___lud com 4 Treads___
+Time consumed(ms): 184995.727000
+	Time:	0:03:05
+	Energy:	0.0043 kWh
+	CO2eq:	0.4181 g
+	0.0039 km travelled by car
+	Time:	0:03:05
+	Energy:	0.0043 kWh
+	CO2eq:	0.4181 g
+	0.0039 km travelled by car
+___lud com 4 Treads_concluida___
+___lud com 6 Treads___
+Time consumed(ms): 125270.708000
+	Time:	0:02:06
+	Energy:	0.0030 kWh
+	CO2eq:	0.2965 g
+	0.0028 km travelled by car
+	Time:	0:02:06
+	Energy:	0.0030 kWh
+	CO2eq:	0.2965 g
+	0.0028 km travelled by car
+___lud com 6 Treads_concluida___
+___lud com 8 Treads___
+Time consumed(ms): 95211.047000
+	Time:	0:01:35
+	Energy:	0.0024 kWh
+	CO2eq:	0.2365 g
+	0.0022 km travelled by car
+	Time:	0:01:35
+	Energy:	0.0024 kWh
+	CO2eq:	0.2365 g
+	0.0022 km travelled by car
+___lud com 8 Treads_concluida___
+___lud com 10 Treads___
+Time consumed(ms): 75640.452000
+	Time:	0:01:16
+	Energy:	0.0020 kWh
+	CO2eq:	0.1974 g
+	0.0018 km travelled by car
+	Time:	0:01:16
+	Energy:	0.0020 kWh
+	CO2eq:	0.1974 g
+	0.0018 km travelled by car
+___lud com 10 Treads_concluida___
+___lud com 12 Treads___
+Time consumed(ms): 63682.988000
+	Time:	0:01:04
+	Energy:	0.0017 kWh
+	CO2eq:	0.1718 g
+	0.0016 km travelled by car
+	Time:	0:01:04
+	Energy:	0.0017 kWh
+	CO2eq:	0.1718 g
+	0.0016 km travelled by car
+___lud com 12 Treads_concluida___
+___lud com 14 Treads___
+Time consumed(ms): 54530.983000
+	Time:	0:00:55
+	Energy:	0.0016 kWh
+	CO2eq:	0.1535 g
+	0.0014 km travelled by car
+	Time:	0:00:55
+	Energy:	0.0016 kWh
+	CO2eq:	0.1535 g
+	0.0014 km travelled by car
+___lud com 14 Treads_concluida___
+___lud com 16 Treads___
+Time consumed(ms): 48352.657000
+	Time:	0:00:49
+	Energy:	0.0014 kWh
+	CO2eq:	0.1412 g
+	0.0013 km travelled by car
+	Time:	0:00:49
+	Energy:	0.0014 kWh
+	CO2eq:	0.1412 g
+	0.0013 km travelled by car
+___lud com 16 Treads_concluida___
+___Fim de lud___:
+
+compilando streamcluster...
+___Executando streamcluster___:
+___streamcluster com 2 Treads___
+time = 429.477396
+	Time:	0:07:10
+	Energy:	0.0095 kWh
+	CO2eq:	0.9318 g
+	0.0087 km travelled by car
+	Time:	0:07:10
+	Energy:	0.0095 kWh
+	CO2eq:	0.9318 g
+	0.0087 km travelled by car
+___streamcluster com 2 Treads_concluida___
+___streamcluster com 4 Treads___
+time = 226.808947
+	Time:	0:03:47
+	Energy:	0.0053 kWh
+	CO2eq:	0.5198 g
+	0.0048 km travelled by car
+	Time:	0:03:47
+	Energy:	0.0053 kWh
+	CO2eq:	0.5198 g
+	0.0048 km travelled by car
+___streamcluster com 4 Treads_concluida___
+___streamcluster com 6 Treads___
+time = 158.556361
+	Time:	0:02:39
+	Energy:	0.0039 kWh
+	CO2eq:	0.3836 g
+	0.0036 km travelled by car
+	Time:	0:02:39
+	Energy:	0.0039 kWh
+	CO2eq:	0.3836 g
+	0.0036 km travelled by car
+___streamcluster com 6 Treads_concluida___
+___streamcluster com 8 Treads___
+time = 124.303859
+	Time:	0:02:04
+	Energy:	0.0032 kWh
+	CO2eq:	0.3137 g
+	0.0029 km travelled by car
+	Time:	0:02:04
+	Energy:	0.0032 kWh
+	CO2eq:	0.3137 g
+	0.0029 km travelled by car
+___streamcluster com 8 Treads_concluida___
+___streamcluster com 10 Treads___
+time = 103.796516
+	Time:	0:01:44
+	Energy:	0.0028 kWh
+	CO2eq:	0.2711 g
+	0.0025 km travelled by car
+	Time:	0:01:44
+	Energy:	0.0028 kWh
+	CO2eq:	0.2711 g
+	0.0025 km travelled by car
+___streamcluster com 10 Treads_concluida___
+___streamcluster com 12 Treads___
+time = 90.171908
+	Time:	0:01:30
+	Energy:	0.0025 kWh
+	CO2eq:	0.2436 g
+	0.0023 km travelled by car
+	Time:	0:01:30
+	Energy:	0.0025 kWh
+	CO2eq:	0.2436 g
+	0.0023 km travelled by car
+___streamcluster com 12 Treads_concluida___
+___streamcluster com 14 Treads___
+time = 80.683843
+	Time:	0:01:21
+	Energy:	0.0023 kWh
+	CO2eq:	0.2234 g
+	0.0021 km travelled by car
+	Time:	0:01:21
+	Energy:	0.0023 kWh
+	CO2eq:	0.2234 g
+	0.0021 km travelled by car
+___streamcluster com 14 Treads_concluida___
+___streamcluster com 16 Treads___
+time = 76.002622
+	Time:	0:01:16
+	Energy:	0.0022 kWh
+	CO2eq:	0.2159 g
+	0.0020 km travelled by car
+	Time:	0:01:16
+	Energy:	0.0022 kWh
+	CO2eq:	0.2159 g
+	0.0020 km travelled by car
+___streamcluster com 16 Treads_concluida___
+___Fim de streamcluster___:
+
+Finalizando -> RODINIA
