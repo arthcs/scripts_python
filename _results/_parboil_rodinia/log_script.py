@@ -23,47 +23,65 @@ def extract_number(line):
         return int(match.group(1))
     return None
 
-def process_data(file_path):
-    with open(file_path, 'r') as file:
-        lines = file.readlines()
-
+def process_data(files):
     data = []
     entry = {}
-    for line in lines:
-        line = line.strip()
-        if line.startswith("___") and "Treads___" in line:
-            if entry:  # Save the previous entry if it exists
-                data.append(entry)
-            entry = {}  # Start a new entry
-            entry['Treads'] = extract_number(line)
-            match = re.search(r"___([a-zA-Z]+)", line).group(1)
-            if match:
-                entry['App'] = match
 
-            #resultado = re.search(regex, texto)
+    for file_path in files:
+        print("Processando arquivo: "+file_path)
 
-        elif line.startswith("Timer Wall Time"):
-            entry['Time'] = float(line.split(':')[1].strip())
-        elif line.startswith("Time:"):
-            entry['Time CT'] = line.split('\t')[1].strip()
-        elif line.startswith("Energy:"):
-            match = re.search(r"([0-9.]+) kWh", line)
-            if match:
-                entry['Energy'] = float(match.group(1))
-        elif line.startswith("CO2eq:"):
-            match = re.search(r"([0-9.]+) g", line)
-            if match:
-                entry['CO2eq'] = float(match.group(1))
-        elif line.endswith("km travelled by car"):
-            match = re.search(r"([0-9.]+) km", line)
-            if match:
-                entry['km travelled by car'] = float(match.group(1))
-        #print(entry)
+        with open(file_path, 'r') as file:
+            lines = file.readlines()
+
+        for line in lines:
+            line = line.strip()
+            if line.startswith("___") and "Treads___" in line:
+                if entry:  # Save the previous entry if it exists
+                    data.append(entry)
+                entry = {}  # Start a new entry
+                entry['Treads'] = extract_number(line)
+
+                if line.startswith("___Executando"):
+                    match = re.search(r"___Executando ([a-zA-Z]+)", line).group(1)
+                else:
+                    match = re.search(r"___([a-zA-Z]+)", line).group(1)
+
+                if match:
+                    entry['App'] = match
+
+                #resultado = re.search(regex, texto)
+
+            elif line.startswith("Timer Wall Time"):
+                entry['Time'] = float(line.split(':')[1].strip())
+            elif line.startswith("time ="):
+                entry['Time'] = float(line.split('=')[1].strip())
+            elif line.startswith("Time consumed(ms):"):
+                entry['Time'] = float(line.split(':')[1].strip())
+            elif line.startswith("Total time:"):
+                #entry['Time'] = float(line.split(':')[1].strip())
+                match = re.search(r"([0-9.]+) seconds", line)
+                if match:
+                    entry['Time'] = float(match.group(1))
+            elif line.startswith("Time:"):
+                entry['Time CT'] = line.split('\t')[1].strip()
+            elif line.startswith("Energy:"):
+                match = re.search(r"([0-9.]+) kWh", line)
+                if match:
+                    entry['Energy'] = float(match.group(1))
+            elif line.startswith("CO2eq:"):
+                match = re.search(r"([0-9.]+) g", line)
+                if match:
+                    entry['CO2eq'] = float(match.group(1))
+            elif line.endswith("km travelled by car"):
+                match = re.search(r"([0-9.]+) km", line)
+                if match:
+                    entry['km travelled by car'] = float(match.group(1))
+            #print(entry)
 
 
-    # Add the last entry
-    if entry:
-        data.append(entry)
+        # Add the last entry
+        if entry:
+            data.append(entry)
 
     # Create DataFrame
     df = pd.DataFrame(data)
@@ -72,29 +90,30 @@ def process_data(file_path):
 #palavras = ['Run time = ','Time:','Energy:','CO2eq:','km travelled by car', 'Run time without initialization =','___Execucao_com','Execution time', 'Elapsed time']
 
 # busca o nome dos arquivos que terminam com .out
-files_out = [arquivo for arquivo in os.listdir('.') if arquivo.endswith('.out')]
-#print(files_out)
+for arc in ['blaise', 'hype', 'phoenix', 'tupi']:
+    files_out = [arquivo for arquivo in os.listdir('.') if arquivo.endswith('.out') and arquivo.startswith(arc)]
+    print(files_out)
 
-for file in files_out:
-    print("Processando arquivo: "+file)
+    #for file in files_out:
+    #    print("Processando arquivo: "+file)
 
     #####Organiza os dados
     # Caminho para o arquivo de dados
-    file_path = file
+    #file_path = file
     #file_path = 'log_limpo_'+ str(num+1) + '.txt'
 
     # Processar os dados e criar a tabela
-    df = process_data(file_path)
+    df = process_data(files_out)
 
     # Exibir a tabela
     #print(df)
 
     # Converter pontos em vírgulas
     df_str = df.to_string(index=False)
-    df_str = df_str.replace('.', ',')
+    #df_str = df_str.replace('.', ',')
 
     # Salvar a tabela em um arquivo txt
-    output_file = 'process_data/log_'+ file_path
+    output_file = 'process_data/log_'+ arc
 
     with open(output_file, 'w') as file:
         file.write(df_str)
