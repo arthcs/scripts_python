@@ -74,3 +74,4 @@ plot_arc_threads <- plot_grid(blaise_threads_plot, hype_threads_plot, phoenix_th
                       rel_widths = c(1, 1.2, 1.2))
 
 print(plot_arc_threads)
+
