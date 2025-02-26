@@ -1,0 +1,15 @@
+Aplicações do Rodinia: cfd, kmeans, leukocyte, srad, backprop
+Rodar:
+./backprop 50000000
+
+para o cfd: ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K
+
+para o kmeans: ./kmeans_openmp/kmeans -n 128 -t 0.000001 -k 50 -i ../../data/kmeans/kdd_cup
+
+para o srad, o diretório é o srad_v2: ./srad 4096 4096 0 127 0 127 2 0.5 400 
+o leukocyte estou vendo ainda. Mas, pode ir executando estes primeiro
+
+No backprop, tem de comentar as seguintes linhas nos arquivos:
+backprop.c:  omp_set_num_threads(NUM_THREAD);
+backprop.c:  omp_set_num_threads(NUM_THREAD);
+backprop.h:#define NUM_THREAD 8 //OpenMP threads
