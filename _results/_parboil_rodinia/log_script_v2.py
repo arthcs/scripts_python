@@ -85,8 +85,10 @@ def process_data(file_path):
 #palavras = ['Run time = ','Time:','Energy:','CO2eq:','km travelled by car', 'Run time without initialization =','___Execucao_com','Execution time', 'Elapsed time']
 
 # busca o nome dos arquivos que terminam com .out
-files_out = [arquivo for arquivo in os.listdir('.') if arquivo.startswith('tupi') and arquivo.endswith('.out')]
-#print(files_out)
+#folder = os.path.join(os.getcwd(), "resultados_01")
+files_out = [arquivo for arquivo in os.listdir("resultados_01") if arquivo.startswith('tupi') and arquivo.endswith('.out')]
+print(files_out)
+exit()
 
 for file in files_out:
     #print("Processando arquivo: "+file)

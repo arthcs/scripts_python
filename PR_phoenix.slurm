@@ -5,8 +5,8 @@
 #SBATCH --ntasks=48
 #SBATCH --nodes=1
 #SBATCH --time=24:00:00
-#SBATCH --output=out/phoenix_%x_%j_%a.out
-#SBATCH --error=out/phoenix_%x_%j_%a.err
+#SBATCH --output=out/phoenix_%j_%a.out
+#SBATCH --error=out/phoenix_%j_%a.err
 #SBATCH --array=1-10
 
 export OMP_PROC_BIND=CLOSE

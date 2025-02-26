@@ -70,8 +70,6 @@ conda deactivate
 cd ..
 echo "Finalizando -> PARBOIL"
 
-exit
-
 printf "\n\nEntrando -> RODINIA\n\n"
 cd RODINIA/
 
