@@ -13,3 +13,5 @@ No backprop, tem de comentar as seguintes linhas nos arquivos:
 backprop.c:  omp_set_num_threads(NUM_THREAD);
 backprop.h:#define NUM_THREAD 8 //OpenMP threads
 ./backprop 50000000 #funcionando
+
+REtirei do aquivo my.openmp.host.make.config as flags CUDA -lcudart -lcuda
