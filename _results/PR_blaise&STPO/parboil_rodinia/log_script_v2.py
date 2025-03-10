@@ -85,8 +85,9 @@ def process_data(file_path):
 #palavras = ['Run time = ','Time:','Energy:','CO2eq:','km travelled by car', 'Run time without initialization =','___Execucao_com','Execution time', 'Elapsed time']
 
 # busca o nome dos arquivos que terminam com .out
-files_out = [arquivo for arquivo in os.listdir('./data') if arquivo.endswith('.out')]
-print(f"Arquivos encontrados:{files_out}")
+#folder = os.path.join(os.getcwd(), "resultados_01")
+files_out = [arquivo for arquivo in os.listdir("./data") if arquivo.endswith('.out')]
+print(files_out)
 #exit()
 
 for file in files_out:
@@ -98,7 +99,7 @@ for file in files_out:
     #file_path = 'log_limpo_'+ str(num+1) + '.txt'
 
     # Processar os dados e criar a tabela
-    df = process_data("data/"+file_path)
+    df = process_data('data/'+file_path)
 
     # Exibir a tabela
     #print(df)
@@ -116,6 +117,6 @@ for file in files_out:
     print(f"Os resultados foram salvos em {output_file}")
 
 #files_one = [arquivo for arquivo in os.listdir('process_data/.') if arquivo.startswith('tupi') and arquivo.endswith('.out')]
-#pasta = os.path.join(os.getcwd(), "process_data")
-#files_one = [f for f in os.listdir(pasta) if os.path.isfile(os.path.join(pasta, f) and f.startswith('log_tupi'))]
-#rint(files_one)
+pasta = os.path.join(os.getcwd(), "process_data")
+files_one = [f for f in os.listdir(pasta) if os.path.isfile(os.path.join(pasta, f) and f.startswith('log_tupi'))]
+print(files_one)
