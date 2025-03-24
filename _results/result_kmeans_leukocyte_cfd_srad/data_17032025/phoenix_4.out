@@ -1,0 +1,1537 @@
+Numero de CPUs logicos (threads): 48
+Numero de núcleos fisicos: 12
+Start -> kmeans
+compilando kmeans...
+cd kmeans_serial; make clean
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_serial'
+rm -f *.o *~ kmeans 
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_serial'
+cd kmeans_openmp; make clean
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_openmp'
+rm -f *.o *~ kmeans 
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_openmp'
+cd kmeans_openmp; make
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_openmp'
+gcc -g -fopenmp -O2  cluster.c -c
+gcc -g -fopenmp -O2  getopt.c -c
+gcc -g -fopenmp -O2  kmeans.c -c
+gcc -g -fopenmp -O2  kmeans_clustering.c -c
+gcc -g -fopenmp -O2  cluster.o getopt.o kmeans.o kmeans_clustering.o  -o kmeans
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_openmp'
+cd kmeans_serial; make
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_serial'
+gcc -g -fopenmp -O2  cluster.c -c
+gcc -g -fopenmp -O2  getopt.c -c
+gcc -g -fopenmp -O2  kmeans.c -c
+gcc -g -fopenmp -O2  kmeans_clustering.c -c
+gcc -g -fopenmp -O2  cluster.o getopt.o kmeans.o kmeans_clustering.o  -o kmeans
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_serial'
+___Executando kmeans___:
+___kmeans com 2 Treads___
+Time for process: 249.544488
+Tempo total: 250099.380 ms
+	Time:	0:04:10
+	Energy:	0.0087 kWh
+	CO2eq:	4.2017 g
+	0.0391 km travelled by car
+	Time:	0:04:10
+	Energy:	0.0087 kWh
+	CO2eq:	4.2017 g
+	0.0391 km travelled by car
+___kmeans com 2 Treads_concluida___
+___kmeans com 4 Treads___
+Time for process: 124.808832
+Tempo total: 125363.174 ms
+	Time:	0:02:05
+	Energy:	0.0046 kWh
+	CO2eq:	2.2160 g
+	0.0206 km travelled by car
+	Time:	0:02:05
+	Energy:	0.0046 kWh
+	CO2eq:	2.2160 g
+	0.0206 km travelled by car
+___kmeans com 4 Treads_concluida___
+___kmeans com 6 Treads___
+Time for process: 83.289735
+Tempo total: 83843.927 ms
+	Time:	0:01:24
+	Energy:	0.0033 kWh
+	CO2eq:	1.5667 g
+	0.0146 km travelled by car
+	Time:	0:01:24
+	Energy:	0.0033 kWh
+	CO2eq:	1.5667 g
+	0.0146 km travelled by car
+___kmeans com 6 Treads_concluida___
+___kmeans com 8 Treads___
+Time for process: 62.513444
+Tempo total: 63068.537 ms
+	Time:	0:01:03
+	Energy:	0.0026 kWh
+	CO2eq:	1.2410 g
+	0.0115 km travelled by car
+	Time:	0:01:03
+	Energy:	0.0026 kWh
+	CO2eq:	1.2410 g
+	0.0115 km travelled by car
+___kmeans com 8 Treads_concluida___
+___kmeans com 10 Treads___
+Time for process: 50.420425
+Tempo total: 50979.258 ms
+	Time:	0:00:51
+	Energy:	0.0022 kWh
+	CO2eq:	1.0415 g
+	0.0097 km travelled by car
+	Time:	0:00:51
+	Energy:	0.0022 kWh
+	CO2eq:	1.0412 g
+	0.0097 km travelled by car
+___kmeans com 10 Treads_concluida___
+___kmeans com 12 Treads___
+Time for process: 42.820037
+Tempo total: 43380.158 ms
+	Time:	0:00:43
+	Energy:	0.0019 kWh
+	CO2eq:	0.9109 g
+	0.0085 km travelled by car
+	Time:	0:00:43
+	Energy:	0.0019 kWh
+	CO2eq:	0.9109 g
+	0.0085 km travelled by car
+___kmeans com 12 Treads_concluida___
+___kmeans com 14 Treads___
+Time for process: 36.689878
+Tempo total: 37248.855 ms
+	Time:	0:00:37
+	Energy:	0.0017 kWh
+	CO2eq:	0.8153 g
+	0.0076 km travelled by car
+	Time:	0:00:37
+	Energy:	0.0017 kWh
+	CO2eq:	0.8153 g
+	0.0076 km travelled by car
+___kmeans com 14 Treads_concluida___
+___kmeans com 16 Treads___
+Time for process: 32.118855
+Tempo total: 32676.283 ms
+	Time:	0:00:33
+	Energy:	0.0015 kWh
+	CO2eq:	0.7385 g
+	0.0069 km travelled by car
+	Time:	0:00:33
+	Energy:	0.0015 kWh
+	CO2eq:	0.7385 g
+	0.0069 km travelled by car
+___kmeans com 16 Treads_concluida___
+___kmeans com 18 Treads___
+Time for process: 28.658374
+Tempo total: 29212.530 ms
+	Time:	0:00:29
+	Energy:	0.0014 kWh
+	CO2eq:	0.6870 g
+	0.0064 km travelled by car
+	Time:	0:00:29
+	Energy:	0.0014 kWh
+	CO2eq:	0.6870 g
+	0.0064 km travelled by car
+___kmeans com 18 Treads_concluida___
+___kmeans com 20 Treads___
+Time for process: 26.448292
+Tempo total: 27001.935 ms
+	Time:	0:00:27
+	Energy:	0.0013 kWh
+	CO2eq:	0.6364 g
+	0.0059 km travelled by car
+	Time:	0:00:27
+	Energy:	0.0013 kWh
+	CO2eq:	0.6370 g
+	0.0059 km travelled by car
+___kmeans com 20 Treads_concluida___
+___kmeans com 22 Treads___
+Time for process: 24.144935
+Tempo total: 24697.879 ms
+	Time:	0:00:25
+	Energy:	0.0012 kWh
+	CO2eq:	0.5773 g
+	0.0054 km travelled by car
+	Time:	0:00:25
+	Energy:	0.0012 kWh
+	CO2eq:	0.5773 g
+	0.0054 km travelled by car
+___kmeans com 22 Treads_concluida___
+___kmeans com 24 Treads___
+Time for process: 22.343587
+Tempo total: 22898.847 ms
+	Time:	0:00:23
+	Energy:	0.0011 kWh
+	CO2eq:	0.5261 g
+	0.0049 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0011 kWh
+	CO2eq:	0.5250 g
+	0.0049 km travelled by car
+___kmeans com 24 Treads_concluida___
+___kmeans com 26 Treads___
+Time for process: 20.807869
+Tempo total: 21364.853 ms
+	Time:	0:00:21
+	Energy:	0.0011 kWh
+	CO2eq:	0.5132 g
+	0.0048 km travelled by car
+	Time:	0:00:21
+	Energy:	0.0011 kWh
+	CO2eq:	0.5132 g
+	0.0048 km travelled by car
+___kmeans com 26 Treads_concluida___
+___kmeans com 28 Treads___
+Time for process: 19.178991
+Tempo total: 19733.589 ms
+	Time:	0:00:20
+	Energy:	0.0010 kWh
+	CO2eq:	0.4907 g
+	0.0046 km travelled by car
+	Time:	0:00:20
+	Energy:	0.0010 kWh
+	CO2eq:	0.4907 g
+	0.0046 km travelled by car
+___kmeans com 28 Treads_concluida___
+___kmeans com 30 Treads___
+Time for process: 18.091261
+Tempo total: 18646.978 ms
+	Time:	0:00:19
+	Energy:	0.0010 kWh
+	CO2eq:	0.4773 g
+	0.0044 km travelled by car
+	Time:	0:00:19
+	Energy:	0.0010 kWh
+	CO2eq:	0.4773 g
+	0.0044 km travelled by car
+___kmeans com 30 Treads_concluida___
+___kmeans com 32 Treads___
+Time for process: 16.788614
+Tempo total: 17347.949 ms
+	Time:	0:00:17
+	Energy:	0.0010 kWh
+	CO2eq:	0.4597 g
+	0.0043 km travelled by car
+	Time:	0:00:17
+	Energy:	0.0010 kWh
+	CO2eq:	0.4597 g
+	0.0043 km travelled by car
+___kmeans com 32 Treads_concluida___
+___kmeans com 34 Treads___
+Time for process: 15.982027
+Tempo total: 16541.378 ms
+	Time:	0:00:17
+	Energy:	0.0009 kWh
+	CO2eq:	0.4510 g
+	0.0042 km travelled by car
+	Time:	0:00:17
+	Energy:	0.0009 kWh
+	CO2eq:	0.4510 g
+	0.0042 km travelled by car
+___kmeans com 34 Treads_concluida___
+___kmeans com 36 Treads___
+Time for process: 14.950077
+Tempo total: 15506.079 ms
+	Time:	0:00:16
+	Energy:	0.0009 kWh
+	CO2eq:	0.4332 g
+	0.0040 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0009 kWh
+	CO2eq:	0.4332 g
+	0.0040 km travelled by car
+___kmeans com 36 Treads_concluida___
+___kmeans com 38 Treads___
+Time for process: 14.327877
+Tempo total: 14883.491 ms
+	Time:	0:00:15
+	Energy:	0.0009 kWh
+	CO2eq:	0.4257 g
+	0.0040 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0009 kWh
+	CO2eq:	0.4243 g
+	0.0039 km travelled by car
+___kmeans com 38 Treads_concluida___
+___kmeans com 40 Treads___
+Time for process: 13.428468
+Tempo total: 13988.772 ms
+	Time:	0:00:14
+	Energy:	0.0009 kWh
+	CO2eq:	0.4104 g
+	0.0038 km travelled by car
+	Time:	0:00:14
+	Energy:	0.0009 kWh
+	CO2eq:	0.4104 g
+	0.0038 km travelled by car
+___kmeans com 40 Treads_concluida___
+___kmeans com 42 Treads___
+Time for process: 12.978946
+Tempo total: 13537.147 ms
+	Time:	0:00:14
+	Energy:	0.0008 kWh
+	CO2eq:	0.4078 g
+	0.0038 km travelled by car
+	Time:	0:00:14
+	Energy:	0.0008 kWh
+	CO2eq:	0.4078 g
+	0.0038 km travelled by car
+___kmeans com 42 Treads_concluida___
+___kmeans com 44 Treads___
+Time for process: 12.233312
+Tempo total: 12788.995 ms
+	Time:	0:00:13
+	Energy:	0.0008 kWh
+	CO2eq:	0.3908 g
+	0.0036 km travelled by car
+	Time:	0:00:13
+	Energy:	0.0008 kWh
+	CO2eq:	0.3908 g
+	0.0036 km travelled by car
+___kmeans com 44 Treads_concluida___
+___kmeans com 46 Treads___
+Time for process: 11.910221
+Tempo total: 12477.058 ms
+	Time:	0:00:12
+	Energy:	0.0008 kWh
+	CO2eq:	0.3813 g
+	0.0035 km travelled by car
+	Time:	0:00:12
+	Energy:	0.0008 kWh
+	CO2eq:	0.3813 g
+	0.0035 km travelled by car
+___kmeans com 46 Treads_concluida___
+___kmeans com 48 Treads___
+Time for process: 11.221335
+Tempo total: 11777.512 ms
+	Time:	0:00:12
+	Energy:	0.0007 kWh
+	CO2eq:	0.3607 g
+	0.0034 km travelled by car
+	Time:	0:00:12
+	Energy:	0.0007 kWh
+	CO2eq:	0.3607 g
+	0.0034 km travelled by car
+___kmeans com 48 Treads_concluida___
+___Fim de kmeans___:
+
+Start -> leukocyte
+compilando leukocyte...
+cd OpenMP; make clean
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/leukocyte/OpenMP'
+rm -f *.o leukocyte
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/leukocyte/OpenMP'
+rm -f meschach_lib/meschach.a
+cd OpenMP; make
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/leukocyte/OpenMP'
+gcc  -g -O3 -Wall -fopenmp -I../meschach_lib detect_main.c -c
+gcc  -g -O3 -Wall -fopenmp -I../meschach_lib avilib.c -c
+gcc  -g -O3 -Wall -fopenmp -I../meschach_lib find_ellipse.c -c
+gcc  -g -O3 -Wall -fopenmp -I../meschach_lib track_ellipse.c -c
+gcc  -g -O3 -Wall -fopenmp -I../meschach_lib misc_math.c -c
+cd ../meschach_lib; ./configure --with-all; make all; make clean
+make[2]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/leukocyte/meschach_lib'
+cc -c -O -DHAVE_CONFIG_H copy.c
+cc -c -O -DHAVE_CONFIG_H err.c
+cc -c -O -DHAVE_CONFIG_H matrixio.c
+cc -c -O -DHAVE_CONFIG_H memory.c
+cc -c -O -DHAVE_CONFIG_H vecop.c
+cc -c -O -DHAVE_CONFIG_H matop.c
+cc -c -O -DHAVE_CONFIG_H pxop.c
+cc -c -O -DHAVE_CONFIG_H submat.c
+cc -c -O -DHAVE_CONFIG_H init.c
+cc -c -O -DHAVE_CONFIG_H otherio.c
+cc -c -O -DHAVE_CONFIG_H machine.c
+cc -c -O -DHAVE_CONFIG_H matlab.c
+cc -c -O -DHAVE_CONFIG_H ivecop.c
+cc -c -O -DHAVE_CONFIG_H version.c
+cc -c -O -DHAVE_CONFIG_H meminfo.c
+cc -c -O -DHAVE_CONFIG_H memstat.c
+ar ru meschach.a copy.o err.o matrixio.o memory.o vecop.o matop.o pxop.o submat.o init.o otherio.o machine.o matlab.o ivecop.o version.o meminfo.o memstat.o; ranlib meschach.a
+cc -c -O -DHAVE_CONFIG_H lufactor.c
+cc -c -O -DHAVE_CONFIG_H bkpfacto.c
+cc -c -O -DHAVE_CONFIG_H chfactor.c
+cc -c -O -DHAVE_CONFIG_H qrfactor.c
+cc -c -O -DHAVE_CONFIG_H solve.c
+cc -c -O -DHAVE_CONFIG_H hsehldr.c
+cc -c -O -DHAVE_CONFIG_H givens.c
+cc -c -O -DHAVE_CONFIG_H update.c
+cc -c -O -DHAVE_CONFIG_H norm.c
+cc -c -O -DHAVE_CONFIG_H hessen.c
+cc -c -O -DHAVE_CONFIG_H symmeig.c
+cc -c -O -DHAVE_CONFIG_H schur.c
+cc -c -O -DHAVE_CONFIG_H svd.c
+cc -c -O -DHAVE_CONFIG_H fft.c
+cc -c -O -DHAVE_CONFIG_H mfunc.c
+cc -c -O -DHAVE_CONFIG_H bdfactor.c
+ar ru meschach.a lufactor.o bkpfacto.o chfactor.o qrfactor.o solve.o hsehldr.o givens.o update.o norm.o hessen.o symmeig.o schur.o svd.o fft.o mfunc.o bdfactor.o; ranlib meschach.a
+cc -c -O -DHAVE_CONFIG_H sparse.c
+cc -c -O -DHAVE_CONFIG_H sprow.c
+cc -c -O -DHAVE_CONFIG_H sparseio.c
+cc -c -O -DHAVE_CONFIG_H spchfctr.c
+cc -c -O -DHAVE_CONFIG_H splufctr.c
+cc -c -O -DHAVE_CONFIG_H spbkp.c
+cc -c -O -DHAVE_CONFIG_H spswap.c
+cc -c -O -DHAVE_CONFIG_H iter0.c
+cc -c -O -DHAVE_CONFIG_H itersym.c
+cc -c -O -DHAVE_CONFIG_H iternsym.c
+ar ru meschach.a sparse.o sprow.o sparseio.o spchfctr.o splufctr.o spbkp.o spswap.o iter0.o itersym.o iternsym.o; ranlib meschach.a
+cc -c -O -DHAVE_CONFIG_H zmachine.c
+cc -c -O -DHAVE_CONFIG_H zcopy.c
+cc -c -O -DHAVE_CONFIG_H zmatio.c
+cc -c -O -DHAVE_CONFIG_H zmemory.c
+cc -c -O -DHAVE_CONFIG_H zvecop.c
+cc -c -O -DHAVE_CONFIG_H zmatop.c
+cc -c -O -DHAVE_CONFIG_H znorm.c
+cc -c -O -DHAVE_CONFIG_H zfunc.c
+ar ru meschach.a zmachine.o zcopy.o zmatio.o zmemory.o zvecop.o zmatop.o znorm.o zfunc.o ; ranlib meschach.a
+cc -c -O -DHAVE_CONFIG_H zlufctr.c
+cc -c -O -DHAVE_CONFIG_H zsolve.c
+cc -c -O -DHAVE_CONFIG_H zmatlab.c
+cc -c -O -DHAVE_CONFIG_H zhsehldr.c
+cc -c -O -DHAVE_CONFIG_H zqrfctr.c
+cc -c -O -DHAVE_CONFIG_H zgivens.c
+cc -c -O -DHAVE_CONFIG_H zhessen.c
+cc -c -O -DHAVE_CONFIG_H zschur.c
+ar ru meschach.a zlufctr.o zsolve.o zmatlab.o zhsehldr.o zqrfctr.o zgivens.o  zhessen.o zschur.o; ranlib meschach.a
+make[2]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/leukocyte/meschach_lib'
+make[2]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/leukocyte/meschach_lib'
+/bin/rm -f *.o core asx5213a.mat iotort.dat 
+make[2]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/leukocyte/meschach_lib'
+gcc -g -O3 -Wall -fopenmp -I../meschach_lib -lm avilib.o find_ellipse.o track_ellipse.o misc_math.o detect_main.o -o leukocyte -lm ../meschach_lib/meschach.a -lpthread
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/leukocyte/OpenMP'
+___Executando leukocyte___:
+___leukocyte com 2 Treads___
+Total application run time: 617.28857 seconds
+	Time:	0:10:17
+	Energy:	0.0217 kWh
+	CO2eq:	10.4398 g
+	0.0971 km travelled by car
+	Time:	0:10:17
+	Energy:	0.0217 kWh
+	CO2eq:	10.4398 g
+	0.0971 km travelled by car
+___leukocyte com 2 Treads_concluida___
+___leukocyte com 4 Treads___
+Total application run time: 326.07050 seconds
+	Time:	0:05:26
+	Energy:	0.0122 kWh
+	CO2eq:	5.8643 g
+	0.0546 km travelled by car
+	Time:	0:05:26
+	Energy:	0.0122 kWh
+	CO2eq:	5.8643 g
+	0.0546 km travelled by car
+___leukocyte com 4 Treads_concluida___
+___leukocyte com 6 Treads___
+Total application run time: 219.74287 seconds
+	Time:	0:03:40
+	Energy:	0.0087 kWh
+	CO2eq:	4.1695 g
+	0.0388 km travelled by car
+	Time:	0:03:40
+	Energy:	0.0087 kWh
+	CO2eq:	4.1695 g
+	0.0388 km travelled by car
+___leukocyte com 6 Treads_concluida___
+___leukocyte com 8 Treads___
+Total application run time: 188.19098 seconds
+	Time:	0:03:08
+	Energy:	0.0076 kWh
+	CO2eq:	3.6761 g
+	0.0342 km travelled by car
+	Time:	0:03:08
+	Energy:	0.0076 kWh
+	CO2eq:	3.6761 g
+	0.0342 km travelled by car
+___leukocyte com 8 Treads_concluida___
+___leukocyte com 10 Treads___
+Total application run time: 150.80600 seconds
+	Time:	0:02:31
+	Energy:	0.0064 kWh
+	CO2eq:	3.0869 g
+	0.0287 km travelled by car
+	Time:	0:02:31
+	Energy:	0.0064 kWh
+	CO2eq:	3.0847 g
+	0.0287 km travelled by car
+___leukocyte com 10 Treads_concluida___
+___leukocyte com 12 Treads___
+Total application run time: 116.90025 seconds
+	Time:	0:01:57
+	Energy:	0.0053 kWh
+	CO2eq:	2.5327 g
+	0.0236 km travelled by car
+	Time:	0:01:57
+	Energy:	0.0053 kWh
+	CO2eq:	2.5329 g
+	0.0236 km travelled by car
+___leukocyte com 12 Treads_concluida___
+___leukocyte com 14 Treads___
+Total application run time: 115.24850 seconds
+	Time:	0:01:55
+	Energy:	0.0053 kWh
+	CO2eq:	2.5376 g
+	0.0236 km travelled by car
+	Time:	0:01:55
+	Energy:	0.0053 kWh
+	CO2eq:	2.5376 g
+	0.0236 km travelled by car
+___leukocyte com 14 Treads_concluida___
+___leukocyte com 16 Treads___
+Total application run time: 114.31707 seconds
+	Time:	0:01:54
+	Energy:	0.0053 kWh
+	CO2eq:	2.5277 g
+	0.0235 km travelled by car
+	Time:	0:01:54
+	Energy:	0.0053 kWh
+	CO2eq:	2.5277 g
+	0.0235 km travelled by car
+___leukocyte com 16 Treads_concluida___
+___leukocyte com 18 Treads___
+Total application run time: 81.10196 seconds
+	Time:	0:01:21
+	Energy:	0.0040 kWh
+	CO2eq:	1.9195 g
+	0.0179 km travelled by car
+	Time:	0:01:21
+	Energy:	0.0040 kWh
+	CO2eq:	1.9195 g
+	0.0179 km travelled by car
+___leukocyte com 18 Treads_concluida___
+___leukocyte com 20 Treads___
+Total application run time: 81.37733 seconds
+	Time:	0:01:21
+	Energy:	0.0041 kWh
+	CO2eq:	1.9493 g
+	0.0181 km travelled by car
+	Time:	0:01:21
+	Energy:	0.0041 kWh
+	CO2eq:	1.9493 g
+	0.0181 km travelled by car
+___leukocyte com 20 Treads_concluida___
+___leukocyte com 22 Treads___
+Total application run time: 81.16800 seconds
+	Time:	0:01:21
+	Energy:	0.0040 kWh
+	CO2eq:	1.9139 g
+	0.0178 km travelled by car
+	Time:	0:01:21
+	Energy:	0.0040 kWh
+	CO2eq:	1.9139 g
+	0.0178 km travelled by car
+___leukocyte com 22 Treads_concluida___
+___leukocyte com 24 Treads___
+Total application run time: 81.44416 seconds
+	Time:	0:01:22
+	Energy:	0.0038 kWh
+	CO2eq:	1.8257 g
+	0.0170 km travelled by car
+	Time:	0:01:22
+	Energy:	0.0038 kWh
+	CO2eq:	1.8257 g
+	0.0170 km travelled by car
+___leukocyte com 24 Treads_concluida___
+___leukocyte com 26 Treads___
+Total application run time: 80.98939 seconds
+	Time:	0:01:21
+	Energy:	0.0039 kWh
+	CO2eq:	1.8838 g
+	0.0175 km travelled by car
+	Time:	0:01:21
+	Energy:	0.0039 kWh
+	CO2eq:	1.8838 g
+	0.0175 km travelled by car
+___leukocyte com 26 Treads_concluida___
+___leukocyte com 28 Treads___
+Total application run time: 80.57260 seconds
+	Time:	0:01:21
+	Energy:	0.0039 kWh
+	CO2eq:	1.8857 g
+	0.0175 km travelled by car
+	Time:	0:01:21
+	Energy:	0.0039 kWh
+	CO2eq:	1.8857 g
+	0.0175 km travelled by car
+___leukocyte com 28 Treads_concluida___
+___leukocyte com 30 Treads___
+Total application run time: 78.77515 seconds
+	Time:	0:01:19
+	Energy:	0.0039 kWh
+	CO2eq:	1.8573 g
+	0.0173 km travelled by car
+	Time:	0:01:19
+	Energy:	0.0039 kWh
+	CO2eq:	1.8535 g
+	0.0172 km travelled by car
+___leukocyte com 30 Treads_concluida___
+___leukocyte com 32 Treads___
+Total application run time: 78.29153 seconds
+	Time:	0:01:18
+	Energy:	0.0039 kWh
+	CO2eq:	1.8559 g
+	0.0173 km travelled by car
+	Time:	0:01:18
+	Energy:	0.0039 kWh
+	CO2eq:	1.8559 g
+	0.0173 km travelled by car
+___leukocyte com 32 Treads_concluida___
+___leukocyte com 34 Treads___
+Total application run time: 76.46391 seconds
+	Time:	0:01:17
+	Energy:	0.0038 kWh
+	CO2eq:	1.8212 g
+	0.0169 km travelled by car
+	Time:	0:01:17
+	Energy:	0.0038 kWh
+	CO2eq:	1.8212 g
+	0.0169 km travelled by car
+___leukocyte com 34 Treads_concluida___
+___leukocyte com 36 Treads___
+Total application run time: 46.64513 seconds
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3235 g
+	0.0123 km travelled by car
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3235 g
+	0.0123 km travelled by car
+___leukocyte com 36 Treads_concluida___
+___leukocyte com 38 Treads___
+Total application run time: 46.64848 seconds
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3281 g
+	0.0124 km travelled by car
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3281 g
+	0.0124 km travelled by car
+___leukocyte com 38 Treads_concluida___
+___leukocyte com 40 Treads___
+Total application run time: 46.63117 seconds
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3285 g
+	0.0124 km travelled by car
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3285 g
+	0.0124 km travelled by car
+___leukocyte com 40 Treads_concluida___
+___leukocyte com 42 Treads___
+Total application run time: 46.63236 seconds
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3306 g
+	0.0124 km travelled by car
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3306 g
+	0.0124 km travelled by car
+___leukocyte com 42 Treads_concluida___
+___leukocyte com 44 Treads___
+Total application run time: 46.65487 seconds
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3320 g
+	0.0124 km travelled by car
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3320 g
+	0.0124 km travelled by car
+___leukocyte com 44 Treads_concluida___
+___leukocyte com 46 Treads___
+Total application run time: 46.64574 seconds
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3334 g
+	0.0124 km travelled by car
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3334 g
+	0.0124 km travelled by car
+___leukocyte com 46 Treads_concluida___
+___leukocyte com 48 Treads___
+Total application run time: 46.68496 seconds
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3341 g
+	0.0124 km travelled by car
+	Time:	0:00:47
+	Energy:	0.0028 kWh
+	CO2eq:	1.3341 g
+	0.0124 km travelled by car
+___leukocyte com 48 Treads_concluida___
+___Fim de leukocyte___:
+
+Start -> backprop
+compilando backprop...
+rm -f *.o *~ backprop backprop_cuda.linkinfo
+gcc -g -fopenmp  -O2 backprop.c -c
+gcc -g -fopenmp  -O2 facetrain.c -c
+gcc -g -fopenmp  -O2 imagenet.c -c
+gcc -g -fopenmp  -O2 backprop_kernel.c -c
+gcc -g -fopenmp  -O2 backprop.o facetrain.o imagenet.o backprop_kernel.o -o backprop -lm
+___Executando backprop___:
+___backprop com 2 Treads___
+Tempo total: 32839.834 ms
+	Time:	0:00:33
+	Energy:	0.0012 kWh
+	CO2eq:	0.5577 g
+	0.0052 km travelled by car
+	Time:	0:00:33
+	Energy:	0.0012 kWh
+	CO2eq:	0.5573 g
+	0.0052 km travelled by car
+___backprop com 2 Treads_concluida___
+___backprop com 4 Treads___
+Tempo total: 27222.328 ms
+	Time:	0:00:27
+	Energy:	0.0010 kWh
+	CO2eq:	0.4646 g
+	0.0043 km travelled by car
+	Time:	0:00:27
+	Energy:	0.0010 kWh
+	CO2eq:	0.4646 g
+	0.0043 km travelled by car
+___backprop com 4 Treads_concluida___
+___backprop com 6 Treads___
+Tempo total: 25715.573 ms
+	Time:	0:00:26
+	Energy:	0.0009 kWh
+	CO2eq:	0.4374 g
+	0.0041 km travelled by car
+	Time:	0:00:26
+	Energy:	0.0009 kWh
+	CO2eq:	0.4374 g
+	0.0041 km travelled by car
+___backprop com 6 Treads_concluida___
+___backprop com 8 Treads___
+Tempo total: 23961.756 ms
+	Time:	0:00:24
+	Energy:	0.0008 kWh
+	CO2eq:	0.4080 g
+	0.0038 km travelled by car
+	Time:	0:00:24
+	Energy:	0.0008 kWh
+	CO2eq:	0.4080 g
+	0.0038 km travelled by car
+___backprop com 8 Treads_concluida___
+___backprop com 10 Treads___
+Tempo total: 24334.899 ms
+	Time:	0:00:24
+	Energy:	0.0009 kWh
+	CO2eq:	0.4171 g
+	0.0039 km travelled by car
+	Time:	0:00:24
+	Energy:	0.0009 kWh
+	CO2eq:	0.4171 g
+	0.0039 km travelled by car
+___backprop com 10 Treads_concluida___
+___backprop com 12 Treads___
+Tempo total: 25224.979 ms
+	Time:	0:00:25
+	Energy:	0.0009 kWh
+	CO2eq:	0.4331 g
+	0.0040 km travelled by car
+	Time:	0:00:25
+	Energy:	0.0009 kWh
+	CO2eq:	0.4331 g
+	0.0040 km travelled by car
+___backprop com 12 Treads_concluida___
+___backprop com 14 Treads___
+Tempo total: 24501.753 ms
+	Time:	0:00:25
+	Energy:	0.0009 kWh
+	CO2eq:	0.4219 g
+	0.0039 km travelled by car
+	Time:	0:00:25
+	Energy:	0.0009 kWh
+	CO2eq:	0.4219 g
+	0.0039 km travelled by car
+___backprop com 14 Treads_concluida___
+___backprop com 16 Treads___
+Tempo total: 23557.174 ms
+	Time:	0:00:24
+	Energy:	0.0008 kWh
+	CO2eq:	0.4061 g
+	0.0038 km travelled by car
+	Time:	0:00:24
+	Energy:	0.0008 kWh
+	CO2eq:	0.4061 g
+	0.0038 km travelled by car
+___backprop com 16 Treads_concluida___
+___backprop com 18 Treads___
+Tempo total: 22798.380 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3926 g
+	0.0037 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3926 g
+	0.0037 km travelled by car
+___backprop com 18 Treads_concluida___
+___backprop com 20 Treads___
+Tempo total: 22976.003 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3971 g
+	0.0037 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3969 g
+	0.0037 km travelled by car
+___backprop com 20 Treads_concluida___
+___backprop com 22 Treads___
+Tempo total: 23020.154 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3955 g
+	0.0037 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3955 g
+	0.0037 km travelled by car
+___backprop com 22 Treads_concluida___
+___backprop com 24 Treads___
+Tempo total: 22729.669 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3916 g
+	0.0036 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3916 g
+	0.0036 km travelled by car
+___backprop com 24 Treads_concluida___
+___backprop com 26 Treads___
+Tempo total: 22965.323 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3954 g
+	0.0037 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3950 g
+	0.0037 km travelled by car
+___backprop com 26 Treads_concluida___
+___backprop com 28 Treads___
+Tempo total: 22954.443 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3942 g
+	0.0037 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3942 g
+	0.0037 km travelled by car
+___backprop com 28 Treads_concluida___
+___backprop com 30 Treads___
+Tempo total: 22703.656 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3913 g
+	0.0036 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3913 g
+	0.0036 km travelled by car
+___backprop com 30 Treads_concluida___
+___backprop com 32 Treads___
+Tempo total: 23030.196 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3934 g
+	0.0037 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3934 g
+	0.0037 km travelled by car
+___backprop com 32 Treads_concluida___
+___backprop com 34 Treads___
+Tempo total: 23156.580 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3962 g
+	0.0037 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3962 g
+	0.0037 km travelled by car
+___backprop com 34 Treads_concluida___
+___backprop com 36 Treads___
+Tempo total: 23003.987 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3955 g
+	0.0037 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3955 g
+	0.0037 km travelled by car
+___backprop com 36 Treads_concluida___
+___backprop com 38 Treads___
+Tempo total: 22784.909 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3920 g
+	0.0036 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3920 g
+	0.0036 km travelled by car
+___backprop com 38 Treads_concluida___
+___backprop com 40 Treads___
+Tempo total: 22620.030 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3904 g
+	0.0036 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3904 g
+	0.0036 km travelled by car
+___backprop com 40 Treads_concluida___
+___backprop com 42 Treads___
+Tempo total: 23039.092 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3963 g
+	0.0037 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3963 g
+	0.0037 km travelled by car
+___backprop com 42 Treads_concluida___
+___backprop com 44 Treads___
+Tempo total: 22931.714 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3955 g
+	0.0037 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3953 g
+	0.0037 km travelled by car
+___backprop com 44 Treads_concluida___
+___backprop com 46 Treads___
+Tempo total: 23009.972 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3957 g
+	0.0037 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3957 g
+	0.0037 km travelled by car
+___backprop com 46 Treads_concluida___
+___backprop com 48 Treads___
+Tempo total: 22793.321 ms
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3920 g
+	0.0036 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0008 kWh
+	CO2eq:	0.3920 g
+	0.0036 km travelled by car
+___backprop com 48 Treads_concluida___
+___Fim de backprop___:
+
+Start -> cfd
+compilando cfd...
+rm -f euler3d_cpu
+rm -f euler3d_cpu_offload
+rm -f euler3d_cpu_double
+rm -f pre_euler3d_cpu
+rm -f pre_euler3d_cpu_double
+g++ -O3 -Dblock_length=8 -fopenmp euler3d_cpu.cpp -o euler3d_cpu
+g++ -O3 -Dblock_length=8 -fopenmp euler3d_cpu_double.cpp -o euler3d_cpu_double
+g++ -O3 -Dblock_length=8 -fopenmp pre_euler3d_cpu.cpp -o pre_euler3d_cpu
+g++ -O3 -Dblock_length=8 -fopenmp pre_euler3d_cpu_double.cpp -o pre_euler3d_cpu_double
+icc -g -O3 -DOMP_OFFLOAD -Dblock_length=216 -fopenmp -offload-option,mic,compiler,"-no-opt-prefetch" euler3d_cpu.cpp -o euler3d_cpu_offload
+___Executando cfd___:
+___cfd com 2 Treads___
+Compute time: 117.326
+Tempo total: 118650.068 ms
+	Time:	0:01:59
+	Energy:	0.0041 kWh
+	CO2eq:	1.9863 g
+	0.0185 km travelled by car
+	Time:	0:01:59
+	Energy:	0.0041 kWh
+	CO2eq:	1.9863 g
+	0.0185 km travelled by car
+___cfd com 2 Treads_concluida___
+___cfd com 4 Treads___
+Compute time: 58.7982
+Tempo total: 60123.688 ms
+	Time:	0:01:00
+	Energy:	0.0022 kWh
+	CO2eq:	1.0560 g
+	0.0098 km travelled by car
+	Time:	0:01:00
+	Energy:	0.0022 kWh
+	CO2eq:	1.0560 g
+	0.0098 km travelled by car
+___cfd com 4 Treads_concluida___
+___cfd com 6 Treads___
+Compute time: 39.4605
+Tempo total: 40794.341 ms
+	Time:	0:00:41
+	Energy:	0.0016 kWh
+	CO2eq:	0.7537 g
+	0.0070 km travelled by car
+	Time:	0:00:41
+	Energy:	0.0016 kWh
+	CO2eq:	0.7537 g
+	0.0070 km travelled by car
+___cfd com 6 Treads_concluida___
+___cfd com 8 Treads___
+Compute time: 29.6497
+Tempo total: 31005.562 ms
+	Time:	0:00:31
+	Energy:	0.0012 kWh
+	CO2eq:	0.5972 g
+	0.0056 km travelled by car
+	Time:	0:00:31
+	Energy:	0.0012 kWh
+	CO2eq:	0.5935 g
+	0.0055 km travelled by car
+___cfd com 8 Treads_concluida___
+___cfd com 10 Treads___
+Compute time: 24.2156
+Tempo total: 25560.713 ms
+	Time:	0:00:26
+	Energy:	0.0011 kWh
+	CO2eq:	0.5119 g
+	0.0048 km travelled by car
+	Time:	0:00:26
+	Energy:	0.0011 kWh
+	CO2eq:	0.5119 g
+	0.0048 km travelled by car
+___cfd com 10 Treads_concluida___
+___cfd com 12 Treads___
+Compute time: 20.3024
+Tempo total: 21637.972 ms
+	Time:	0:00:22
+	Energy:	0.0009 kWh
+	CO2eq:	0.4436 g
+	0.0041 km travelled by car
+	Time:	0:00:22
+	Energy:	0.0009 kWh
+	CO2eq:	0.4436 g
+	0.0041 km travelled by car
+___cfd com 12 Treads_concluida___
+___cfd com 14 Treads___
+Compute time: 17.3709
+Tempo total: 18706.805 ms
+	Time:	0:00:19
+	Energy:	0.0008 kWh
+	CO2eq:	0.3987 g
+	0.0037 km travelled by car
+	Time:	0:00:19
+	Energy:	0.0008 kWh
+	CO2eq:	0.3987 g
+	0.0037 km travelled by car
+___cfd com 14 Treads_concluida___
+___cfd com 16 Treads___
+Compute time: 15.0801
+Tempo total: 16449.645 ms
+	Time:	0:00:16
+	Energy:	0.0008 kWh
+	CO2eq:	0.3640 g
+	0.0034 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0008 kWh
+	CO2eq:	0.3640 g
+	0.0034 km travelled by car
+___cfd com 16 Treads_concluida___
+___cfd com 18 Treads___
+Compute time: 13.4055
+Tempo total: 14737.822 ms
+	Time:	0:00:15
+	Energy:	0.0007 kWh
+	CO2eq:	0.3350 g
+	0.0031 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0007 kWh
+	CO2eq:	0.3350 g
+	0.0031 km travelled by car
+___cfd com 18 Treads_concluida___
+___cfd com 20 Treads___
+Compute time: 12.4154
+Tempo total: 13843.367 ms
+	Time:	0:00:14
+	Energy:	0.0007 kWh
+	CO2eq:	0.3156 g
+	0.0029 km travelled by car
+	Time:	0:00:14
+	Energy:	0.0007 kWh
+	CO2eq:	0.3156 g
+	0.0029 km travelled by car
+___cfd com 20 Treads_concluida___
+___cfd com 22 Treads___
+Compute time: 11.2985
+Tempo total: 12649.893 ms
+	Time:	0:00:13
+	Energy:	0.0006 kWh
+	CO2eq:	0.2925 g
+	0.0027 km travelled by car
+	Time:	0:00:13
+	Energy:	0.0006 kWh
+	CO2eq:	0.2925 g
+	0.0027 km travelled by car
+___cfd com 22 Treads_concluida___
+___cfd com 24 Treads___
+Compute time: 10.1936
+Tempo total: 11539.729 ms
+	Time:	0:00:12
+	Energy:	0.0005 kWh
+	CO2eq:	0.2594 g
+	0.0024 km travelled by car
+	Time:	0:00:12
+	Energy:	0.0005 kWh
+	CO2eq:	0.2594 g
+	0.0024 km travelled by car
+___cfd com 24 Treads_concluida___
+___cfd com 26 Treads___
+Compute time: 9.53359
+Tempo total: 10891.139 ms
+	Time:	0:00:11
+	Energy:	0.0005 kWh
+	CO2eq:	0.2573 g
+	0.0024 km travelled by car
+	Time:	0:00:11
+	Energy:	0.0005 kWh
+	CO2eq:	0.2463 g
+	0.0023 km travelled by car
+___cfd com 26 Treads_concluida___
+___cfd com 28 Treads___
+Compute time: 8.91319
+Tempo total: 10252.015 ms
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2501 g
+	0.0023 km travelled by car
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2501 g
+	0.0023 km travelled by car
+___cfd com 28 Treads_concluida___
+___cfd com 30 Treads___
+Compute time: 8.54464
+Tempo total: 9880.594 ms
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2477 g
+	0.0023 km travelled by car
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2477 g
+	0.0023 km travelled by car
+___cfd com 30 Treads_concluida___
+___cfd com 32 Treads___
+Compute time: 7.86732
+Tempo total: 9203.121 ms
+	Time:	0:00:09
+	Energy:	0.0005 kWh
+	CO2eq:	0.2283 g
+	0.0021 km travelled by car
+	Time:	0:00:09
+	Energy:	0.0005 kWh
+	CO2eq:	0.2283 g
+	0.0021 km travelled by car
+___cfd com 32 Treads_concluida___
+___cfd com 34 Treads___
+Compute time: 7.55257
+Tempo total: 8907.672 ms
+	Time:	0:00:09
+	Energy:	0.0005 kWh
+	CO2eq:	0.2346 g
+	0.0022 km travelled by car
+	Time:	0:00:09
+	Energy:	0.0005 kWh
+	CO2eq:	0.2199 g
+	0.0020 km travelled by car
+___cfd com 34 Treads_concluida___
+___cfd com 36 Treads___
+Compute time: 7.06724
+Tempo total: 8403.238 ms
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2254 g
+	0.0021 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2254 g
+	0.0021 km travelled by car
+___cfd com 36 Treads_concluida___
+___cfd com 38 Treads___
+Compute time: 6.79719
+Tempo total: 8145.337 ms
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2238 g
+	0.0021 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2238 g
+	0.0021 km travelled by car
+___cfd com 38 Treads_concluida___
+___cfd com 40 Treads___
+Compute time: 6.58167
+Tempo total: 7959.263 ms
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2234 g
+	0.0021 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2234 g
+	0.0021 km travelled by car
+___cfd com 40 Treads_concluida___
+___cfd com 42 Treads___
+Compute time: 6.27626
+Tempo total: 7608.868 ms
+	Time:	0:00:08
+	Energy:	0.0004 kWh
+	CO2eq:	0.2141 g
+	0.0020 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0004 kWh
+	CO2eq:	0.2141 g
+	0.0020 km travelled by car
+___cfd com 42 Treads_concluida___
+___cfd com 44 Treads___
+Compute time: 5.91705
+Tempo total: 7258.010 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1984 g
+	0.0018 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1984 g
+	0.0018 km travelled by car
+___cfd com 44 Treads_concluida___
+___cfd com 46 Treads___
+Compute time: 5.89369
+Tempo total: 7243.003 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.2001 g
+	0.0019 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.2001 g
+	0.0019 km travelled by car
+___cfd com 46 Treads_concluida___
+___cfd com 48 Treads___
+Compute time: 5.65041
+Tempo total: 6985.661 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.2039 g
+	0.0019 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1885 g
+	0.0018 km travelled by car
+___cfd com 48 Treads_concluida___
+___Fim de cfd___:
+
+Start -> srad
+compilando srad...
+cd srad_v1; 	make clean
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v1'
+rm *.o srad
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v1'
+cd srad_v2; 	make clean
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v2'
+rm -f srad
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v2'
+cd srad_v1; 	make
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v1'
+gcc	main.c \
+		-c -O3 -fopenmp
+gcc	main.o \
+		-lm -fopenmp -o srad
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v1'
+cd srad_v2; 	make
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v2'
+g++ -g -fopenmp -O2 -lm srad.cpp -o srad 
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v2'
+___Executando srad___:
+___srad com 2 Treads___
+Tempo total: 89832.038 ms
+	Time:	0:01:30
+	Energy:	0.0032 kWh
+	CO2eq:	1.5242 g
+	0.0142 km travelled by car
+	Time:	0:01:30
+	Energy:	0.0032 kWh
+	CO2eq:	1.5242 g
+	0.0142 km travelled by car
+___srad com 2 Treads_concluida___
+___srad com 4 Treads___
+Tempo total: 46373.770 ms
+	Time:	0:00:46
+	Energy:	0.0017 kWh
+	CO2eq:	0.8270 g
+	0.0077 km travelled by car
+	Time:	0:00:46
+	Energy:	0.0017 kWh
+	CO2eq:	0.8270 g
+	0.0077 km travelled by car
+___srad com 4 Treads_concluida___
+___srad com 6 Treads___
+Tempo total: 34565.677 ms
+	Time:	0:00:35
+	Energy:	0.0013 kWh
+	CO2eq:	0.6439 g
+	0.0060 km travelled by car
+	Time:	0:00:35
+	Energy:	0.0013 kWh
+	CO2eq:	0.6439 g
+	0.0060 km travelled by car
+___srad com 6 Treads_concluida___
+___srad com 8 Treads___
+Tempo total: 28859.562 ms
+	Time:	0:00:29
+	Energy:	0.0012 kWh
+	CO2eq:	0.5545 g
+	0.0052 km travelled by car
+	Time:	0:00:29
+	Energy:	0.0012 kWh
+	CO2eq:	0.5535 g
+	0.0051 km travelled by car
+___srad com 8 Treads_concluida___
+___srad com 10 Treads___
+Tempo total: 26525.662 ms
+	Time:	0:00:27
+	Energy:	0.0011 kWh
+	CO2eq:	0.5269 g
+	0.0049 km travelled by car
+	Time:	0:00:27
+	Energy:	0.0011 kWh
+	CO2eq:	0.5269 g
+	0.0049 km travelled by car
+___srad com 10 Treads_concluida___
+___srad com 12 Treads___
+Tempo total: 26409.861 ms
+	Time:	0:00:26
+	Energy:	0.0011 kWh
+	CO2eq:	0.5312 g
+	0.0049 km travelled by car
+	Time:	0:00:26
+	Energy:	0.0011 kWh
+	CO2eq:	0.5312 g
+	0.0049 km travelled by car
+___srad com 12 Treads_concluida___
+___srad com 14 Treads___
+Tempo total: 26361.585 ms
+	Time:	0:00:26
+	Energy:	0.0011 kWh
+	CO2eq:	0.5411 g
+	0.0050 km travelled by car
+	Time:	0:00:26
+	Energy:	0.0011 kWh
+	CO2eq:	0.5411 g
+	0.0050 km travelled by car
+___srad com 14 Treads_concluida___
+___srad com 16 Treads___
+Tempo total: 26404.963 ms
+	Time:	0:00:26
+	Energy:	0.0011 kWh
+	CO2eq:	0.5521 g
+	0.0051 km travelled by car
+	Time:	0:00:26
+	Energy:	0.0011 kWh
+	CO2eq:	0.5521 g
+	0.0051 km travelled by car
+___srad com 16 Treads_concluida___
+___srad com 18 Treads___
+Tempo total: 26511.444 ms
+	Time:	0:00:27
+	Energy:	0.0012 kWh
+	CO2eq:	0.5623 g
+	0.0052 km travelled by car
+	Time:	0:00:27
+	Energy:	0.0012 kWh
+	CO2eq:	0.5623 g
+	0.0052 km travelled by car
+___srad com 18 Treads_concluida___
+___srad com 20 Treads___
+Tempo total: 26270.943 ms
+	Time:	0:00:26
+	Energy:	0.0011 kWh
+	CO2eq:	0.5168 g
+	0.0048 km travelled by car
+	Time:	0:00:26
+	Energy:	0.0011 kWh
+	CO2eq:	0.5168 g
+	0.0048 km travelled by car
+___srad com 20 Treads_concluida___
+___srad com 22 Treads___
+Tempo total: 26368.814 ms
+	Time:	0:00:26
+	Energy:	0.0012 kWh
+	CO2eq:	0.5712 g
+	0.0053 km travelled by car
+	Time:	0:00:26
+	Energy:	0.0012 kWh
+	CO2eq:	0.5712 g
+	0.0053 km travelled by car
+___srad com 22 Treads_concluida___
+___srad com 24 Treads___
+Tempo total: 26287.207 ms
+	Time:	0:00:26
+	Energy:	0.0012 kWh
+	CO2eq:	0.5611 g
+	0.0052 km travelled by car
+	Time:	0:00:26
+	Energy:	0.0012 kWh
+	CO2eq:	0.5611 g
+	0.0052 km travelled by car
+___srad com 24 Treads_concluida___
+___srad com 26 Treads___
+Tempo total: 24618.200 ms
+	Time:	0:00:25
+	Energy:	0.0011 kWh
+	CO2eq:	0.5367 g
+	0.0050 km travelled by car
+	Time:	0:00:25
+	Energy:	0.0011 kWh
+	CO2eq:	0.5367 g
+	0.0050 km travelled by car
+___srad com 26 Treads_concluida___
+___srad com 28 Treads___
+Tempo total: 23207.280 ms
+	Time:	0:00:23
+	Energy:	0.0011 kWh
+	CO2eq:	0.5142 g
+	0.0048 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0011 kWh
+	CO2eq:	0.5142 g
+	0.0048 km travelled by car
+___srad com 28 Treads_concluida___
+___srad com 30 Treads___
+Tempo total: 21578.256 ms
+	Time:	0:00:22
+	Energy:	0.0010 kWh
+	CO2eq:	0.4874 g
+	0.0045 km travelled by car
+	Time:	0:00:22
+	Energy:	0.0010 kWh
+	CO2eq:	0.4874 g
+	0.0045 km travelled by car
+___srad com 30 Treads_concluida___
+___srad com 32 Treads___
+Tempo total: 20178.041 ms
+	Time:	0:00:20
+	Energy:	0.0010 kWh
+	CO2eq:	0.4638 g
+	0.0043 km travelled by car
+	Time:	0:00:20
+	Energy:	0.0010 kWh
+	CO2eq:	0.4638 g
+	0.0043 km travelled by car
+___srad com 32 Treads_concluida___
+___srad com 34 Treads___
+Tempo total: 19109.928 ms
+	Time:	0:00:19
+	Energy:	0.0009 kWh
+	CO2eq:	0.4489 g
+	0.0042 km travelled by car
+	Time:	0:00:19
+	Energy:	0.0009 kWh
+	CO2eq:	0.4489 g
+	0.0042 km travelled by car
+___srad com 34 Treads_concluida___
+___srad com 36 Treads___
+Tempo total: 17512.587 ms
+	Time:	0:00:18
+	Energy:	0.0009 kWh
+	CO2eq:	0.4230 g
+	0.0039 km travelled by car
+	Time:	0:00:18
+	Energy:	0.0009 kWh
+	CO2eq:	0.4230 g
+	0.0039 km travelled by car
+___srad com 36 Treads_concluida___
+___srad com 38 Treads___
+Tempo total: 17258.871 ms
+	Time:	0:00:17
+	Energy:	0.0009 kWh
+	CO2eq:	0.4244 g
+	0.0039 km travelled by car
+	Time:	0:00:17
+	Energy:	0.0009 kWh
+	CO2eq:	0.4244 g
+	0.0039 km travelled by car
+___srad com 38 Treads_concluida___
+___srad com 40 Treads___
+Tempo total: 16217.075 ms
+	Time:	0:00:16
+	Energy:	0.0009 kWh
+	CO2eq:	0.4112 g
+	0.0038 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0009 kWh
+	CO2eq:	0.4112 g
+	0.0038 km travelled by car
+___srad com 40 Treads_concluida___
+___srad com 42 Treads___
+Tempo total: 15354.665 ms
+	Time:	0:00:15
+	Energy:	0.0008 kWh
+	CO2eq:	0.3999 g
+	0.0037 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0008 kWh
+	CO2eq:	0.3999 g
+	0.0037 km travelled by car
+___srad com 42 Treads_concluida___
+___srad com 44 Treads___
+Tempo total: 14553.077 ms
+	Time:	0:00:15
+	Energy:	0.0008 kWh
+	CO2eq:	0.3846 g
+	0.0036 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0008 kWh
+	CO2eq:	0.3846 g
+	0.0036 km travelled by car
+___srad com 44 Treads_concluida___
+___srad com 46 Treads___
+Tempo total: 13934.398 ms
+	Time:	0:00:14
+	Energy:	0.0008 kWh
+	CO2eq:	0.3749 g
+	0.0035 km travelled by car
+	Time:	0:00:14
+	Energy:	0.0008 kWh
+	CO2eq:	0.3749 g
+	0.0035 km travelled by car
+___srad com 46 Treads_concluida___
+___srad com 48 Treads___
+Tempo total: 13605.309 ms
+	Time:	0:00:14
+	Energy:	0.0008 kWh
+	CO2eq:	0.3714 g
+	0.0035 km travelled by car
+	Time:	0:00:14
+	Energy:	0.0008 kWh
+	CO2eq:	0.3714 g
+	0.0035 km travelled by car
+___srad com 48 Treads_concluida___
+___Fim de srad___:
+

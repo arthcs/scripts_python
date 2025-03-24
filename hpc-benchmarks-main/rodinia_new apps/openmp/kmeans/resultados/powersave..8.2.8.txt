@@ -1,0 +1,90 @@
+FIB: Disabled
+I/O completed
+num of threads = 8
+number of Clusters 5
+number of Attributes 34
+
+Time for process: 1.709983
+=== FIB ===
+FIB - Execution Time: 3.96981 seconds
+FIB - Energy: 376.52533100 Joules
+FIB - EDP: 1494.73367
+Elapsed Time: 4.039s
+    SP GFLOPS: 2.203
+    DP GFLOPS: 0.000
+    x87 GFLOPS: 0.000
+    CPI Rate: 0.481
+    Average CPU Frequency: 1.198 GHz 
+    Total Thread Count: 8
+Effective Physical Core Utilization: 8.2% (3.598 out of 44)
+ | The metric value is low, which may signal a poor physical CPU cores
+ | utilization caused by:
+ |     - load imbalance
+ |     - threading runtime overhead
+ |     - contended synchronization
+ |     - thread/process underutilization
+ |     - incorrect affinity that utilizes logical cores instead of physical
+ |       cores
+ | Explore sub-metrics to estimate the efficiency of MPI and OpenMP parallelism
+ | or run the Locks and Waits analysis to identify parallel bottlenecks for
+ | other parallel runtimes.
+ |
+    Effective Logical Core Utilization: 4.1% (3.592 out of 88)
+     | The metric value is low, which may signal a poor logical CPU cores
+     | utilization. Consider improving physical core utilization as the first
+     | step and then look at opportunities to utilize logical cores, which in
+     | some cases can improve processor throughput and overall performance of
+     | multi-threaded applications.
+     |
+Memory Bound: 18.9% of Pipeline Slots
+    Cache Bound: 4.4% of Clockticks
+    DRAM Bound: 23.8% of Clockticks
+        DRAM Bandwidth Bound: 0.0% of Elapsed Time
+    NUMA: % of Remote Accesses: 0.0%
+
+    Bandwidth Utilization
+    Bandwidth Domain             Platform Maximum  Observed Maximum  Average  % of Elapsed Time with High BW Utilization(%)
+    ---------------------------  ----------------  ----------------  -------  ---------------------------------------------
+    DRAM, GB/sec                 194                          9.900    1.763                                           0.0%
+    DRAM Single-Package, GB/sec  97                           9.300    1.713                                           0.0%
+    QPI Outgoing, GB/sec         68                           7.200    1.307                                           0.0%
+Vectorization: 0.0% of Packed FP Operations
+ | A significant fraction of floating point arithmetic instructions are scalar.
+ | Use Intel Advisor to see possible reasons why the code was not vectorized.
+ |
+    Instruction Mix
+        SP FLOPs: 25.3% of uOps
+            Packed: 0.0% from SP FP
+                128-bit: 0.0% from SP FP
+                256-bit: 0.0% from SP FP
+            Scalar: 100.0% from SP FP
+             | This code has floating point operations and is not vectorized.
+             | Consider using Intel Advisor to vectorize the loops.
+             |
+        DP FLOPs: 0.0% of uOps
+            Packed: 0.0% from DP FP
+                128-bit: 0.0% from DP FP
+                256-bit: 0.0% from DP FP
+            Scalar: 0.0% from DP FP
+        x87 FLOPs: 0.0% of uOps
+        Non-FP: 74.7% of uOps
+    FP Arith/Mem Rd Instr. Ratio: 0.933
+    FP Arith/Mem Wr Instr. Ratio: 6.426
+Collection and Platform Info
+    Application Command Line: ./kmeans_openmp/kmeans "-n" "8" "-i" "../../data/kmeans/kdd_cup" 
+    Operating System: 4.19.0-22-amd64 10.13
+    Computer Name: blaise
+    Result Size: 12.2 MB 
+    Collection start time: 12:27:22 08/06/2023 UTC
+    Collection stop time: 12:27:26 08/06/2023 UTC
+    Collector Type: Driverless Perf per-process sampling
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.200 GHz 
+        Logical CPU Count: 88
+        Max DRAM Single-Package Bandwidth: 97.000 GB/s
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.

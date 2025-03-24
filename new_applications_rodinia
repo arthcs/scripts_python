@@ -1,21 +1,31 @@
 Aplicações do Rodinia: cfd, kmeans, leukocyte, srad, backprop
-Rodar:
 
-para o cfd: ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K
+para o cfd: ./euler3d_cpu ../../data/cfd/fvcorr.domn.193K #funcionando dir:rodinia_new apps
+grap: Compute time: 5.79705
 
 para o kmeans: ./kmeans_openmp/kmeans -n 88 -t 0.000001 -k 50 -i ../../data/kmeans/kdd_cup #funcionando
 grap: Time for process: 11.586420
 
 para o srad, o diretório é o srad_v2: ./srad 4096 4096 0 127 0 127 2 0.5 400
+erro:
+gcc -g -fopenmp -O2 srad.cpp -o srad
+/usr/bin/ld: /tmp/cc3h5Gcx.o: in function `main':
+/usr/include/c++/8/cmath:223: undefined reference to `expf'
+collect2: error: ld returned 1 exit status
 
 o leukocyte estou vendo ainda. Mas, pode ir executando estes primeiro
 ./OpenMP/leukocyte 5 4 ../../data/leukocyte/testfile.avi
 grap: Total application run time: 3.21436 seconds
+blaise erro: compilador g++
+gcc: error: avilib.o: No such file or directory
+gcc: error: find_ellipse.o: No such file or directory
+gcc: error: track_ellipse.o: No such file or directory
+gcc: error: misc_math.o: No such file or directory
 
 No backprop, tem de comentar as seguintes linhas nos arquivos:
 backprop.c:  #omp_set_num_threads(NUM_THREAD);
 backprop.h:  #define NUM_THREAD 8 //OpenMP threads
-./backprop 50000000 #funcionando
+./backprop 50000000 #funcionando #funcionando no dir rodinia_new
 grap: backprop,adjust_weights,14.76259344,,nvcc,1,
 
 REtirei do aquivo my.openmp.host.make.config as flags CUDA -lcudart -lcuda

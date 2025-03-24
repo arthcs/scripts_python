@@ -1,0 +1,24 @@
+
+# Ignorar diretórios temporários
+tmp/
+cache/
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração e dependências
+env/
+*.pyc
+__pycache__/
+*.swp
+
+# Ignorar arquivos gerados por benchmarks
+#results/
+#output/
+#*.dat
+
+# Ignorar arquivos específicos da pasta hpc-benchmarks-main
+hpc-benchmarks-main/build/
+hpc-benchmarks-main/results/
+hpc-benchmarks-main/rodinia_new apps/data/*
