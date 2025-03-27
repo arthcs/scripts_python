@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 import os
+import sys
 
 def extract_number(line):
     match = re.search(r'com (\d+) Treads', line)
@@ -92,10 +93,16 @@ def process_data(file_path):
 
     return df_per_app
 
-if not os.path.exists("data"):
-    print(f"Erro: Pasta data não encontrada!")
+try:
+    folder = sys.argv[1]
+except IndexError:
+    print("Erro: Nome da pasta não informado!")
+    print("O Nome da pasta deve ser passado como argumento.\nExemplo:\n\tpython3 log_script_v4.py <nome_da_pasta>")
     exit()
 
+if not os.path.exists(folder):
+    print(f"Erro: Pasta "+folder+" não encontrada!")
+    exit()
 
 if not os.path.exists("process_data"):
     os.makedirs("process_data")
@@ -104,7 +111,7 @@ else:
     print(f"Pasta process_data já existe.")
 
 # busca o nome dos arquivos que terminam com .out
-files_out = [arquivo for arquivo in os.listdir("./data") if arquivo.endswith('.out')]
+files_out = [arquivo for arquivo in os.listdir("./"+folder) if arquivo.endswith('.out')]
 print(files_out)
 #exit()
 
@@ -119,7 +126,7 @@ for file in files_out:
 
     # Processar os dados e criar a tabela
     #df = process_data('data/'+file_name)
-    df_per_app = process_data('data/'+file_name)
+    df_per_app = process_data(folder+'/'+file_name)
 
     for app, df in df_per_app.items():
         print(f"DataFrame para {app}:")
