@@ -3,3125 +3,2636 @@ Numero de núcleos fisicos: 22
 Start -> kmeans
 compilando kmeans...
 cd kmeans_serial; make clean
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/kmeans/kmeans_serial'
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_serial'
 rm -f *.o *~ kmeans 
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/kmeans/kmeans_serial'
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_serial'
 cd kmeans_openmp; make clean
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/kmeans/kmeans_openmp'
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_openmp'
 rm -f *.o *~ kmeans 
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/kmeans/kmeans_openmp'
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_openmp'
 cd kmeans_openmp; make
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/kmeans/kmeans_openmp'
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_openmp'
 gcc -g -fopenmp -O2  cluster.c -c
 gcc -g -fopenmp -O2  getopt.c -c
 gcc -g -fopenmp -O2  kmeans.c -c
 gcc -g -fopenmp -O2  kmeans_clustering.c -c
 gcc -g -fopenmp -O2  cluster.o getopt.o kmeans.o kmeans_clustering.o  -o kmeans
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/kmeans/kmeans_openmp'
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_openmp'
 cd kmeans_serial; make
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/kmeans/kmeans_serial'
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_serial'
 gcc -g -fopenmp -O2  cluster.c -c
 gcc -g -fopenmp -O2  getopt.c -c
 gcc -g -fopenmp -O2  kmeans.c -c
 gcc -g -fopenmp -O2  kmeans_clustering.c -c
 gcc -g -fopenmp -O2  cluster.o getopt.o kmeans.o kmeans_clustering.o  -o kmeans
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/kmeans/kmeans_serial'
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/kmeans/kmeans_serial'
 ___Executando kmeans___:
 ___kmeans com 2 Treads___
-Time for process: 274.389552
+Time for process: 274.442504
+Tempo total: 275214.312 ms
 	Time:	0:04:35
-	Energy:	0.0091 kWh
-	CO2eq:	4.3584 g
-	0.0405 km travelled by car
+	Energy:	0.0090 kWh
+	CO2eq:	4.3138 g
+	0.0401 km travelled by car
 	Time:	0:04:35
-	Energy:	0.0091 kWh
-	CO2eq:	4.3584 g
-	0.0405 km travelled by car
+	Energy:	0.0090 kWh
+	CO2eq:	4.3138 g
+	0.0401 km travelled by car
 ___kmeans com 2 Treads_concluida___
 ___kmeans com 4 Treads___
-Time for process: 139.047819
+Time for process: 139.018055
+Tempo total: 139802.088 ms
 	Time:	0:02:20
-	Energy:	0.0049 kWh
-	CO2eq:	2.3355 g
-	0.0217 km travelled by car
+	Energy:	0.0048 kWh
+	CO2eq:	2.3265 g
+	0.0216 km travelled by car
 	Time:	0:02:20
-	Energy:	0.0049 kWh
-	CO2eq:	2.3355 g
-	0.0217 km travelled by car
+	Energy:	0.0048 kWh
+	CO2eq:	2.3265 g
+	0.0216 km travelled by car
 ___kmeans com 4 Treads_concluida___
 ___kmeans com 6 Treads___
-Time for process: 97.978377
+Time for process: 97.953308
+Tempo total: 98724.961 ms
 	Time:	0:01:39
 	Energy:	0.0035 kWh
-	CO2eq:	1.6914 g
+	CO2eq:	1.6904 g
 	0.0157 km travelled by car
 	Time:	0:01:39
 	Energy:	0.0035 kWh
-	CO2eq:	1.6914 g
+	CO2eq:	1.6904 g
 	0.0157 km travelled by car
 ___kmeans com 6 Treads_concluida___
 ___kmeans com 8 Treads___
-Time for process: 75.712521
+Time for process: 75.704337
+Tempo total: 76477.436 ms
 	Time:	0:01:16
 	Energy:	0.0028 kWh
-	CO2eq:	1.3508 g
+	CO2eq:	1.3493 g
 	0.0126 km travelled by car
 	Time:	0:01:16
 	Energy:	0.0028 kWh
-	CO2eq:	1.3508 g
+	CO2eq:	1.3493 g
 	0.0126 km travelled by car
 ___kmeans com 8 Treads_concluida___
 ___kmeans com 10 Treads___
-Time for process: 62.728723
-	Time:	0:01:04
+Time for process: 62.470057
+Tempo total: 63241.669 ms
+	Time:	0:01:03
 	Energy:	0.0024 kWh
-	CO2eq:	1.1506 g
-	0.0107 km travelled by car
-	Time:	0:01:04
+	CO2eq:	1.1444 g
+	0.0106 km travelled by car
+	Time:	0:01:03
 	Energy:	0.0024 kWh
-	CO2eq:	1.1506 g
-	0.0107 km travelled by car
+	CO2eq:	1.1438 g
+	0.0106 km travelled by car
 ___kmeans com 10 Treads_concluida___
 ___kmeans com 12 Treads___
-Time for process: 54.250881
+Time for process: 53.779392
+Tempo total: 54550.087 ms
 	Time:	0:00:55
 	Energy:	0.0021 kWh
-	CO2eq:	1.0151 g
+	CO2eq:	1.0057 g
 	0.0094 km travelled by car
 	Time:	0:00:55
 	Energy:	0.0021 kWh
-	CO2eq:	1.0151 g
+	CO2eq:	1.0057 g
 	0.0094 km travelled by car
 ___kmeans com 12 Treads_concluida___
 ___kmeans com 14 Treads___
-Time for process: 47.916887
+Time for process: 47.738776
+Tempo total: 48507.015 ms
 	Time:	0:00:49
 	Energy:	0.0019 kWh
-	CO2eq:	0.9121 g
-	0.0085 km travelled by car
+	CO2eq:	0.9081 g
+	0.0084 km travelled by car
 	Time:	0:00:49
 	Energy:	0.0019 kWh
-	CO2eq:	0.9121 g
-	0.0085 km travelled by car
+	CO2eq:	0.9081 g
+	0.0084 km travelled by car
 ___kmeans com 14 Treads_concluida___
 ___kmeans com 16 Treads___
-Time for process: 43.457089
+Time for process: 43.320079
+Tempo total: 44092.908 ms
 	Time:	0:00:44
 	Energy:	0.0017 kWh
-	CO2eq:	0.8347 g
-	0.0078 km travelled by car
+	CO2eq:	0.8325 g
+	0.0077 km travelled by car
 	Time:	0:00:44
 	Energy:	0.0017 kWh
-	CO2eq:	0.8347 g
-	0.0078 km travelled by car
+	CO2eq:	0.8325 g
+	0.0077 km travelled by car
 ___kmeans com 16 Treads_concluida___
 ___kmeans com 18 Treads___
-Time for process: 39.516421
+Time for process: 39.293009
+Tempo total: 40064.582 ms
 	Time:	0:00:40
 	Energy:	0.0016 kWh
-	CO2eq:	0.7685 g
+	CO2eq:	0.7655 g
 	0.0071 km travelled by car
 	Time:	0:00:40
 	Energy:	0.0016 kWh
-	CO2eq:	0.7685 g
+	CO2eq:	0.7655 g
 	0.0071 km travelled by car
 ___kmeans com 18 Treads_concluida___
 ___kmeans com 20 Treads___
-Time for process: 35.715971
+Time for process: 35.466875
+Tempo total: 36238.633 ms
 	Time:	0:00:36
 	Energy:	0.0015 kWh
-	CO2eq:	0.7129 g
+	CO2eq:	0.7090 g
 	0.0066 km travelled by car
 	Time:	0:00:36
 	Energy:	0.0015 kWh
-	CO2eq:	0.7129 g
+	CO2eq:	0.7090 g
 	0.0066 km travelled by car
 ___kmeans com 20 Treads_concluida___
 ___kmeans com 22 Treads___
-Time for process: 32.172957
+Time for process: 32.130311
+Tempo total: 32902.113 ms
 	Time:	0:00:33
 	Energy:	0.0014 kWh
-	CO2eq:	0.6580 g
+	CO2eq:	0.6588 g
 	0.0061 km travelled by car
 	Time:	0:00:33
 	Energy:	0.0014 kWh
-	CO2eq:	0.6580 g
+	CO2eq:	0.6588 g
 	0.0061 km travelled by car
 ___kmeans com 22 Treads_concluida___
 ___kmeans com 24 Treads___
-Time for process: 29.660112
+Time for process: 29.485649
+Tempo total: 30255.311 ms
 	Time:	0:00:30
 	Energy:	0.0013 kWh
-	CO2eq:	0.6202 g
+	CO2eq:	0.6185 g
 	0.0058 km travelled by car
 	Time:	0:00:30
 	Energy:	0.0013 kWh
-	CO2eq:	0.6202 g
+	CO2eq:	0.6185 g
 	0.0058 km travelled by car
 ___kmeans com 24 Treads_concluida___
 ___kmeans com 26 Treads___
-Time for process: 27.365731
+Time for process: 27.222295
+Tempo total: 27996.866 ms
 	Time:	0:00:28
 	Energy:	0.0012 kWh
-	CO2eq:	0.5860 g
-	0.0055 km travelled by car
+	CO2eq:	0.5845 g
+	0.0054 km travelled by car
 	Time:	0:00:28
 	Energy:	0.0012 kWh
-	CO2eq:	0.5860 g
-	0.0055 km travelled by car
+	CO2eq:	0.5845 g
+	0.0054 km travelled by car
 ___kmeans com 26 Treads_concluida___
 ___kmeans com 28 Treads___
-Time for process: 25.581285
+Time for process: 25.356738
+Tempo total: 26158.953 ms
 	Time:	0:00:26
 	Energy:	0.0012 kWh
-	CO2eq:	0.5600 g
+	CO2eq:	0.5565 g
 	0.0052 km travelled by car
 	Time:	0:00:26
 	Energy:	0.0012 kWh
-	CO2eq:	0.5600 g
+	CO2eq:	0.5565 g
 	0.0052 km travelled by car
 ___kmeans com 28 Treads_concluida___
 ___kmeans com 30 Treads___
-Time for process: 23.765002
-	Time:	0:00:25
+Time for process: 23.637145
+Tempo total: 24428.968 ms
+	Time:	0:00:24
 	Energy:	0.0011 kWh
-	CO2eq:	0.5321 g
+	CO2eq:	0.5304 g
 	0.0049 km travelled by car
-	Time:	0:00:25
+	Time:	0:00:24
 	Energy:	0.0011 kWh
-	CO2eq:	0.5321 g
+	CO2eq:	0.5304 g
 	0.0049 km travelled by car
 ___kmeans com 30 Treads_concluida___
 ___kmeans com 32 Treads___
-Time for process: 22.368016
+Time for process: 22.205786
+Tempo total: 22981.360 ms
 	Time:	0:00:23
 	Energy:	0.0011 kWh
-	CO2eq:	0.5117 g
-	0.0048 km travelled by car
+	CO2eq:	0.5079 g
+	0.0047 km travelled by car
 	Time:	0:00:23
 	Energy:	0.0011 kWh
-	CO2eq:	0.5117 g
-	0.0048 km travelled by car
+	CO2eq:	0.5056 g
+	0.0047 km travelled by car
 ___kmeans com 32 Treads_concluida___
 ___kmeans com 34 Treads___
-Time for process: 20.986373
+Time for process: 20.919952
+Tempo total: 21693.147 ms
 	Time:	0:00:22
 	Energy:	0.0010 kWh
-	CO2eq:	0.4900 g
-	0.0046 km travelled by car
+	CO2eq:	0.4888 g
+	0.0045 km travelled by car
 	Time:	0:00:22
 	Energy:	0.0010 kWh
-	CO2eq:	0.4900 g
-	0.0046 km travelled by car
+	CO2eq:	0.4888 g
+	0.0045 km travelled by car
 ___kmeans com 34 Treads_concluida___
 ___kmeans com 36 Treads___
-Time for process: 19.941490
+Time for process: 19.774948
+Tempo total: 20545.858 ms
 	Time:	0:00:21
 	Energy:	0.0010 kWh
-	CO2eq:	0.4742 g
+	CO2eq:	0.4701 g
 	0.0044 km travelled by car
 	Time:	0:00:21
 	Energy:	0.0010 kWh
-	CO2eq:	0.4742 g
+	CO2eq:	0.4701 g
 	0.0044 km travelled by car
 ___kmeans com 36 Treads_concluida___
 ___kmeans com 38 Treads___
-Time for process: 18.904252
+Time for process: 18.768186
+Tempo total: 19547.017 ms
 	Time:	0:00:20
-	Energy:	0.0010 kWh
-	CO2eq:	0.4594 g
-	0.0043 km travelled by car
+	Energy:	0.0009 kWh
+	CO2eq:	0.4558 g
+	0.0042 km travelled by car
 	Time:	0:00:20
-	Energy:	0.0010 kWh
-	CO2eq:	0.4594 g
-	0.0043 km travelled by car
+	Energy:	0.0009 kWh
+	CO2eq:	0.4558 g
+	0.0042 km travelled by car
 ___kmeans com 38 Treads_concluida___
 ___kmeans com 40 Treads___
-Time for process: 17.940888
+Time for process: 17.799250
+Tempo total: 18571.085 ms
 	Time:	0:00:19
 	Energy:	0.0009 kWh
-	CO2eq:	0.4429 g
+	CO2eq:	0.4397 g
 	0.0041 km travelled by car
 	Time:	0:00:19
 	Energy:	0.0009 kWh
-	CO2eq:	0.4429 g
+	CO2eq:	0.4397 g
 	0.0041 km travelled by car
 ___kmeans com 40 Treads_concluida___
 ___kmeans com 42 Treads___
-Time for process: 17.127133
+Time for process: 16.934804
+Tempo total: 17714.005 ms
 	Time:	0:00:18
 	Energy:	0.0009 kWh
-	CO2eq:	0.4322 g
+	CO2eq:	0.4269 g
 	0.0040 km travelled by car
 	Time:	0:00:18
 	Energy:	0.0009 kWh
-	CO2eq:	0.4322 g
+	CO2eq:	0.4269 g
 	0.0040 km travelled by car
 ___kmeans com 42 Treads_concluida___
 ___kmeans com 44 Treads___
-Time for process: 16.289598
+Time for process: 16.267732
+Tempo total: 17044.511 ms
 	Time:	0:00:17
 	Energy:	0.0009 kWh
-	CO2eq:	0.4184 g
+	CO2eq:	0.4173 g
 	0.0039 km travelled by car
 	Time:	0:00:17
 	Energy:	0.0009 kWh
-	CO2eq:	0.4199 g
+	CO2eq:	0.4174 g
 	0.0039 km travelled by car
 ___kmeans com 44 Treads_concluida___
 ___kmeans com 46 Treads___
-Time for process: 15.622930
+Time for process: 15.497749
+Tempo total: 16334.570 ms
 	Time:	0:00:16
 	Energy:	0.0009 kWh
-	CO2eq:	0.4154 g
-	0.0039 km travelled by car
-	Time:	0:00:16
-	Energy:	0.0009 kWh
-	CO2eq:	0.4154 g
-	0.0039 km travelled by car
-___kmeans com 46 Treads_concluida___
-___kmeans com 48 Treads___
-Time for process: 15.036480
-	Time:	0:00:16
-	Energy:	0.0009 kWh
-	CO2eq:	0.4090 g
+	CO2eq:	0.4118 g
 	0.0038 km travelled by car
 	Time:	0:00:16
 	Energy:	0.0009 kWh
-	CO2eq:	0.4090 g
+	CO2eq:	0.4118 g
+	0.0038 km travelled by car
+___kmeans com 46 Treads_concluida___
+___kmeans com 48 Treads___
+Time for process: 15.035533
+Tempo total: 15813.162 ms
+	Time:	0:00:16
+	Energy:	0.0009 kWh
+	CO2eq:	0.4089 g
+	0.0038 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0009 kWh
+	CO2eq:	0.4089 g
 	0.0038 km travelled by car
 ___kmeans com 48 Treads_concluida___
 ___kmeans com 50 Treads___
-Time for process: 14.429735
+Time for process: 14.377710
+Tempo total: 15151.251 ms
 	Time:	0:00:15
 	Energy:	0.0008 kWh
-	CO2eq:	0.3993 g
+	CO2eq:	0.3975 g
 	0.0037 km travelled by car
 	Time:	0:00:15
 	Energy:	0.0008 kWh
-	CO2eq:	0.3993 g
+	CO2eq:	0.3975 g
 	0.0037 km travelled by car
 ___kmeans com 50 Treads_concluida___
 ___kmeans com 52 Treads___
-Time for process: 13.956205
+Time for process: 13.945422
+Tempo total: 14727.397 ms
 	Time:	0:00:15
 	Energy:	0.0008 kWh
-	CO2eq:	0.3907 g
+	CO2eq:	0.3897 g
 	0.0036 km travelled by car
 	Time:	0:00:15
 	Energy:	0.0008 kWh
-	CO2eq:	0.3907 g
+	CO2eq:	0.3897 g
 	0.0036 km travelled by car
 ___kmeans com 52 Treads_concluida___
 ___kmeans com 54 Treads___
-Time for process: 13.413500
+Time for process: 13.237810
+Tempo total: 14013.196 ms
 	Time:	0:00:14
 	Energy:	0.0008 kWh
-	CO2eq:	0.3817 g
-	0.0036 km travelled by car
-	Time:	0:00:14
-	Energy:	0.0008 kWh
-	CO2eq:	0.3817 g
-	0.0036 km travelled by car
-___kmeans com 54 Treads_concluida___
-___kmeans com 56 Treads___
-Time for process: 12.991283
-	Time:	0:00:14
-	Energy:	0.0008 kWh
-	CO2eq:	0.3754 g
+	CO2eq:	0.3771 g
 	0.0035 km travelled by car
 	Time:	0:00:14
 	Energy:	0.0008 kWh
-	CO2eq:	0.3754 g
+	CO2eq:	0.3771 g
+	0.0035 km travelled by car
+___kmeans com 54 Treads_concluida___
+___kmeans com 56 Treads___
+Time for process: 12.932798
+Tempo total: 13710.912 ms
+	Time:	0:00:14
+	Energy:	0.0008 kWh
+	CO2eq:	0.3747 g
+	0.0035 km travelled by car
+	Time:	0:00:14
+	Energy:	0.0008 kWh
+	CO2eq:	0.3747 g
 	0.0035 km travelled by car
 ___kmeans com 56 Treads_concluida___
 ___kmeans com 58 Treads___
-Time for process: 12.605309
+Time for process: 12.422644
+Tempo total: 13194.622 ms
 	Time:	0:00:13
 	Energy:	0.0008 kWh
-	CO2eq:	0.3680 g
+	CO2eq:	0.3647 g
 	0.0034 km travelled by car
 	Time:	0:00:13
 	Energy:	0.0008 kWh
-	CO2eq:	0.3680 g
+	CO2eq:	0.3647 g
 	0.0034 km travelled by car
 ___kmeans com 58 Treads_concluida___
 ___kmeans com 60 Treads___
-Time for process: 12.311226
-	Time:	0:00:13
-	Energy:	0.0008 kWh
-	CO2eq:	0.3632 g
-	0.0034 km travelled by car
-	Time:	0:00:13
-	Energy:	0.0008 kWh
-	CO2eq:	0.3632 g
-	0.0034 km travelled by car
-___kmeans com 60 Treads_concluida___
-___kmeans com 62 Treads___
-Time for process: 11.895880
+Time for process: 12.219967
+Tempo total: 12994.087 ms
 	Time:	0:00:13
 	Energy:	0.0007 kWh
-	CO2eq:	0.3512 g
+	CO2eq:	0.3581 g
 	0.0033 km travelled by car
 	Time:	0:00:13
 	Energy:	0.0007 kWh
-	CO2eq:	0.3512 g
+	CO2eq:	0.3582 g
+	0.0033 km travelled by car
+___kmeans com 60 Treads_concluida___
+___kmeans com 62 Treads___
+Time for process: 11.848279
+Tempo total: 12618.053 ms
+	Time:	0:00:13
+	Energy:	0.0007 kWh
+	CO2eq:	0.3498 g
+	0.0033 km travelled by car
+	Time:	0:00:13
+	Energy:	0.0007 kWh
+	CO2eq:	0.3498 g
 	0.0033 km travelled by car
 ___kmeans com 62 Treads_concluida___
 ___kmeans com 64 Treads___
-Time for process: 11.717886
-	Time:	0:00:13
+Time for process: 11.604346
+Tempo total: 12378.894 ms
+	Time:	0:00:12
 	Energy:	0.0007 kWh
-	CO2eq:	0.3497 g
-	0.0033 km travelled by car
-	Time:	0:00:13
+	CO2eq:	0.3467 g
+	0.0032 km travelled by car
+	Time:	0:00:12
 	Energy:	0.0007 kWh
-	CO2eq:	0.3497 g
-	0.0033 km travelled by car
+	CO2eq:	0.3467 g
+	0.0032 km travelled by car
 ___kmeans com 64 Treads_concluida___
 ___kmeans com 66 Treads___
-Time for process: 11.270905
+Time for process: 11.124656
+Tempo total: 11895.020 ms
 	Time:	0:00:12
 	Energy:	0.0007 kWh
-	CO2eq:	0.3420 g
-	0.0032 km travelled by car
-	Time:	0:00:12
-	Energy:	0.0007 kWh
-	CO2eq:	0.3420 g
-	0.0032 km travelled by car
-___kmeans com 66 Treads_concluida___
-___kmeans com 68 Treads___
-Time for process: 10.921916
-	Time:	0:00:12
-	Energy:	0.0007 kWh
-	CO2eq:	0.3364 g
+	CO2eq:	0.3384 g
 	0.0031 km travelled by car
 	Time:	0:00:12
 	Energy:	0.0007 kWh
-	CO2eq:	0.3364 g
+	CO2eq:	0.3384 g
+	0.0031 km travelled by car
+___kmeans com 66 Treads_concluida___
+___kmeans com 68 Treads___
+Time for process: 10.855746
+Tempo total: 11630.032 ms
+	Time:	0:00:12
+	Energy:	0.0007 kWh
+	CO2eq:	0.3351 g
+	0.0031 km travelled by car
+	Time:	0:00:12
+	Energy:	0.0007 kWh
+	CO2eq:	0.3351 g
 	0.0031 km travelled by car
 ___kmeans com 68 Treads_concluida___
 ___kmeans com 70 Treads___
-Time for process: 10.613166
+Time for process: 10.422588
+Tempo total: 11198.979 ms
 	Time:	0:00:11
 	Energy:	0.0007 kWh
-	CO2eq:	0.3317 g
-	0.0031 km travelled by car
+	CO2eq:	0.3276 g
+	0.0030 km travelled by car
 	Time:	0:00:11
 	Energy:	0.0007 kWh
-	CO2eq:	0.3317 g
-	0.0031 km travelled by car
+	CO2eq:	0.3276 g
+	0.0030 km travelled by car
 ___kmeans com 70 Treads_concluida___
 ___kmeans com 72 Treads___
-Time for process: 10.497880
+Time for process: 10.398401
+Tempo total: 11170.713 ms
 	Time:	0:00:11
 	Energy:	0.0007 kWh
-	CO2eq:	0.3317 g
+	CO2eq:	0.3292 g
 	0.0031 km travelled by car
 	Time:	0:00:11
 	Energy:	0.0007 kWh
-	CO2eq:	0.3317 g
+	CO2eq:	0.3292 g
 	0.0031 km travelled by car
 ___kmeans com 72 Treads_concluida___
 ___kmeans com 74 Treads___
-Time for process: 10.091078
+Time for process: 9.936950
+Tempo total: 10712.953 ms
 	Time:	0:00:11
 	Energy:	0.0007 kWh
-	CO2eq:	0.3196 g
-	0.0030 km travelled by car
+	CO2eq:	0.3167 g
+	0.0029 km travelled by car
 	Time:	0:00:11
 	Energy:	0.0007 kWh
-	CO2eq:	0.3196 g
-	0.0030 km travelled by car
+	CO2eq:	0.3167 g
+	0.0029 km travelled by car
 ___kmeans com 74 Treads_concluida___
 ___kmeans com 76 Treads___
-Time for process: 10.063049
+Time for process: 10.003535
+Tempo total: 10779.100 ms
 	Time:	0:00:11
 	Energy:	0.0007 kWh
-	CO2eq:	0.3211 g
+	CO2eq:	0.3206 g
 	0.0030 km travelled by car
 	Time:	0:00:11
 	Energy:	0.0007 kWh
-	CO2eq:	0.3211 g
+	CO2eq:	0.3206 g
 	0.0030 km travelled by car
 ___kmeans com 76 Treads_concluida___
 ___kmeans com 78 Treads___
-Time for process: 9.572594
+Time for process: 9.500224
+Tempo total: 10278.290 ms
 	Time:	0:00:10
 	Energy:	0.0006 kWh
-	CO2eq:	0.3124 g
+	CO2eq:	0.3102 g
 	0.0029 km travelled by car
 	Time:	0:00:10
 	Energy:	0.0006 kWh
-	CO2eq:	0.3124 g
+	CO2eq:	0.3102 g
 	0.0029 km travelled by car
 ___kmeans com 78 Treads_concluida___
 ___kmeans com 80 Treads___
-Time for process: 9.511366
+Time for process: 9.461919
+Tempo total: 10242.905 ms
 	Time:	0:00:10
-	Energy:	0.0007 kWh
-	CO2eq:	0.3129 g
+	Energy:	0.0006 kWh
+	CO2eq:	0.3118 g
 	0.0029 km travelled by car
 	Time:	0:00:10
-	Energy:	0.0007 kWh
-	CO2eq:	0.3129 g
+	Energy:	0.0006 kWh
+	CO2eq:	0.3118 g
 	0.0029 km travelled by car
 ___kmeans com 80 Treads_concluida___
 ___kmeans com 82 Treads___
-Time for process: 9.137990
+Time for process: 8.995705
+Tempo total: 9770.018 ms
 	Time:	0:00:10
 	Energy:	0.0006 kWh
-	CO2eq:	0.3055 g
+	CO2eq:	0.3024 g
 	0.0028 km travelled by car
 	Time:	0:00:10
 	Energy:	0.0006 kWh
-	CO2eq:	0.3055 g
+	CO2eq:	0.3024 g
 	0.0028 km travelled by car
 ___kmeans com 82 Treads_concluida___
 ___kmeans com 84 Treads___
-Time for process: 9.183800
+Time for process: 9.053356
+Tempo total: 9830.696 ms
 	Time:	0:00:10
 	Energy:	0.0006 kWh
-	CO2eq:	0.3095 g
+	CO2eq:	0.3064 g
 	0.0029 km travelled by car
 	Time:	0:00:10
 	Energy:	0.0006 kWh
-	CO2eq:	0.3095 g
+	CO2eq:	0.3064 g
 	0.0029 km travelled by car
 ___kmeans com 84 Treads_concluida___
 ___kmeans com 86 Treads___
-Time for process: 8.724812
-	Time:	0:00:10
+Time for process: 8.617215
+Tempo total: 9394.334 ms
+	Time:	0:00:09
 	Energy:	0.0006 kWh
-	CO2eq:	0.3002 g
+	CO2eq:	0.2969 g
 	0.0028 km travelled by car
-	Time:	0:00:10
+	Time:	0:00:09
 	Energy:	0.0006 kWh
-	CO2eq:	0.3002 g
+	CO2eq:	0.2969 g
 	0.0028 km travelled by car
 ___kmeans com 86 Treads_concluida___
 ___kmeans com 88 Treads___
-Time for process: 8.686322
+Time for process: 8.596882
+Tempo total: 9367.280 ms
 	Time:	0:00:09
 	Energy:	0.0006 kWh
-	CO2eq:	0.3012 g
+	CO2eq:	0.2987 g
 	0.0028 km travelled by car
 	Time:	0:00:09
 	Energy:	0.0006 kWh
-	CO2eq:	0.3012 g
+	CO2eq:	0.2987 g
 	0.0028 km travelled by car
 ___kmeans com 88 Treads_concluida___
 ___Fim de kmeans___:
 
 Start -> leukocyte
 compilando leukocyte...
-cd OpenMP; make clean
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/leukocyte/OpenMP'
-rm -f *.o leukocyte
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/leukocyte/OpenMP'
-rm -f meschach_lib/meschach.a
-cd OpenMP; make
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/leukocyte/OpenMP'
-gcc  -g -O3 -Wall -fopenmp -I../meschach_lib detect_main.c -c
-gcc  -g -O3 -Wall -fopenmp -I../meschach_lib avilib.h -c
-gcc  -g -O3 -Wall -fopenmp -I../meschach_lib find_ellipse.h -c
-gcc  -g -O3 -Wall -fopenmp -I../meschach_lib track_ellipse.h -c
-gcc  -g -O3 -Wall -fopenmp -I../meschach_lib misc_math.h -c
-cd ../meschach_lib; ./configure --with-all; make all; make clean
-loading cache ./config.cache
-checking for acc... no
-checking for cc... (cached) no
-checking for gcc... (cached) no
-checking for cc... (cached) no
-make[2]: Entering directory '/home/users/acsilveira/rodinia/openmp/leukocyte/meschach_lib'
-cc -c -O -DHAVE_CONFIG_H copy.c
-cc -c -O -DHAVE_CONFIG_H err.c
-cc -c -O -DHAVE_CONFIG_H matrixio.c
-cc -c -O -DHAVE_CONFIG_H memory.c
-cc -c -O -DHAVE_CONFIG_H vecop.c
-cc -c -O -DHAVE_CONFIG_H matop.c
-cc -c -O -DHAVE_CONFIG_H pxop.c
-cc -c -O -DHAVE_CONFIG_H submat.c
-cc -c -O -DHAVE_CONFIG_H init.c
-cc -c -O -DHAVE_CONFIG_H otherio.c
-cc -c -O -DHAVE_CONFIG_H machine.c
-cc -c -O -DHAVE_CONFIG_H matlab.c
-cc -c -O -DHAVE_CONFIG_H ivecop.c
-cc -c -O -DHAVE_CONFIG_H version.c
-cc -c -O -DHAVE_CONFIG_H meminfo.c
-cc -c -O -DHAVE_CONFIG_H memstat.c
-ar ru meschach.a copy.o err.o matrixio.o memory.o vecop.o matop.o pxop.o submat.o init.o otherio.o machine.o matlab.o ivecop.o version.o meminfo.o memstat.o; ranlib meschach.a
-cc -c -O -DHAVE_CONFIG_H lufactor.c
-cc -c -O -DHAVE_CONFIG_H bkpfacto.c
-cc -c -O -DHAVE_CONFIG_H chfactor.c
-cc -c -O -DHAVE_CONFIG_H qrfactor.c
-cc -c -O -DHAVE_CONFIG_H solve.c
-cc -c -O -DHAVE_CONFIG_H hsehldr.c
-cc -c -O -DHAVE_CONFIG_H givens.c
-cc -c -O -DHAVE_CONFIG_H update.c
-cc -c -O -DHAVE_CONFIG_H norm.c
-cc -c -O -DHAVE_CONFIG_H hessen.c
-cc -c -O -DHAVE_CONFIG_H symmeig.c
-cc -c -O -DHAVE_CONFIG_H schur.c
-cc -c -O -DHAVE_CONFIG_H svd.c
-cc -c -O -DHAVE_CONFIG_H fft.c
-cc -c -O -DHAVE_CONFIG_H mfunc.c
-cc -c -O -DHAVE_CONFIG_H bdfactor.c
-ar ru meschach.a lufactor.o bkpfacto.o chfactor.o qrfactor.o solve.o hsehldr.o givens.o update.o norm.o hessen.o symmeig.o schur.o svd.o fft.o mfunc.o bdfactor.o; ranlib meschach.a
-cc -c -O -DHAVE_CONFIG_H sparse.c
-cc -c -O -DHAVE_CONFIG_H sprow.c
-cc -c -O -DHAVE_CONFIG_H sparseio.c
-cc -c -O -DHAVE_CONFIG_H spchfctr.c
-cc -c -O -DHAVE_CONFIG_H splufctr.c
-cc -c -O -DHAVE_CONFIG_H spbkp.c
-cc -c -O -DHAVE_CONFIG_H spswap.c
-cc -c -O -DHAVE_CONFIG_H iter0.c
-cc -c -O -DHAVE_CONFIG_H itersym.c
-cc -c -O -DHAVE_CONFIG_H iternsym.c
-ar ru meschach.a sparse.o sprow.o sparseio.o spchfctr.o splufctr.o spbkp.o spswap.o iter0.o itersym.o iternsym.o; ranlib meschach.a
-cc -c -O -DHAVE_CONFIG_H zmachine.c
-cc -c -O -DHAVE_CONFIG_H zcopy.c
-cc -c -O -DHAVE_CONFIG_H zmatio.c
-cc -c -O -DHAVE_CONFIG_H zmemory.c
-cc -c -O -DHAVE_CONFIG_H zvecop.c
-cc -c -O -DHAVE_CONFIG_H zmatop.c
-cc -c -O -DHAVE_CONFIG_H znorm.c
-cc -c -O -DHAVE_CONFIG_H zfunc.c
-ar ru meschach.a zmachine.o zcopy.o zmatio.o zmemory.o zvecop.o zmatop.o znorm.o zfunc.o ; ranlib meschach.a
-cc -c -O -DHAVE_CONFIG_H zlufctr.c
-cc -c -O -DHAVE_CONFIG_H zsolve.c
-cc -c -O -DHAVE_CONFIG_H zmatlab.c
-cc -c -O -DHAVE_CONFIG_H zhsehldr.c
-cc -c -O -DHAVE_CONFIG_H zqrfctr.c
-cc -c -O -DHAVE_CONFIG_H zgivens.c
-cc -c -O -DHAVE_CONFIG_H zhessen.c
-cc -c -O -DHAVE_CONFIG_H zschur.c
-ar ru meschach.a zlufctr.o zsolve.o zmatlab.o zhsehldr.o zqrfctr.o zgivens.o  zhessen.o zschur.o; ranlib meschach.a
-make[2]: Leaving directory '/home/users/acsilveira/rodinia/openmp/leukocyte/meschach_lib'
-make[2]: Entering directory '/home/users/acsilveira/rodinia/openmp/leukocyte/meschach_lib'
-/bin/rm -f *.o core asx5213a.mat iotort.dat 
-make[2]: Leaving directory '/home/users/acsilveira/rodinia/openmp/leukocyte/meschach_lib'
-gcc -g -O3 -Wall -fopenmp -I../meschach_lib -lm avilib.o find_ellipse.o track_ellipse.o misc_math.o detect_main.o -o leukocyte -lm ../meschach_lib/meschach.a -lpthread
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/leukocyte/OpenMP'
 ___Executando leukocyte___:
 ___leukocyte com 2 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
+Total application run time: 422.11633 seconds
+Tempo total: 422204.932 ms
+	Time:	0:07:02
+	Energy:	0.0050 kWh
+	CO2eq:	2.3943 g
+	0.0223 km travelled by car
+	Time:	0:07:02
+	Energy:	0.0050 kWh
+	CO2eq:	2.3943 g
+	0.0223 km travelled by car
 ___leukocyte com 2 Treads_concluida___
 ___leukocyte com 4 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
+Total application run time: 221.02242 seconds
+Tempo total: 221112.755 ms
+	Time:	0:03:41
+	Energy:	0.0030 kWh
+	CO2eq:	1.4348 g
+	0.0133 km travelled by car
+	Time:	0:03:41
+	Energy:	0.0030 kWh
+	CO2eq:	1.4348 g
+	0.0133 km travelled by car
 ___leukocyte com 4 Treads_concluida___
 ___leukocyte com 6 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 155.75471 seconds
+Tempo total: 155859.472 ms
+	Time:	0:02:36
+	Energy:	0.0023 kWh
+	CO2eq:	1.0866 g
+	0.0101 km travelled by car
+	Time:	0:02:36
+	Energy:	0.0023 kWh
+	CO2eq:	1.0866 g
+	0.0101 km travelled by car
 ___leukocyte com 6 Treads_concluida___
 ___leukocyte com 8 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 134.55783 seconds
+Tempo total: 134656.712 ms
+	Time:	0:02:15
+	Energy:	0.0020 kWh
+	CO2eq:	0.9794 g
+	0.0091 km travelled by car
+	Time:	0:02:15
+	Energy:	0.0020 kWh
+	CO2eq:	0.9794 g
+	0.0091 km travelled by car
 ___leukocyte com 8 Treads_concluida___
 ___leukocyte com 10 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
+Total application run time: 111.50815 seconds
+Tempo total: 111607.495 ms
+	Time:	0:01:52
+	Energy:	0.0018 kWh
+	CO2eq:	0.8547 g
+	0.0080 km travelled by car
+	Time:	0:01:52
+	Energy:	0.0018 kWh
+	CO2eq:	0.8547 g
+	0.0080 km travelled by car
 ___leukocyte com 10 Treads_concluida___
 ___leukocyte com 12 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
+Total application run time: 90.47729 seconds
+Tempo total: 90589.063 ms
+	Time:	0:01:31
+	Energy:	0.0015 kWh
+	CO2eq:	0.7397 g
+	0.0069 km travelled by car
+	Time:	0:01:31
+	Energy:	0.0015 kWh
+	CO2eq:	0.7397 g
+	0.0069 km travelled by car
 ___leukocyte com 12 Treads_concluida___
 ___leukocyte com 14 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
+Total application run time: 89.75064 seconds
+Tempo total: 89856.731 ms
+	Time:	0:01:30
+	Energy:	0.0015 kWh
+	CO2eq:	0.7309 g
+	0.0068 km travelled by car
+	Time:	0:01:30
+	Energy:	0.0015 kWh
+	CO2eq:	0.7309 g
+	0.0068 km travelled by car
 ___leukocyte com 14 Treads_concluida___
 ___leukocyte com 16 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
+Total application run time: 85.99380 seconds
+Tempo total: 86099.163 ms
+	Time:	0:01:26
+	Energy:	0.0015 kWh
+	CO2eq:	0.7104 g
+	0.0066 km travelled by car
+	Time:	0:01:26
+	Energy:	0.0015 kWh
+	CO2eq:	0.7104 g
+	0.0066 km travelled by car
 ___leukocyte com 16 Treads_concluida___
 ___leukocyte com 18 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
+Total application run time: 68.98363 seconds
+Tempo total: 69081.879 ms
+	Time:	0:01:09
+	Energy:	0.0013 kWh
+	CO2eq:	0.6125 g
+	0.0057 km travelled by car
+	Time:	0:01:09
+	Energy:	0.0013 kWh
+	CO2eq:	0.6116 g
+	0.0057 km travelled by car
 ___leukocyte com 18 Treads_concluida___
 ___leukocyte com 20 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0003 g
-	0.0000 km travelled by car
+Total application run time: 67.48502 seconds
+Tempo total: 67594.052 ms
+	Time:	0:01:08
+	Energy:	0.0013 kWh
+	CO2eq:	0.6141 g
+	0.0057 km travelled by car
+	Time:	0:01:08
+	Energy:	0.0013 kWh
+	CO2eq:	0.6141 g
+	0.0057 km travelled by car
 ___leukocyte com 20 Treads_concluida___
 ___leukocyte com 22 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0003 g
-	0.0000 km travelled by car
+Total application run time: 67.07821 seconds
+Tempo total: 67197.242 ms
+	Time:	0:01:07
+	Energy:	0.0013 kWh
+	CO2eq:	0.6152 g
+	0.0057 km travelled by car
+	Time:	0:01:07
+	Energy:	0.0013 kWh
+	CO2eq:	0.6152 g
+	0.0057 km travelled by car
 ___leukocyte com 22 Treads_concluida___
 ___leukocyte com 24 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 65.32918 seconds
+Tempo total: 65428.790 ms
+	Time:	0:01:05
+	Energy:	0.0013 kWh
+	CO2eq:	0.6122 g
+	0.0057 km travelled by car
+	Time:	0:01:05
+	Energy:	0.0013 kWh
+	CO2eq:	0.6122 g
+	0.0057 km travelled by car
 ___leukocyte com 24 Treads_concluida___
 ___leukocyte com 26 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0003 g
-	0.0000 km travelled by car
+Total application run time: 65.67512 seconds
+Tempo total: 65776.958 ms
+	Time:	0:01:06
+	Energy:	0.0013 kWh
+	CO2eq:	0.6052 g
+	0.0056 km travelled by car
+	Time:	0:01:06
+	Energy:	0.0013 kWh
+	CO2eq:	0.6052 g
+	0.0056 km travelled by car
 ___leukocyte com 26 Treads_concluida___
 ___leukocyte com 28 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 63.93469 seconds
+Tempo total: 64029.705 ms
+	Time:	0:01:04
+	Energy:	0.0013 kWh
+	CO2eq:	0.6042 g
+	0.0056 km travelled by car
+	Time:	0:01:04
+	Energy:	0.0013 kWh
+	CO2eq:	0.6042 g
+	0.0056 km travelled by car
 ___leukocyte com 28 Treads_concluida___
 ___leukocyte com 30 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 62.80883 seconds
+Tempo total: 62909.120 ms
+	Time:	0:01:03
+	Energy:	0.0012 kWh
+	CO2eq:	0.5910 g
+	0.0055 km travelled by car
+	Time:	0:01:03
+	Energy:	0.0012 kWh
+	CO2eq:	0.5910 g
+	0.0055 km travelled by car
 ___leukocyte com 30 Treads_concluida___
 ___leukocyte com 32 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 60.97615 seconds
+Tempo total: 61077.157 ms
+	Time:	0:01:01
+	Energy:	0.0012 kWh
+	CO2eq:	0.5737 g
+	0.0053 km travelled by car
+	Time:	0:01:01
+	Energy:	0.0012 kWh
+	CO2eq:	0.5728 g
+	0.0053 km travelled by car
 ___leukocyte com 32 Treads_concluida___
 ___leukocyte com 34 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 58.77364 seconds
+Tempo total: 58878.517 ms
+	Time:	0:00:59
+	Energy:	0.0012 kWh
+	CO2eq:	0.5563 g
+	0.0052 km travelled by car
+	Time:	0:00:59
+	Energy:	0.0012 kWh
+	CO2eq:	0.5563 g
+	0.0052 km travelled by car
 ___leukocyte com 34 Treads_concluida___
 ___leukocyte com 36 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 42.76025 seconds
+Tempo total: 42859.020 ms
+	Time:	0:00:43
+	Energy:	0.0010 kWh
+	CO2eq:	0.4792 g
+	0.0045 km travelled by car
+	Time:	0:00:43
+	Energy:	0.0010 kWh
+	CO2eq:	0.4792 g
+	0.0045 km travelled by car
 ___leukocyte com 36 Treads_concluida___
 ___leukocyte com 38 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 43.69734 seconds
+Tempo total: 43799.733 ms
+	Time:	0:00:44
+	Energy:	0.0010 kWh
+	CO2eq:	0.4813 g
+	0.0045 km travelled by car
+	Time:	0:00:44
+	Energy:	0.0010 kWh
+	CO2eq:	0.4813 g
+	0.0045 km travelled by car
 ___leukocyte com 38 Treads_concluida___
 ___leukocyte com 40 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 41.06237 seconds
+Tempo total: 41162.830 ms
+	Time:	0:00:41
+	Energy:	0.0010 kWh
+	CO2eq:	0.4681 g
+	0.0044 km travelled by car
+	Time:	0:00:41
+	Energy:	0.0010 kWh
+	CO2eq:	0.4681 g
+	0.0044 km travelled by car
 ___leukocyte com 40 Treads_concluida___
 ___leukocyte com 42 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 43.18544 seconds
+Tempo total: 43298.170 ms
+	Time:	0:00:43
+	Energy:	0.0010 kWh
+	CO2eq:	0.4833 g
+	0.0045 km travelled by car
+	Time:	0:00:43
+	Energy:	0.0010 kWh
+	CO2eq:	0.4833 g
+	0.0045 km travelled by car
 ___leukocyte com 42 Treads_concluida___
 ___leukocyte com 44 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 42.49759 seconds
+Tempo total: 42602.700 ms
+	Time:	0:00:43
+	Energy:	0.0010 kWh
+	CO2eq:	0.4789 g
+	0.0045 km travelled by car
+	Time:	0:00:43
+	Energy:	0.0010 kWh
+	CO2eq:	0.4789 g
+	0.0045 km travelled by car
 ___leukocyte com 44 Treads_concluida___
 ___leukocyte com 46 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 41.41528 seconds
+Tempo total: 41511.638 ms
+	Time:	0:00:42
+	Energy:	0.0010 kWh
+	CO2eq:	0.4756 g
+	0.0044 km travelled by car
+	Time:	0:00:42
+	Energy:	0.0010 kWh
+	CO2eq:	0.4756 g
+	0.0044 km travelled by car
 ___leukocyte com 46 Treads_concluida___
 ___leukocyte com 48 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 41.15319 seconds
+Tempo total: 41258.920 ms
+	Time:	0:00:41
+	Energy:	0.0010 kWh
+	CO2eq:	0.4721 g
+	0.0044 km travelled by car
+	Time:	0:00:41
+	Energy:	0.0010 kWh
+	CO2eq:	0.4721 g
+	0.0044 km travelled by car
 ___leukocyte com 48 Treads_concluida___
 ___leukocyte com 50 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 41.12295 seconds
+Tempo total: 41227.695 ms
+	Time:	0:00:41
+	Energy:	0.0010 kWh
+	CO2eq:	0.4726 g
+	0.0044 km travelled by car
+	Time:	0:00:41
+	Energy:	0.0010 kWh
+	CO2eq:	0.4726 g
+	0.0044 km travelled by car
 ___leukocyte com 50 Treads_concluida___
 ___leukocyte com 52 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 42.51192 seconds
+Tempo total: 42612.163 ms
+	Time:	0:00:43
+	Energy:	0.0010 kWh
+	CO2eq:	0.4769 g
+	0.0044 km travelled by car
+	Time:	0:00:43
+	Energy:	0.0010 kWh
+	CO2eq:	0.4769 g
+	0.0044 km travelled by car
 ___leukocyte com 52 Treads_concluida___
 ___leukocyte com 54 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 43.49035 seconds
+Tempo total: 43603.146 ms
+	Time:	0:00:44
+	Energy:	0.0010 kWh
+	CO2eq:	0.4769 g
+	0.0044 km travelled by car
+	Time:	0:00:44
+	Energy:	0.0010 kWh
+	CO2eq:	0.4769 g
+	0.0044 km travelled by car
 ___leukocyte com 54 Treads_concluida___
 ___leukocyte com 56 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0003 g
-	0.0000 km travelled by car
+Total application run time: 43.51645 seconds
+Tempo total: 43617.936 ms
+	Time:	0:00:44
+	Energy:	0.0010 kWh
+	CO2eq:	0.4814 g
+	0.0045 km travelled by car
+	Time:	0:00:44
+	Energy:	0.0010 kWh
+	CO2eq:	0.4814 g
+	0.0045 km travelled by car
 ___leukocyte com 56 Treads_concluida___
 ___leukocyte com 58 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 41.69835 seconds
+Tempo total: 41797.478 ms
+	Time:	0:00:42
+	Energy:	0.0010 kWh
+	CO2eq:	0.4763 g
+	0.0044 km travelled by car
+	Time:	0:00:42
+	Energy:	0.0010 kWh
+	CO2eq:	0.4763 g
+	0.0044 km travelled by car
 ___leukocyte com 58 Treads_concluida___
 ___leukocyte com 60 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0003 g
-	0.0000 km travelled by car
+Total application run time: 42.26323 seconds
+Tempo total: 42360.912 ms
+	Time:	0:00:42
+	Energy:	0.0010 kWh
+	CO2eq:	0.4794 g
+	0.0045 km travelled by car
+	Time:	0:00:42
+	Energy:	0.0010 kWh
+	CO2eq:	0.4794 g
+	0.0045 km travelled by car
 ___leukocyte com 60 Treads_concluida___
 ___leukocyte com 62 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
+Total application run time: 40.48107 seconds
+Tempo total: 40578.241 ms
+	Time:	0:00:41
+	Energy:	0.0010 kWh
+	CO2eq:	0.4701 g
+	0.0044 km travelled by car
+	Time:	0:00:41
+	Energy:	0.0010 kWh
+	CO2eq:	0.4701 g
+	0.0044 km travelled by car
 ___leukocyte com 62 Treads_concluida___
 ___leukocyte com 64 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0003 g
-	0.0000 km travelled by car
+Total application run time: 43.00254 seconds
+Tempo total: 43099.181 ms
+	Time:	0:00:43
+	Energy:	0.0010 kWh
+	CO2eq:	0.4830 g
+	0.0045 km travelled by car
+	Time:	0:00:43
+	Energy:	0.0010 kWh
+	CO2eq:	0.4830 g
+	0.0045 km travelled by car
 ___leukocyte com 64 Treads_concluida___
 ___leukocyte com 66 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 44.21561 seconds
+Tempo total: 44314.757 ms
+	Time:	0:00:44
+	Energy:	0.0010 kWh
+	CO2eq:	0.4899 g
+	0.0046 km travelled by car
+	Time:	0:00:44
+	Energy:	0.0010 kWh
+	CO2eq:	0.4899 g
+	0.0046 km travelled by car
 ___leukocyte com 66 Treads_concluida___
 ___leukocyte com 68 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 44.42174 seconds
+Tempo total: 44520.177 ms
+	Time:	0:00:45
+	Energy:	0.0010 kWh
+	CO2eq:	0.4918 g
+	0.0046 km travelled by car
+	Time:	0:00:45
+	Energy:	0.0010 kWh
+	CO2eq:	0.4918 g
+	0.0046 km travelled by car
 ___leukocyte com 68 Treads_concluida___
 ___leukocyte com 70 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 43.01334 seconds
+Tempo total: 43110.630 ms
+	Time:	0:00:43
+	Energy:	0.0010 kWh
+	CO2eq:	0.4798 g
+	0.0045 km travelled by car
+	Time:	0:00:43
+	Energy:	0.0010 kWh
+	CO2eq:	0.4798 g
+	0.0045 km travelled by car
 ___leukocyte com 70 Treads_concluida___
 ___leukocyte com 72 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 50.42391 seconds
+Tempo total: 50523.985 ms
+	Time:	0:00:51
+	Energy:	0.0011 kWh
+	CO2eq:	0.5234 g
+	0.0049 km travelled by car
+	Time:	0:00:51
+	Energy:	0.0011 kWh
+	CO2eq:	0.5234 g
+	0.0049 km travelled by car
 ___leukocyte com 72 Treads_concluida___
 ___leukocyte com 74 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 54.18410 seconds
+Tempo total: 54285.610 ms
+	Time:	0:00:54
+	Energy:	0.0011 kWh
+	CO2eq:	0.5461 g
+	0.0051 km travelled by car
+	Time:	0:00:54
+	Energy:	0.0011 kWh
+	CO2eq:	0.5461 g
+	0.0051 km travelled by car
 ___leukocyte com 74 Treads_concluida___
 ___leukocyte com 76 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 52.45679 seconds
+Tempo total: 52555.896 ms
+	Time:	0:00:53
+	Energy:	0.0011 kWh
+	CO2eq:	0.5355 g
+	0.0050 km travelled by car
+	Time:	0:00:53
+	Energy:	0.0011 kWh
+	CO2eq:	0.5355 g
+	0.0050 km travelled by car
 ___leukocyte com 76 Treads_concluida___
 ___leukocyte com 78 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 53.07450 seconds
+Tempo total: 53177.903 ms
+	Time:	0:00:53
+	Energy:	0.0011 kWh
+	CO2eq:	0.5156 g
+	0.0048 km travelled by car
+	Time:	0:00:53
+	Energy:	0.0011 kWh
+	CO2eq:	0.5156 g
+	0.0048 km travelled by car
 ___leukocyte com 78 Treads_concluida___
 ___leukocyte com 80 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 58.21744 seconds
+Tempo total: 58318.896 ms
+	Time:	0:00:58
+	Energy:	0.0012 kWh
+	CO2eq:	0.5637 g
+	0.0052 km travelled by car
+	Time:	0:00:58
+	Energy:	0.0012 kWh
+	CO2eq:	0.5637 g
+	0.0052 km travelled by car
 ___leukocyte com 80 Treads_concluida___
 ___leukocyte com 82 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0002 g
-	0.0000 km travelled by car
+Total application run time: 55.80560 seconds
+Tempo total: 55905.565 ms
+	Time:	0:00:56
+	Energy:	0.0011 kWh
+	CO2eq:	0.5450 g
+	0.0051 km travelled by car
+	Time:	0:00:56
+	Energy:	0.0011 kWh
+	CO2eq:	0.5450 g
+	0.0051 km travelled by car
 ___leukocyte com 82 Treads_concluida___
 ___leukocyte com 84 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
+Total application run time: 45.85707 seconds
+Tempo total: 45955.825 ms
+	Time:	0:00:46
+	Energy:	0.0010 kWh
+	CO2eq:	0.4955 g
+	0.0046 km travelled by car
+	Time:	0:00:46
+	Energy:	0.0010 kWh
+	CO2eq:	0.4955 g
+	0.0046 km travelled by car
 ___leukocyte com 84 Treads_concluida___
 ___leukocyte com 86 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
+Total application run time: 57.75581 seconds
+Tempo total: 57853.117 ms
+	Time:	0:00:58
+	Energy:	0.0012 kWh
+	CO2eq:	0.5642 g
+	0.0052 km travelled by car
+	Time:	0:00:58
+	Energy:	0.0012 kWh
+	CO2eq:	0.5642 g
+	0.0052 km travelled by car
 ___leukocyte com 86 Treads_concluida___
 ___leukocyte com 88 Treads___
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
-	Time:	0:00:00
-	Energy:	0.0000 kWh
-	CO2eq:	0.0000 g
-	0.0000 km travelled by car
+Total application run time: 56.33051 seconds
+Tempo total: 56436.330 ms
+	Time:	0:00:56
+	Energy:	0.0012 kWh
+	CO2eq:	0.5561 g
+	0.0052 km travelled by car
+	Time:	0:00:56
+	Energy:	0.0012 kWh
+	CO2eq:	0.5561 g
+	0.0052 km travelled by car
 ___leukocyte com 88 Treads_concluida___
 ___Fim de leukocyte___:
 
 Start -> backprop
 compilando backprop...
+rm -f *.o *~ backprop backprop_cuda.linkinfo
+gcc -g -fopenmp  -O2 backprop.c -c
+gcc -g -fopenmp  -O2 facetrain.c -c
+gcc -g -fopenmp  -O2 imagenet.c -c
+gcc -g -fopenmp  -O2 backprop_kernel.c -c
+gcc -g -fopenmp  -O2 backprop.o facetrain.o imagenet.o backprop_kernel.o -o backprop -lm
 ___Executando backprop___:
 ___backprop com 2 Treads___
+Tempo total: 25066.353 ms
+	Time:	0:00:25
+	Energy:	0.0008 kWh
+	CO2eq:	0.4002 g
+	0.0037 km travelled by car
+	Time:	0:00:25
+	Energy:	0.0008 kWh
+	CO2eq:	0.3994 g
+	0.0037 km travelled by car
 ___backprop com 2 Treads_concluida___
 ___backprop com 4 Treads___
+Tempo total: 20455.861 ms
+	Time:	0:00:20
+	Energy:	0.0007 kWh
+	CO2eq:	0.3293 g
+	0.0031 km travelled by car
+	Time:	0:00:20
+	Energy:	0.0007 kWh
+	CO2eq:	0.3293 g
+	0.0031 km travelled by car
 ___backprop com 4 Treads_concluida___
 ___backprop com 6 Treads___
+Tempo total: 19580.864 ms
+	Time:	0:00:20
+	Energy:	0.0007 kWh
+	CO2eq:	0.3160 g
+	0.0029 km travelled by car
+	Time:	0:00:20
+	Energy:	0.0007 kWh
+	CO2eq:	0.3160 g
+	0.0029 km travelled by car
 ___backprop com 6 Treads_concluida___
 ___backprop com 8 Treads___
+Tempo total: 16758.909 ms
+	Time:	0:00:17
+	Energy:	0.0006 kWh
+	CO2eq:	0.2719 g
+	0.0025 km travelled by car
+	Time:	0:00:17
+	Energy:	0.0006 kWh
+	CO2eq:	0.2719 g
+	0.0025 km travelled by car
 ___backprop com 8 Treads_concluida___
 ___backprop com 10 Treads___
+Tempo total: 17167.741 ms
+	Time:	0:00:17
+	Energy:	0.0006 kWh
+	CO2eq:	0.2778 g
+	0.0026 km travelled by car
+	Time:	0:00:17
+	Energy:	0.0006 kWh
+	CO2eq:	0.2778 g
+	0.0026 km travelled by car
 ___backprop com 10 Treads_concluida___
 ___backprop com 12 Treads___
+Tempo total: 17066.582 ms
+	Time:	0:00:17
+	Energy:	0.0006 kWh
+	CO2eq:	0.2757 g
+	0.0026 km travelled by car
+	Time:	0:00:17
+	Energy:	0.0006 kWh
+	CO2eq:	0.2751 g
+	0.0026 km travelled by car
 ___backprop com 12 Treads_concluida___
 ___backprop com 14 Treads___
+Tempo total: 16848.919 ms
+	Time:	0:00:17
+	Energy:	0.0006 kWh
+	CO2eq:	0.2710 g
+	0.0025 km travelled by car
+	Time:	0:00:17
+	Energy:	0.0006 kWh
+	CO2eq:	0.2710 g
+	0.0025 km travelled by car
 ___backprop com 14 Treads_concluida___
 ___backprop com 16 Treads___
+Tempo total: 15469.890 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2498 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2498 g
+	0.0023 km travelled by car
 ___backprop com 16 Treads_concluida___
 ___backprop com 18 Treads___
+Tempo total: 15474.797 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2500 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2500 g
+	0.0023 km travelled by car
 ___backprop com 18 Treads_concluida___
 ___backprop com 20 Treads___
+Tempo total: 15436.186 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2495 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2495 g
+	0.0023 km travelled by car
 ___backprop com 20 Treads_concluida___
 ___backprop com 22 Treads___
+Tempo total: 15392.561 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2488 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2488 g
+	0.0023 km travelled by car
 ___backprop com 22 Treads_concluida___
 ___backprop com 24 Treads___
+Tempo total: 15520.059 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2506 g
+	0.0023 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2506 g
+	0.0023 km travelled by car
 ___backprop com 24 Treads_concluida___
 ___backprop com 26 Treads___
+Tempo total: 15308.291 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2481 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2481 g
+	0.0023 km travelled by car
 ___backprop com 26 Treads_concluida___
 ___backprop com 28 Treads___
+Tempo total: 15564.581 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2517 g
+	0.0023 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2517 g
+	0.0023 km travelled by car
 ___backprop com 28 Treads_concluida___
 ___backprop com 30 Treads___
+Tempo total: 15489.987 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2508 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2508 g
+	0.0023 km travelled by car
 ___backprop com 30 Treads_concluida___
 ___backprop com 32 Treads___
+Tempo total: 15903.999 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2574 g
+	0.0024 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2574 g
+	0.0024 km travelled by car
 ___backprop com 32 Treads_concluida___
 ___backprop com 34 Treads___
+Tempo total: 15501.803 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2513 g
+	0.0023 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2513 g
+	0.0023 km travelled by car
 ___backprop com 34 Treads_concluida___
 ___backprop com 36 Treads___
+Tempo total: 15337.774 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2494 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2494 g
+	0.0023 km travelled by car
 ___backprop com 36 Treads_concluida___
 ___backprop com 38 Treads___
+Tempo total: 15317.632 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2492 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2492 g
+	0.0023 km travelled by car
 ___backprop com 38 Treads_concluida___
 ___backprop com 40 Treads___
+Tempo total: 15748.887 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2563 g
+	0.0024 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2563 g
+	0.0024 km travelled by car
 ___backprop com 40 Treads_concluida___
 ___backprop com 42 Treads___
+Tempo total: 15366.570 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2496 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2496 g
+	0.0023 km travelled by car
 ___backprop com 42 Treads_concluida___
 ___backprop com 44 Treads___
+Tempo total: 15396.910 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2500 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2500 g
+	0.0023 km travelled by car
 ___backprop com 44 Treads_concluida___
 ___backprop com 46 Treads___
+Tempo total: 15485.437 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2514 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2514 g
+	0.0023 km travelled by car
 ___backprop com 46 Treads_concluida___
 ___backprop com 48 Treads___
+Tempo total: 15521.231 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2519 g
+	0.0023 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2519 g
+	0.0023 km travelled by car
 ___backprop com 48 Treads_concluida___
 ___backprop com 50 Treads___
+Tempo total: 15660.240 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2549 g
+	0.0024 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2549 g
+	0.0024 km travelled by car
 ___backprop com 50 Treads_concluida___
 ___backprop com 52 Treads___
+Tempo total: 15668.587 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2535 g
+	0.0024 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2535 g
+	0.0024 km travelled by car
 ___backprop com 52 Treads_concluida___
 ___backprop com 54 Treads___
+Tempo total: 15429.091 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2506 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2506 g
+	0.0023 km travelled by car
 ___backprop com 54 Treads_concluida___
 ___backprop com 56 Treads___
+Tempo total: 15495.386 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2520 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2520 g
+	0.0023 km travelled by car
 ___backprop com 56 Treads_concluida___
 ___backprop com 58 Treads___
+Tempo total: 15839.740 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2575 g
+	0.0024 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2575 g
+	0.0024 km travelled by car
 ___backprop com 58 Treads_concluida___
 ___backprop com 60 Treads___
+Tempo total: 15416.680 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2506 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2506 g
+	0.0023 km travelled by car
 ___backprop com 60 Treads_concluida___
 ___backprop com 62 Treads___
+Tempo total: 15358.906 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2500 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2500 g
+	0.0023 km travelled by car
 ___backprop com 62 Treads_concluida___
 ___backprop com 64 Treads___
+Tempo total: 15517.777 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2521 g
+	0.0023 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2521 g
+	0.0023 km travelled by car
 ___backprop com 64 Treads_concluida___
 ___backprop com 66 Treads___
+Tempo total: 15526.658 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2521 g
+	0.0023 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2521 g
+	0.0023 km travelled by car
 ___backprop com 66 Treads_concluida___
 ___backprop com 68 Treads___
+Tempo total: 15475.833 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2516 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2516 g
+	0.0023 km travelled by car
 ___backprop com 68 Treads_concluida___
 ___backprop com 70 Treads___
+Tempo total: 15383.292 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2500 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2500 g
+	0.0023 km travelled by car
 ___backprop com 70 Treads_concluida___
 ___backprop com 72 Treads___
+Tempo total: 15654.469 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2545 g
+	0.0024 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2545 g
+	0.0024 km travelled by car
 ___backprop com 72 Treads_concluida___
 ___backprop com 74 Treads___
+Tempo total: 15418.141 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2507 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2507 g
+	0.0023 km travelled by car
 ___backprop com 74 Treads_concluida___
 ___backprop com 76 Treads___
+Tempo total: 15454.655 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2510 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2510 g
+	0.0023 km travelled by car
 ___backprop com 76 Treads_concluida___
 ___backprop com 78 Treads___
+Tempo total: 15525.717 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2523 g
+	0.0023 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2523 g
+	0.0023 km travelled by car
 ___backprop com 78 Treads_concluida___
 ___backprop com 80 Treads___
+Tempo total: 15972.669 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2608 g
+	0.0024 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2608 g
+	0.0024 km travelled by car
 ___backprop com 80 Treads_concluida___
 ___backprop com 82 Treads___
+Tempo total: 15453.849 ms
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2511 g
+	0.0023 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0005 kWh
+	CO2eq:	0.2511 g
+	0.0023 km travelled by car
 ___backprop com 82 Treads_concluida___
 ___backprop com 84 Treads___
+Tempo total: 16291.124 ms
+	Time:	0:00:16
+	Energy:	0.0006 kWh
+	CO2eq:	0.2664 g
+	0.0025 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0006 kWh
+	CO2eq:	0.2664 g
+	0.0025 km travelled by car
 ___backprop com 84 Treads_concluida___
 ___backprop com 86 Treads___
+Tempo total: 15502.126 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2522 g
+	0.0023 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2522 g
+	0.0023 km travelled by car
 ___backprop com 86 Treads_concluida___
 ___backprop com 88 Treads___
+Tempo total: 16089.432 ms
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2614 g
+	0.0024 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0005 kWh
+	CO2eq:	0.2614 g
+	0.0024 km travelled by car
 ___backprop com 88 Treads_concluida___
 ___Fim de backprop___:
 
 Start -> cfd
 compilando cfd...
-for dir in cuda/cfd cuda/gaussian cuda/particlefilter cuda/lavaMD cuda/streamcluster cuda/lud cuda/backprop cuda/bfs cuda/hotspot cuda/hotspot3D cuda/myocyte cuda/nn cuda/nw cuda/pathfinder cuda/srad_v1 cuda/adam-cuda cuda/all-pairs-distance-cuda cuda/asmooth-cuda cuda/atomicCost-cuda cuda/bezier-surface-cuda cuda/burger-cuda cuda/cmembench-cuda cuda/complex-cuda cuda/convolutionSeparable-cuda cuda/cooling-cuda cuda/copy-cuda cuda/dct8x8-cuda cuda/entropy-cuda cuda/floydwarshall-cuda cuda/ga-cuda cuda/geam-cuda cuda/goulash-cuda cuda/haccmk-cuda cuda/layout-cuda cuda/lombscargle-cuda cuda/matrix-rotate-cuda cuda/maxpool3d-cuda cuda/minisweep-cuda cuda/rfs-cuda cuda/ring-cuda cuda/rng-wallace-cuda cuda/rtm8-cuda cuda/snake-cuda cuda/softmax-cuda cuda/sort-cuda cuda/stencil1d-cuda cuda/tensorAccessor-cuda cuda/adv-cuda cuda/aligned-types-cuda cuda/aobench-cuda cuda/atan2-cuda cuda/attention-cuda cuda/bsearch-cuda cuda/bspline-vgh-cuda cuda/car-cuda cuda/cbsfil-cuda cuda/channelShuffle-cuda cuda/clenergy-cuda cuda/cobahh-cuda cuda/damage-cuda cuda/debayer-cuda cuda/dpid-cuda cuda/expdist-cuda cuda/fhd-cuda cuda/flip-cuda cuda/gelu-cuda cuda/gemmEx-cuda cuda/grep-cuda cuda/hmm-cuda cuda/interleave-cuda cuda/ising-cuda cuda/kalman-cuda cuda/keccaktreehash-cuda cuda/laplace3d-cuda cuda/laplace-cuda cuda/loopback-cuda cuda/memcpy-cuda cuda/memtest-cuda cuda/murmurhash3-cuda cuda/ne-cuda cuda/nms-cuda cuda/p2p-cuda cuda/page-rank-cuda cuda/particles-cuda cuda/pitch-cuda cuda/popcount-cuda cuda/projectile-cuda cuda/resize-cuda cuda/rowwiseMoments-cuda cuda/rushlarsen-cuda cuda/score-cuda cuda/simplemoc-cuda cuda/sph-cuda cuda/spm-cuda cuda/stencil3d-cuda cuda/surfel-cuda cuda/zerocopy-cuda cuda/asta-cuda cuda/atomicAggregate-cuda cuda/atomicCAS-cuda cuda/atomicIntrinsics-cuda cuda/concurrentKernels-cuda cuda/crossEntropy-cuda cuda/hwt1d-cuda cuda/jenkins-hash-cuda cuda/keogh-cuda cuda/lfib4-cuda cuda/prefetch-cuda cuda/split-cuda cuda/threadfence-cuda cuda/assert-cuda cuda/atomicPerf-cuda cuda/binomial-cuda cuda/black-scholes-cuda cuda/channelSum-cuda cuda/d3q19-bgk-cuda cuda/extend2-cuda cuda/idivide-cuda cuda/mask-cuda cuda/mkl-sgemm-cuda cuda/particle-diffusion-cuda cuda/perlin-cuda cuda/thomas-cuda cuda/wedford-cuda cuda/matern-cuda cuda/accuracy-cuda cuda/ace-cuda cuda/addBiasResidualLayerNorm-cuda cuda/affine-cuda cuda/aidw-cuda cuda/aop-cuda cuda/atomicReduction-cuda cuda/atomicSystemWide-cuda cuda/babelstream-cuda cuda/background-subtract-cuda cuda/btree-cuda cuda/bh-cuda cuda/bilateral-cuda cuda/bincount-cuda cuda/bitonic-sort-cuda cuda/bn-cuda cuda/bscan-cuda cuda/bwt-cuda cuda/cc-cuda cuda/ccs-cuda cuda/ced-cuda cuda/chacha20-cuda cuda/che-cuda cuda/chemv-cuda cuda/clock-cuda cuda/cm-cuda cuda/compute-score-cuda cuda/concat-cuda cuda/convolution1D-cuda cuda/crc64-cuda cuda/cross-cuda cuda/dp-cuda cuda/degrid-cuda cuda/dense-embedding-cuda cuda/depixel-cuda cuda/deredundancy-cuda cuda/dispatch-cuda cuda/doh-cuda cuda/dropout-cuda cuda/dslash-cuda cuda/dwconv-cuda cuda/dxtc1-cuda cuda/egs-cuda cuda/eigenvalue-cuda cuda/eikonal-cuda cuda/epistasis-cuda cuda/extrema-cuda cuda/f16max-cuda cuda/face-cuda cuda/fdtd3d-cuda cuda/fft-cuda cuda/filter-cuda cuda/flame-cuda cuda/floydwarshall2-cuda cuda/fluidSim-cuda cuda/fpc-cuda cuda/fsm-cuda cuda/gamma-correction-cuda cuda/gc-cuda cuda/gd-cuda cuda/glu-cuda cuda/graphB+-cuda cuda/grrt-cuda cuda/gru-cuda cuda/haversine-cuda cuda/henry-cuda cuda/hexciton-cuda cuda/hungarian-cuda cuda/inversek2j-cuda cuda/jaccard-cuda cuda/langevin-cuda cuda/ldpc-cuda cuda/libor-cuda cuda/lif-cuda cuda/linearprobing-cuda cuda/logprob-cuda cuda/lrn-cuda cuda/lulesh-cuda cuda/mandelbrot-cuda cuda/marchingCubes-cuda cuda/matrixT-cuda cuda/mcpr-cuda cuda/md-cuda cuda/mdh-cuda cuda/medianfilter-cuda cuda/merge-cuda cuda/metropolis-cuda cuda/michalewicz-cuda cuda/minimod-cuda cuda/minkowski-cuda cuda/mis-cuda cuda/mixbench-cuda cuda/mnist-cuda cuda/mpc-cuda cuda/mrc-cuda cuda/multinomial-cuda cuda/nbody-cuda cuda/nlll-cuda cuda/nqueen-cuda cuda/ntt-cuda cuda/overlap-cuda cuda/p4-cuda cuda/perplexity-cuda cuda/phmm-cuda cuda/pnpoly-cuda cuda/pns-cuda cuda/pointwise-cuda cuda/present-cuda cuda/radixsort-cuda cuda/randomAccess-cuda cuda/relu-cuda cuda/reverse-cuda cuda/romberg-cuda cuda/rsbench-cuda cuda/rsmt-cuda cuda/s3d-cuda cuda/s8n-cuda cuda/sampling-cuda cuda/scan-cuda cuda/scel-cuda cuda/ss-cuda cuda/sssp-cuda cuda/stddev-cuda cuda/su3-cuda cuda/svd3x3-cuda cuda/sw4ck-cuda cuda/swish-cuda cuda/tensorT-cuda cuda/tissue-cuda cuda/tonemapping-cuda cuda/tsa-cuda cuda/tsp-cuda cuda/winograd-cuda cuda/wlcpow-cuda cuda/wyllie-cuda cuda/zeropoint-cuda cuda/zmddft-cuda cuda/chi2-cuda cuda/lanczos-cuda cuda/warpsort-cuda cuda/histogram-cuda cuda/contract-cuda cuda/crs-cuda cuda/ddbp-cuda cuda/tridiagonal-cuda cuda/sosfil-cuda cuda/vmc-cuda cuda/zoom-cuda cuda/vanGenuchten-cuda cuda/is-cuda cuda/morphology-cuda cuda/lid-driven-cavity-cuda cuda/md5hash-cuda cuda/ert-cuda cuda/secp256k1-cuda cuda/qtclustering-cuda cuda/nbnxm-cuda cuda/resnet-kernels-cuda cuda/gibbs-cuda cuda/reaction-cuda cuda/scan2-cuda cuda/quicksort-cuda cuda/frechet-cuda cuda/mmcsf-cuda cuda/ans-cuda cuda/boxfilter-cuda cuda/sortKV-cuda cuda/coordinates-cuda cuda/diamond-cuda cuda/divergence-cuda cuda/ge-spmm-cuda cuda/gpp-cuda cuda/hbc-cuda cuda/kurtosis-cuda cuda/match-cuda cuda/meanshift-cuda cuda/mtf-cuda cuda/recursiveGaussian-cuda cuda/remap-cuda cuda/sa-cuda cuda/scan3-cuda cuda/segment-reduce-cuda cuda/wordcount-cuda cuda/minibude-cuda cuda/xlqc-cuda cuda/cmp-cuda cuda/bmf-cuda cuda/halo-finder-cuda cuda/bm3d-cuda cuda/miniWeather-cuda cuda/multimaterial-cuda cuda/permutate-cuda cuda/pso-cuda cuda/rodrigues-cuda cuda/wsm5-cuda cuda/axhelm-cuda cuda/daphne-cuda cuda/aes-cuda cuda/amgmk-cuda cuda/bitpacking-cuda cuda/bsw-cuda cuda/conversion-cuda cuda/distort-cuda cuda/easyWave-cuda cuda/fpdc-cuda cuda/fresnel-cuda cuda/frna-cuda cuda/hausdorff-cuda cuda/heat2d-cuda cuda/hogbom-cuda cuda/hypterm-cuda cuda/interval-cuda cuda/jacobi-cuda cuda/kmc-cuda cuda/langford-cuda cuda/lci-cuda cuda/lda-cuda cuda/lebesgue-cuda cuda/logan-cuda cuda/lr-cuda cuda/lsqt-cuda cuda/mcmd-cuda cuda/merkle-cuda cuda/mf-sgd-cuda cuda/miniDGS-cuda cuda/miniFE-cuda cuda/minimap2-cuda cuda/minmax-cuda cuda/mr-cuda cuda/mriQ-cuda cuda/nonzero-cuda cuda/norm2-cuda cuda/openmp-cuda cuda/pad-cuda cuda/prna-cuda cuda/rainflow-cuda cuda/rsc-cuda cuda/sad-cuda cuda/saxpy-ompt-cuda cuda/sc-cuda cuda/seam-carving-cuda cuda/segsort-cuda cuda/shmembench-cuda cuda/si-cuda cuda/simpleSpmv-cuda cuda/slu-cuda cuda/sobel-cuda cuda/sobol-cuda cuda/sparkler-cuda cuda/sptrsv-cuda cuda/tc-cuda cuda/testSNAP-cuda cuda/tpacf-cuda cuda/tqs-cuda cuda/triad-cuda cuda/unfold-cuda cuda/urng-cuda cuda/vol2col-cuda cuda/voxelizer-cuda cuda/xsbench-cuda cuda/attentionMultiHead-cuda cuda/bonds-cuda cuda/ccsd-trpdrv-cuda cuda/clink-cuda cuda/collision-cuda cuda/columnarSolver-cuda cuda/d2q9-bgk-cuda cuda/ecdh-cuda cuda/f16sp-cuda cuda/feynman-kac-cuda cuda/fwt-cuda cuda/gabor-cuda cuda/geodesic-cuda cuda/gmm-cuda cuda/hellinger-cuda cuda/iso2dfd-cuda cuda/knn-cuda cuda/log2-cuda cuda/maxFlops-cuda cuda/mt-cuda cuda/overlay-cuda cuda/pool-cuda cuda/qrg-cuda cuda/sheath-cuda cuda/shuffle-cuda cuda/simpleMultiDevice-cuda cuda/vote-cuda ; do cd $dir ; make clean ; cd - ; done
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/cfd'
-rm -f euler3d euler3d_double pre_euler3d pre_euler3d_double *.linkinfo *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/cfd'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/gaussian'
-rm gaussian *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/gaussian'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/particlefilter'
-rm particlefilter_naive particlefilter_float *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/particlefilter'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lavaMD'
-rm	*.o \
-	./kernel/*.o \
-	./util/num/*.o \
-	./util/timer/*.o \
-	./util/device/*.o \
-	lavaMD
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lavaMD'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/streamcluster'
-rm -f  streamcluster_cuda_cpu.cpp.o streamcluster_cuda.cu.o sc_gpu
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/streamcluster'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lud'
-cd cuda; make clean
-make[2]: Entering directory '/home/users/acsilveira/rodinia/cuda/lud/cuda'
-rm -f lud_cuda ../common/common.o lud.o lud_kernel.o *.linkinfo
-make[2]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lud/cuda'
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lud'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/backprop'
-rm -f *.o *~ backprop backprop_cuda.linkinfo
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/backprop'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bfs'
-rm -f bfs.out bfs.out.linkinfo result.txt *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bfs'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/hotspot'
-rm -f hotspot hotspot.linkinfo result.txt *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/hotspot'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/hotspot3D'
-rm -f 3D 3D.linkinfo *.out *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/hotspot3D'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/myocyte'
-rm *.o *.out output.txt
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/myocyte'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/nn'
-rm -rf *.o nn hurricane_gen
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/nn'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/nw'
-rm -f needle needle.linkinfo result.txt *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/nw'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/pathfinder'
-rm -f pathfinder pathfinder.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/pathfinder'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/srad_v1'
-rm *.o srad
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/srad_v1'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/adam-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/adam-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/all-pairs-distance-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/all-pairs-distance-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/asmooth-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/asmooth-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/atomicCost-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/atomicCost-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bezier-surface-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bezier-surface-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/burger-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/burger-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/cmembench-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/cmembench-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/complex-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/complex-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/convolutionSeparable-cuda'
-rm -rf main main.o conv.o conv_gold.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/convolutionSeparable-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/cooling-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/cooling-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/copy-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/copy-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/dct8x8-cuda'
-rm -rf main main.o kernels.o DCT8x8_gold.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/dct8x8-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/entropy-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/entropy-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/floydwarshall-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/floydwarshall-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ga-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ga-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/geam-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/geam-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/goulash-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/goulash-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/haccmk-cuda'
-rm -rf haccmk haccmk.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/haccmk-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/layout-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/layout-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lombscargle-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lombscargle-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/matrix-rotate-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/matrix-rotate-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/maxpool3d-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/maxpool3d-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/minisweep-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/minisweep-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/rfs-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/rfs-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ring-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ring-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/rng-wallace-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/rng-wallace-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/rtm8-cuda'
-rm -rf rtm8 rtm8.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/rtm8-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/snake-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/snake-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/softmax-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/softmax-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sort-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sort-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/stencil1d-cuda'
-rm -rf stencil_1d stencil_1d.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/stencil1d-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/tensorAccessor-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/tensorAccessor-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/adv-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/adv-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/aligned-types-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/aligned-types-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/aobench-cuda'
-rm -rf ao ao.o ao.ppm
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/aobench-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/atan2-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/atan2-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/attention-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/attention-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bsearch-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bsearch-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bspline-vgh-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bspline-vgh-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/car-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/car-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/cbsfil-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/cbsfil-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/channelShuffle-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/channelShuffle-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/clenergy-cuda'
-rm -rf clenergy clenergy.o WKFUtils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/clenergy-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/cobahh-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/cobahh-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/damage-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/damage-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/debayer-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/debayer-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/dpid-cuda'
-rm -rf main main.o kernels.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/dpid-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/expdist-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/expdist-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/fhd-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/fhd-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/flip-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/flip-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/gelu-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/gelu-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/gemmEx-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/gemmEx-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/grep-cuda'
-rm -rf nfa main.o nfautil.o regex.o RESULTS
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/grep-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/hmm-cuda'
-rm -rf hmm HiddenMarkovModel.o ViterbiCPU.o ViterbiGPU.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/hmm-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/interleave-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/interleave-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ising-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ising-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/kalman-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/kalman-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/keccaktreehash-cuda'
-rm -rf keccektree KeccakF.o KeccakTreeCPU.o KeccakTreeGPU.o Test.o main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/keccaktreehash-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/laplace3d-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/laplace3d-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/laplace-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/laplace-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/loopback-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/loopback-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/memcpy-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/memcpy-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/memtest-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/memtest-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/murmurhash3-cuda'
-rm -rf main murmurhash3.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/murmurhash3-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ne-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ne-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/nms-cuda'
-rm -rf main main.o output.txt
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/nms-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/p2p-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/p2p-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/page-rank-cuda'
-rm -rf page-rank main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/page-rank-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/particles-cuda'
-rm -rf main main.o bitonicSort.o particles.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/particles-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/pitch-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/pitch-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/popcount-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/popcount-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/projectile-cuda'
-rm -rf Projectile Projectile.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/projectile-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/resize-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/resize-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/rowwiseMoments-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/rowwiseMoments-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/rushlarsen-cuda'
-rm -rf main main.o reference.o utils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/rushlarsen-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/score-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/score-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/simplemoc-cuda'
-rm -rf main init.o io.o main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/simplemoc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sph-cuda'
-rm -rf sph fileio.o fluid.o geometry.o *.csv
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sph-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/spm-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/spm-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/stencil3d-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/stencil3d-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/surfel-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/surfel-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/zerocopy-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/zerocopy-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/asta-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/asta-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/atomicAggregate-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/atomicAggregate-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/atomicCAS-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/atomicCAS-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/atomicIntrinsics-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/atomicIntrinsics-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/concurrentKernels-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/concurrentKernels-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/crossEntropy-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/crossEntropy-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/hwt1d-cuda'
-rm -rf main main.o kernel.o reference.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/hwt1d-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/jenkins-hash-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/jenkins-hash-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/keogh-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/keogh-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lfib4-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lfib4-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/prefetch-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/prefetch-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/split-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/split-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/threadfence-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/threadfence-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/assert-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/assert-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/atomicPerf-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/atomicPerf-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/binomial-cuda'
-rm -rf main kernel.o main.o reference.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/binomial-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/black-scholes-cuda'
-rm -rf BlackScholesEngine blackScholesAnalyticEngine.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/black-scholes-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/channelSum-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/channelSum-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/d3q19-bgk-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/d3q19-bgk-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/extend2-cuda'
-rm -rf main main.o read_data.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/extend2-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/idivide-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/idivide-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mask-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mask-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mkl-sgemm-cuda'
-rm -rf sgemm gemm.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mkl-sgemm-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/particle-diffusion-cuda'
-rm -rf motionsim motionsim.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/particle-diffusion-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/perlin-cuda'
-rm -rf main main.o noise.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/perlin-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/thomas-cuda'
-rm -rf main main.o cuThomasBatch.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/thomas-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/wedford-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/wedford-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/matern-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/matern-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/accuracy-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/accuracy-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ace-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ace-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/addBiasResidualLayerNorm-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/addBiasResidualLayerNorm-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/affine-cuda'
-rm -rf main main.o result.raw
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/affine-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/aidw-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/aidw-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/aop-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/aop-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/atomicReduction-cuda'
-rm -rf reduction reduction.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/atomicReduction-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/atomicSystemWide-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/atomicSystemWide-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/babelstream-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/babelstream-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/background-subtract-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/background-subtract-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/btree-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/btree-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bh-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bh-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bilateral-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bilateral-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bincount-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bincount-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bitonic-sort-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bitonic-sort-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bn-cuda'
-rm -rf main main.o result
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bn-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bscan-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bscan-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bwt-cuda'
-rm -rf main main.o bwt.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bwt-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/cc-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/cc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ccs-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ccs-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ced-cuda'
-rm -rf ced main.o kernel_reference.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ced-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/chacha20-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/chacha20-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/che-cuda'
-rm -rf main main.o out
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/che-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/chemv-cuda'
-rm -rf main kernel.o main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/chemv-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/clock-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/clock-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/cm-cuda'
-rm -rf main main.o io.o process.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/cm-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/compute-score-cuda'
-rm -rf main main.o options.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/compute-score-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/concat-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/concat-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/convolution1D-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/convolution1D-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/crc64-cuda'
-rm -rf main CRC64.o CRC64Test.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/crc64-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/cross-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/cross-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/dp-cuda'
-rm -rf main main.o shrUtils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/dp-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/degrid-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/degrid-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/dense-embedding-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/dense-embedding-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/depixel-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/depixel-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/deredundancy-cuda'
-rm -rf main main.o utils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/deredundancy-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/dispatch-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/dispatch-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/doh-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/doh-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/dropout-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/dropout-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/dslash-cuda'
-rm -rf main main.o dslash.o kernels.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/dslash-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/dwconv-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/dwconv-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/dxtc1-cuda'
-rm -rf main main.o shrUtils.o block.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/dxtc1-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/egs-cuda'
-rm -rf main main.o *.bmp *.bin
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/egs-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/eigenvalue-cuda'
-rm -rf main main.o reference.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/eigenvalue-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/eikonal-cuda'
-rm -rf main kernel.o fim.o timer.o main.o StructuredEikonal.o output.nrrd
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/eikonal-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/epistasis-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/epistasis-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/extrema-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/extrema-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/f16max-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/f16max-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/face-cuda'
-rm -f vj-cpu vj-gpu *.o Output-cpu.pgm Output-gpu.pgm
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/face-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/fdtd3d-cuda'
-rm -rf main main.o FDTD3dReference.o FDTD3dGPU.o shrUtils.o cmd_arg_reader.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/fdtd3d-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/fft-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/fft-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/filter-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/filter-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/flame-cuda'
-rm -rf main main.o utils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/flame-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/floydwarshall2-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/floydwarshall2-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/fluidSim-cuda'
-rm -rf main main.o kernels.o reference.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/fluidSim-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/fpc-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/fpc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/fsm-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/fsm-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/gamma-correction-cuda'
-rm -rf gamma-correction main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/gamma-correction-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/gc-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/gc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/gd-cuda'
-rm -rf main main.o utils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/gd-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/glu-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/glu-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/graphB+-cuda'
-rm -rf main main.o output
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/graphB+-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/grrt-cuda'
-rm -rf main main.o *.txt
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/grrt-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/gru-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/gru-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/haversine-cuda'
-rm -rf main main.o distance.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/haversine-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/henry-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/henry-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/hexciton-cuda'
-rm -rf main main.o utils.o reference.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/hexciton-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/hungarian-cuda'
-rm -rf main main.o output.txt
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/hungarian-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/inversek2j-cuda'
-rm -rf invkin main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/inversek2j-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/jaccard-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/jaccard-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/langevin-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/langevin-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ldpc-cuda'
-rm -rf main main.o cpu.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ldpc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/libor-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/libor-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lif-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lif-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/linearprobing-cuda'
-rm -rf main main.o linearprobing.o test.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/linearprobing-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/logprob-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/logprob-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lrn-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lrn-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lulesh-cuda'
-rm -rf lulesh lulesh.o lulesh-viz.o lulesh-util.o lulesh-init.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lulesh-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mandelbrot-cuda'
-rm -rf mandelbrot main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mandelbrot-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/marchingCubes-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/marchingCubes-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/matrixT-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/matrixT-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mcpr-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mcpr-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/md-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/md-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mdh-cuda'
-rm -rf main main.o WKFUtils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mdh-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/medianfilter-cuda'
-rm -rf main main.o shrUtils.o MedianFilterHost.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/medianfilter-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/merge-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/merge-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/metropolis-cuda'
-rm -rf main main.o utils.o heap.o *.dat
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/metropolis-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/michalewicz-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/michalewicz-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/minimod-cuda'
-rm -rf main main.o constants.o grid.o pml.o data_setup.o minimig.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/minimod-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/minkowski-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/minkowski-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mis-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mis-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mixbench-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mixbench-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mnist-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mnist-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mpc-cuda'
-rm -rf main main.o *.mpc *.org fpc
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mpc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mrc-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mrc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/multinomial-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/multinomial-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/nbody-cuda'
-rm -rf main main.o GSimulation.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/nbody-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/nlll-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/nlll-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/nqueen-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/nqueen-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ntt-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ntt-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/overlap-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/overlap-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/p4-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/p4-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/perplexity-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/perplexity-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/phmm-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/phmm-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/pnpoly-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/pnpoly-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/pns-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/pns-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/pointwise-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/pointwise-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/present-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/present-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/radixsort-cuda'
-rm -rf main main.o RadixSort.o Scan.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/radixsort-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/randomAccess-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/randomAccess-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/relu-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/relu-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/reverse-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/reverse-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/romberg-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/romberg-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/rsbench-cuda'
-rm -rf rsbench main.o simulation.o io.o init.o material.o utils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/rsbench-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/rsmt-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/rsmt-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/s3d-cuda'
-rm -rf s3d main.o Option.o OptionParser.o S3D.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/s3d-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/s8n-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/s8n-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sampling-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sampling-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/scan-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/scan-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/scel-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/scel-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ss-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ss-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sssp-cuda'
-rm -rf main main.o kernel.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sssp-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/stddev-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/stddev-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/su3-cuda'
-rm -rf main su3_nn_bench.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/su3-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/svd3x3-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/svd3x3-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sw4ck-cuda'
-rm -rf main main.o curvilinear4sg.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sw4ck-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/swish-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/swish-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/tensorT-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/tensorT-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/tissue-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/tissue-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/tonemapping-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/tonemapping-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/tsa-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/tsa-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/tsp-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/tsp-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/winograd-cuda'
-rm -rf main main.o utils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/winograd-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/wlcpow-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/wlcpow-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/wyllie-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/wyllie-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/zeropoint-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/zeropoint-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/zmddft-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/zmddft-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/chi2-cuda'
-rm -rf chi2 chi2.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/chi2-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lanczos-cuda'
-rm -rf main main.o lanczos.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lanczos-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/warpsort-cuda'
-rm -rf main main.o warpsort.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/warpsort-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/histogram-cuda'
-rm -rf main histogram_compare.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/histogram-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/contract-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/contract-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/crs-cuda'
-rm -rf main main.o galois.o jerasure.o GCRSMatrix.o utils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/crs-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ddbp-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ddbp-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/tridiagonal-cuda'
-rm -rf main main.o shrUtils.o cmd_arg_reader.o *.dat *.timing *.txt *.csv
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/tridiagonal-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sosfil-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sosfil-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/vmc-cuda'
-rm -rf main vmc2.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/vmc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/zoom-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/zoom-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/vanGenuchten-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/vanGenuchten-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/is-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/is-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/morphology-cuda'
-rm -rf main main.o morphology.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/morphology-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lid-driven-cavity-cuda'
-rm -rf main main.o *.dat
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lid-driven-cavity-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/md5hash-cuda'
-rm -rf MD5Hash MD5Hash.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/md5hash-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ert-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ert-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/secp256k1-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/secp256k1-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/qtclustering-cuda'
-rm -rf qtc main.o Option.o OptionParser.o comm.o libdata.o QTC.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/qtclustering-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/nbnxm-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/nbnxm-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/resnet-kernels-cuda'
-rm -rf main main.o util.o Kernel256_winograd.o Kernel128_winograd.o Kernel256_one.o Kernel128_one.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/resnet-kernels-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/gibbs-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/gibbs-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/reaction-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/reaction-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/scan2-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/scan2-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/quicksort-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/quicksort-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/frechet-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/frechet-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mmcsf-cuda'
-rm -rf main main.o kernels.o mttkrp_cpu.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mmcsf-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ans-cuda'
-rm -f  bin/*.o
-rm -f  bin/*.obj
-rm -f  bin/demo
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ans-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/boxfilter-cuda'
-rm -rf main main.o shrUtils.o cmd_arg_reader.o reference.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/boxfilter-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sortKV-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sortKV-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/coordinates-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/coordinates-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/diamond-cuda'
-rm -rf diamond ../diamond-sycl/src/blast/sm_blosum45.o ../diamond-sycl/src/blast/sm_blosum50.o ../diamond-sycl/src/blast/sm_blosum62.o ../diamond-sycl/src/blast/sm_blosum80.o ../diamond-sycl/src/blast/sm_blosum90.o ../diamond-sycl/src/blast/sm_pam30.o ../diamond-sycl/src/blast/sm_pam70.o ../diamond-sycl/src/blast/sm_pam250.o ../diamond-sycl/src/run/main.o ../diamond-sycl/src/basic/config.o ../diamond-sycl/src/util/tinythread.o ../diamond-sycl/src/util/compressed_stream.o ../diamond-sycl/src/basic/score_matrix.o ../diamond-sycl/src/blast/blast_filter.o ../diamond-sycl/src/blast/blast_seg.o ../diamond-sycl/src/data/queries.o ../diamond-sycl/src/data/reference.o ../diamond-sycl/src/data/seed_histogram.o ../diamond-sycl/src/output/daa_record.o ../diamond-sycl/src/search/search.o ../diamond-sycl/src/util/command_line_parser.o ../diamond-sycl/src/util/seq_file_format.o ../diamond-sycl/src/util/util.o ../diamond-sycl/src/util/Timer.o ../diamond-sycl/src/basic/basic.o ../diamond-sycl/src/dp/floating_sw.o ../diamond-sycl/src/basic/hssp.o ../diamond-sycl/src/dp/ungapped_align.o ../diamond-sycl/src/run/tools.o ../diamond-sycl/src/dp/greedy_align.o ../diamond-sycl/src/run/benchmark.o ../diamond-sycl/src/search/stage2.o ../diamond-sycl/src/output/output_format.o ../diamond-sycl/src/output/join_blocks.o ../diamond-sycl/src/data/frequent_seeds.o ../diamond-sycl/src/align/query_mapper.o ../diamond-sycl/src/align/align_target.o ../diamond-sycl/src/output/blast_tab_format.o ../diamond-sycl/src/dp/padded_banded_sw.o ../diamond-sycl/src/dp/needleman_wunsch.o ../diamond-sycl/src/output/blast_pairwise_format.o ../diamond-sycl/src/extra/roc.o ../diamond-sycl/src/dp/comp_based_stats.o ../diamond-sycl/src/extra/model_sim.o ../diamond-sycl/src/run/double_indexed.o ../diamond-sycl/src/search/collision.o ../diamond-sycl/src/output/sam_format.o ../diamond-sycl/src/align/align.o ../diamond-sycl/src/search/setup.o ../diamond-sycl/src/extra/opt.o ../diamond-sycl/src/dp/diag_scores.o ../diamond-sycl/src/data/taxonomy.o ../diamond-sycl/src/lib/tantan/tantan.o ../diamond-sycl/src/lib/tantan/tantale.o ../diamond-sycl/src/dp/swipe.o ../diamond-sycl/src/dp/banded_sw.o ../diamond-sycl/src/data/sorted_list.o ../diamond-sycl/src/data/seed_set.o ../diamond-sycl/src/util/binary_file.o ../diamond-sycl/src/output/taxon_format.o ../diamond-sycl/src/output/view.o ../diamond-sycl/src/output/output_sink.o ../diamond-sycl/src/output/target_culling.o ./masking.o  *.m8
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/diamond-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/divergence-cuda'
-rm -rf divergence *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/divergence-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ge-spmm-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ge-spmm-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/gpp-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/gpp-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/hbc-cuda'
-rm -rf main main.o kernels.o util.o parse.o sequential.o output.txt
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/hbc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/kurtosis-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/kurtosis-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/match-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/match-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/meanshift-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/meanshift-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mtf-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mtf-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/recursiveGaussian-cuda'
-rm -rf main main.o RecursiveGaussianHost.o shrUtils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/recursiveGaussian-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/remap-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/remap-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sa-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sa-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/scan3-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/scan3-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/segment-reduce-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/segment-reduce-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/wordcount-cuda'
-rm -rf main main.o wc.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/wordcount-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/minibude-cuda'
-rm -rf main main.o kernel.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/minibude-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/xlqc-cuda'
-rm -rf main basis.o scf.o main.o crys.o cints.o cuda_rys_sp.o cuda_rys_dp.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/xlqc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/cmp-cuda'
-rm -rf main main.o reference.o su_cdp.o su_gather.o su_trace.o log.o parser.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/cmp-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bmf-cuda'
-rm -rf main main.o data/*.data data/*.txt
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bmf-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/halo-finder-cuda'
-rm -rf cuda
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/halo-finder-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bm3d-cuda'
-rm -rf main main.o blockmatching.o filtering.o dct8x8.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bm3d-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/miniWeather-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/miniWeather-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/multimaterial-cuda'
-rm -rf multimat multimat_FL multimat_F
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/multimaterial-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/permutate-cuda'
-rm -rf main main.o permutation_testing.o utils.o statistical_test.o bzip/blocksort.o bzip/bzlib.o bzip/compress.o bzip/crctable.o bzip/decompress.o bzip/huffman.o bzip/randtable.o gpu_permutation_testing.o 
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/permutate-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/pso-cuda'
-rm -rf main main.o kernel_gpu.o kernel_cpu.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/pso-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/rodrigues-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/rodrigues-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/wsm5-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/wsm5-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/axhelm-cuda'
-cd BlasLapack && make clean && cd ..
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/axhelm-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/daphne-cuda'
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/daphne-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/aes-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/aes-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/amgmk-cuda'
-rm -rf AMGMk csr_matrix.o csr_matvec.o hypre_error.o hypre_memory.o laplace.o main.o vector.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/amgmk-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bitpacking-cuda'
-rm -rf main main.o kernels.o utils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bitpacking-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bsw-cuda'
-rm -rf main main.o driver.o utils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bsw-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/conversion-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/conversion-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/distort-cuda'
-rm -rf main main.o distort.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/distort-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/easyWave-cuda'
-rm -rf main main.o cOgrd.o  cOkadaFault.o  cOkadaEarthquake.o cSphere.o okada.o utilits.o eWave.2D.*
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/easyWave-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/fpdc-cuda'
-rm -rf main main.o *.bin
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/fpdc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/fresnel-cuda'
-rm -rf main main.o cosine.o fresnel.o sine.o xchebyshev.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/fresnel-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/frna-cuda'
-rm -rf main main.o fbase.o fparam.o util.o frna.o  *.out
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/frna-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/hausdorff-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/hausdorff-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/heat2d-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/heat2d-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/hogbom-cuda'
-rm -rf main main.o kernels.o reference.o timer.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/hogbom-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/hypterm-cuda'
-rm -rf main main.o reference.o kernels.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/hypterm-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/interval-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/interval-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/jacobi-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/jacobi-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/kmc-cuda'
-rm -rf main main.o svm.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/kmc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/langford-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/langford-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lci-cuda'
-rm -rf main main.o *.csv
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lci-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lda-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lda-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lebesgue-cuda'
-rm -rf main main.o utils.o kernels.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lebesgue-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/logan-cuda'
-rm -rf main src/main.o src/seed.o src/score.o src/logan_functions.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/logan-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lr-cuda'
-rm -rf main main.o linear_iter.o linear_par.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lr-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/lsqt-cuda'
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/lsqt-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mcmd-cuda'
-rm -rf main main.o force_kernel.o
-rm -rf dataset/*.pdb
-rm -rf dataset/*.xyz
-rm -rf dataset/*.bak
-rm -rf dataset/*.dat
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mcmd-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/merkle-cuda'
-rm -rf main main.o bench_merkle_tree.o merkle_tree.o rescue_prime.o ff_p.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/merkle-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mf-sgd-cuda'
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mf-sgd-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/miniDGS-cuda'
-rm -rf src/Mesh3d.o src/Utils.o src/LoadBalance3d.o src/FacePair3d.o src/ParallelPairs.o src/BuildMaps3d.o src/StartUp3d.o src/MaxwellsRun3d.o src/MaxwellsMPI3d.o src/MaxwellsKernel3d.o src/MaxwellsDriver3d.o MaxwellsGPU3d
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/miniDGS-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/miniFE-cuda'
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/miniFE-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/minimap2-cuda'
-Deleting kernel-2d symlink
-Deleting directories
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/minimap2-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/minmax-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/minmax-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mr-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mr-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mriQ-cuda'
-rm -rf main main.o file.o output*
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mriQ-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/nonzero-cuda'
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/nonzero-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/norm2-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/norm2-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/openmp-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/openmp-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/pad-cuda'
-rm -rf main main.o kernel.o host_task.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/pad-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/prna-cuda'
-rm -rf main main.o base.o param.o util.o prna.o 
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/prna-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/rainflow-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/rainflow-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/rsc-cuda'
-rm -rf main main.o model_eval.o model_fitting.o 
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/rsc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sad-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sad-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/saxpy-ompt-cuda'
-rm -rf main saxpy.o hsaxpy.o asaxpy.o check1ns.o wtcalc.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/saxpy-ompt-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sc-cuda'
-rm -rf main main.o device_sc.o host_sc.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/seam-carving-cuda'
-rm -rf main main.o *.bmp
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/seam-carving-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/segsort-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/segsort-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/shmembench-cuda'
-rm -rf main main.o shmem_kernels.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/shmembench-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/si-cuda'
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/si-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/simpleSpmv-cuda'
-rm -rf main main.o kernels.o utils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/simpleSpmv-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/slu-cuda'
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/slu-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sobel-cuda'
-rm -rf main main.o reference.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sobel-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sobol-cuda'
-rm -rf SobolQRNG sobol.o sobol_gold.o sobol_gpu.o sobol_primitives.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sobol-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sparkler-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sparkler-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sptrsv-cuda'
-rm -rf main main.o sptrsv_syncfree.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sptrsv-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/tc-cuda'
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/tc-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/testSNAP-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/testSNAP-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/tpacf-cuda'
-rm -rf main main.o args.o compute.o ./small_results_test_g200.dat
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/tpacf-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/tqs-cuda'
-rm -rf main main.o kernel.o host_task.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/tqs-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/triad-cuda'
-rm -rf triad main.o Option.o OptionParser.o Timer.o triad.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/triad-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/unfold-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/unfold-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/urng-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/urng-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/vol2col-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/vol2col-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/voxelizer-cuda'
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/voxelizer-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/xsbench-cuda'
-rm -rf xsbench Main.o Simulation.o io.o GridInit.o Materials.o XSutils.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/xsbench-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/attentionMultiHead-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/attentionMultiHead-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/bonds-cuda'
-rm -rf main bondsEngine.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/bonds-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ccsd-trpdrv-cuda'
-rm -rf test ccsd_tengy.o ccsd_trpdrv.o main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ccsd-trpdrv-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/clink-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/clink-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/collision-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/collision-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/columnarSolver-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/columnarSolver-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/d2q9-bgk-cuda'
-rm -rf main main.o *.dat
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/d2q9-bgk-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/ecdh-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/ecdh-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/f16sp-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/f16sp-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/feynman-kac-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/feynman-kac-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/fwt-cuda'
-rm -rf main main.o reference.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/fwt-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/gabor-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/gabor-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/geodesic-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/geodesic-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/gmm-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/gmm-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/hellinger-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/hellinger-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/iso2dfd-cuda'
-rm -rf iso2dfd iso2dfd.o *.bin *.txt
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/iso2dfd-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/knn-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/knn-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/log2-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/log2-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/maxFlops-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/maxFlops-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/mt-cuda'
-rm -rf main genmtrand.o MT.o MT_gold.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/mt-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/overlay-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/overlay-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/pool-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/pool-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/qrg-cuda'
-rm -rf main main.o reference.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/qrg-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/sheath-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/sheath-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/shuffle-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/shuffle-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/simpleMultiDevice-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/simpleMultiDevice-cuda'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/vote-cuda'
-rm -rf main main.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/vote-cuda'
-/home/users/acsilveira/rodinia
-for dir in backprop bfs b+tree cfd hotspot hotspot3D lud myocyte nw particlefilter pathfinder streamcluster srad/srad_v1 srad/srad_v2 ; do cd openmp/$dir ; make clean ; cd - ; done
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/backprop'
-rm -f *.o *~ backprop backprop_cuda.linkinfo
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/backprop'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/bfs'
-rm -f bfs bfs_offload result.txt
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/bfs'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/b+tree'
-rm	*.o *.out \
-	./kernel/*.o \
-	./util/timer/*.o \
-	./util/num/*.o \
-                output.txt
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/b+tree'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/cfd'
 rm -f euler3d_cpu
 rm -f euler3d_cpu_offload
 rm -f euler3d_cpu_double
 rm -f pre_euler3d_cpu
 rm -f pre_euler3d_cpu_double
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/cfd'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/hotspot'
-rm -f hotspot hotspot_offload
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/hotspot'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/hotspot3D'
-rm -f 3D *.out
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/hotspot3D'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/lud'
-cd omp; make clean ; make -f Makefile.offload clean
-make[2]: Entering directory '/home/users/acsilveira/rodinia/openmp/lud/omp'
-rm --force lud_omp lud.o lud_omp.o ../common/common.o *~
-make[2]: Leaving directory '/home/users/acsilveira/rodinia/openmp/lud/omp'
-make[2]: Entering directory '/home/users/acsilveira/rodinia/openmp/lud/omp'
-rm --force lud_omp_offload lud.o lud_omp.o ../common/common.o *~
-make[2]: Leaving directory '/home/users/acsilveira/rodinia/openmp/lud/omp'
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/lud'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/myocyte'
-rm *.o myocyte.out output.txt
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/myocyte'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/nw'
-rm -f needle needle_offload
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/nw'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/particlefilter'
-rm particle_filter
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/particlefilter'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/pathfinder'
-rm -f pathfinder
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/pathfinder'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/streamcluster'
-rm -f *.o *~ *.txt sc_cpu sc_omp
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/streamcluster'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/srad/srad_v1'
-rm *.o srad
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/srad/srad_v1'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/openmp/srad/srad_v2'
-rm -f srad
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/openmp/srad/srad_v2'
-/home/users/acsilveira/rodinia
-for dir in hip/cfd hip/gaussian hip/particlefilter hip/lavaMD hip/streamcluster hip/lud hip/backprop hip/bfs hip/hotspot hip/hotspot3D hip/myocyte hip/nn hip/nw hip/pathfinder hip/srad_v1 ; do cd $dir ; make clean ; cd - ; done
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/cfd'
-rm -f euler3d euler3d_double pre_euler3d pre_euler3d_double *.linkinfo *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/cfd'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/gaussian'
-rm gaussian *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/gaussian'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/particlefilter'
-rm particlefilter_naive particlefilter_float *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/particlefilter'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/lavaMD'
-rm	*.o \
-	./kernel/*.o \
-	./util/num/*.o \
-	./util/timer/*.o \
-	./util/device/*.o \
-	lavaMD
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/lavaMD'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/streamcluster'
-rm -f  streamcluster_cuda_cpu.cpp.o streamcluster_cuda.cu.o sc_gpu
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/streamcluster'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/lud'
-cd cuda; make clean
-make[2]: Entering directory '/home/users/acsilveira/rodinia/hip/lud/cuda'
-rm -f lud_cuda ../common/common.o lud.o lud_kernel.o *.linkinfo
-make[2]: Leaving directory '/home/users/acsilveira/rodinia/hip/lud/cuda'
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/lud'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/backprop'
-rm -f *.o *~ backprop backprop_cuda.linkinfo
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/backprop'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/bfs'
-rm -f bfs.out bfs.out.linkinfo result.txt *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/bfs'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/hotspot'
-rm -f hotspot hotspot.linkinfo result.txt *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/hotspot'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/hotspot3D'
-rm -f 3D 3D.linkinfo *.out *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/hotspot3D'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/myocyte'
-rm *.o *.out output.txt
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/myocyte'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/nn'
-rm -rf *.o nn hurricane_gen
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/nn'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/nw'
-rm -f needle needle.linkinfo result.txt *.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/nw'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/pathfinder'
-rm -f pathfinder pathfinder.o
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/pathfinder'
-/home/users/acsilveira/rodinia
-make[1]: Entering directory '/home/users/acsilveira/rodinia/hip/srad_v1'
-rm *.o srad
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/hip/srad_v1'
-/home/users/acsilveira/rodinia
-make -C cuda/cfd
-make[1]: Entering directory '/home/users/acsilveira/rodinia/cuda/cfd'
-c euler3d.cu -o euler3d.o -I/common/inc  -L/lib -I/home/users/acsilveira/rodinia/common// -include my_timing.h -include my_verification.h -D_MY_COMPILER_NAME_=\"openmp.gcc\" -DMY_VERIFICATION_DISABLE -lstdc++ -I ../hybridsort
-g++ euler3d.o -o euler3d -ldl -lrt -lpthread -lm -L/lib -lstdc++ -fopenmp -lgomp
-make[1]: Leaving directory '/home/users/acsilveira/rodinia/cuda/cfd'
+g++ -O3 -Dblock_length=8 -fopenmp euler3d_cpu.cpp -o euler3d_cpu
+g++ -O3 -Dblock_length=8 -fopenmp euler3d_cpu_double.cpp -o euler3d_cpu_double
+g++ -O3 -Dblock_length=8 -fopenmp pre_euler3d_cpu.cpp -o pre_euler3d_cpu
+g++ -O3 -Dblock_length=8 -fopenmp pre_euler3d_cpu_double.cpp -o pre_euler3d_cpu_double
+icc -g -O3 -DOMP_OFFLOAD -Dblock_length=216 -fopenmp -offload-option,mic,compiler,"-no-opt-prefetch" euler3d_cpu.cpp -o euler3d_cpu_offload
 ___Executando cfd___:
 ___cfd com 2 Treads___
+Compute time: 114.819
+Tempo total: 116751.560 ms
+	Time:	0:01:57
+	Energy:	0.0038 kWh
+	CO2eq:	1.8504 g
+	0.0172 km travelled by car
+	Time:	0:01:57
+	Energy:	0.0038 kWh
+	CO2eq:	1.8504 g
+	0.0172 km travelled by car
 ___cfd com 2 Treads_concluida___
 ___cfd com 4 Treads___
+Compute time: 58.9064
+Tempo total: 60772.138 ms
+	Time:	0:01:01
+	Energy:	0.0021 kWh
+	CO2eq:	1.0090 g
+	0.0094 km travelled by car
+	Time:	0:01:01
+	Energy:	0.0021 kWh
+	CO2eq:	1.0090 g
+	0.0094 km travelled by car
 ___cfd com 4 Treads_concluida___
 ___cfd com 6 Treads___
+Compute time: 41.4359
+Tempo total: 43371.846 ms
+	Time:	0:00:43
+	Energy:	0.0015 kWh
+	CO2eq:	0.7359 g
+	0.0068 km travelled by car
+	Time:	0:00:43
+	Energy:	0.0015 kWh
+	CO2eq:	0.7359 g
+	0.0068 km travelled by car
 ___cfd com 6 Treads_concluida___
 ___cfd com 8 Treads___
+Compute time: 32.7184
+Tempo total: 34736.157 ms
+	Time:	0:00:35
+	Energy:	0.0013 kWh
+	CO2eq:	0.6068 g
+	0.0056 km travelled by car
+	Time:	0:00:35
+	Energy:	0.0013 kWh
+	CO2eq:	0.6068 g
+	0.0056 km travelled by car
 ___cfd com 8 Treads_concluida___
 ___cfd com 10 Treads___
+Compute time: 26.7612
+Tempo total: 28678.893 ms
+	Time:	0:00:29
+	Energy:	0.0011 kWh
+	CO2eq:	0.5127 g
+	0.0048 km travelled by car
+	Time:	0:00:29
+	Energy:	0.0011 kWh
+	CO2eq:	0.5127 g
+	0.0048 km travelled by car
 ___cfd com 10 Treads_concluida___
 ___cfd com 12 Treads___
+Compute time: 22.9231
+Tempo total: 24835.551 ms
+	Time:	0:00:25
+	Energy:	0.0009 kWh
+	CO2eq:	0.4511 g
+	0.0042 km travelled by car
+	Time:	0:00:25
+	Energy:	0.0009 kWh
+	CO2eq:	0.4511 g
+	0.0042 km travelled by car
 ___cfd com 12 Treads_concluida___
 ___cfd com 14 Treads___
+Compute time: 20.5902
+Tempo total: 22511.140 ms
+	Time:	0:00:23
+	Energy:	0.0009 kWh
+	CO2eq:	0.4142 g
+	0.0039 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0009 kWh
+	CO2eq:	0.4142 g
+	0.0039 km travelled by car
 ___cfd com 14 Treads_concluida___
 ___cfd com 16 Treads___
+Compute time: 18.4164
+Tempo total: 20386.579 ms
+	Time:	0:00:20
+	Energy:	0.0008 kWh
+	CO2eq:	0.3787 g
+	0.0035 km travelled by car
+	Time:	0:00:20
+	Energy:	0.0008 kWh
+	CO2eq:	0.3787 g
+	0.0035 km travelled by car
 ___cfd com 16 Treads_concluida___
 ___cfd com 18 Treads___
+Compute time: 16.8179
+Tempo total: 18721.162 ms
+	Time:	0:00:19
+	Energy:	0.0007 kWh
+	CO2eq:	0.3510 g
+	0.0033 km travelled by car
+	Time:	0:00:19
+	Energy:	0.0007 kWh
+	CO2eq:	0.3510 g
+	0.0033 km travelled by car
 ___cfd com 18 Treads_concluida___
 ___cfd com 20 Treads___
+Compute time: 15.1585
+Tempo total: 17039.637 ms
+	Time:	0:00:17
+	Energy:	0.0007 kWh
+	CO2eq:	0.3264 g
+	0.0030 km travelled by car
+	Time:	0:00:17
+	Energy:	0.0007 kWh
+	CO2eq:	0.3197 g
+	0.0030 km travelled by car
 ___cfd com 20 Treads_concluida___
 ___cfd com 22 Treads___
+Compute time: 13.7541
+Tempo total: 15772.840 ms
+	Time:	0:00:16
+	Energy:	0.0006 kWh
+	CO2eq:	0.3052 g
+	0.0028 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0006 kWh
+	CO2eq:	0.3052 g
+	0.0028 km travelled by car
 ___cfd com 22 Treads_concluida___
 ___cfd com 24 Treads___
+Compute time: 12.5846
+Tempo total: 14446.032 ms
+	Time:	0:00:14
+	Energy:	0.0006 kWh
+	CO2eq:	0.2877 g
+	0.0027 km travelled by car
+	Time:	0:00:14
+	Energy:	0.0006 kWh
+	CO2eq:	0.2877 g
+	0.0027 km travelled by car
 ___cfd com 24 Treads_concluida___
 ___cfd com 26 Treads___
+Compute time: 11.6154
+Tempo total: 13518.950 ms
+	Time:	0:00:14
+	Energy:	0.0006 kWh
+	CO2eq:	0.2687 g
+	0.0025 km travelled by car
+	Time:	0:00:14
+	Energy:	0.0006 kWh
+	CO2eq:	0.2687 g
+	0.0025 km travelled by car
 ___cfd com 26 Treads_concluida___
 ___cfd com 28 Treads___
+Compute time: 10.8684
+Tempo total: 12762.010 ms
+	Time:	0:00:13
+	Energy:	0.0005 kWh
+	CO2eq:	0.2620 g
+	0.0024 km travelled by car
+	Time:	0:00:13
+	Energy:	0.0005 kWh
+	CO2eq:	0.2620 g
+	0.0024 km travelled by car
 ___cfd com 28 Treads_concluida___
 ___cfd com 30 Treads___
+Compute time: 10.1622
+Tempo total: 12045.265 ms
+	Time:	0:00:12
+	Energy:	0.0005 kWh
+	CO2eq:	0.2515 g
+	0.0023 km travelled by car
+	Time:	0:00:12
+	Energy:	0.0005 kWh
+	CO2eq:	0.2515 g
+	0.0023 km travelled by car
 ___cfd com 30 Treads_concluida___
 ___cfd com 32 Treads___
+Compute time: 9.66662
+Tempo total: 11541.675 ms
+	Time:	0:00:12
+	Energy:	0.0005 kWh
+	CO2eq:	0.2402 g
+	0.0022 km travelled by car
+	Time:	0:00:12
+	Energy:	0.0005 kWh
+	CO2eq:	0.2402 g
+	0.0022 km travelled by car
 ___cfd com 32 Treads_concluida___
 ___cfd com 34 Treads___
+Compute time: 8.99354
+Tempo total: 10890.122 ms
+	Time:	0:00:11
+	Energy:	0.0005 kWh
+	CO2eq:	0.2334 g
+	0.0022 km travelled by car
+	Time:	0:00:11
+	Energy:	0.0005 kWh
+	CO2eq:	0.2334 g
+	0.0022 km travelled by car
 ___cfd com 34 Treads_concluida___
 ___cfd com 36 Treads___
+Compute time: 8.47538
+Tempo total: 10406.665 ms
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2265 g
+	0.0021 km travelled by car
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2265 g
+	0.0021 km travelled by car
 ___cfd com 36 Treads_concluida___
 ___cfd com 38 Treads___
+Compute time: 8.0703
+Tempo total: 9958.231 ms
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2198 g
+	0.0020 km travelled by car
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2198 g
+	0.0020 km travelled by car
 ___cfd com 38 Treads_concluida___
 ___cfd com 40 Treads___
+Compute time: 7.63015
+Tempo total: 9548.071 ms
+	Time:	0:00:10
+	Energy:	0.0004 kWh
+	CO2eq:	0.2074 g
+	0.0019 km travelled by car
+	Time:	0:00:10
+	Energy:	0.0004 kWh
+	CO2eq:	0.2074 g
+	0.0019 km travelled by car
 ___cfd com 40 Treads_concluida___
 ___cfd com 42 Treads___
+Compute time: 7.49224
+Tempo total: 9361.569 ms
+	Time:	0:00:09
+	Energy:	0.0004 kWh
+	CO2eq:	0.2041 g
+	0.0019 km travelled by car
+	Time:	0:00:09
+	Energy:	0.0004 kWh
+	CO2eq:	0.2041 g
+	0.0019 km travelled by car
 ___cfd com 42 Treads_concluida___
 ___cfd com 44 Treads___
+Compute time: 7.04098
+Tempo total: 9009.493 ms
+	Time:	0:00:09
+	Energy:	0.0004 kWh
+	CO2eq:	0.2059 g
+	0.0019 km travelled by car
+	Time:	0:00:09
+	Energy:	0.0004 kWh
+	CO2eq:	0.1929 g
+	0.0018 km travelled by car
 ___cfd com 44 Treads_concluida___
 ___cfd com 46 Treads___
+Compute time: 7.08658
+Tempo total: 8962.074 ms
+	Time:	0:00:09
+	Energy:	0.0004 kWh
+	CO2eq:	0.2113 g
+	0.0020 km travelled by car
+	Time:	0:00:09
+	Energy:	0.0004 kWh
+	CO2eq:	0.1967 g
+	0.0018 km travelled by car
 ___cfd com 46 Treads_concluida___
 ___cfd com 48 Treads___
+Compute time: 6.95072
+Tempo total: 8917.986 ms
+	Time:	0:00:09
+	Energy:	0.0004 kWh
+	CO2eq:	0.2128 g
+	0.0020 km travelled by car
+	Time:	0:00:09
+	Energy:	0.0004 kWh
+	CO2eq:	0.1973 g
+	0.0018 km travelled by car
 ___cfd com 48 Treads_concluida___
 ___cfd com 50 Treads___
+Compute time: 6.90819
+Tempo total: 8789.244 ms
+	Time:	0:00:09
+	Energy:	0.0004 kWh
+	CO2eq:	0.2134 g
+	0.0020 km travelled by car
+	Time:	0:00:09
+	Energy:	0.0004 kWh
+	CO2eq:	0.2134 g
+	0.0020 km travelled by car
 ___cfd com 50 Treads_concluida___
 ___cfd com 52 Treads___
+Compute time: 6.72684
+Tempo total: 8682.188 ms
+	Time:	0:00:09
+	Energy:	0.0004 kWh
+	CO2eq:	0.2121 g
+	0.0020 km travelled by car
+	Time:	0:00:09
+	Energy:	0.0004 kWh
+	CO2eq:	0.2121 g
+	0.0020 km travelled by car
 ___cfd com 52 Treads_concluida___
 ___cfd com 54 Treads___
+Compute time: 6.3265
+Tempo total: 8227.718 ms
+	Time:	0:00:08
+	Energy:	0.0004 kWh
+	CO2eq:	0.2048 g
+	0.0019 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0004 kWh
+	CO2eq:	0.2048 g
+	0.0019 km travelled by car
 ___cfd com 54 Treads_concluida___
 ___cfd com 56 Treads___
+Compute time: 6.10664
+Tempo total: 7981.175 ms
+	Time:	0:00:08
+	Energy:	0.0004 kWh
+	CO2eq:	0.2009 g
+	0.0019 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0004 kWh
+	CO2eq:	0.2009 g
+	0.0019 km travelled by car
 ___cfd com 56 Treads_concluida___
 ___cfd com 58 Treads___
+Compute time: 5.85092
+Tempo total: 7814.661 ms
+	Time:	0:00:08
+	Energy:	0.0004 kWh
+	CO2eq:	0.1926 g
+	0.0018 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0004 kWh
+	CO2eq:	0.1926 g
+	0.0018 km travelled by car
 ___cfd com 58 Treads_concluida___
 ___cfd com 60 Treads___
+Compute time: 5.8319
+Tempo total: 7727.122 ms
+	Time:	0:00:08
+	Energy:	0.0004 kWh
+	CO2eq:	0.1908 g
+	0.0018 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0004 kWh
+	CO2eq:	0.1908 g
+	0.0018 km travelled by car
 ___cfd com 60 Treads_concluida___
 ___cfd com 62 Treads___
+Compute time: 5.58344
+Tempo total: 7463.725 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1801 g
+	0.0017 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1801 g
+	0.0017 km travelled by car
 ___cfd com 62 Treads_concluida___
 ___cfd com 64 Treads___
+Compute time: 5.50049
+Tempo total: 7371.901 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1776 g
+	0.0017 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1776 g
+	0.0017 km travelled by car
 ___cfd com 64 Treads_concluida___
 ___cfd com 66 Treads___
+Compute time: 5.32787
+Tempo total: 7317.370 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1739 g
+	0.0016 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1739 g
+	0.0016 km travelled by car
 ___cfd com 66 Treads_concluida___
 ___cfd com 68 Treads___
+Compute time: 5.48611
+Tempo total: 7398.512 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1802 g
+	0.0017 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1802 g
+	0.0017 km travelled by car
 ___cfd com 68 Treads_concluida___
 ___cfd com 70 Treads___
+Compute time: 5.39032
+Tempo total: 7334.269 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1778 g
+	0.0017 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1778 g
+	0.0017 km travelled by car
 ___cfd com 70 Treads_concluida___
 ___cfd com 72 Treads___
+Compute time: 5.17696
+Tempo total: 7101.049 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1687 g
+	0.0016 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1687 g
+	0.0016 km travelled by car
 ___cfd com 72 Treads_concluida___
 ___cfd com 74 Treads___
+Compute time: 5.03543
+Tempo total: 6909.517 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1815 g
+	0.0017 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0003 kWh
+	CO2eq:	0.1625 g
+	0.0015 km travelled by car
 ___cfd com 74 Treads_concluida___
 ___cfd com 76 Treads___
+Compute time: 5.13756
+Tempo total: 7010.818 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1848 g
+	0.0017 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0003 kWh
+	CO2eq:	0.1670 g
+	0.0016 km travelled by car
 ___cfd com 76 Treads_concluida___
 ___cfd com 78 Treads___
+Compute time: 4.77727
+Tempo total: 6633.646 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1780 g
+	0.0017 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1780 g
+	0.0017 km travelled by car
 ___cfd com 78 Treads_concluida___
 ___cfd com 80 Treads___
+Compute time: 4.61629
+Tempo total: 6685.309 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1816 g
+	0.0017 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1816 g
+	0.0017 km travelled by car
 ___cfd com 80 Treads_concluida___
 ___cfd com 82 Treads___
+Compute time: 4.67645
+Tempo total: 6551.032 ms
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1782 g
+	0.0017 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.1782 g
+	0.0017 km travelled by car
 ___cfd com 82 Treads_concluida___
 ___cfd com 84 Treads___
+Compute time: 4.51807
+Tempo total: 6413.387 ms
+	Time:	0:00:06
+	Energy:	0.0004 kWh
+	CO2eq:	0.1769 g
+	0.0016 km travelled by car
+	Time:	0:00:06
+	Energy:	0.0004 kWh
+	CO2eq:	0.1769 g
+	0.0016 km travelled by car
 ___cfd com 84 Treads_concluida___
 ___cfd com 86 Treads___
+Compute time: 4.52973
+Tempo total: 6395.867 ms
+	Time:	0:00:06
+	Energy:	0.0004 kWh
+	CO2eq:	0.1777 g
+	0.0017 km travelled by car
+	Time:	0:00:06
+	Energy:	0.0004 kWh
+	CO2eq:	0.1777 g
+	0.0017 km travelled by car
 ___cfd com 86 Treads_concluida___
 ___cfd com 88 Treads___
+Compute time: 4.34816
+Tempo total: 6234.863 ms
+	Time:	0:00:06
+	Energy:	0.0004 kWh
+	CO2eq:	0.1750 g
+	0.0016 km travelled by car
+	Time:	0:00:06
+	Energy:	0.0004 kWh
+	CO2eq:	0.1750 g
+	0.0016 km travelled by car
 ___cfd com 88 Treads_concluida___
 ___Fim de cfd___:
 
 Start -> srad
 compilando srad...
+cd srad_v1; 	make clean
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v1'
+rm *.o srad
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v1'
+cd srad_v2; 	make clean
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v2'
+rm -f srad
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v2'
+cd srad_v1; 	make
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v1'
+gcc	main.c \
+		-c -O3 -fopenmp
+gcc	main.o \
+		-lm -fopenmp -o srad
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v1'
+cd srad_v2; 	make
+make[1]: Entering directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v2'
+g++ -g -fopenmp -O2 -lm srad.cpp -o srad 
+make[1]: Leaving directory '/scratch/acsilveira/rodinia_novos/openmp/srad/srad_v2'
 ___Executando srad___:
 ___srad com 2 Treads___
+Tempo total: 148753.433 ms
+	Time:	0:02:29
+	Energy:	0.0049 kWh
+	CO2eq:	2.3427 g
+	0.0218 km travelled by car
+	Time:	0:02:29
+	Energy:	0.0049 kWh
+	CO2eq:	2.3427 g
+	0.0218 km travelled by car
 ___srad com 2 Treads_concluida___
 ___srad com 4 Treads___
+Tempo total: 74836.972 ms
+	Time:	0:01:15
+	Energy:	0.0026 kWh
+	CO2eq:	1.2405 g
+	0.0115 km travelled by car
+	Time:	0:01:15
+	Energy:	0.0026 kWh
+	CO2eq:	1.2405 g
+	0.0115 km travelled by car
 ___srad com 4 Treads_concluida___
 ___srad com 6 Treads___
+Tempo total: 52372.014 ms
+	Time:	0:00:52
+	Energy:	0.0019 kWh
+	CO2eq:	0.8916 g
+	0.0083 km travelled by car
+	Time:	0:00:52
+	Energy:	0.0019 kWh
+	CO2eq:	0.8916 g
+	0.0083 km travelled by car
 ___srad com 6 Treads_concluida___
 ___srad com 8 Treads___
+Tempo total: 42578.309 ms
+	Time:	0:00:43
+	Energy:	0.0015 kWh
+	CO2eq:	0.7448 g
+	0.0069 km travelled by car
+	Time:	0:00:43
+	Energy:	0.0015 kWh
+	CO2eq:	0.7448 g
+	0.0069 km travelled by car
 ___srad com 8 Treads_concluida___
 ___srad com 10 Treads___
+Tempo total: 33866.167 ms
+	Time:	0:00:34
+	Energy:	0.0013 kWh
+	CO2eq:	0.6085 g
+	0.0057 km travelled by car
+	Time:	0:00:34
+	Energy:	0.0013 kWh
+	CO2eq:	0.6085 g
+	0.0057 km travelled by car
 ___srad com 10 Treads_concluida___
 ___srad com 12 Treads___
+Tempo total: 29001.069 ms
+	Time:	0:00:29
+	Energy:	0.0011 kWh
+	CO2eq:	0.5314 g
+	0.0049 km travelled by car
+	Time:	0:00:29
+	Energy:	0.0011 kWh
+	CO2eq:	0.5292 g
+	0.0049 km travelled by car
 ___srad com 12 Treads_concluida___
 ___srad com 14 Treads___
+Tempo total: 26364.962 ms
+	Time:	0:00:26
+	Energy:	0.0010 kWh
+	CO2eq:	0.4914 g
+	0.0046 km travelled by car
+	Time:	0:00:26
+	Energy:	0.0010 kWh
+	CO2eq:	0.4914 g
+	0.0046 km travelled by car
 ___srad com 14 Treads_concluida___
 ___srad com 16 Treads___
+Tempo total: 24988.338 ms
+	Time:	0:00:25
+	Energy:	0.0010 kWh
+	CO2eq:	0.4709 g
+	0.0044 km travelled by car
+	Time:	0:00:25
+	Energy:	0.0010 kWh
+	CO2eq:	0.4686 g
+	0.0044 km travelled by car
 ___srad com 16 Treads_concluida___
 ___srad com 18 Treads___
+Tempo total: 22911.923 ms
+	Time:	0:00:23
+	Energy:	0.0009 kWh
+	CO2eq:	0.4352 g
+	0.0040 km travelled by car
+	Time:	0:00:23
+	Energy:	0.0009 kWh
+	CO2eq:	0.4352 g
+	0.0040 km travelled by car
 ___srad com 18 Treads_concluida___
 ___srad com 20 Treads___
+Tempo total: 20921.603 ms
+	Time:	0:00:21
+	Energy:	0.0008 kWh
+	CO2eq:	0.4054 g
+	0.0038 km travelled by car
+	Time:	0:00:21
+	Energy:	0.0008 kWh
+	CO2eq:	0.4054 g
+	0.0038 km travelled by car
 ___srad com 20 Treads_concluida___
 ___srad com 22 Treads___
+Tempo total: 19406.090 ms
+	Time:	0:00:19
+	Energy:	0.0008 kWh
+	CO2eq:	0.3845 g
+	0.0036 km travelled by car
+	Time:	0:00:19
+	Energy:	0.0008 kWh
+	CO2eq:	0.3845 g
+	0.0036 km travelled by car
 ___srad com 22 Treads_concluida___
 ___srad com 24 Treads___
+Tempo total: 17978.869 ms
+	Time:	0:00:18
+	Energy:	0.0008 kWh
+	CO2eq:	0.3636 g
+	0.0034 km travelled by car
+	Time:	0:00:18
+	Energy:	0.0008 kWh
+	CO2eq:	0.3636 g
+	0.0034 km travelled by car
 ___srad com 24 Treads_concluida___
 ___srad com 26 Treads___
+Tempo total: 17005.125 ms
+	Time:	0:00:17
+	Energy:	0.0007 kWh
+	CO2eq:	0.3503 g
+	0.0033 km travelled by car
+	Time:	0:00:17
+	Energy:	0.0007 kWh
+	CO2eq:	0.3486 g
+	0.0032 km travelled by car
 ___srad com 26 Treads_concluida___
 ___srad com 28 Treads___
+Tempo total: 16198.370 ms
+	Time:	0:00:16
+	Energy:	0.0007 kWh
+	CO2eq:	0.3398 g
+	0.0032 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0007 kWh
+	CO2eq:	0.3398 g
+	0.0032 km travelled by car
 ___srad com 28 Treads_concluida___
 ___srad com 30 Treads___
+Tempo total: 15731.886 ms
+	Time:	0:00:16
+	Energy:	0.0007 kWh
+	CO2eq:	0.3344 g
+	0.0031 km travelled by car
+	Time:	0:00:16
+	Energy:	0.0007 kWh
+	CO2eq:	0.3344 g
+	0.0031 km travelled by car
 ___srad com 30 Treads_concluida___
 ___srad com 32 Treads___
+Tempo total: 14592.397 ms
+	Time:	0:00:15
+	Energy:	0.0007 kWh
+	CO2eq:	0.3177 g
+	0.0030 km travelled by car
+	Time:	0:00:15
+	Energy:	0.0007 kWh
+	CO2eq:	0.3177 g
+	0.0030 km travelled by car
 ___srad com 32 Treads_concluida___
 ___srad com 34 Treads___
+Tempo total: 14439.982 ms
+	Time:	0:00:14
+	Energy:	0.0007 kWh
+	CO2eq:	0.3177 g
+	0.0030 km travelled by car
+	Time:	0:00:14
+	Energy:	0.0007 kWh
+	CO2eq:	0.3177 g
+	0.0030 km travelled by car
 ___srad com 34 Treads_concluida___
 ___srad com 36 Treads___
+Tempo total: 14075.052 ms
+	Time:	0:00:14
+	Energy:	0.0007 kWh
+	CO2eq:	0.3139 g
+	0.0029 km travelled by car
+	Time:	0:00:14
+	Energy:	0.0007 kWh
+	CO2eq:	0.3139 g
+	0.0029 km travelled by car
 ___srad com 36 Treads_concluida___
 ___srad com 38 Treads___
+Tempo total: 13444.027 ms
+	Time:	0:00:13
+	Energy:	0.0006 kWh
+	CO2eq:	0.3053 g
+	0.0028 km travelled by car
+	Time:	0:00:13
+	Energy:	0.0006 kWh
+	CO2eq:	0.3053 g
+	0.0028 km travelled by car
 ___srad com 38 Treads_concluida___
 ___srad com 40 Treads___
+Tempo total: 13168.541 ms
+	Time:	0:00:13
+	Energy:	0.0006 kWh
+	CO2eq:	0.3033 g
+	0.0028 km travelled by car
+	Time:	0:00:13
+	Energy:	0.0006 kWh
+	CO2eq:	0.3033 g
+	0.0028 km travelled by car
 ___srad com 40 Treads_concluida___
 ___srad com 42 Treads___
+Tempo total: 12623.556 ms
+	Time:	0:00:13
+	Energy:	0.0006 kWh
+	CO2eq:	0.2945 g
+	0.0027 km travelled by car
+	Time:	0:00:13
+	Energy:	0.0006 kWh
+	CO2eq:	0.2945 g
+	0.0027 km travelled by car
 ___srad com 42 Treads_concluida___
 ___srad com 44 Treads___
+Tempo total: 12345.701 ms
+	Time:	0:00:12
+	Energy:	0.0006 kWh
+	CO2eq:	0.2917 g
+	0.0027 km travelled by car
+	Time:	0:00:12
+	Energy:	0.0006 kWh
+	CO2eq:	0.2917 g
+	0.0027 km travelled by car
 ___srad com 44 Treads_concluida___
 ___srad com 46 Treads___
+Tempo total: 11824.474 ms
+	Time:	0:00:12
+	Energy:	0.0006 kWh
+	CO2eq:	0.2881 g
+	0.0027 km travelled by car
+	Time:	0:00:12
+	Energy:	0.0006 kWh
+	CO2eq:	0.2881 g
+	0.0027 km travelled by car
 ___srad com 46 Treads_concluida___
 ___srad com 48 Treads___
+Tempo total: 11380.010 ms
+	Time:	0:00:11
+	Energy:	0.0006 kWh
+	CO2eq:	0.2809 g
+	0.0026 km travelled by car
+	Time:	0:00:11
+	Energy:	0.0006 kWh
+	CO2eq:	0.2809 g
+	0.0026 km travelled by car
 ___srad com 48 Treads_concluida___
 ___srad com 50 Treads___
+Tempo total: 10971.831 ms
+	Time:	0:00:11
+	Energy:	0.0006 kWh
+	CO2eq:	0.2747 g
+	0.0026 km travelled by car
+	Time:	0:00:11
+	Energy:	0.0006 kWh
+	CO2eq:	0.2726 g
+	0.0025 km travelled by car
 ___srad com 50 Treads_concluida___
 ___srad com 52 Treads___
+Tempo total: 10622.836 ms
+	Time:	0:00:11
+	Energy:	0.0006 kWh
+	CO2eq:	0.2703 g
+	0.0025 km travelled by car
+	Time:	0:00:11
+	Energy:	0.0006 kWh
+	CO2eq:	0.2703 g
+	0.0025 km travelled by car
 ___srad com 52 Treads_concluida___
 ___srad com 54 Treads___
+Tempo total: 10217.893 ms
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2636 g
+	0.0025 km travelled by car
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2636 g
+	0.0025 km travelled by car
 ___srad com 54 Treads_concluida___
 ___srad com 56 Treads___
+Tempo total: 9866.394 ms
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2586 g
+	0.0024 km travelled by car
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2586 g
+	0.0024 km travelled by car
 ___srad com 56 Treads_concluida___
 ___srad com 58 Treads___
+Tempo total: 9681.407 ms
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2571 g
+	0.0024 km travelled by car
+	Time:	0:00:10
+	Energy:	0.0005 kWh
+	CO2eq:	0.2571 g
+	0.0024 km travelled by car
 ___srad com 58 Treads_concluida___
 ___srad com 60 Treads___
+Tempo total: 9347.268 ms
+	Time:	0:00:09
+	Energy:	0.0005 kWh
+	CO2eq:	0.2517 g
+	0.0023 km travelled by car
+	Time:	0:00:09
+	Energy:	0.0005 kWh
+	CO2eq:	0.2517 g
+	0.0023 km travelled by car
 ___srad com 60 Treads_concluida___
 ___srad com 62 Treads___
+Tempo total: 9007.245 ms
+	Time:	0:00:09
+	Energy:	0.0005 kWh
+	CO2eq:	0.2441 g
+	0.0023 km travelled by car
+	Time:	0:00:09
+	Energy:	0.0005 kWh
+	CO2eq:	0.2433 g
+	0.0023 km travelled by car
 ___srad com 62 Treads_concluida___
 ___srad com 64 Treads___
+Tempo total: 8666.597 ms
+	Time:	0:00:09
+	Energy:	0.0005 kWh
+	CO2eq:	0.2378 g
+	0.0022 km travelled by car
+	Time:	0:00:09
+	Energy:	0.0005 kWh
+	CO2eq:	0.2378 g
+	0.0022 km travelled by car
 ___srad com 64 Treads_concluida___
 ___srad com 66 Treads___
+Tempo total: 8597.897 ms
+	Time:	0:00:09
+	Energy:	0.0005 kWh
+	CO2eq:	0.2392 g
+	0.0022 km travelled by car
+	Time:	0:00:09
+	Energy:	0.0005 kWh
+	CO2eq:	0.2392 g
+	0.0022 km travelled by car
 ___srad com 66 Treads_concluida___
 ___srad com 68 Treads___
+Tempo total: 8402.190 ms
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2362 g
+	0.0022 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2362 g
+	0.0022 km travelled by car
 ___srad com 68 Treads_concluida___
 ___srad com 70 Treads___
+Tempo total: 8228.835 ms
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2345 g
+	0.0022 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2345 g
+	0.0022 km travelled by car
 ___srad com 70 Treads_concluida___
 ___srad com 72 Treads___
+Tempo total: 7978.597 ms
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2310 g
+	0.0021 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2310 g
+	0.0021 km travelled by car
 ___srad com 72 Treads_concluida___
 ___srad com 74 Treads___
+Tempo total: 7853.938 ms
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2295 g
+	0.0021 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2295 g
+	0.0021 km travelled by car
 ___srad com 74 Treads_concluida___
 ___srad com 76 Treads___
+Tempo total: 7640.102 ms
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2265 g
+	0.0021 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2265 g
+	0.0021 km travelled by car
 ___srad com 76 Treads_concluida___
 ___srad com 78 Treads___
+Tempo total: 7537.112 ms
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2261 g
+	0.0021 km travelled by car
+	Time:	0:00:08
+	Energy:	0.0005 kWh
+	CO2eq:	0.2261 g
+	0.0021 km travelled by car
 ___srad com 78 Treads_concluida___
 ___srad com 80 Treads___
+Tempo total: 7389.171 ms
+	Time:	0:00:07
+	Energy:	0.0005 kWh
+	CO2eq:	0.2237 g
+	0.0021 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0005 kWh
+	CO2eq:	0.2237 g
+	0.0021 km travelled by car
 ___srad com 80 Treads_concluida___
 ___srad com 82 Treads___
+Tempo total: 7239.344 ms
+	Time:	0:00:07
+	Energy:	0.0005 kWh
+	CO2eq:	0.2225 g
+	0.0021 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0005 kWh
+	CO2eq:	0.2225 g
+	0.0021 km travelled by car
 ___srad com 82 Treads_concluida___
 ___srad com 84 Treads___
+Tempo total: 7046.814 ms
+	Time:	0:00:07
+	Energy:	0.0005 kWh
+	CO2eq:	0.2180 g
+	0.0020 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0005 kWh
+	CO2eq:	0.2190 g
+	0.0020 km travelled by car
 ___srad com 84 Treads_concluida___
 ___srad com 86 Treads___
+Tempo total: 6942.240 ms
+	Time:	0:00:07
+	Energy:	0.0005 kWh
+	CO2eq:	0.2166 g
+	0.0020 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0004 kWh
+	CO2eq:	0.2138 g
+	0.0020 km travelled by car
 ___srad com 86 Treads_concluida___
 ___srad com 88 Treads___
+Tempo total: 6810.227 ms
+	Time:	0:00:07
+	Energy:	0.0003 kWh
+	CO2eq:	0.1566 g
+	0.0015 km travelled by car
+	Time:	0:00:07
+	Energy:	0.0003 kWh
+	CO2eq:	0.1566 g
+	0.0015 km travelled by car
 ___srad com 88 Treads_concluida___
 ___Fim de srad___:
 

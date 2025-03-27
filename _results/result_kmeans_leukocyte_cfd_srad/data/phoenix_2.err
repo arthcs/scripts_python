@@ -2022,7 +2022,7 @@ avilib.c:903:26: note: directive argument in the range [-2147483647, 2147483647]
 avilib.c:903:4: note: 'sprintf' output between 5 and 15 bytes into a destination of size 5
   903 |    sprintf((char *)astr, "0%1dwb", AVI->aptr+1);
       |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-configure: error: no acceptable cc found in $PATH
+/bin/sh: 1: ./configure: Permission denied
 err.c: In function 'err_list_attach':
 err.c:146:16: warning: implicit declaration of function 'isatty' [-Wimplicit-function-declaration]
   146 |         if ( ! isatty(fileno(stdout)) )
@@ -2057,58 +2057,53 @@ zmatio.c:54:10: warning: implicit declaration of function 'isatty' [-Wimplicit-f
       |          ^~~~~~
 ar: `u' modifier ignored since `D' is the default (see `U')
 ar: `u' modifier ignored since `D' is the default (see `U')
-make: nvcc: No such file or directory
-make: *** [Makefile:4: backprop] Error 127
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-sh: 1: ./backprop: not found
-In file included from <command-line>:
-euler3d_cpu.cpp: In function 'int main(int, char**)':
-/home/users/acsilveira/rodinia/common//my_timing.h:17:33: error: 'cudaDeviceSynchronize' was not declared in this scope
-   17 | #define CUDA_DEVICE_SYNCHRONIZE cudaDeviceSynchronize()
-      |                                 ^~~~~~~~~~~~~~~~~~~~~
-/home/users/acsilveira/rodinia/common//my_timing.h:23:3: note: in expansion of macro 'CUDA_DEVICE_SYNCHRONIZE'
-   23 |   CUDA_DEVICE_SYNCHRONIZE; \
-      |   ^~~~~~~~~~~~~~~~~~~~~~~
-euler3d_cpu.cpp:478:9: note: in expansion of macro 'MY_START_CLOCK'
-  478 |         MY_START_CLOCK(cfd, );
-      |         ^~~~~~~~~~~~~~
-make: *** [makefile:14: euler3d_cpu.o] Error 1
-rm: cannot remove 'srad': No such file or directory
-make[1]: *** [makefile:25: clean] Error 1
-make: *** [Makefile:13: SRAD_V1_clean] Error 2
-In file included from <command-line>:
-main.c: In function 'main':
-/home/users/acsilveira/rodinia/common//my_timing.h:17:33: warning: implicit declaration of function 'cudaDeviceSynchronize' [-Wimplicit-function-declaration]
-   17 | #define CUDA_DEVICE_SYNCHRONIZE cudaDeviceSynchronize()
-      |                                 ^~~~~~~~~~~~~~~~~~~~~
-/home/users/acsilveira/rodinia/common//my_timing.h:23:3: note: in expansion of macro 'CUDA_DEVICE_SYNCHRONIZE'
-   23 |   CUDA_DEVICE_SYNCHRONIZE; \
-      |   ^~~~~~~~~~~~~~~~~~~~~~~
-main.c:231:17: note: in expansion of macro 'MY_START_CLOCK'
-  231 |                 MY_START_CLOCK(srad_v1, total);
-      |                 ^~~~~~~~~~~~~~
-make[1]: nvcc: No such file or directory
-make[1]: *** [makefile:13: srad] Error 127
-make: *** [Makefile:5: SRAD_V1] Error 2
+backprop.c:92:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   92 | bpnn_randomize_weights(w, m, n)
+      | ^~~~~~~~~~~~~~~~~~~~~~
+backprop.c:106:1: warning: return type defaults to 'int' [-Wimplicit-int]
+  106 | bpnn_randomize_row(w, m)
+      | ^~~~~~~~~~~~~~~~~~
+backprop.c:118:1: warning: return type defaults to 'int' [-Wimplicit-int]
+  118 | bpnn_zero_weights(w, m, n)
+      | ^~~~~~~~~~~~~~~~~
+backprop.c: In function 'bpnn_initialize':
+backprop.c:132:6: warning: type of 'seed' defaults to 'int' [-Wimplicit-int]
+  132 | void bpnn_initialize(seed)
+      |      ^~~~~~~~~~~~~~~
+backprop.c: In function 'bpnn_adjust_weights':
+backprop.c:305:6: warning: type of 'ndelta' defaults to 'int' [-Wimplicit-int]
+  305 | void bpnn_adjust_weights(delta, ndelta, ly, nly, w, oldw)
+      |      ^~~~~~~~~~~~~~~~~~~
+backprop.c:305:6: warning: type of 'nly' defaults to 'int' [-Wimplicit-int]
+backprop.c: In function 'bpnn_read':
+backprop.c:457:13: warning: implicit declaration of function 'open'; did you mean 'popen'? [-Wimplicit-function-declaration]
+  457 |   if ((fd = open(filename, 0, 0644)) == -1) {
+      |             ^~~~
+      |             popen
+backprop.c:463:3: warning: implicit declaration of function 'read'; did you mean 'fread'? [-Wimplicit-function-declaration]
+  463 |   read(fd, (char *) &n1, sizeof(int));
+      |   ^~~~
+      |   fread
+backprop.c:494:3: warning: implicit declaration of function 'close'; did you mean 'pclose'? [-Wimplicit-function-declaration]
+  494 |   close(fd);
+      |   ^~~~~
+      |   pclose
+facetrain.c:12:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   12 | backprop_face()
+      | ^~~~~~~~~~~~~
+facetrain.c: In function 'backprop_face':
+facetrain.c:19:3: warning: implicit declaration of function 'load' [-Wimplicit-function-declaration]
+   19 |   load(net);
+      |   ^~~~
+facetrain.c:22:3: warning: implicit declaration of function 'bpnn_train_kernel' [-Wimplicit-function-declaration]
+   22 |   bpnn_train_kernel(net, &out_err, &hid_err);
+      |   ^~~~~~~~~~~~~~~~~
+imagenet.c:6:8: warning: type defaults to 'int' in declaration of 'layer_size' [-Wimplicit-int]
+    6 | extern layer_size;
+      |        ^~~~~~~~~~
+imagenet.c:8:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    8 | load(net)
+      | ^~~~
+/bin/sh: 1: icc: not found
+make: *** [makefile:18: euler3d_cpu_offload] Error 127
+cp: cannot stat '/scratch/acsilveira//rodinia_novos/out/*': No such file or directory

@@ -192,389 +192,809 @@ Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many R
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-configure: error: no acceptable cc found in $PATH
-err.c: In function ‘err_list_attach’:
-err.c:146:9: warning: implicit declaration of function ‘isatty’ [-Wimplicit-function-declaration]
-  if ( ! isatty(fileno(stdout)) )
-         ^~~~~~
-matrixio.c: In function ‘m_finput’:
-matrixio.c:91:11: warning: implicit declaration of function ‘isatty’ [-Wimplicit-function-declaration]
-      if ( isatty(fileno(fp)) )
-           ^~~~~~
-otherio.c: In function ‘fy_or_n’:
-otherio.c:58:9: warning: implicit declaration of function ‘isatty’ [-Wimplicit-function-declaration]
-  if ( ! isatty(fileno(fp)) )
-         ^~~~~~
-meminfo.c: In function ‘mem_bytes_list’:
-meminfo.c:379:9: warning: implicit declaration of function ‘isatty’ [-Wimplicit-function-declaration]
-   if ( !isatty(fileno(stdout)) ) {
-         ^~~~~~
-memstat.c: In function ‘mem_lookup’:
-memstat.c:133:12: warning: implicit declaration of function ‘isatty’ [-Wimplicit-function-declaration]
-      if ( !isatty(fileno(stdout)) ) {
-            ^~~~~~
-ar: `u' modifier ignored since `D' is the default (see `U')
-ar: creating meschach.a
-ar: `u' modifier ignored since `D' is the default (see `U')
-sparseio.c: In function ‘sp_finput’:
-sparseio.c:219:8: warning: implicit declaration of function ‘isatty’ [-Wimplicit-function-declaration]
-  tty = isatty(fileno(fp));
-        ^~~~~~
-ar: `u' modifier ignored since `D' is the default (see `U')
-zmatio.c: In function ‘z_finput’:
-zmatio.c:54:10: warning: implicit declaration of function ‘isatty’ [-Wimplicit-function-declaration]
-     if ( isatty(fileno(fp)) )
-          ^~~~~~
-ar: `u' modifier ignored since `D' is the default (see `U')
-ar: `u' modifier ignored since `D' is the default (see `U')
-gcc: error: avilib.o: No such file or directory
-gcc: error: find_ellipse.o: No such file or directory
-gcc: error: track_ellipse.o: No such file or directory
-gcc: error: misc_math.o: No such file or directory
-make[1]: *** [Makefile:15: leukocyte] Error 1
-make: *** [Makefile:4: OpenMP/leukocyte] Error 2
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.2s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 641B done
+#2 DONE 0.2s
+
+#3 [internal] load metadata for docker.io/library/python:3.9
+#3 DONE 1.7s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/8] FROM docker.io/library/python:3.9@sha256:19c8c0bdbf50efc94d639d6bf6e8f875e5a43aad3719f7cb6d2730c8708e422c
+#5 resolve docker.io/library/python:3.9@sha256:19c8c0bdbf50efc94d639d6bf6e8f875e5a43aad3719f7cb6d2730c8708e422c
+#5 resolve docker.io/library/python:3.9@sha256:19c8c0bdbf50efc94d639d6bf6e8f875e5a43aad3719f7cb6d2730c8708e422c 0.4s done
+#5 DONE 0.4s
+
+#4 [internal] load build context
+#4 transferring context: 11.05kB done
+#4 DONE 0.1s
+
+#6 [2/8] RUN apt-get update && apt-get install -y     build-essential     gcc     libc6-dev
+#6 CACHED
+
+#7 [3/8] COPY /leukocyte /app/
+#7 CACHED
+
+#8 [4/8] WORKDIR /app
+#8 CACHED
+
+#9 [5/8] RUN pip install --upgrade pip
+#9 CACHED
+
+#10 [6/8] RUN pip install carbontracker
+#10 CACHED
+
+#11 [7/8] RUN make clean
+#11 CACHED
+
+#12 [8/8] RUN make
+#12 CACHED
+
+#13 exporting to image
+#13 exporting layers done
+#13 writing image sha256:2477022a2a573e29907d9321423a97deb2b0885675b4e43cc7207bcc8347058a 0.0s done
+#13 naming to docker.io/library/app_le 0.0s done
+#13 DONE 0.1s
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./OpenMP/leukocyte: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-/var/spool/slurmd/job702443/slurm_script: line 76: cd: openmp/backprop: No such file or directory
-make: *** No rule to make target 'clean'.  Stop.
-make: *** No targets specified and no makefile found.  Stop.
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-python3: can't open file '/home/users/acsilveira/rodinia/openmp/carbon.py': [Errno 2] No such file or directory
-/var/spool/slurmd/job702443/slurm_script: line 97: cd: cfd: No such file or directory
-rm: cannot remove 'gaussian': No such file or directory
-rm: cannot remove '*.o': No such file or directory
-make[1]: *** [Makefile:21: clean] Error 1
-rm: cannot remove 'particlefilter_naive': No such file or directory
-rm: cannot remove 'particlefilter_float': No such file or directory
-rm: cannot remove '*.o': No such file or directory
-make[1]: *** [Makefile:31: clean] Error 1
-rm: cannot remove '*.o': No such file or directory
-rm: cannot remove './kernel/*.o': No such file or directory
-rm: cannot remove './util/num/*.o': No such file or directory
-rm: cannot remove './util/timer/*.o': No such file or directory
-rm: cannot remove './util/device/*.o': No such file or directory
-rm: cannot remove 'lavaMD': No such file or directory
-make[1]: *** [makefile:89: clean] Error 1
-rm: cannot remove '*.o': No such file or directory
-rm: cannot remove '*.out': No such file or directory
-rm: cannot remove 'output.txt': No such file or directory
-make[1]: *** [Makefile:40: clean] Error 1
-rm: cannot remove '*.o': No such file or directory
-rm: cannot remove 'srad': No such file or directory
-make[1]: *** [makefile:20: clean] Error 1
-/bin/sh: 1: cd: can't cd to BlasLapack
-make[1]: *** [Makefile:58: clean] Error 2
-make[1]: *** No rule to make target 'clean'.  Stop.
-make[1]: *** No rule to make target 'clean'.  Stop.
-make[1]: *** No rule to make target 'clean'.  Stop.
-make[1]: *** No rule to make target 'clean'.  Stop.
-make[1]: *** No rule to make target 'clean'.  Stop.
-make[1]: *** No rule to make target 'clean'.  Stop.
-make[1]: *** No rule to make target 'clean'.  Stop.
-make[1]: *** No rule to make target 'clean'.  Stop.
-make[1]: *** No rule to make target 'clean'.  Stop.
-rm: cannot remove '*.o': No such file or directory
-rm: cannot remove '*.out': No such file or directory
-rm: cannot remove './kernel/*.o': No such file or directory
-rm: cannot remove './util/timer/*.o': No such file or directory
-rm: cannot remove './util/num/*.o': No such file or directory
-rm: cannot remove 'output.txt': No such file or directory
-make[1]: *** [Makefile:89: clean] Error 1
-rm: cannot remove '*.o': No such file or directory
-rm: cannot remove 'myocyte.out': No such file or directory
-rm: cannot remove 'output.txt': No such file or directory
-make[1]: *** [Makefile:33: clean] Error 1
-rm: cannot remove 'particle_filter': No such file or directory
-make[1]: *** [Makefile:12: clean] Error 1
-rm: cannot remove '*.o': No such file or directory
-rm: cannot remove 'srad': No such file or directory
-make[1]: *** [makefile:25: clean] Error 1
-rm: cannot remove 'gaussian': No such file or directory
-rm: cannot remove '*.o': No such file or directory
-make[1]: *** [Makefile:21: clean] Error 1
-rm: cannot remove 'particlefilter_naive': No such file or directory
-rm: cannot remove 'particlefilter_float': No such file or directory
-rm: cannot remove '*.o': No such file or directory
-make[1]: *** [Makefile:31: clean] Error 1
-rm: cannot remove '*.o': No such file or directory
-rm: cannot remove './kernel/*.o': No such file or directory
-rm: cannot remove './util/num/*.o': No such file or directory
-rm: cannot remove './util/timer/*.o': No such file or directory
-rm: cannot remove './util/device/*.o': No such file or directory
-rm: cannot remove 'lavaMD': No such file or directory
-make[1]: *** [makefile:89: clean] Error 1
-rm: cannot remove '*.o': No such file or directory
-rm: cannot remove '*.out': No such file or directory
-rm: cannot remove 'output.txt': No such file or directory
-make[1]: *** [Makefile:40: clean] Error 1
-rm: cannot remove '*.o': No such file or directory
-rm: cannot remove 'srad': No such file or directory
-make[1]: *** [makefile:20: clean] Error 1
-make[1]: c: Command not found
-make[1]: [Makefile:25: euler3d.o] Error 127 (ignored)
-g++: error: euler3d.o: No such file or directory
-make[1]: *** [Makefile:21: euler3d] Error 1
-make: *** [Makefile:55: cuda/cfd] Error 2
-/var/spool/slurmd/job702443/slurm_script: line 116: cd: srad: No such file or directory
-make: *** No rule to make target 'clean'.  Stop.
-make: *** No targets specified and no makefile found.  Stop.
+backprop.c:92:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ bpnn_randomize_weights(w, m, n)
+ ^~~~~~~~~~~~~~~~~~~~~~
+backprop.c:106:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ bpnn_randomize_row(w, m)
+ ^~~~~~~~~~~~~~~~~~
+backprop.c:118:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ bpnn_zero_weights(w, m, n)
+ ^~~~~~~~~~~~~~~~~
+backprop.c: In function ‘bpnn_initialize’:
+backprop.c:132:6: warning: type of ‘seed’ defaults to ‘int’ [-Wimplicit-int]
+ void bpnn_initialize(seed)
+      ^~~~~~~~~~~~~~~
+backprop.c: In function ‘bpnn_adjust_weights’:
+backprop.c:305:6: warning: type of ‘ndelta’ defaults to ‘int’ [-Wimplicit-int]
+ void bpnn_adjust_weights(delta, ndelta, ly, nly, w, oldw)
+      ^~~~~~~~~~~~~~~~~~~
+backprop.c:305:6: warning: type of ‘nly’ defaults to ‘int’ [-Wimplicit-int]
+backprop.c: In function ‘bpnn_read’:
+backprop.c:457:13: warning: implicit declaration of function ‘open’; did you mean ‘popen’? [-Wimplicit-function-declaration]
+   if ((fd = open(filename, 0, 0644)) == -1) {
+             ^~~~
+             popen
+backprop.c:463:3: warning: implicit declaration of function ‘read’; did you mean ‘fread’? [-Wimplicit-function-declaration]
+   read(fd, (char *) &n1, sizeof(int));
+   ^~~~
+   fread
+backprop.c:494:3: warning: implicit declaration of function ‘close’; did you mean ‘pclose’? [-Wimplicit-function-declaration]
+   close(fd);
+   ^~~~~
+   pclose
+facetrain.c:12:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ backprop_face()
+ ^~~~~~~~~~~~~
+facetrain.c: In function ‘backprop_face’:
+facetrain.c:19:3: warning: implicit declaration of function ‘load’; did you mean ‘logl’? [-Wimplicit-function-declaration]
+   load(net);
+   ^~~~
+   logl
+facetrain.c:22:3: warning: implicit declaration of function ‘bpnn_train_kernel’; did you mean ‘bpnn_train’? [-Wimplicit-function-declaration]
+   bpnn_train_kernel(net, &out_err, &hid_err);
+   ^~~~~~~~~~~~~~~~~
+   bpnn_train
+imagenet.c:6:8: warning: type defaults to ‘int’ in declaration of ‘layer_size’ [-Wimplicit-int]
+ extern layer_size;
+        ^~~~~~~~~~
+imagenet.c:8:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ load(net)
+ ^~~~
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+/bin/sh: 1: icc: not found
+make: *** [makefile:18: euler3d_cpu_offload] Error 127
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json

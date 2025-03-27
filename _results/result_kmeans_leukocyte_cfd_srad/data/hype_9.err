@@ -2102,7 +2102,7 @@ avilib.c:903:26: note: directive argument in the range [-2147483647, 2147483647]
 avilib.c:903:4: note: 'sprintf' output between 5 and 15 bytes into a destination of size 5
   903 |    sprintf((char *)astr, "0%1dwb", AVI->aptr+1);
       |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-configure: error: no acceptable cc found in $PATH
+/bin/sh: 1: ./configure: Permission denied
 err.c: In function 'err_list_attach':
 err.c:146:16: warning: implicit declaration of function 'isatty' [-Wimplicit-function-declaration]
   146 |         if ( ! isatty(fileno(stdout)) )
@@ -2218,134 +2218,292 @@ Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many R
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-make: nvcc: No such file or directory
-make: *** [Makefile:4: backprop] Error 127
+backprop.c:92:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   92 | bpnn_randomize_weights(w, m, n)
+      | ^~~~~~~~~~~~~~~~~~~~~~
+backprop.c:106:1: warning: return type defaults to 'int' [-Wimplicit-int]
+  106 | bpnn_randomize_row(w, m)
+      | ^~~~~~~~~~~~~~~~~~
+backprop.c:118:1: warning: return type defaults to 'int' [-Wimplicit-int]
+  118 | bpnn_zero_weights(w, m, n)
+      | ^~~~~~~~~~~~~~~~~
+backprop.c: In function 'bpnn_initialize':
+backprop.c:132:6: warning: type of 'seed' defaults to 'int' [-Wimplicit-int]
+  132 | void bpnn_initialize(seed)
+      |      ^~~~~~~~~~~~~~~
+backprop.c: In function 'bpnn_adjust_weights':
+backprop.c:305:6: warning: type of 'ndelta' defaults to 'int' [-Wimplicit-int]
+  305 | void bpnn_adjust_weights(delta, ndelta, ly, nly, w, oldw)
+      |      ^~~~~~~~~~~~~~~~~~~
+backprop.c:305:6: warning: type of 'nly' defaults to 'int' [-Wimplicit-int]
+backprop.c: In function 'bpnn_read':
+backprop.c:457:13: warning: implicit declaration of function 'open'; did you mean 'popen'? [-Wimplicit-function-declaration]
+  457 |   if ((fd = open(filename, 0, 0644)) == -1) {
+      |             ^~~~
+      |             popen
+backprop.c:463:3: warning: implicit declaration of function 'read'; did you mean 'fread'? [-Wimplicit-function-declaration]
+  463 |   read(fd, (char *) &n1, sizeof(int));
+      |   ^~~~
+      |   fread
+backprop.c:494:3: warning: implicit declaration of function 'close'; did you mean 'pclose'? [-Wimplicit-function-declaration]
+  494 |   close(fd);
+      |   ^~~~~
+      |   pclose
+facetrain.c:12:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   12 | backprop_face()
+      | ^~~~~~~~~~~~~
+facetrain.c: In function 'backprop_face':
+facetrain.c:19:3: warning: implicit declaration of function 'load' [-Wimplicit-function-declaration]
+   19 |   load(net);
+      |   ^~~~
+facetrain.c:22:3: warning: implicit declaration of function 'bpnn_train_kernel' [-Wimplicit-function-declaration]
+   22 |   bpnn_train_kernel(net, &out_err, &hid_err);
+      |   ^~~~~~~~~~~~~~~~~
+imagenet.c:6:8: warning: type defaults to 'int' in declaration of 'layer_size' [-Wimplicit-int]
+    6 | extern layer_size;
+      |        ^~~~~~~~~~
+imagenet.c:8:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    8 | load(net)
+      | ^~~~
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0123fd6690>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0123fd61e0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fccc5efa2a0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fccc5c2dee0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7efd3d23ae10>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f64ac998ce0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f64ac9c6480>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f64ac9c5fd0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6ba060e0c0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6b9e8028d0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6b9e801fa0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6b9e8026f0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fc13bf527b0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fe07a24efc0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8def46e990>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8def46e120>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8def43ed50>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7faaf651a2a0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7faaf61ee6f0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7faaf61edfd0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7faaf61eddf0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f33e49915b0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f33e40ba4e0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f33e40b9d00>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f33e40b9f70>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f46d1b2d8e0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f46d1a1dd00>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fd09d4a2270>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fd09d474ce0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+/bin/sh: 1: icc: not found
+make: *** [makefile:18: euler3d_cpu_offload] Error 127
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f79f97895b0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6aa7d26300>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0701465b20>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f070119a000>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fddef03dc40>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fddee1c2900>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3b5b65e390>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3b5b65dbb0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3b5b65df40>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fcd2e377b60>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fcd2db2e840>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fcd2db2e090>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5e4ba85430>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5e4949a750>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5e49499fa0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fcec3bfaa50>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fcec3bfb020>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f180af4e5d0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f180af4dd90>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f82cbbbe0c0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f97c0b0ee40>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fe0c3b9a360>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fe0c3b99e80>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8f5650a5d0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8f56509d60>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8f5650a030>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fc21bc6deb0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fc21ada68d0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fc21ada6000>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fc21ada6000>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f55879b60c0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f551dd36840>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f551dd35f70>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f4685ef9a30>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f145dc9f110>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f145dc9e360>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fd70d7fe0c0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fd70b9d2990>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8f360255e0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8f33a22540>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8f33a22000>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f4b00f670b0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f4b00f66360>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f63089ce0c0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6307d32690>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6307d31ee0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6307d31ee0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fccde4e6480>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fccde4e5c70>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f60298c6450>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f60298c5bb0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa85247d850>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa8524ae5d0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa8524ade50>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa8524ae780>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fe36384aa50>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fe36384a210>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0a0f5560c0>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0a0e64eb70>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0a0e64e150>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0a0e64e570>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f809c4b2480>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0e3ce35550>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0e3cb09d00>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa8ab13a510>, 'Connection to ipinfo.io timed out. (connect timeout=5.0)'))
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-sh: 1: ./backprop: not found
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
 Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
-In file included from <command-line>:
-euler3d_cpu.cpp: In function 'int main(int, char**)':
-/home/users/acsilveira/rodinia/common//my_timing.h:17:33: error: 'cudaDeviceSynchronize' was not declared in this scope
-   17 | #define CUDA_DEVICE_SYNCHRONIZE cudaDeviceSynchronize()
-      |                                 ^~~~~~~~~~~~~~~~~~~~~
-/home/users/acsilveira/rodinia/common//my_timing.h:23:3: note: in expansion of macro 'CUDA_DEVICE_SYNCHRONIZE'
-   23 |   CUDA_DEVICE_SYNCHRONIZE; \
-      |   ^~~~~~~~~~~~~~~~~~~~~~~
-euler3d_cpu.cpp:478:9: note: in expansion of macro 'MY_START_CLOCK'
-  478 |         MY_START_CLOCK(cfd, );
-      |         ^~~~~~~~~~~~~~
-make: *** [makefile:14: euler3d_cpu.o] Error 1
-rm: cannot remove 'srad': No such file or directory
-make[1]: *** [makefile:25: clean] Error 1
-make: *** [Makefile:13: SRAD_V1_clean] Error 2
-In file included from <command-line>:
-main.c: In function 'main':
-/home/users/acsilveira/rodinia/common//my_timing.h:17:33: warning: implicit declaration of function 'cudaDeviceSynchronize' [-Wimplicit-function-declaration]
-   17 | #define CUDA_DEVICE_SYNCHRONIZE cudaDeviceSynchronize()
-      |                                 ^~~~~~~~~~~~~~~~~~~~~
-/home/users/acsilveira/rodinia/common//my_timing.h:23:3: note: in expansion of macro 'CUDA_DEVICE_SYNCHRONIZE'
-   23 |   CUDA_DEVICE_SYNCHRONIZE; \
-      |   ^~~~~~~~~~~~~~~~~~~~~~~
-main.c:231:17: note: in expansion of macro 'MY_START_CLOCK'
-  231 |                 MY_START_CLOCK(srad_v1, total);
-      |                 ^~~~~~~~~~~~~~
-make[1]: nvcc: No such file or directory
-make[1]: *** [makefile:13: srad] Error 127
-make: *** [Makefile:5: SRAD_V1] Error 2
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
+Status code 429 from http://ipinfo.io/json: ERROR - 429 Client Error: Too Many Requests for url: http://ipinfo.io/json
